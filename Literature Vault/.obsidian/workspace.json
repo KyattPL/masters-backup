@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b0b2ecd0c4a81bd0",
+            "id": "f3ca301d30a94b67",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "List of papers.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 277.5
   },
   "right": {
     "id": "f57990d680f5f839",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Annotated PDFs/automated_planning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Annotated PDFs/automated_planning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Annotated PDFs/automated_planning.md"
+              }
             }
           },
           {
@@ -143,7 +151,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 348.5
+    "width": 348.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,6 +168,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b0b2ecd0c4a81bd0",
-  "lastOpenFiles": []
+  "active": "bdc9da12c01c2f58",
+  "lastOpenFiles": [
+    "Papers PDFs/automated_planning.pdf",
+    "Annotated PDFs/automated_planning.md",
+    "Annotated PDFs",
+    "General info.md",
+    "List of papers.md",
+    "Papers PDFs/player_behavioural_modelling.pdf",
+    "Papers PDFs/player_behavioural_modelling.pdf.crdownload",
+    "Papers PDFs/the_game_debate.pdf",
+    "Papers PDFs/the_game_debate.pdf.crdownload",
+    "Papers PDFs/from_pong_to_narrative.pdf",
+    "Papers PDFs/from_pong_to_narrative.pdf.crdownload",
+    "Papers PDFs/storytelling_through_gameplay.pdf",
+    "Papers PDFs/storytelling_through_gameplay.pdf.crdownload"
+  ]
 }

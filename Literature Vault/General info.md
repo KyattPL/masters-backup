@@ -1,0 +1,1 @@
+Znalezione badania i artykuły w [[List of papers]] generalnie pochodzą tylko z 2 stron Google Scholara. Można jeszcze trzecią przejrzeć i znaleźć kilka papierków odnośnie badania "zaangażowania" w grach czy coś.
