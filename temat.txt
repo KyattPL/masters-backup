@@ -1,0 +1,9 @@
+Badanie preferencji graczy do NPC adaptujących się do zachowania gracza poprzez wykorzystanie dużych modeli językowych.
+
+Zrobienie jakieś prostej gry w stylu visual novel. Jeden build gry posiadałby z góry narzucone dla postaci dialogi. Drugi build gry na podstawie wyborów użytkownika (i analizy np. tempa przewijania dialogów) modyfikował by "zachowanie" NPC.
+
+Takie buildy można by następnie przekazać przypadkowym osobom i zebrać ich opinie dotyczące obu rozgrywek.
+
+Na tej podstawie będzie można oszacować czy i jak bardzo wykorzystanie dużych modeli językowych do dynamicznego rozwoju NPC jest odbierane pozytywnie (poza GameDev'em mogłoby to znaleźć zastosowanie w ramach personalnych asystentów różnych serwisów, branży filmowej zakładając interaktywne filmy itp.)
+
+TLDR: AI do generowania dialogów + generowania scenariuszy (luj wie jak trzymać w ryzach - do sprawdzenia)
