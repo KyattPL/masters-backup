@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Annotated PDFs/automated_planning.md",
+                "file": "List of papers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Annotated PDFs/automated_planning.md",
+                "file": "List of papers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Annotated PDFs/automated_planning.md"
+                "file": "List of papers.md"
               }
             }
           },
@@ -147,7 +147,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -168,20 +169,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bdc9da12c01c2f58",
+  "active": "f3ca301d30a94b67",
   "lastOpenFiles": [
+    "General info.md",
+    "List of papers.md",
+    "Papers PDFs/ai_town.pdf",
+    "Papers PDFs/ai_town.pdf.crdownload",
     "Papers PDFs/automated_planning.pdf",
     "Annotated PDFs/automated_planning.md",
     "Annotated PDFs",
-    "General info.md",
-    "List of papers.md",
     "Papers PDFs/player_behavioural_modelling.pdf",
     "Papers PDFs/player_behavioural_modelling.pdf.crdownload",
     "Papers PDFs/the_game_debate.pdf",
     "Papers PDFs/the_game_debate.pdf.crdownload",
     "Papers PDFs/from_pong_to_narrative.pdf",
-    "Papers PDFs/from_pong_to_narrative.pdf.crdownload",
-    "Papers PDFs/storytelling_through_gameplay.pdf",
-    "Papers PDFs/storytelling_through_gameplay.pdf.crdownload"
+    "Papers PDFs/from_pong_to_narrative.pdf.crdownload"
   ]
 }

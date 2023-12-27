@@ -12,3 +12,4 @@
 12. From Pong to Narrative: The Evolution of AI in Gaming (https://scholarworks.sjsu.edu/art108/37/), PLIK: [[from_pong_to_narrative.pdf|PDF]] #article 
 13. The Game Debate: Video Games as Innovative Storytelling (https://scholarcommons.sc.edu/tor/vol18/iss1/7/), PLIK: [[the_game_debate.pdf|PDF]] #article 
 14. Player behavioural modelling for video games (https://www.sciencedirect.com/science/article/abs/pii/S1875952111000486), PLIK: [[player_behavioural_modelling.pdf|PDF]] #article 
+15. Generative Agents: Interactive Simulacra of Human Behavior (https://dl.acm.org/doi/10.1145/3586183.3606763), PLIK: [[ai_town.pdf|PDF]]
