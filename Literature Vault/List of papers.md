@@ -13,3 +13,8 @@
 13. The Game Debate: Video Games as Innovative Storytelling (https://scholarcommons.sc.edu/tor/vol18/iss1/7/), PLIK: [[the_game_debate.pdf|PDF]] #article 
 14. Player behavioural modelling for video games (https://www.sciencedirect.com/science/article/abs/pii/S1875952111000486), PLIK: [[player_behavioural_modelling.pdf|PDF]] #article 
 15. Generative Agents: Interactive Simulacra of Human Behavior (https://dl.acm.org/doi/10.1145/3586183.3606763), PLIK: [[ai_town.pdf|PDF]]
+16. The development of the Game Engagement Questionnaire: A measure of engagement in video game-playing (https://www.sciencedirect.com/science/article/abs/pii/S0022103109000444), PLIK: [[development_of_game.pdf|PDF]]
+17. Measuring Narrative Engagement (https://www.tandfonline.com/doi/abs/10.1080/15213260903287259), PLIK: [[measuring_narrative.pdf|PDF]]
+18. Measuring engagement in video game-based environments: Investigation of the User Engagement Scale (https://www.sciencedirect.com/science/article/abs/pii/S0747563213004433), PLIK: [[Measuring engagement.pdf|PDF]]
+19. Motivational engagement and video gaming: a mixed methods study (https://link.springer.com/article/10.1007/s11423-009-9134-9), PLIK: [[motivational_engagement.pdf|PDF]]
+20. GEQ (Game Engagement/Experience Questionnaire): A Review of Two Papers (https://ieeexplore.ieee.org/abstract/document/8154891), PLIK: [[geq.pdf|PDF]]

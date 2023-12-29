@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "List of papers.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -135,7 +135,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -171,18 +173,19 @@
   },
   "active": "f3ca301d30a94b67",
   "lastOpenFiles": [
+    "Papers PDFs/geq.pdf",
+    "Papers PDFs/geq.pdf.crdownload",
+    "Papers PDFs/motivational_engagement.pdf",
+    "Papers PDFs/motivational_engagementpdf.pdf",
+    "Papers PDFs/motivational_engagementpdf.pdf.crdownload",
+    "Papers PDFs/Measuring engagement.pdf",
+    "Papers PDFs/Measuring engagement.pdf.crdownload",
+    "Papers PDFs/measuring_narrative.pdf",
+    "Papers PDFs/measuring_narrative.pdf.crdownload",
+    "Papers PDFs/development_of_game.pdf",
+    "Papers PDFs/development_of_game.pdf.crdownload",
     "General info.md",
     "List of papers.md",
-    "Papers PDFs/ai_town.pdf",
-    "Papers PDFs/ai_town.pdf.crdownload",
-    "Papers PDFs/automated_planning.pdf",
-    "Annotated PDFs/automated_planning.md",
-    "Annotated PDFs",
-    "Papers PDFs/player_behavioural_modelling.pdf",
-    "Papers PDFs/player_behavioural_modelling.pdf.crdownload",
-    "Papers PDFs/the_game_debate.pdf",
-    "Papers PDFs/the_game_debate.pdf.crdownload",
-    "Papers PDFs/from_pong_to_narrative.pdf",
-    "Papers PDFs/from_pong_to_narrative.pdf.crdownload"
+    "Annotated PDFs/automated_planning.md"
   ]
 }
