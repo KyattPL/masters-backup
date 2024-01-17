@@ -18,3 +18,4 @@
 18. Measuring engagement in video game-based environments: Investigation of the User Engagement Scale (https://www.sciencedirect.com/science/article/abs/pii/S0747563213004433), PLIK: [[Measuring engagement.pdf|PDF]]
 19. Motivational engagement and video gaming: a mixed methods study (https://link.springer.com/article/10.1007/s11423-009-9134-9), PLIK: [[motivational_engagement.pdf|PDF]]
 20. GEQ (Game Engagement/Experience Questionnaire): A Review of Two Papers (https://ieeexplore.ieee.org/abstract/document/8154891), PLIK: [[geq.pdf|PDF]]
+21. LARP: Language-Agent Role Play for Open-World Games (https://arxiv.org/abs/2312.17653), PLIK: [[larp_language.pdf|PDF]]

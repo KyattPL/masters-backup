@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "List of papers.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 296.5
   },
   "right": {
     "id": "f57990d680f5f839",
@@ -173,6 +173,7 @@
   },
   "active": "f3ca301d30a94b67",
   "lastOpenFiles": [
+    "Papers PDFs/larp_language.pdf",
     "Papers PDFs/geq.pdf",
     "Papers PDFs/geq.pdf.crdownload",
     "Papers PDFs/motivational_engagement.pdf",
@@ -183,7 +184,6 @@
     "Papers PDFs/measuring_narrative.pdf",
     "Papers PDFs/measuring_narrative.pdf.crdownload",
     "Papers PDFs/development_of_game.pdf",
-    "Papers PDFs/development_of_game.pdf.crdownload",
     "General info.md",
     "List of papers.md",
     "Annotated PDFs/automated_planning.md"
