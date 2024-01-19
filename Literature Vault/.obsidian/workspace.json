@@ -11,11 +11,9 @@
             "id": "f3ca301d30a94b67",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf-annotator",
               "state": {
-                "file": "List of papers.md",
-                "mode": "source",
-                "source": false
+                "file": "Annotated PDFs/ai_town.md"
               }
             }
           }
@@ -69,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 277.5
   },
   "right": {
     "id": "f57990d680f5f839",
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "List of papers.md",
+                "file": "Annotated PDFs/ai_town.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "List of papers.md",
+                "file": "Annotated PDFs/ai_town.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "List of papers.md"
+                "file": "Annotated PDFs/ai_town.md"
               }
             }
           },
@@ -149,8 +147,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -173,6 +170,10 @@
   },
   "active": "f3ca301d30a94b67",
   "lastOpenFiles": [
+    "Annotated PDFs/automated_planning.md",
+    "Annotated PDFs/ai_town.md",
+    "List of papers.md",
+    "General info.md",
     "Papers PDFs/larp_language.pdf",
     "Papers PDFs/geq.pdf",
     "Papers PDFs/geq.pdf.crdownload",
@@ -182,10 +183,6 @@
     "Papers PDFs/Measuring engagement.pdf",
     "Papers PDFs/Measuring engagement.pdf.crdownload",
     "Papers PDFs/measuring_narrative.pdf",
-    "Papers PDFs/measuring_narrative.pdf.crdownload",
-    "Papers PDFs/development_of_game.pdf",
-    "General info.md",
-    "List of papers.md",
-    "Annotated PDFs/automated_planning.md"
+    "Papers PDFs/measuring_narrative.pdf.crdownload"
   ]
 }
