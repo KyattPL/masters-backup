@@ -1,0 +1,72 @@
+% !TEX encoding = UTF-8 Unicode 
+%
+% Use:
+% magister / inzynier - for master thesis or engineering thesis
+% druk / archiwum - for print version or archive version
+% en - to translate template into english
+% examples:
+%\documentclass[inzynier,druk,en] - master thesis, print version, english
+%\documentclass[magister,druk,en]{dyplom}
+%\documentclass[magister,druk]{dyplom}
+
+\documentclass[magister,druk]{dyplom}
+
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+
+% Maximum section's depth.
+\setcounter{secnumdepth}{4}
+
+% Listings settings
+\setminted{breaklines, 
+frame=lines,           
+framesep=3mm,          
+baselinestretch=1.1,   
+fontsize=\small,       
+% linenos              % line numbering
+}
+
+\usepackage{lipsum}
+
+% \faculty{Faculty of \dots}                   % Uncomment if applicable
+\fieldofstudy{Informatyka Stosowana (PSI)}                          
+\author{Kajetan Pynka}
+\title{Badanie wykorzystania sztucznej inteligencji w procesie tworzenia dostosowującej się do użytkownika narracji w grach komputerowych}
+\supervisor{Dr Maciej Walczyński}
+% \consultant{Consultant's name}               % Uncomment if applicable
+% \specialisation{AAA}                         % Uncomment if applicable
+\keywords{słowo1, słowo2, słowo3}   % 3-5 keywords  
+
+% Bibliography
+
+
+\begin{document}
+
+\maketitle
+
+\input{abstract/abstract.tex}
+
+Test i guess aef \cite{docker_compose_reference}
+
+\tableofcontents
+
+\input{introduction/introduction.tex}
+
+\input{chapters/chapter1.tex}
+
+\input{summary/summary.tex}
+
+% Lists of figures, listings, tables
+\listoffigures
+\listoflistings
+\listoftables
+
+% Appendices - comment out if not applicable
+\appendixpage
+\appendix
+\input{appendices/appendix1.tex}
+
+\bibliographystyle{dyplom}
+\bibliography{bibliography.bib}
+
+\end{document}
