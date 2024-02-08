@@ -1,0 +1,11 @@
+@article{Xarticle,
+    author    = "",
+    title     = "",
+    journal   = "",
+    ?_volume   = "",
+    ?_number   = "",
+    ?_pages    = "",
+    year      = "XXXX",
+    ?_month    = "",
+    ?_note     = "",
+}

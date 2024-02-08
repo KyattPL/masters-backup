@@ -17,6 +17,8 @@ label final_choice:
             $ chosen_murderer = "Nathaniel"
         "Randy":
             $ chosen_murderer = "Randy"
+        "Sylvia":
+            $ chosen_murderer = "Sylvia"
 
 label reveal_murderer:
     scene inthallway2 night2
@@ -71,6 +73,9 @@ label reveal_murderer:
         
         hide randy
         with dissolve
+    if chosen_murderer == "Sylvia":
+        me "She commited a suicide!"
+        me "She was desperate and had no will to live!"
     
     if chosen_murderer != "Randy":
         scene dark
