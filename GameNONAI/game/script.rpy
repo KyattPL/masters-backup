@@ -1,15 +1,13 @@
-﻿define s = Character('Sylvie', color="#c8ffc8")
-define m = Character('Me', color="#c8c8ff")
+﻿define me = Character('Me', color="#c8c8ff")
+define adam = Character('Adam', color="#ffffcc")
+define florian = Character('Florian', color="#33ccff")
+define mary = Character('Mary', color="#6666ff")
+define nathaniel = Character('Nathaniel', color="#79798b")
+define randy = Character('Randy', color="#ffcc66")
 
 label start:
-    scene basement1
-    show adam neutral
-    s "Hi there! How was class?"
+    jump intro
 
-    m "Good..."
-
-    "I can't bring myself to admit that it all went in one ear and out the other."
-
-    s "Are you going home now? Wanna walk back with me?"
-
-    m "Sure!"
+label end:
+    "Game finished"
+    return

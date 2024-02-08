@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/main_room.rpy", line 5, in script
+    jump talk_to_adam
+ScriptError: could not find label 'talk_to_adam'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/main_room.rpy", line 5, in script
+    jump talk_to_adam
+  File "F:\uczelnia\magister\PRACA DYPLOMOWA\renpy-8.2.0-sdk\renpy\ast.py", line 1698, in execute
+    rv = renpy.game.script.lookup(target)
+  File "F:\uczelnia\magister\PRACA DYPLOMOWA\renpy-8.2.0-sdk\renpy\script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'talk_to_adam'.
+
+Windows-10-10.0.19044 AMD64
+Ren'Py 8.2.0.24012702
+GameNONAI 1.0
+Wed Feb  7 17:30:55 2024
