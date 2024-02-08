@@ -5,9 +5,19 @@ define mary = Character('Mary', color="#6666ff")
 define nathaniel = Character('Nathaniel', color="#79798b")
 define randy = Character('Randy', color="#ffcc66")
 
+default was_adam_questioned = False
+default was_florian_questioned = False
+default was_mary_questioned = False
+default was_nathaniel_questioned = False
+default was_randy_questioned = False
+
 label start:
     jump intro
 
-label end:
-    "Game finished"
+label bad_end:
+    "GAME FINISHED - BAD ENDING"
+    return
+
+label good_end:
+    "GAME FINISHED - GOOD ENDING"
     return

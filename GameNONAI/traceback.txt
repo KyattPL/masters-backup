@@ -1,22 +1,30 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/main_room.rpy", line 5, in script
-    jump talk_to_adam
-ScriptError: could not find label 'talk_to_adam'.
+  File "game/main_loop.rpy", line 21, in script
+    menu choose_char_menu:
+SyntaxError: invalid syntax (game/main_loop.rpy, line 22)
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/main_room.rpy", line 5, in script
-    jump talk_to_adam
-  File "F:\uczelnia\magister\PRACA DYPLOMOWA\renpy-8.2.0-sdk\renpy\ast.py", line 1698, in execute
-    rv = renpy.game.script.lookup(target)
-  File "F:\uczelnia\magister\PRACA DYPLOMOWA\renpy-8.2.0-sdk\renpy\script.py", line 1103, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'talk_to_adam'.
+  File "game/main_loop.rpy", line 21, in script
+    menu choose_char_menu:
+  File "F:\uczelnia\magister\PRACA DYPLOMOWA\renpy-8.2.0-sdk\renpy\ast.py", line 1618, in execute
+    choice = renpy.exports.menu(choices, self.set, args, kwargs, item_arguments)
+  File "F:\uczelnia\magister\PRACA DYPLOMOWA\renpy-8.2.0-sdk\renpy\exports.py", line 1075, in menu
+    condition = renpy.python.py_eval(condition)
+  File "F:\uczelnia\magister\PRACA DYPLOMOWA\renpy-8.2.0-sdk\renpy\python.py", line 1207, in py_eval
+    code = py_compile(code, 'eval')
+  File "F:\uczelnia\magister\PRACA DYPLOMOWA\renpy-8.2.0-sdk\renpy\python.py", line 1144, in py_compile
+    raise e
+  File "F:\uczelnia\magister\PRACA DYPLOMOWA\renpy-8.2.0-sdk\renpy\python.py", line 1081, in py_compile
+    raise orig_e
+  File "F:\uczelnia\magister\PRACA DYPLOMOWA\renpy-8.2.0-sdk\renpy\python.py", line 1073, in py_compile
+    tree = compile(source, filename, py_mode, ast.PyCF_ONLY_AST | flags, 1)
+SyntaxError: invalid syntax (game/main_loop.rpy, line 22)
 
 Windows-10-10.0.19044 AMD64
 Ren'Py 8.2.0.24012702
 GameNONAI 1.0
-Wed Feb  7 17:30:55 2024
+Thu Feb  8 14:24:01 2024
