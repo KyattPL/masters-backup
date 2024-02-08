@@ -3,4 +3,7 @@
 \bibitem{docker_compose_reference}
 {Docker Inc.}, \emph{Compose file version 3 reference}, \url{https://docs.docker.com/compose/compose-file/}. Ost. dost. 12 listopada 2018.
 
+\bibitem{ai_town_ref}
+Park, J.S., O'Brien, J.C., Cai, C.J., Morris, M.R., Liang, P., Bernstein, M.S., \emph{Generative agents: Interactive simulacra of human behavior}. 2023.
+
 \end{thebibliography}
