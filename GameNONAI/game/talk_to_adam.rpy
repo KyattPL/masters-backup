@@ -22,6 +22,13 @@ label talk_to_adam:
                 me "Second question"
                 adam "bla bla bla"
             "Third question" if not adam_third_asked:
+                # python:
+                #     question = renpy.input("What do you want to know?", length=64)
+                #     question = question.strip()
+        
+                # $ adam_third_asked = True
+                # me "[question]"
+                # adam "bla bla bal"
                 $ adam_third_asked = True
                 me "Third question"
                 adam "bla bla bla"
