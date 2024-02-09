@@ -1,0 +1,69 @@
+Adam:
+{character} knows Florian from high school.
+{character} was secretly in love with Sylvia.
+{character} did not want to attend the party.
+Nathaniel tries to buy out {character}'s father's bakery.
+{character} hates Nathaniel.
+{character} was jealous of Florian's relationship with Sylvia.
+{character} felt like he couldn't compete with Florian.
+{character} met Mary only a couple of times.
+{character} knows that Mary struggles financially.
+{character} dislikes Randy.
+{character} knows that Randy is a famous pianist.
+{character} was awake at night because he wanted to observe Sylvia.
+{character} found Sylvia's body.
+{character} does not know who is the murderer.
+
+Florian:
+{character} is in love with Sylvia.
+{character} remembers Adam from high school.
+{character} always liked Adam.
+{character} did not know that Adam secretly loved Sylvia.
+{character} knows that Mary struggled financially.
+{character} knows that Sylvia was Mary's best friend.
+{character} thinks that one good crime novel would bring Mary out of debt.
+{character} dislikes the methods of Nathaniel.
+{character} remembers that Nathaniel was threatening Sylvia.
+{character} likes the work of Randy.
+{character} did not know that Randy had problems with law.
+{character} was asleep the whole night.
+{character} did not see Sylvia during the night.
+
+Mary:
+{character}'s best friend was Sylvia.
+{character} is indeed in some financial problems.
+{character} would never want for Sylvia to get hurt.
+{character} barely knows Adam.
+{character} knows that Florian tried to impress Sylvia.
+{character} knows that Sylvia felt stalked by Florian.
+{character} is in good terms with Nathaniel.
+{character} thinks that Nathaniel may be cold but he wouldn't hurt anyone.
+{character} thinks that Randy is a shady character.
+{character} knows that Randy once assaulted a woman.
+{character} knows that Sylvia was depressed.
+{character} was in the bathroom when she heard scream.
+{character} did not see who killed Sylvia.
+
+Nathaniel:
+{character} likes Adam.
+{character} wants to buy Adam's bakery but it's just business.
+{character} thinks that Florian is an arrogant rich kid.
+{character} likes Randy.
+{character} thinks that Randy is a genius.
+{character} thinks that after the jail time, Randy became a better person.
+{character} tried to connect Mary with book publishers.
+{character} thinks that Mary could be desperate enough to kill someone.
+{character} was in kitchen during the night.
+{character} saw Randy smoking cigarettes outside when he heard Mary's scream.
+{character} does not know who killed Sylvia
+
+Randy:
+{character} killed Sylvia but he tries hide it as best as he can.
+{character} thinks that Nathaniel is a great guy.
+{character} saw Adam looking at Sylvia in a weird way.
+{character} knows that Sylvia was depressed.
+{character} thinks that Mary's novels are garbage.
+{character} was smoking cigarettes outside when Mary screamed.
+{character} thinks that Florian is suspicious.
+{character} thinks that Sylvia probably killed herself.
+{character}'s favourite composer is Mozart.
