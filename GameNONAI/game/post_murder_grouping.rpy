@@ -34,4 +34,36 @@ label post_murder_grouping:
     me "Nothing much"
     hide randy
 
+    me "Noone leaves the villa!"
+    me "I will try to gather information before the police comes."
+    me "Just... wait in separate rooms and I will join you soon."
+    me "Don't do anything stupid..."
+
+    show nathaniel neutraltalk
+    with dissolve
+    nathaniel "If you say so... I'll be in the living room."
+    hide nathaniel
+
+    show randy neutraltalk
+    with dissolve
+    randy "XXX"
+    hide randy
+
+    show mary shock
+    with dissolve
+    mary "XXX"
+    hide mary
+
+    show adam neutraltalk
+    with dissolve
+    adam "XXX"
+    hide adam
+
+    show florian neutraltalk
+    with dissolve
+    florian "XXX"
+    florian "Just... please, find who did that."
+    me "I'll try my best Florian."
+    hide florian
+
     jump interrogate_choice
