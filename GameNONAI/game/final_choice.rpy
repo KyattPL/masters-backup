@@ -4,7 +4,8 @@ label final_choice:
     scene inthallway2 night2
     with fade
 
-    me "So who's the killer?"
+    me "Okay, I think I gathered all the info I need..."
+    me "So, who's the murderer?"
 
     menu:
         "Adam":
@@ -81,7 +82,7 @@ label reveal_murderer:
         scene dark
         with fade
 
-        me "Oops..."
+        me "There's no way..."
         me "I think I screwed up..."
 
         jump bad_end
