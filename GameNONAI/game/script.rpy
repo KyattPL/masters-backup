@@ -11,6 +11,8 @@ default was_mary_questioned = False
 default was_nathaniel_questioned = False
 default was_randy_questioned = False
 
+default protagonist_name = "John"
+
 label start:
     jump intro
 

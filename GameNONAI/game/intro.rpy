@@ -1,4 +1,10 @@
 label intro:
+    python:
+        inputPrompt = renpy.input("What is your name?: ", length=30)
+        inputPrompt = inputPrompt.strip()
+
+        protagonist_name = inputPrompt
+    
     scene mansion front evening
     with fade
 
