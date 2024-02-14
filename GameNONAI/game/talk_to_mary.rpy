@@ -15,25 +15,25 @@ label talk_to_mary:
 
     while not (mary_first_asked and mary_second_asked and mary_third_asked and mary_fourth_asked and mary_fifth_asked):
         menu:
-            "Where were you?" if not mary_first_asked:
+            "Tell me about yourself" if not mary_first_asked:
                 $ mary_first_asked = True
-                me "Where were you?"
+                me "Tell me a bit about yourself. What did you see tonight?"
                 mary "bla bla bla"
-            "Second question" if not mary_second_asked:
+            "Tell me about Adam" if not mary_second_asked:
                 $ mary_second_asked = True
-                me "Second question"
+                me "Tell me about Adam."
                 mary "bla bla bla"
-            "Third question" if not mary_third_asked:
+            "Tell me about Florian" if not mary_third_asked:
                 $ mary_third_asked = True
-                me "Third question"
+                me "Tell me about Florian."
                 mary "bla bla bla"
-            "Tell me about" if not mary_fourth_asked:
+            "Tell me about Nathaniel" if not mary_fourth_asked:
                 $ mary_fourth_asked = True
-                me "Fourth question"
+                me "Tell me about Nathaniel."
                 mary "bla bla bla"
-            "Tell me about" if not mary_fifth_asked:
+            "Tell me about Randy" if not mary_fifth_asked:
                 $ mary_fifth_asked = True
-                me "Fifth question"
+                me "Tell me about Randy."
                 mary "bla bla bla"
 
     "Hmm... I guess I'm done with her"

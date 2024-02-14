@@ -15,25 +15,25 @@ label talk_to_nathaniel:
 
     while not (nathaniel_first_asked and nathaniel_second_asked and nathaniel_third_asked and nathaniel_fourth_asked and nathaniel_fifth_asked):
         menu:
-            "Where were you?" if not nathaniel_first_asked:
+            "Tell me about yourself" if not nathaniel_first_asked:
                 $ nathaniel_first_asked = True
-                me "Where were you?"
+                me "Tell me about yourself. What did you see tonight?"
                 nathaniel "bla bla bla"
-            "Second question" if not nathaniel_second_asked:
+            "Tell me about Adam" if not nathaniel_second_asked:
                 $ nathaniel_second_asked = True
-                me "Second question"
+                me "Tell me about Adam."
                 nathaniel "bla bla bla"
-            "Third question" if not nathaniel_third_asked:
+            "Tell me about Florian" if not nathaniel_third_asked:
                 $ nathaniel_third_asked = True
-                me "Third question"
+                me "Tell me about Florian."
                 nathaniel "bla bla bla"
-            "Tell me about" if not nathaniel_fourth_asked:
+            "Tell me about Mary" if not nathaniel_fourth_asked:
                 $ nathaniel_fourth_asked = True
-                me "Fourth question"
+                me "Tell me about Mary."
                 nathaniel "bla bla bla"
-            "Tell me about" if not nathaniel_fifth_asked:
+            "Tell me about Nathaniel" if not nathaniel_fifth_asked:
                 $ nathaniel_fifth_asked = True
-                me "Fifth question"
+                me "Tell me about Nathaniel."
                 nathaniel "bla bla bla"
 
     "Hmm... I guess I'm done with him"

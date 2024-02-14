@@ -15,25 +15,25 @@ label talk_to_florian:
 
     while not (florian_first_asked and florian_second_asked and florian_third_asked and florian_fourth_asked and florian_fifth_asked):
         menu:
-            "Where were you?" if not florian_first_asked:
+            "Tell me about yourself" if not florian_first_asked:
                 $ florian_first_asked = True
-                me "Where were you?"
+                me "Tell me a bit about yourself. What did you see tonight?"
                 florian "bla bla bla"
-            "Second question" if not florian_second_asked:
+            "Tell me about Adam" if not florian_second_asked:
                 $ florian_second_asked = True
-                me "Second question"
+                me "Tell me about Adam."
                 florian "bla bla bla"
-            "Third question" if not florian_third_asked:
+            "Tell me about Mary" if not florian_third_asked:
                 $ florian_third_asked = True
-                me "Third question"
+                me "Tell me about Mary."
                 florian "bla bla bla"
-            "Tell me about" if not florian_fourth_asked:
+            "Tell me about Nathaniel" if not florian_fourth_asked:
                 $ florian_fourth_asked = True
-                me "Tell me about"
+                me "Tell me about Nathaniel."
                 florian "bla bla bla"
-            "Tell me about" if not florian_fifth_asked:
+            "Tell me about Randy" if not florian_fifth_asked:
                 $ florian_fifth_asked = True
-                me "Tell me about"
+                me "Tell me about Randy."
                 florian "bla bla bla"
 
     "Hmm... I guess I'm done with him"

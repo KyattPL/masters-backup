@@ -15,25 +15,25 @@ label talk_to_randy:
 
     while not (randy_first_asked and randy_second_asked and randy_third_asked and randy_fourth_asked and randy_fifth_asked):
         menu:
-            "Where were you?" if not randy_first_asked:
+            "Tell me about yourself" if not randy_first_asked:
                 $ randy_first_asked = True
-                me "Where were you?"
+                me "Tell me a bit about yourself. What did you see tonight?"
                 randy "bla bla bla"
-            "Second question" if not randy_second_asked:
+            "Tell me about Adam" if not randy_second_asked:
                 $ randy_second_asked = True
-                me "Second question"
+                me "Tell me about Adam."
                 randy "bla bla bla"
-            "Third question" if not randy_third_asked:
+            "Tell me about Florian" if not randy_third_asked:
                 $ randy_third_asked = True
-                me "Third question"
+                me "Tell me about Florian."
                 randy "bla bla bla"
-            "Tell me about" if not randy_fourth_asked:
+            "Tell me about Mary" if not randy_fourth_asked:
                 $ randy_fourth_asked = True
-                me "Fourth question"
+                me "Tell me about Mary."
                 randy "bla bla bla"
-            "Tell me about" if not randy_fifth_asked:
+            "Tell me about Randy" if not randy_fifth_asked:
                 $ randy_fifth_asked = True
-                me "Fifth question"
+                me "Tell me about Randy."
                 randy "bla bla bla"
 
     "Hmm... I guess I'm done with him"
