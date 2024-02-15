@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/talk_to_adam.rpy", line 27: expected statement.
+    resp['textList'].pop(0)
+                           ^
+
+Ren'Py Version: Ren'Py 8.2.0.24012702
+Fri Feb 16 00:47:08 2024

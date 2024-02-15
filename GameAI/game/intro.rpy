@@ -1,3 +1,36 @@
+init python:
+    def load_dotenv(filename='/home/kyatt/Desktop/uczelnia/magisterskie/masters-backup/GameAI/game/.env'):
+        """Load key-value pairs from a .env file and set them as environment variables."""
+        with open(filename) as f:
+            for line in f:
+                if line.strip() and not line.startswith('#'):
+                    key, value = line.strip().split('=',  1)
+                    os.environ[key] = value
+
+    load_dotenv()
+
+    def query_inworld_api(char, prompt, protagonist="John"):
+        import requests
+        import os
+        from requests.auth import HTTPBasicAuth
+
+        BASE_URL = 'https://api.inworld.ai/studio/v1'
+        WORKSPACE_ID = os.getenv('WORK_ID')
+        STUDIO_API_KEY = os.getenv('STUDIO_KEY')
+        STUDIO_API_SECRET = os.getenv('STUDIO_SECRET')
+        AUTH_TOKEN = os.getenv('AUTH_TOKEN')
+
+        url = f'https://studio.inworld.ai/v1/workspaces/{WORKSPACE_ID}/characters/{char}:simpleSendText'
+        headers = {"Content-Type": "application/json", "authorization": f"Basic {AUTH_TOKEN}=="}
+        myobj = {"character": f"workspaces/{WORKSPACE_ID}/characters/{char}", "text": f"{prompt}", "endUserFullname": f"{protagonist}", "endUserId":"12345"}
+
+        x = requests.post(url, json=myobj, headers=headers).json()
+        
+        #x['textList']
+        #x['sessionId']
+
+        return x
+
 label intro:
     python:
         inputPrompt = renpy.input("What is your name?: ", length=30)
