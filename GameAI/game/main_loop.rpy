@@ -1,3 +1,6 @@
+default current_question = 1
+default sessId = None
+
 label interrogate_choice:
     me "Who should I talk to?"
 

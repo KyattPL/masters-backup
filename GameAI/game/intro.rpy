@@ -9,7 +9,7 @@ init python:
 
     load_dotenv()
 
-    def query_inworld_api(char, prompt, protagonist="John"):
+    def query_inworld_api(char, prompt, protagonist="John", sessionId=None):
         import requests
         import os
         from requests.auth import HTTPBasicAuth
@@ -23,6 +23,9 @@ init python:
         url = f'https://studio.inworld.ai/v1/workspaces/{WORKSPACE_ID}/characters/{char}:simpleSendText'
         headers = {"Content-Type": "application/json", "authorization": f"Basic {AUTH_TOKEN}=="}
         myobj = {"character": f"workspaces/{WORKSPACE_ID}/characters/{char}", "text": f"{prompt}", "endUserFullname": f"{protagonist}", "endUserId":"12345"}
+
+        if sessionId is not None:
+            myobj['sessionId'] = sessionId
 
         x = requests.post(url, json=myobj, headers=headers).json()
         

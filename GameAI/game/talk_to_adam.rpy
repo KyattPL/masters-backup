@@ -1,6 +1,3 @@
-default current_question = 1
-default sessId = None
-
 label talk_to_adam:
     scene bedroom02 night
     with fade
@@ -10,12 +7,18 @@ label talk_to_adam:
 
     adam "So... what do you want to know?"
 
+    $ current_question = 1
+    $ sessId = None
+
     while current_question <= 5:
         python:
             question = renpy.input("What do you want to know?", length=64)
             question = question.strip()
-        
-            resp = query_inworld_api("adam", question, protagonist_name)
+
+            if sessId is None:
+                resp = query_inworld_api("adam", question, protagonist_name)
+            else:
+                resp = query_inworld_api("adam", question, protagonist_name, sessId)
 
         if sessId == None:
             $ sessId = resp['sessionId']
