@@ -1,2 +1,14 @@
 renpy-8.2.0-sdk/
+
 GameAI/game/.env
+
+GameAI/log.txt
+GameAI/game/cache/
+GameAI/game/saves/
+
+GameNONAI/log.txt
+GameNONAI/game/cache/
+GameNONAI/game/saves/
+
+*.rpyc
+*.rpymc
