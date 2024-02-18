@@ -12,7 +12,7 @@ label talk_to_adam:
 
     while current_question <= 5:
         python:
-            question = renpy.input("What do you want to know?", length=64)
+            question = renpy.input(f"Remaining questions: {6 - current_question}", length=64)
             question = question.strip()
 
             if sessId is None:

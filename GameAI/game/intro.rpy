@@ -1,11 +1,21 @@
 init python:
-    def load_dotenv(filename='/home/kyatt/Desktop/uczelnia/magisterskie/masters-backup/GameAI/game/.env'):
+    def load_dotenv():
         """Load key-value pairs from a .env file and set them as environment variables."""
-        with open(filename) as f:
-            for line in f:
-                if line.strip() and not line.startswith('#'):
-                    key, value = line.strip().split('=',  1)
-                    os.environ[key] = value
+        from sys import platform
+        import os
+
+        if platform == "linux" or platform == "linux2":
+            with open('/home/kyatt/Desktop/uczelnia/magisterskie/masters-backup/GameAI/game/.env') as f:
+                for line in f:
+                    if line.strip() and not line.startswith('#'):
+                        key, value = line.strip().split('=',  1)
+                        os.environ[key] = value
+        else:
+            with open('F:\\uczelnia\\magister\\PRACA DYPLOMOWA\\GameAI\\game\\.env') as f:
+                for line in f:
+                    if line.strip() and not line.startswith('#'):
+                        key, value = line.strip().split('=',  1)
+                        os.environ[key] = value
 
     load_dotenv()
 
