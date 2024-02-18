@@ -10,5 +10,5 @@ GameNONAI/log.txt
 GameNONAI/game/cache/
 GameNONAI/game/saves/
 
-*.rpyc
-*.rpymc
+.rpyc
+.rpymc
