@@ -1,21 +1,21 @@
-1. Game AI as Storytelling (https://link.springer.com/chapter/10.1007/978-1-4419-8188-2_6#citeas), PLIK: [[game_ai_storytelling.pdf|PDF]]
-2. Spoken Conversational AI in Video Games – Emotional Dialogue Management Increases User Engagement (https://dl.acm.org/doi/abs/10.1145/3267851.3267896), PLIK: [[Spoken_Conversational_AI_in_Video_Games.pdf|PDF]] #article 
-3. Artificial intelligence moving serious gaming: Presenting reusable game AI components (https://link.springer.com/article/10.1007/s10639-019-09968-2), PLIK: [[reusable_game_ai_components.pdf|PDF]]
-4. Narrative Structures in Computer and Video Games: Part 1: Context, Definitions, and Initial Findings (https://journals.sagepub.com/doi/abs/10.1177/1555412010364982), PLIK: [[narrative_structures.pdf|PDF]]
-5. Narrative in Video Games (https://link.springer.com/referenceworkentry/10.1007/978-3-319-08234-9_154-1), PLIK: [[narrative_in_video_games.pdf|PDF]] #article 
-6. Applying ChatGPT in AI-based dynamic video game narrative generation system (https://gupea.ub.gu.se/handle/2077/78909), PLIK: [[chatgpt_narrative_system.pdf|PDF]] #op
-7. AI Characters and Directors for Interactive Computer Games (https://scholar.google.com/citations?view_op=view_citation&hl=pl&user=6VFGjPYAAAAJ&citation_for_view=6VFGjPYAAAAJ:u5HHmVD_uO8C), PLIK: [[characters_and_directors.pdf|PDF]] #article 
-8. Automated Planning and Player Modeling for Interactive Storytelling (https://ieeexplore.ieee.org/abstract/document/6874544), PLIK: [[automated_planning.pdf|PDF]] #op 
-9. The construction of gamer identity in narratives about video game playing and formal education learning experiences (https://journal.alt.ac.uk/index.php/rlt/article/view/2852), PLIK: [[gamer_identity_narratives.pdf|PDF]] #article 
-10. Theorising video game narrative (https://scholar.google.com/citations?view_op=view_citation&hl=pl&user=_KVeYaMAAAAJ&citation_for_view=_KVeYaMAAAAJ:u-x6o8ySG0sC), PLIK: [[theorising_narrative.pdf|PDF]]
-11. Storytelling through Gameplay: Dimensions of AI Design for Narrative Purposes (https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A900321&dswid=-2738), PLIK: [[storytelling_through_gameplay.pdf|PDF]]
-12. From Pong to Narrative: The Evolution of AI in Gaming (https://scholarworks.sjsu.edu/art108/37/), PLIK: [[from_pong_to_narrative.pdf|PDF]] #article 
-13. The Game Debate: Video Games as Innovative Storytelling (https://scholarcommons.sc.edu/tor/vol18/iss1/7/), PLIK: [[the_game_debate.pdf|PDF]] #article 
-14. Player behavioural modelling for video games (https://www.sciencedirect.com/science/article/abs/pii/S1875952111000486), PLIK: [[player_behavioural_modelling.pdf|PDF]] #article 
-15. Generative Agents: Interactive Simulacra of Human Behavior (https://dl.acm.org/doi/10.1145/3586183.3606763), PLIK: [[ai_town.pdf|PDF]]
-16. The development of the Game Engagement Questionnaire: A measure of engagement in video game-playing (https://www.sciencedirect.com/science/article/abs/pii/S0022103109000444), PLIK: [[development_of_game.pdf|PDF]]
-17. Measuring Narrative Engagement (https://www.tandfonline.com/doi/abs/10.1080/15213260903287259), PLIK: [[measuring_narrative.pdf|PDF]]
-18. Measuring engagement in video game-based environments: Investigation of the User Engagement Scale (https://www.sciencedirect.com/science/article/abs/pii/S0747563213004433), PLIK: [[Measuring engagement.pdf|PDF]]
-19. Motivational engagement and video gaming: a mixed methods study (https://link.springer.com/article/10.1007/s11423-009-9134-9), PLIK: [[motivational_engagement.pdf|PDF]]
-20. GEQ (Game Engagement/Experience Questionnaire): A Review of Two Papers (https://ieeexplore.ieee.org/abstract/document/8154891), PLIK: [[geq.pdf|PDF]]
-21. LARP: Language-Agent Role Play for Open-World Games (https://arxiv.org/abs/2312.17653), PLIK: [[larp_language.pdf|PDF]]
+1. Game AI as Storytelling (https://link.springer.com/chapter/10.1007/978-1-4419-8188-2_6#citeas), PLIK: [[game_ai_storytelling.pdf|PDF]] #praca-4b #praca-4d
+2. Spoken Conversational AI in Video Games – Emotional Dialogue Management Increases User Engagement (https://dl.acm.org/doi/abs/10.1145/3267851.3267896), PLIK: [[Spoken_Conversational_AI_in_Video_Games.pdf|PDF]] #article #praca-4b #praca-4d #praca-5a #praca-5b 
+3. Artificial intelligence moving serious gaming: Presenting reusable game AI components (https://link.springer.com/article/10.1007/s10639-019-09968-2), PLIK: [[reusable_game_ai_components.pdf|PDF]] #praca-4d 
+4. Narrative Structures in Computer and Video Games: Part 1: Context, Definitions, and Initial Findings (https://journals.sagepub.com/doi/abs/10.1177/1555412010364982), PLIK: [[narrative_structures.pdf|PDF]] #praca-4a #praca-4b
+5. Narrative in Video Games (https://link.springer.com/referenceworkentry/10.1007/978-3-319-08234-9_154-1), PLIK: [[narrative_in_video_games.pdf|PDF]] #article  #praca-4a
+6. Applying ChatGPT in AI-based dynamic video game narrative generation system (https://gupea.ub.gu.se/handle/2077/78909), PLIK: [[chatgpt_narrative_system.pdf|PDF]] #op #praca-4e
+7. AI Characters and Directors for Interactive Computer Games (https://scholar.google.com/citations?view_op=view_citation&hl=pl&user=6VFGjPYAAAAJ&citation_for_view=6VFGjPYAAAAJ:u5HHmVD_uO8C), PLIK: [[characters_and_directors.pdf|PDF]] #article #praca-4d
+8. Automated Planning and Player Modeling for Interactive Storytelling (https://ieeexplore.ieee.org/abstract/document/6874544), PLIK: [[automated_planning.pdf|PDF]] #op #praca-4d
+9. The construction of gamer identity in narratives about video game playing and formal education learning experiences (https://journal.alt.ac.uk/index.php/rlt/article/view/2852), PLIK: [[gamer_identity_narratives.pdf|PDF]] #article #praca-5a
+10. Theorising video game narrative (https://scholar.google.com/citations?view_op=view_citation&hl=pl&user=_KVeYaMAAAAJ&citation_for_view=_KVeYaMAAAAJ:u-x6o8ySG0sC), PLIK: [[theorising_narrative.pdf|PDF]] #praca-4a #praca-4b 
+11. Storytelling through Gameplay: Dimensions of AI Design for Narrative Purposes (https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A900321&dswid=-2738), PLIK: [[storytelling_through_gameplay.pdf|PDF]] #praca-4b #praca-4d #praca-6a 
+12. From Pong to Narrative: The Evolution of AI in Gaming (https://scholarworks.sjsu.edu/art108/37/), PLIK: [[from_pong_to_narrative.pdf|PDF]] #article #praca-4d
+13. The Game Debate: Video Games as Innovative Storytelling (https://scholarcommons.sc.edu/tor/vol18/iss1/7/), PLIK: [[the_game_debate.pdf|PDF]] #article #praca-5a 
+14. Player behavioural modelling for video games (https://www.sciencedirect.com/science/article/abs/pii/S1875952111000486), PLIK: [[player_behavioural_modelling.pdf|PDF]] #article #praca-5a
+15. Generative Agents: Interactive Simulacra of Human Behavior (https://dl.acm.org/doi/10.1145/3586183.3606763), PLIK: [[ai_town.pdf|PDF]] #praca-4e #praca-6a
+16. The development of the Game Engagement Questionnaire: A measure of engagement in video game-playing (https://www.sciencedirect.com/science/article/abs/pii/S0022103109000444), PLIK: [[development_of_game.pdf|PDF]] #praca-5a #praca-5b
+17. Measuring Narrative Engagement (https://www.tandfonline.com/doi/abs/10.1080/15213260903287259), PLIK: [[measuring_narrative.pdf|PDF]] #praca-5a
+18. Measuring engagement in video game-based environments: Investigation of the User Engagement Scale (https://www.sciencedirect.com/science/article/abs/pii/S0747563213004433), PLIK: [[Measuring engagement.pdf|PDF]] #praca-5a #praca-5b
+19. Motivational engagement and video gaming: a mixed methods study (https://link.springer.com/article/10.1007/s11423-009-9134-9), PLIK: [[motivational_engagement.pdf|PDF]] #praca-5b 
+20. GEQ (Game Engagement/Experience Questionnaire): A Review of Two Papers (https://ieeexplore.ieee.org/abstract/document/8154891), PLIK: [[geq.pdf|PDF]] #praca-5a #praca-5b
+21. LARP: Language-Agent Role Play for Open-World Games (https://arxiv.org/abs/2312.17653), PLIK: [[larp_language.pdf|PDF]] #praca-4d #praca-4e

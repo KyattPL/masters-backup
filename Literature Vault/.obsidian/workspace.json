@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "List of papers.md",
+                "file": "State of thesis.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Questions remaining.md",
+                "file": "State of thesis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Questions remaining.md",
+                "file": "State of thesis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Questions remaining.md"
+                "file": "State of thesis.md"
               }
             }
           },
@@ -184,24 +183,24 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0e9dc135acc6bc0d",
+  "active": "f3ca301d30a94b67",
   "lastOpenFiles": [
-    "List of papers.md",
     "Questions remaining.md",
-    "Papers PDFs/narrative_structures.pdf",
+    "List of papers.md",
+    "State of thesis.md",
     "Useful stuff.md",
-    "General info.md",
+    "Papers PDFs/game_ai_storytelling.pdf",
     "Papers PDFs/ai_town.pdf",
+    "Annotated PDFs/automated_planning.md",
+    "Annotated PDFs/ai_town.md",
+    "Papers PDFs/narrative_structures.pdf",
     "Papers PDFs/geq.pdf",
     "Papers PDFs/automated_planning.pdf",
-    "Annotated PDFs/ai_town.md",
     "Excalidraw/Drawing 2024-01-24 16.14.18.excalidraw.md",
     "Excalidraw",
-    "Annotated PDFs/automated_planning.md",
     "Papers PDFs/larp_language.pdf",
     "Papers PDFs/geq.pdf.crdownload",
     "Papers PDFs/motivational_engagement.pdf",
-    "Papers PDFs/motivational_engagementpdf.pdf",
-    "Papers PDFs/motivational_engagementpdf.pdf.crdownload"
+    "Papers PDFs/motivational_engagementpdf.pdf"
   ]
 }
