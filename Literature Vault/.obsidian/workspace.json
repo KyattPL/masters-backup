@@ -6,7 +6,6 @@
       {
         "id": "02fbe1c0048fe841",
         "type": "tabs",
-        "dimension": 99.99999999999999,
         "children": [
           {
             "id": "02891376aa8e8e31",
@@ -14,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "State of thesis.md",
+                "file": "List of papers.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "State of thesis.md",
+                "file": "List of papers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "State of thesis.md",
+                "file": "List of papers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "State of thesis.md"
+                "file": "List of papers.md"
               }
             }
           },
@@ -174,19 +172,20 @@
   },
   "active": "02891376aa8e8e31",
   "lastOpenFiles": [
-    "List of papers.md",
-    "Papers PDFs/narrative_structures.pdf",
     "State of thesis.md",
+    "Useful stuff.md",
     "Annotated PDFs/theorising_narrative.md",
+    "List of papers.md",
+    "Annotated PDFs/narrative_structures.md",
+    "Annotated PDFs/narrative_in_video_games.md",
+    "Questions remaining.md",
+    "Papers PDFs/narrative_structures.pdf",
     "Annotated PDFs/the_game_debate.md",
     "Annotated PDFs/storytelling_through_gameplay.md",
     "Annotated PDFs/Spoken_Conversational_AI_in_Video_Games.md",
     "Annotated PDFs/reusable_game_ai_components.md",
     "Annotated PDFs/player_behavioural_modelling.md",
-    "Questions remaining.md",
     "Untitled.md",
-    "Annotated PDFs/narrative_structures.md",
-    "Annotated PDFs/narrative_in_video_games.md",
     "Annotated PDFs/motivational_engagement.md",
     "Annotated PDFs/measuring_narrative.md",
     "Annotated PDFs/Measuring engagement.md",

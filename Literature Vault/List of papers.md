@@ -2,7 +2,7 @@
 2. Spoken Conversational AI in Video Games – Emotional Dialogue Management Increases User Engagement (https://dl.acm.org/doi/abs/10.1145/3267851.3267896), PLIK: [[Spoken_Conversational_AI_in_Video_Games.pdf|PDF]], adnotacje: [[Spoken_Conversational_AI_in_Video_Games|PDF]] #article #praca-4b #praca-4d #praca-5a #praca-5b 
 3. Artificial intelligence moving serious gaming: Presenting reusable game AI components (https://link.springer.com/article/10.1007/s10639-019-09968-2), PLIK: [[reusable_game_ai_components.pdf|PDF]], adnotacje: [[reusable_game_ai_components|PDF]] #praca-4d 
 4. Narrative Structures in Computer and Video Games: Part 1: Context, Definitions, and Initial Findings (https://journals.sagepub.com/doi/abs/10.1177/1555412010364982), PLIK: [[narrative_structures.pdf|PDF]], adnotacje: [[narrative_structures|PDF]] #praca-4a #praca-4b
-5. Narrative in Video Games (https://link.springer.com/referenceworkentry/10.1007/978-3-319-08234-9_154-1), PLIK: [[narrative_in_video_games.pdf|PDF]], adnotacje: [[narrative_in_video_games|PDF]] #article  #praca-4a
+5. Narrative in Video Games (https://link.springer.com/referenceworkentry/10.1007/978-3-319-08234-9_154-1), PLIK: [[narrative_in_video_games.pdf|PDF]], adnotacje: [[narrative_in_video_games|PDF]] #article  #useless
 6. Applying ChatGPT in AI-based dynamic video game narrative generation system (https://gupea.ub.gu.se/handle/2077/78909), PLIK: [[chatgpt_narrative_system.pdf|PDF]], adnotacje: [[chatgpt_narrative_system|PDF]] #op #praca-4e
 7. AI Characters and Directors for Interactive Computer Games (https://scholar.google.com/citations?view_op=view_citation&hl=pl&user=6VFGjPYAAAAJ&citation_for_view=6VFGjPYAAAAJ:u5HHmVD_uO8C), PLIK: [[characters_and_directors.pdf|PDF]], adnotacje: [[characters_and_directors|PDF]] #article #praca-4d
 8. Automated Planning and Player Modeling for Interactive Storytelling (https://ieeexplore.ieee.org/abstract/document/6874544), PLIK: [[automated_planning.pdf|PDF]], adnotacje: [[automated_planning|PDF]] #op #praca-4d
@@ -19,3 +19,5 @@
 19. Motivational engagement and video gaming: a mixed methods study (https://link.springer.com/article/10.1007/s11423-009-9134-9), PLIK: [[motivational_engagement.pdf|PDF]], adnotacje: [[motivational_engagement|PDF]] #praca-5b 
 20. GEQ (Game Engagement/Experience Questionnaire): A Review of Two Papers (https://ieeexplore.ieee.org/abstract/document/8154891), PLIK: [[geq.pdf|PDF]], adnotacje: [[geq|PDF]] #praca-5a #praca-5b
 21. LARP: Language-Agent Role Play for Open-World Games (https://arxiv.org/abs/2312.17653), PLIK: [[larp_language.pdf|PDF]], adnotacje: [[larp_language|PDF]] #praca-4d #praca-4e
+
+TUTAJ LINK DO HISTORII NARRACJI: https://www.gamedeveloper.com/design/the-evolution-of-video-games-as-a-storytelling-medium-and-the-role-of-narrative-in-modern-games #praca-4a 
