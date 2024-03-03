@@ -20,4 +20,4 @@
 20. GEQ (Game Engagement/Experience Questionnaire): A Review of Two Papers (https://ieeexplore.ieee.org/abstract/document/8154891), PLIK: [[geq.pdf|PDF]], adnotacje: [[geq|PDF]] #praca-5a #praca-5b
 21. LARP: Language-Agent Role Play for Open-World Games (https://arxiv.org/abs/2312.17653), PLIK: [[larp_language.pdf|PDF]], adnotacje: [[larp_language|PDF]] #praca-4d #praca-4e
 
-TUTAJ LINK DO HISTORII NARRACJI: https://www.gamedeveloper.com/design/the-evolution-of-video-games-as-a-storytelling-medium-and-the-role-of-narrative-in-modern-games #praca-4a 
+TUTAJ LINK DO HISTORII NARRACJI: https://www.gamedeveloper.com/design/the-evolution-of-video-games-as-a-storytelling-medium-and-the-role-of-narrative-in-modern-games #praca-4a , PLIK: [[evolution_of_video_games.pdf|PDF]], adnotacje: [[evolution_of_video_games|PDF]]
