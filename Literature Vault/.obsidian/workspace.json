@@ -4,28 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f19d014b3c571270",
+        "id": "02fbe1c0048fe841",
         "type": "tabs",
+        "dimension": 99.99999999999999,
         "children": [
           {
-            "id": "f3ca301d30a94b67",
+            "id": "02891376aa8e8e31",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "State of thesis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0e9dc135acc6bc0d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Questions remaining.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#praca-4a",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,11 +66,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 324.5
   },
   "right": {
     "id": "f57990d680f5f839",
@@ -161,8 +151,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -183,20 +172,38 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f3ca301d30a94b67",
+  "active": "02891376aa8e8e31",
   "lastOpenFiles": [
-    "Questions remaining.md",
     "List of papers.md",
+    "Papers PDFs/narrative_structures.pdf",
     "State of thesis.md",
-    "Useful stuff.md",
-    "Papers PDFs/game_ai_storytelling.pdf",
-    "Papers PDFs/ai_town.pdf",
+    "Annotated PDFs/theorising_narrative.md",
+    "Annotated PDFs/the_game_debate.md",
+    "Annotated PDFs/storytelling_through_gameplay.md",
+    "Annotated PDFs/Spoken_Conversational_AI_in_Video_Games.md",
+    "Annotated PDFs/reusable_game_ai_components.md",
+    "Annotated PDFs/player_behavioural_modelling.md",
+    "Questions remaining.md",
+    "Untitled.md",
+    "Annotated PDFs/narrative_structures.md",
+    "Annotated PDFs/narrative_in_video_games.md",
+    "Annotated PDFs/motivational_engagement.md",
+    "Annotated PDFs/measuring_narrative.md",
+    "Annotated PDFs/Measuring engagement.md",
+    "Annotated PDFs/larp_language.md",
+    "Annotated PDFs/geq.md",
+    "Annotated PDFs/gamer_identity_narratives.md",
+    "Annotated PDFs/game_ai_storytelling.md",
+    "Annotated PDFs/from_pong_to_narrative.md",
+    "Annotated PDFs/development_of_game.md",
+    "Annotated PDFs/chatgpt_narrative_system.md",
+    "Annotated PDFs/characters_and_directors.md",
+    "Papers PDFs/automated_planning.pdf",
     "Annotated PDFs/automated_planning.md",
     "Annotated PDFs/ai_town.md",
-    "Papers PDFs/narrative_structures.pdf",
+    "Papers PDFs/game_ai_storytelling.pdf",
+    "Papers PDFs/ai_town.pdf",
     "Papers PDFs/geq.pdf",
-    "Papers PDFs/automated_planning.pdf",
-    "Excalidraw/Drawing 2024-01-24 16.14.18.excalidraw.md",
     "Excalidraw",
     "Papers PDFs/larp_language.pdf",
     "Papers PDFs/geq.pdf.crdownload",
