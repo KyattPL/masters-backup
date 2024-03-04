@@ -43,3 +43,31 @@ annotation-target: "[[storytelling_through_gameplay.pdf]]"
 >%%TAGS%%
 >
 ^75h71gh24ia
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-04T17:01:49.672Z","updated":"2024-03-04T17:01:49.672Z","document":{"title":"storytelling_through_gameplay.pdf","link":[{"href":"urn:x-pdf:c388bfb5028eb9b2fd360555f139fe9c"},{"href":"vault:/Papers PDFs/storytelling_through_gameplay.pdf"}],"documentFingerprint":"c388bfb5028eb9b2fd360555f139fe9c"},"uri":"vault:/Papers PDFs/storytelling_through_gameplay.pdf","target":[{"source":"vault:/Papers PDFs/storytelling_through_gameplay.pdf","selector":[{"type":"TextPositionSelector","start":33618,"end":33645},{"type":"TextQuoteSelector","exact":"4-Layers Approach framework","prefix":"nnection to narrative games.4.1 ","suffix":"The 4-Layers Approach to narrati"}]}]}
+>```
+>%%
+>*%%PREFIX%%nnection to narrative games.4.1%%HIGHLIGHT%% ==4-Layers Approach framework== %%POSTFIX%%The 4-Layers Approach to narrati*
+>%%LINK%%[[#^52nhrsydwcr|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^52nhrsydwcr
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-04T17:01:54.016Z","updated":"2024-03-04T17:01:54.016Z","document":{"title":"storytelling_through_gameplay.pdf","link":[{"href":"urn:x-pdf:c388bfb5028eb9b2fd360555f139fe9c"},{"href":"vault:/Papers PDFs/storytelling_through_gameplay.pdf"}],"documentFingerprint":"c388bfb5028eb9b2fd360555f139fe9c"},"uri":"vault:/Papers PDFs/storytelling_through_gameplay.pdf","target":[{"source":"vault:/Papers PDFs/storytelling_through_gameplay.pdf","selector":[{"type":"TextPositionSelector","start":38364,"end":38377},{"type":"TextQuoteSelector","exact":"MDA-framework","prefix":"mysteryand social pressures.4.2 ","suffix":"The MDA-framework is not solely "}]}]}
+>```
+>%%
+>*%%PREFIX%%mysteryand social pressures.4.2%%HIGHLIGHT%% ==MDA-framework== %%POSTFIX%%The MDA-framework is not solely*
+>%%LINK%%[[#^k4fwb78yqc|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^k4fwb78yqc

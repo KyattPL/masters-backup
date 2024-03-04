@@ -2,25 +2,20 @@ Więc TODO jest przejrzenie kropek poniżej i dopisanie, z której pracy mogę b
 ## Przegląd literatury (sugestia podziału pracy)
 1. Narracja w grach: 
 	1. Historia narracji w grach komputerowych
-		- Ewolucja narracji od gier tekstowych do gier wirtualnej rzeczywistości
-		- Wpływ technologii i ograniczeń sprzętowych na narrację
-		- Znaczące tytuły i twórcy w historii narracji w grach
+		- Definicja narracji w grach (i ogólnie)
+		- Przedstawienie narracji na przykładzie gier na przestrzeni lat
 	2. Rodzaje narracji w grach komputerowych
-		- Narracja liniowa, nieliniowa, interaktywna, emergentna i proceduralna
-		- Narracja oparta na fabule, postaciach, świecie, mechanice i graczach
-		- Narracja jawna, ukryta, wielowątkowa i wieloperspektywiczna
-	3. Systemy dialogowe w grach komputerowych
-		- Rodzaje systemów dialogowych: menu, drzewa, koła, sieci, naturalne
-		- Funkcje systemów dialogowych: informacyjna, emocjonalna, strategiczna, moralna
-		- Wyzwania i ograniczenia systemów dialogowych: spójność, wiarygodność, zróżnicowanie, adaptacja
+		- Architektury / struktury: liniowa, string of pearls, branching, amusement park, building blocks
+		- Techniki przedstawiania narracji: cutscenki, dialogi, textboxy, poprzez świat gry
+	3. ~~Systemy dialogowe w grach komputerowych~~ <-- nie jestem pewien czy nie po prostu w ramach 1.2 wzmianka
+		- Rodzaje systemów dialogowych: boxy, menu, koła, Dark Souls wiadomości (gesty + zostawianie śladów)
 	4. Wykorzystanie algorytmów sztucznej inteligencji do kreowania narracji
-		- Cele i zalety wykorzystania algorytmów sztucznej inteligencji do kreowania narracji
-		- Metody i techniki wykorzystywane przez algorytmy sztucznej inteligencji do kreowania narracji: planowanie, generowanie, adaptacja, ocena
-		- Przykłady i analiza gier wykorzystujących algorytmy sztucznej inteligencji do kreowania narracji: ???, Dwarf Fortress, The Sims, Detroit: Become Human
+		- TODO
+		- TODO
+		- TODO
 	5. Wykorzystanie dużych modeli językowych (LLM) do kreowania narracji
 		- Definicja i charakterystyka dużych modeli językowych (LLM)
-		- Możliwości i ograniczenia dużych modeli językowych (LLM) do kreowania narracji
-		- Przykłady i analiza gier wykorzystujących duże modele językowe (LLM) do kreowania narracji: ??? (jeśli takowe są)
+		- Możliwości i ograniczenia dużych modeli językowych (LLM) do kreowania narracji (teoretyczne)
 2. Zaangażowanie gracza:
 	1. Wpływ narracji na zaangażowanie gracza
 		- Definicja i rodzaje zaangażowania gracza: poznawcze, emocjonalne, behawioralne, społeczne
