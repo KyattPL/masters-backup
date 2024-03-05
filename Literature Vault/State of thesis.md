@@ -10,9 +10,9 @@ Więc TODO jest przejrzenie kropek poniżej i dopisanie, z której pracy mogę b
 	3. ~~Systemy dialogowe w grach komputerowych~~ <-- nie jestem pewien czy nie po prostu w ramach 1.2 wzmianka
 		- Rodzaje systemów dialogowych: boxy, menu, koła, Dark Souls wiadomości (gesty + zostawianie śladów)
 	4. Wykorzystanie algorytmów sztucznej inteligencji do kreowania narracji
-		- TODO
-		- TODO
-		- TODO
+		- Miejsca, w których wykorzystuje się AI: ...
+		- Tworzenie narracji za pomocą AI: POP (partially-ordered planning), ...
+		- Może przykłady gier (?): ...
 	5. Wykorzystanie dużych modeli językowych (LLM) do kreowania narracji
 		- Definicja i charakterystyka dużych modeli językowych (LLM)
 		- Możliwości i ograniczenia dużych modeli językowych (LLM) do kreowania narracji (teoretyczne)
