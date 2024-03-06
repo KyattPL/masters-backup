@@ -23,8 +23,8 @@ Więc TODO jest przejrzenie kropek poniżej i dopisanie, z której pracy mogę b
 		- Czynniki narracyjne wpływające na zaangażowanie gracza: ...
 		- Metody i techniki zwiększania zaangażowania gracza poprzez narrację: ...
 	2. Sposoby mierzenia zaangażowania gracza
-		- Kryteria i wskaźniki zaangażowania gracza: czas gry, częstotliwość gry, osiągnięcia, opinie, reakcje
-		- Metody i narzędzia mierzenia zaangażowania gracza: ankiety, wywiady, obserwacje, logi, sensory
+		- Kryteria i wskaźniki zaangażowania gracza: czas gry, osiągnięcia, opinie, reakcje
+		- Metody i narzędzia mierzenia zaangażowania gracza: ankiety, wywiady, obserwacje, pomiary
 3. Planowany eksperyment: 
 	1. Opis generatywnych agentów (dostarczanych przez platformę inworld.ai)
 		- Struktury wykorzystywane przez inworld.ai (wraz z wyjaśnieniem ich przeznaczenia)
