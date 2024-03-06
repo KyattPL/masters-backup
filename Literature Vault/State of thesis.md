@@ -7,25 +7,26 @@ Więc TODO jest przejrzenie kropek poniżej i dopisanie, z której pracy mogę b
 	2. Rodzaje narracji w grach komputerowych
 		- Architektury / struktury: liniowa, string of pearls, branching, amusement park, building blocks
 		- Techniki przedstawiania narracji: cutscenki, dialogi, textboxy, poprzez świat gry
-	3. ~~Systemy dialogowe w grach komputerowych~~ <-- nie jestem pewien czy nie po prostu w ramach 1.2 wzmianka
+	3. ~~Systemy dialogowe w grach komputerowych~~ **<-- nie jestem pewien czy nie po prostu w ramach 1.2 wzmianka**
 		- Rodzaje systemów dialogowych: boxy, menu, koła, Dark Souls wiadomości (gesty + zostawianie śladów)
 	4. Wykorzystanie algorytmów sztucznej inteligencji do kreowania narracji
-		- Miejsca, w których wykorzystuje się AI: ...
-		- Tworzenie narracji za pomocą AI: POP (partially-ordered planning), ...
-		- Może przykłady gier (?): ...
+		- Tworzenie narracji za pomocą AI: POP (partially-ordered planning), PEM (player experience modelling), NLP (natural language processing), NPC (non-playable character), MDP (Markov Decision Process)
+		- AI agenty (**a przynajmniej ich próby i teoretyczne frameworki**)
+		- Przykłady gier wykorzystujące AI (od prostego Ponga, Trueskill w matchmakingu, proceduralne generowanie w Minecraftach czy innych)
 	5. Wykorzystanie dużych modeli językowych (LLM) do kreowania narracji
 		- Definicja i charakterystyka dużych modeli językowych (LLM)
-		- Możliwości i ograniczenia dużych modeli językowych (LLM) do kreowania narracji (teoretyczne)
+		- Możliwości i ograniczenia dużych modeli językowych (LLM) do kreowania narracji (**teoretyczne ?**)
+		- Potencjalne frameworki (**są chyba w dwóch artykułach opisane całe struktury pamięci**)
 2. Zaangażowanie gracza:
 	1. Wpływ narracji na zaangażowanie gracza
-		- Definicja i rodzaje zaangażowania gracza: poznawcze, emocjonalne, behawioralne, społeczne
-		- Czynniki narracyjne wpływające na zaangażowanie gracza: immersja, identyfikacja, agencja, spójność, zaskoczenie
-		- Metody i techniki zwiększania zaangażowania gracza poprzez narrację: personalizacja, adaptacja, interakcja, feedback, nagrody
+		- Definicja i rodzaje zaangażowania gracza: ...
+		- Czynniki narracyjne wpływające na zaangażowanie gracza: ...
+		- Metody i techniki zwiększania zaangażowania gracza poprzez narrację: ...
 	2. Sposoby mierzenia zaangażowania gracza
 		- Kryteria i wskaźniki zaangażowania gracza: czas gry, częstotliwość gry, osiągnięcia, opinie, reakcje
 		- Metody i narzędzia mierzenia zaangażowania gracza: ankiety, wywiady, obserwacje, logi, sensory
 3. Planowany eksperyment: 
 	1. Opis generatywnych agentów (dostarczanych przez platformę inworld.ai)
-		- Definicja i cechy generatywnych agentów: autonomiczni, interaktywni, kreatywni, uczący się
-		- Architektura i komponenty generatywnych agentów: model świata, model gracza, model narracji, generator tekstu, generator akcji, generator emocji
-		- Scenariusz i cel eksperymentu: porównanie wpływu generatywnych agentów na zaangażowanie gracza w grze fabularnej z różnymi typami narracji
+		- Struktury wykorzystywane przez inworld.ai (wraz z wyjaśnieniem ich przeznaczenia)
+		- Konkretne postacie (w sensie dane) wytworzone dla celu tej pracy
+		- Podłączenie i wykorzystanie tych agentów
