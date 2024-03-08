@@ -1,0 +1,7 @@
+- Wysłać harmonogram prac do Kopela i Walczyńskiego
+- Ustalić czy robione będzie losowanie mordercy?
+- Ustalić jak badać:
+	- Czy gra nie za długa?
+	- Jakie limity na konwersacje z botem?
+	- Testy A/B?
+	- Czy zbierać dane i jak tak to jakie?

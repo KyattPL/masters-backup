@@ -1,5 +1,5 @@
 # Gra
-- Czy może być po 3 zpredefiniowane pytania dla wersji NONAI (czy lepiej dodać jeszcze trochę pytań - np. co każdy o każdym sądzi)?
+- Czy może być po 5 zpredefiniowane pytania dla wersji NONAI (czy lepiej dodać jeszcze trochę pytań - np. co każdy o każdym sądzi)?
 - Bo plan w moich założeniach był: 3 predefiniowane pytania przy przesłuchaniu w wersji NONAI vs 5 otwartych input fieldów (na zasadzie pytaj o co chcesz) w wersji z AI - nwm tylko czy to 3 vs 5 nie jest jakoś rażąco gorsze dla tej wersji NONAI ale z drugiej strony to pokazuje, że robiąc ręcznie te scenariusze to jest masa roboty a tak to można pytać do woli.
 - No i mam zpredefiniowane jedno zakończenie z konkretnym mordercą - teoretycznie można by jakoś losować killera ale to chyba tylko dla wersji AI (i w sumie nwm czy muszę to implementować czy tylko zaznaczyć jako możliwość).
 # Badania
