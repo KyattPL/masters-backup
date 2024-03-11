@@ -5,3 +5,12 @@
 	- Jakie limity na konwersacje z botem?
 	- Testy A/B?
 	- Czy zbierać dane i jak tak to jakie?
+
+Moim zdaniem:
+- Bez losowania mordercy bo jest to dodatkowa zmienna przy badaniu. Miało by to jakiś sens gdyby istniały pewne podgrupy tzn. po tyle samo osób miałoby jednego mordercę. Zakładając, że będę miał naście / dziesiąt uczestników badania to podział na 4-5 grup po kilka osób chyba mija się z celem zbytnio. Mogę najwyżej wspomnieć w samej pracy, że jest potencjał na takie rozwiązanie
+- Testy A/B to koniecznie dobry pomysł i teraz są dwie opcje:
+	- Albo zrobić tak, że na jednym spotkaniu połowa gra w A i połowa gra w B, a potem zorganizować drugie spotkanie (np. za tydzień) gdzie zamieniam kolejność. Plus jest oczywiście taki, że zapewni to dużo "świeższe" podejście do gry w przypadku drugiej wersji. Z drugiej strony wydłuża czas i opinie użytkowników co do porównania wersji (w sensie poza kwestionariuszem) mogą być mieć miarodajne bo nie będą pamiętać jak to się grało w pierwszą wersję.
+	- Albo dużo przyjemniejsza wersja, połowa gra w A i połowa gra w B. Potem następuję krótka przerwa na opinie i wypełnienie kwestionariuszy i następuje zamiana wersji. Tutaj problematyczna jest kwestia czasu samego badania i znużenia początkową fazą gry. Aktualnie gra jest przeznaczona na 10-15min (CHYBA) przy czym istotna z punktu badania zmiana dzieje się gdzieś w połowie gry. Dlatego proponowałbym przejście gry w pełni za pierwszym razem a za drugim razem przewinięcie jej do momentu "przesłuchiwania".
+- Tak losowo ustaliłbym limit pytań na 10 z botem (a no i może powinienem w takim przypadku dodać możliwość wcześniejszego zakończenia rozmowy)
+- Nie wiem czy jest sens zbierać dane z gry np. o czasie spędzonym przy danej postaci bo z natury tego, że jest albo 5 spredefiniowanych pytań albo 10 dowolnych RACZEJ oczywiście dla wersji AI wyjdzie dłuższy czas.
+- Ankieta analogiczna do pracy GEQ będzie, w skrócie z jakiejś potężnej statystyki wynika, że ma ona sens i jest "wiarygodna". Są tam też chyba jakieś średnie i odchylenia standardowa i jakieś wyliczenia dla zmiennych, z którymi mógłbym porównać swoje uzyskane wyniki (przez to, że one są to jak rozumiem nie potrzebuję super licznej próby by policzyć korelację czy te hipotezy testowe)
