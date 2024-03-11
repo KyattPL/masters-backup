@@ -1,0 +1,56 @@
+Oto propozycja zmodyfikowanego planu prezentacji na około 15 slajdów, z uwzględnieniem podanego przez Ciebie podziału w przeglądzie literatury:
+
+Slajd 1: Strona tytułowa 
+
+Slajd 2: Spis treści
+
+Slajd 3: Wprowadzenie
+- Kontekst i znaczenie tematu
+- Cele i tezy prezentacji
+
+Slajd 4: Motywacja
+- Znaczenie narracji w grach
+- Wyzwania i niewykorzystany potencjał
+
+Slajd 5: Przegląd literatury - Narracja w grach
+    1. Historia narracji w grach
+    2. Rodzaje narracji i techniki przedstawiania
+
+Slajd 6: Przegląd literatury - Narracja w grach (cd.)
+    3. Systemy dialogowe w grach  
+    4. Algorytmy AI do kreowania narracji
+
+Slajd 7: Przegląd literatury - Narracja w grach (cd.)
+    5. Duże modele językowe (LLM) do kreowania narracji
+
+Slajd 8: Przegląd literatury - Zaangażowanie gracza
+    1. Wpływ narracji na zaangażowanie
+    2. Mierzenie zaangażowania gracza
+
+Slajd 9: Wstępne koncepcje
+- Wykorzystanie LLM do immersyjnej narracji
+- Potencjalne korzyści i innowacje
+
+Slajd 10: Metodologia
+    1. Opis gry typu visual novel
+    2. Warianty gry (z LLM i bez)
+
+Slajd 11: Metodologia (cd.)
+    3. Projekt eksperymentu 
+    4. Miary i narzędzia badawcze
+
+Slajd 12: Planowany eksperyment
+    1. Opis generatywnych agentów (inworld.ai)
+    2. Struktury i postacie wykorzystywane
+
+Slajd 13: Harmonogram
+- Główne kamienie milowe
+- Zarządzanie czasem i kluczowe daty
+
+Slajd 14: Podsumowanie
+- Powtórzenie kluczowych punktów
+- Wnioski końcowe
+
+Slajd 15: Pytania i dyskusja
+
+Taki plan uwzględnia wszystkie wskazane przez Ciebie punkty, dając szczegółowy przegląd literatury podzielony na podtematy. Możesz dostosować głębokość treści na poszczególnych slajdach w zależności od czasu trwania prezentacji. Powodzenia!
