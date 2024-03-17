@@ -1,0 +1,8 @@
+1. Tytuł sugeruje przegląd literatury , wpływ może lepiej
+2. Kinetic novel, interactive fiction
+3. Do systemów dialogowych jeszcze wpisywanie słów kluczowych (wydawanie poleceń)
+	- czyli właśnie interactive fiction, może warto wcześniej
+4. Prześledzić jedną serię na przestrzeni lat - np. Final Fantasy
+5. Praktyczny przykład z LLM
+6. Przykłady AI niezwiązane z narracją w sumie.
+7. Może poszukać nowszych prac naukowych.

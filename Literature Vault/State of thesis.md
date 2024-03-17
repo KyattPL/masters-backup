@@ -4,19 +4,21 @@ Więc TODO jest przejrzenie kropek poniżej i dopisanie, z której pracy mogę b
 	1. Historia narracji w grach komputerowych
 		- Definicja narracji w grach (i ogólnie)
 		- Przedstawienie narracji na przykładzie gier na przestrzeni lat
+		- Prześledzenie rozwoju narracji na przykładzie Final Fantasy
 	2. Rodzaje narracji w grach komputerowych
 		- Architektury / struktury: liniowa, string of pearls, branching, amusement park, building blocks
 		- Techniki przedstawiania narracji: cutscenki, dialogi, textboxy, poprzez świat gry
-	3. ~~Systemy dialogowe w grach komputerowych~~ **<-- nie jestem pewien czy nie po prostu w ramach 1.2 wzmianka**
-		- Rodzaje systemów dialogowych: boxy, menu, koła, Dark Souls wiadomości (gesty + zostawianie śladów)
+	3. Systemy dialogowe w grach komputerowych
+		- Rodzaje systemów dialogowych: boxy, menu, koła, 
+		- Dark Souls wiadomości (gesty + zostawianie śladów)
+		- Interaktywna fikcja - wydawanie poleceń (przykład polskiej gry Otchłań)
 	4. Wykorzystanie algorytmów sztucznej inteligencji do kreowania narracji
 		- Tworzenie narracji za pomocą AI: POP (partially-ordered planning), PEM (player experience modelling), NLP (natural language processing), NPC (non-playable character), MDP (Markov Decision Process)
-		- AI agenty (**a przynajmniej ich próby i teoretyczne frameworki**)
-		- Przykłady gier wykorzystujące AI (od prostego Ponga, Trueskill w matchmakingu, proceduralne generowanie w Minecraftach czy innych)
+		- Przykłady gier wykorzystujące AI (Facade, Minecraft, QuestVille)
 	5. Wykorzystanie dużych modeli językowych (LLM) do kreowania narracji
 		- Definicja i charakterystyka dużych modeli językowych (LLM)
-		- Możliwości i ograniczenia dużych modeli językowych (LLM) do kreowania narracji (**teoretyczne ?**)
 		- Potencjalne frameworki (**są chyba w dwóch artykułach opisane całe struktury pamięci**)
+		- Przykład wykorzystania LLM do kreowania narracji
 2. Zaangażowanie gracza:
 	1. Wpływ narracji na zaangażowanie gracza
 		- Definicja i rodzaje zaangażowania gracza: ...
@@ -26,7 +28,8 @@ Więc TODO jest przejrzenie kropek poniżej i dopisanie, z której pracy mogę b
 		- Kryteria i wskaźniki zaangażowania gracza: czas gry, osiągnięcia, opinie, reakcje
 		- Metody i narzędzia mierzenia zaangażowania gracza: ankiety, wywiady, obserwacje, pomiary
 3. Planowany eksperyment: 
-	1. Opis generatywnych agentów (dostarczanych przez platformę inworld.ai)
+	1. Opis "visual novel" i tła fabularnego gry eksperymentu
+	2. Opis generatywnych agentów (dostarczanych przez platformę inworld.ai)
 		- Struktury wykorzystywane przez inworld.ai (wraz z wyjaśnieniem ich przeznaczenia)
 		- Konkretne postacie (w sensie dane) wytworzone dla celu tej pracy
 		- Podłączenie i wykorzystanie tych agentów

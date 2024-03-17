@@ -1,10 +1,4 @@
-- Wysłać harmonogram prac do Kopela i Walczyńskiego
-- Ustalić czy robione będzie losowanie mordercy?
-- Ustalić jak badać:
-	- Czy gra nie za długa?
-	- Jakie limity na konwersacje z botem?
-	- Testy A/B?
-	- Czy zbierać dane i jak tak to jakie?
+Adnotacje do ostatnich 4 prac.
 
 Moim zdaniem:
 - Bez losowania mordercy bo jest to dodatkowa zmienna przy badaniu. Miało by to jakiś sens gdyby istniały pewne podgrupy tzn. po tyle samo osób miałoby jednego mordercę. Zakładając, że będę miał naście / dziesiąt uczestników badania to podział na 4-5 grup po kilka osób chyba mija się z celem zbytnio. Mogę najwyżej wspomnieć w samej pracy, że jest potencjał na takie rozwiązanie
@@ -14,3 +8,14 @@ Moim zdaniem:
 - Tak losowo ustaliłbym limit pytań na 10 z botem (a no i może powinienem w takim przypadku dodać możliwość wcześniejszego zakończenia rozmowy)
 - Nie wiem czy jest sens zbierać dane z gry np. o czasie spędzonym przy danej postaci bo z natury tego, że jest albo 5 spredefiniowanych pytań albo 10 dowolnych RACZEJ oczywiście dla wersji AI wyjdzie dłuższy czas.
 - Ankieta analogiczna do pracy GEQ będzie, w skrócie z jakiejś potężnej statystyki wynika, że ma ona sens i jest "wiarygodna". Są tam też chyba jakieś średnie i odchylenia standardowa i jakieś wyliczenia dla zmiennych, z którymi mógłbym porównać swoje uzyskane wyniki (przez to, że one są to jak rozumiem nie potrzebuję super licznej próby by policzyć korelację czy te hipotezy testowe)
+
+1.1:
+https://the-artifice.com/final-fantasy-evolution-narratives/
+https://www.inverse.com/gaming/25-years-later-the-most-overlooked-final-fantasy-deserves-more-credit
+
+https://tvtropes.org/pmwiki/pmwiki.php/Main/VisualNovel
+https://tvtropes.org/pmwiki/pmwiki.php/Main/KineticNovel
+
+Interactive fiction:
+https://www.youtube.com/watch?v=zP1twKbLmAw
+https://www.otchlan.pl/
