@@ -1,76 +1,116 @@
 % !TEX encoding = UTF-8 Unicode 
 % !TEX root = praca.tex
-\chapter{Tytuł rozdziału I}\label{chapter:ch1}
+\chapter{Narracja w grach}\label{chapter:ch1}
 
-W książce \cite{docker_compose_reference} \dots
+Niniejszy rozdział ma na celu dokonanie przeglądu gier komputerowych na przestrzeni lat, ze
+szczególnym naciskiem na ewolucję sposobów oraz form narracji przedstawianych w tych grach.
+Wyszczególnione zostaną również naistotniejsze struktury i rodzaje narracji, które są współcześnie
+wykorzystywane. Dodatkowo, nastąpi krótki przegląd najpopularniejszych technik prezentacji narracji.
+Na koniec nakreślone zostaną systemy dialogowe wykorzystywane przez gry komputerowe.
 
-\section{Rysunki}
+\section{Historia narracji w grach komputerowych}\label{section:ch1_1}
 
-\begin{figure}
-	\centering\includegraphics[width=.6\textwidth]{chapters/chapter1/imgs/swarm-network.png}
-	\caption{Sieć dokera \cite{docker_compose_reference}}  \label{rys:network}
-\end{figure}
+Aby zrozumieć istotę narracji w grach komputerowych, należy przede wszystkim określić
+co może kryć się pod tym pojęciem. Pozwoli to dokonać przeglądu wybranych tytułów
+i wyciągnąć z tego przeglądu wnioski. Żeby udowodnić rozwój w sposobie prezentowania narracji
+na przestrzeni lat, prześledzone zostały części jednej z serii gier --- \textit{"Final Fantasy"} ---
+wydawanej od roku 1987.
 
-Na rysunku \ref{rys:network} \dots
+\subsection{Definicja narracji}\label{subsection:ch1_1_1}
 
+Pojęcie narracji i samo jej występowanie w grach komputerowych jest kwestią sporną
+w literaturze od lat. Barry Ip, w swojej pracy \cite{narrative_structures}, dokonuje wyróżnienia trzech słów ściśle
+powiązanych ze sobą: \textit{historia}, \textit{fabuła} oraz \textit{narracja}. Na potrzeby jego
+badań historia zdefiniowana została następująco:
 
-\subsection{Dwa rysunki obok siebie}
+\begin{quotation}
+	\ldots \textit{sekwencja zdarzeń obejmujących byty.} \cite{narrative_structures}
+\end{quotation}
 
-\begin{figure}[ht]
-	\centering
-	\begin{minipage}[b]{0.45\textwidth}
-		\centering\includegraphics[width=0.9\textwidth]{chapters/chapter1/imgs/kotek.pdf} % left figure
-		\caption{Lewy rysunek}\label{fig:lewy}
-	\end{minipage}
-	\begin{minipage}[b]{0.45\textwidth}
-		\centering
-		\includegraphics[width=0.9\textwidth]{chapters/chapter1/imgs/swarm-network.png} % right figure
-		\caption{Prawy rysunek}\label{fig:prawy}
-	\end{minipage}
-\end{figure}
+Związana z historią jest również fabuła, która została określona przez Arystotelesa jako:
 
-Na rysunkach \ref{fig:lewy} i \ref{fig:prawy} \dots
+\begin{quotation}
+	\ldots \textit{organizacja zdarzeń.} \cite{narrative_structures}
+\end{quotation}
 
+Sama narracja, ściśle powiązana z dwoma poprzednimi terminami, wyrażona została w sposób
+następujący:
 
-\section{Tabele}
+\begin{quotation}
+	\ldots \textit{reprezentacja zdarzenia lub serii zdarzeń.} \cite{narrative_structures}
+\end{quotation}
 
-W tabeli \ref{table:table1} \dots
+W ramach tejże pracy, można przyjąć wszystkie te pojęcia jako istotne i na tyle bliskie
+sobie, że mogą się zastępować.
 
-\begin{table}
-	\centering\caption{Tytuł tabeli (patrz dodatek~\ref{app1}) \label{table:table1}}
-	\begin{tabular}{|l|l|l|}% table alignment -> l c r - left, center, right
-		\hline
-		Pierwszy & Drugi & Trzeci \\
-		\hline
-		Pierwszy & Drugi & Trzeci \\
-		\hline
-	\end{tabular}
+Jakub Majewski sugeruje, że debatowanie nad istnieniem narracji jest odpowiednie dla niektórych
+gier, a dla niektórych nie \cite{theorising_narrative}. Rozdzielenie bowiem tych form
+przekazu, które można zaliczyć do treści fabularnej, nie jest takie oczywiste. Przytoczyć można
+przykład \textit{Space Invaders} (1977) --- gra nie przytacza żadnego opisu w formie tekstowej,
+skupiając się wyłącznie na rozgrywce. Na podstawie samego tytułu można jednak
+przypuścić, że dokonuje się pewnego rodzaju inwazja, a stoją za nią przybysze z kosmosu \cite{theorising_narrative}.
+
+TODO \ldots
+
+Do budowania narracji mogą służyć też techniki znane z literatury. Przykładem takiej techniki jest
+\textit{"Podróż bohatera"}\cite{narrative_structures}, która opisuje 12 kluczowych etapów, odgrywających
+istotną rolę w budowie angażujących historii (Tabela 1).
+
+\begin{table}[ht]
+	\caption{Dwanaście etapów...}
+	\label{tab1:ch1_1_1}
+	\begin{center}
+		\begin{tabular}{l l}
+			\hline
+			Stage                 & Description \\
+			\hline
+			1. The ordinary world & bla bla     \\
+			1. The ordinary world & bla bla     \\
+			1. The ordinary world & bla bla     \\
+			1. The ordinary world & bla bla     \\
+			1. The ordinary world & bla bla     \\
+			\hline
+		\end{tabular}
+	\end{center}
 \end{table}
 
-\subsection{Równania}
+Blisko powiązana z \textit{"Podróżą bohatera"} jest znana struktura trzech aktów opisana przez
+Arystotelesa, która zakłada podział utworu na początek, środek i koniec\cite{narrative_structures}.
 
-\begin{equation}
-	\sum_{i=1}^{\infty}a_i
-	\label{eq:myEquation}
-\end{equation}
+TODO ZAKOŃCZENIE TEJ PODSEKCJI \ldots
 
-W równaniu \ref{eq:myEquation} \dots
+\subsection{Przedstawienie narracji w grach na przestrzeni lat}\label{subsection:ch1_1_2}
 
-\section{Listingi}
+gegege
 
-Na listingu \ref{listing:myListing} \dots
+\subsection{Prześledzenie rozwoju narracji na przykładzie serii Final Fantasy}\label{subsection:ch1_1_3}
 
-% replace {c} with the appropriate language
-\begin{listing}
-	\begin{minted}{c}  
-int main()
-{
-   int a=2*3;
-   printf("**Ala ma kota\n**");
-   while(!I2C_CheckEvent(I2C1, I2C_EVENT_MASTER_MODE_SELECT)); /* EV5 */
-   return 0;
-}
-\end{minted}
-	\caption{Język C} \label{listing:myListing}
-\end{listing}
+goiemgoe
 
+\section{Rodzaje narracji w grach komputerowych}\label{section:ch1_2}
+
+efe
+
+\subsection{Struktury narracji}\label{subsection:ch1_2_1}
+
+fefef
+
+\subsection{Rodzaje narracji}\label{subsection:ch1_2_2}
+
+fefef
+
+\subsection{Techniki przedstawienia narracji}\label{subsection:ch1_2_3}
+
+ioegemo
+
+\section{Systemy dialogowe w grach komputerowych}\label{section:ch1_3}
+
+fefef
+
+\subsection{Popularne systemy dialogowe}\label{subsection:ch1_3_1}
+
+fefef
+
+\subsection{Interaktywna fikcja - system poleceń}\label{subsection:ch1_3_2}
+
+ortatraoitrmoi

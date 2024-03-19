@@ -9,17 +9,17 @@ Więc TODO jest przejrzenie kropek poniżej i dopisanie, z której pracy mogę b
 		- Architektury / struktury: liniowa, string of pearls, branching, amusement park, building blocks
 		- Techniki przedstawiania narracji: cutscenki, dialogi, textboxy, poprzez świat gry
 	3. Systemy dialogowe w grach komputerowych
-		- Rodzaje systemów dialogowych: boxy, menu, koła, 
-		- Dark Souls wiadomości (gesty + zostawianie śladów)
+		- Rodzaje systemów dialogowych: boxy, menu, koła (Dark Souls opcjonalnie)
 		- Interaktywna fikcja - wydawanie poleceń (przykład polskiej gry Otchłań)
-	4. Wykorzystanie algorytmów sztucznej inteligencji do kreowania narracji
+2. Sposoby generowania narracji:
+	1. Wykorzystanie algorytmów sztucznej inteligencji do kreowania narracji
 		- Tworzenie narracji za pomocą AI: POP (partially-ordered planning), PEM (player experience modelling), NLP (natural language processing), NPC (non-playable character), MDP (Markov Decision Process)
 		- Przykłady gier wykorzystujące AI (Facade, Minecraft, QuestVille)
-	5. Wykorzystanie dużych modeli językowych (LLM) do kreowania narracji
+	2. Wykorzystanie dużych modeli językowych (LLM) do kreowania narracji
 		- Definicja i charakterystyka dużych modeli językowych (LLM)
 		- Potencjalne frameworki (**są chyba w dwóch artykułach opisane całe struktury pamięci**)
 		- Przykład wykorzystania LLM do kreowania narracji
-2. Zaangażowanie gracza:
+3. Zaangażowanie gracza:
 	1. Wpływ narracji na zaangażowanie gracza
 		- Definicja i rodzaje zaangażowania gracza: ...
 		- Czynniki narracyjne wpływające na zaangażowanie gracza: ...
@@ -27,9 +27,10 @@ Więc TODO jest przejrzenie kropek poniżej i dopisanie, z której pracy mogę b
 	2. Sposoby mierzenia zaangażowania gracza
 		- Kryteria i wskaźniki zaangażowania gracza: czas gry, osiągnięcia, opinie, reakcje
 		- Metody i narzędzia mierzenia zaangażowania gracza: ankiety, wywiady, obserwacje, pomiary
-3. Planowany eksperyment: 
+4. Planowany eksperyment: 
 	1. Opis "visual novel" i tła fabularnego gry eksperymentu
 	2. Opis generatywnych agentów (dostarczanych przez platformę inworld.ai)
 		- Struktury wykorzystywane przez inworld.ai (wraz z wyjaśnieniem ich przeznaczenia)
 		- Konkretne postacie (w sensie dane) wytworzone dla celu tej pracy
 		- Podłączenie i wykorzystanie tych agentów
+5. Wyniki

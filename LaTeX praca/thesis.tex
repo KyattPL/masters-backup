@@ -13,6 +13,7 @@
 
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
+\usepackage{tocvsec2}
 
 % Maximum section's depth.
 \setcounter{secnumdepth}{4}
@@ -29,12 +30,12 @@ fontsize=\small,
 \usepackage{lipsum}
 
 % \faculty{Faculty of \dots}                   % Uncomment if applicable
-\fieldofstudy{Informatyka Stosowana (PSI)}                          
+\fieldofstudy{Informatyka Stosowana}                          
 \author{Kajetan Pynka}
 \title{Badanie wykorzystania sztucznej inteligencji w procesie tworzenia dostosowującej się do użytkownika narracji w grach komputerowych}
 \supervisor{Dr Maciej Walczyński}
 % \consultant{Consultant's name}               % Uncomment if applicable
-% \specialisation{AAA}                         % Uncomment if applicable
+\specialisation{Projektowanie Systemów Informatycznych}                         % Uncomment if applicable
 \keywords{słowo1, słowo2, słowo3}   % 3-5 keywords  
 
 \begin{document}
@@ -45,9 +46,17 @@ fontsize=\small,
 
 \tableofcontents
 
+\settocdepth{chapter}
+
 \input{introduction/introduction.tex}
 
+\settocdepth{subsection}
+
 \input{chapters/chapter1/chapter1.tex}
+\input{chapters/chapter2/chapter2.tex}
+\input{chapters/chapter3/chapter3.tex}
+\input{chapters/chapter4/chapter4.tex}
+\input{chapters/chapter5/chapter5.tex}
 
 \input{summary/summary.tex}
 

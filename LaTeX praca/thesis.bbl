@@ -1,6 +1,12 @@
 \begin{thebibliography}{1}
 
-\bibitem{docker_compose_reference}
-{Docker Inc.}, \emph{Compose file version 3 reference}, \url{https://docs.docker.com/compose/compose-file/}. Data dost. 12 listopada 2018.
+\bibitem{narrative_structures}
+Ip, B., \emph{Narrative structures in computer and video games: Part 1: Context, definitions, and initial findings}, Games and Culture. 2011, tom~6, 2, str. 103--134.
+
+\bibitem{theorising_narrative}
+Majewski, J., i~in., \emph{Theorising video game narrative}, Bond University. 2003.
+
+\bibitem{ai_town_ref}
+Park, J.S., O'Brien, J.C., Cai, C.J., Morris, M.R., Liang, P., Bernstein, M.S., \emph{Generative agents: Interactive simulacra of human behavior}. 2023.
 
 \end{thebibliography}

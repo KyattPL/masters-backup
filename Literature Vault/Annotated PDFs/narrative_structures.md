@@ -323,3 +323,31 @@ annotation-target: "[[narrative_structures.pdf]]"
 >%%TAGS%%
 >
 ^njdo13uz57q
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-19T15:31:07.828Z","updated":"2024-03-19T15:31:07.828Z","document":{"title":"GAC364982 103..134","link":[{"href":"urn:x-pdf:bd8b1834cf8d63fd77b0db36a76dab93"},{"href":"vault:/Papers PDFs/narrative_structures.pdf"}],"documentFingerprint":"bd8b1834cf8d63fd77b0db36a76dab93"},"uri":"vault:/Papers PDFs/narrative_structures.pdf","target":[{"source":"vault:/Papers PDFs/narrative_structures.pdf","selector":[{"type":"TextPositionSelector","start":25507,"end":25923},{"type":"TextQuoteSelector","exact":"1. complex or simple—complex refers to a reversal of fortune or recognition; sim-ple to a change in the hero’s fortune without a reversal of fortune or discovery;2. tragedy of suffering—emphasizes physical or mental suffering;3. tragedy of character—emphasizes characters and personality traits; and4. spectacle—emphasizes effects of the visuals such as costumes, scenery, andactors (particularly relevant in films).","prefix":"29-30; Tierno, 2002, pp. 41-45):","suffix":"Aristotle’s analyses were subseq"}]}]}
+>```
+>%%
+>*%%PREFIX%%29-30; Tierno, 2002, pp. 41-45):%%HIGHLIGHT%% ==1. complex or simple—complex refers to a reversal of fortune or recognition; sim-ple to a change in the hero’s fortune without a reversal of fortune or discovery;2. tragedy of suffering—emphasizes physical or mental suffering;3. tragedy of character—emphasizes characters and personality traits; and4. spectacle—emphasizes effects of the visuals such as costumes, scenery, andactors (particularly relevant in films).== %%POSTFIX%%Aristotle’s analyses were subseq*
+>%%LINK%%[[#^rdg4k79i9re|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^rdg4k79i9re
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-19T23:15:29.325Z","updated":"2024-03-19T23:15:29.325Z","document":{"title":"GAC364982 103..134","link":[{"href":"urn:x-pdf:bd8b1834cf8d63fd77b0db36a76dab93"},{"href":"vault:/Papers PDFs/narrative_structures.pdf"}],"documentFingerprint":"bd8b1834cf8d63fd77b0db36a76dab93"},"uri":"vault:/Papers PDFs/narrative_structures.pdf","target":[{"source":"vault:/Papers PDFs/narrative_structures.pdf","selector":[{"type":"TextPositionSelector","start":24951,"end":25134},{"type":"TextQuoteSelector","exact":"Closely linked to The Hero’s Journey is the well-known three-act structuredescribed by Aristotle which, in the context of poetry and drama, comprises of abeginning, middle, and an end","prefix":"count during the final analysis.","suffix":" (or denouement; Heath, 1996, p."}]}]}
+>```
+>%%
+>*%%PREFIX%%count during the final analysis.%%HIGHLIGHT%% ==Closely linked to The Hero’s Journey is the well-known three-act structuredescribed by Aristotle which, in the context of poetry and drama, comprises of abeginning, middle, and an end== %%POSTFIX%%(or denouement; Heath, 1996, p.*
+>%%LINK%%[[#^kedjqadpkco|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^kedjqadpkco

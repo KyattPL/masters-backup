@@ -380,3 +380,17 @@ annotation-target: "[[theorising_narrative.pdf]]"
 >%%TAGS%%
 >
 ^jlsh1ajics8
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-19T15:46:57.885Z","updated":"2024-03-19T15:46:57.885Z","document":{"title":"MThesis1.PDF","link":[{"href":"urn:x-pdf:0348d8a239c5d667722bd3bdc93de332"},{"href":"vault:/Papers PDFs/theorising_narrative.pdf"}],"documentFingerprint":"0348d8a239c5d667722bd3bdc93de332"},"uri":"vault:/Papers PDFs/theorising_narrative.pdf","target":[{"source":"vault:/Papers PDFs/theorising_narrative.pdf","selector":[{"type":"TextPositionSelector","start":5371,"end":5464},{"type":"TextQuoteSelector","exact":"Noted  game  scholar  Espen  Aarseth  once  asked  whether  games  are  or  can  be  stories2","prefix":"as been that of game narrative. ","suffix":". The answer to such a question "}]}]}
+>```
+>%%
+>*%%PREFIX%%as been that of game narrative.%%HIGHLIGHT%% ==Noted  game  scholar  Espen  Aarseth  once  asked  whether  games  are  or  can  be  stories2== %%POSTFIX%%. The answer to such a question*
+>%%LINK%%[[#^a3crcsg1ol5|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^a3crcsg1ol5
