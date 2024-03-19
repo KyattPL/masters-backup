@@ -19,19 +19,19 @@
 19. Motivational engagement and video gaming: a mixed methods study (https://link.springer.com/article/10.1007/s11423-009-9134-9), PLIK: [[motivational_engagement.pdf|PDF]], adnotacje: [[motivational_engagement|PDF]] #praca-5b 
 20. GEQ (Game Engagement/Experience Questionnaire): A Review of Two Papers (https://ieeexplore.ieee.org/abstract/document/8154891), PLIK: [[geq.pdf|PDF]], adnotacje: [[geq|PDF]] #praca-5a #praca-5b
 21. LARP: Language-Agent Role Play for Open-World Games (https://arxiv.org/abs/2312.17653), PLIK: [[larp_language.pdf|PDF]], adnotacje: [[larp_language|PDF]] #praca-4d #praca-4e
-22. Toward Automated Quest Generation in Text-Adventure Games (https://arxiv.org/abs/1909.06283), PLIK: [[toward_automated_quest.pdf|PDF]], adnotacje: [[toward_automated_quest|PDF]]
-23. Interactive Fiction Games: A Colossal Adventure (https://arxiv.org/abs/1909.05398), PLIK: [[interactive_fiction.pdf|PDF]], adnotacje: [[interactive_fiction|PDF]]
-24. QuestVille: Procedural Quest Generation Using NLP Models (https://dl.acm.org/doi/abs/10.1145/3582437.3587188), PLIK: [[questville.pdf|PDF]], adnotacje: [[questville|PDF]]
-25. A Behavior Language for Story-based Believable Agents (https://ieeexplore.ieee.org/document/1024751), PLIK: [[a_behavior_language.pdf|PDF]]
+22. Toward Automated Quest Generation in Text-Adventure Games (https://arxiv.org/abs/1909.06283), PLIK: [[toward_automated_quest.pdf|PDF]], adnotacje: [[toward_automated_quest|PDF]] #praca-4d #praca-4e #praca-5a #praca-5b 
+23. Interactive Fiction Games: A Colossal Adventure (https://arxiv.org/abs/1909.05398), PLIK: [[interactive_fiction.pdf|PDF]], adnotacje: [[interactive_fiction|PDF]], #praca-4c #praca-4d 
+24. QuestVille: Procedural Quest Generation Using NLP Models (https://dl.acm.org/doi/abs/10.1145/3582437.3587188), PLIK: [[questville.pdf|PDF]], adnotacje: [[questville|PDF]], #praca-4e 
+25. A Behavior Language for Story-based Believable Agents (https://ieeexplore.ieee.org/document/1024751), PLIK: [[a_behavior_language.pdf|PDF]], adnotacje: [[a_behavior_language|PDF]] #praca-4d 
 
 TUTAJ LINK DO HISTORII NARRACJI: https://www.gamedeveloper.com/design/the-evolution-of-video-games-as-a-storytelling-medium-and-the-role-of-narrative-in-modern-games, PLIK: [[evolution_of_video_games.pdf|PDF]], adnotacje: [[evolution_of_video_games|PDF]], #praca-4a #praca-4b #praca-5a 
 
 HISTORIA NARRACJI STRONKI:
-https://the-artifice.com/final-fantasy-evolution-narratives/, PLIK: ...
-https://www.inverse.com/gaming/25-years-later-the-most-overlooked-final-fantasy-deserves-more-credit, PLIK: ...
-https://tvtropes.org/pmwiki/pmwiki.php/Main/VisualNovel, PLIK: ...
-https://tvtropes.org/pmwiki/pmwiki.php/Main/KineticNovel, PLIK: ...
+https://the-artifice.com/final-fantasy-evolution-narratives/, PLIK: [[The Evolution of Final Fantasy’s Narratives _ The Artifice.pdf|PDF]]
+https://www.inverse.com/gaming/25-years-later-the-most-overlooked-final-fantasy-deserves-more-credit, PLIK: [[25 Years Later, the Most Overlooked Final Fantasy Deserves More Credit.pdf|PDF]]
+https://tvtropes.org/pmwiki/pmwiki.php/Main/VisualNovel, PLIK: [[Visual Novel - TV Tropes.pdf|PDF]]
+https://tvtropes.org/pmwiki/pmwiki.php/Main/KineticNovel, PLIK: [[Kinetic Novel - TV Tropes.pdf|PDF]]
 
 Interactive fiction:
-https://www.youtube.com/watch?v=zP1twKbLmAw, PLIK: ...
-http://www.otchlan.pl/forum/viewtopic.php?f=7&t=1378, PLIK: ...
+https://www.youtube.com/watch?v=zP1twKbLmAw
+http://www.otchlan.pl/forum/viewtopic.php?f=7&t=1378, PLIK: [[Samouczek - Otchłań.pdf|PDF]]
