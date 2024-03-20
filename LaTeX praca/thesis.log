@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  20 MAR 2024 00:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  20 MAR 2024 12:08
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -936,49 +936,60 @@ l.11 }
 Rozdzia\PlPrIeC {\l } 1.
 [4
 
-] [5]) (./chapters/chapter2/chapter2.tex [6]
+]
+Underfull \hbox (badness 2334) in paragraph at lines 80--80
+[]|\T1/qtm/m/n/12 (+20) 5. Cros-sing the first
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]) (./chapters/chapter2/chapter2.tex [7] [8]
 Rozdzia\PlPrIeC {\l } 2.
-) (./chapters/chapter3/chapter3.tex [7
+) (./chapters/chapter3/chapter3.tex [9
 
 ]
 Rozdzia\PlPrIeC {\l } 3.
-) (./chapters/chapter4/chapter4.tex [8
+) (./chapters/chapter4/chapter4.tex [10
 
 ]
 Rozdzia\PlPrIeC {\l } 4.
-) (./chapters/chapter5/chapter5.tex [9
+) (./chapters/chapter5/chapter5.tex [11
 
 ]
 Rozdzia\PlPrIeC {\l } 5.
-) (./summary/summary.tex [10
+) (./summary/summary.tex [12
 
-]) [11
+]) [13
 
 ] (./thesis.lof)
 \tf@lof=\write8
 \openout8 = `thesis.lof'.
 
- [12
+ [14
 
 ] (./thesis.lop)
 \tf@lop=\write9
 \openout9 = `thesis.lop'.
 
- [13
+ [15
 
 ] (./thesis.lot)
 \tf@lot=\write10
 \openout10 = `thesis.lot'.
 
- [14
+ [16
 
-] [15
+] [17
 
 ] (./appendices/appendix1.tex
 Dodatek A.
-) (./thesis.bbl [16
+) (./thesis.bbl [18
 
-]) [17
+]) [19
 
 ] (./thesis.aux)
  ***********
@@ -989,18 +1000,18 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 5B0D56BC5B9E1409D547C8103E88B511;6497.
  ) 
 Here is how much of TeX's memory you used:
- 29408 strings out of 474221
- 546808 string characters out of 5750189
- 1935978 words of memory out of 5000000
+ 29412 strings out of 474221
+ 546842 string characters out of 5750189
+ 1937978 words of memory out of 5000000
  50929 multiletter control sequences out of 15000+600000
- 604481 words of font info for 123 fonts, out of 8000000 for 9000
+ 604564 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 123i,9n,121p,1050b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 123i,10n,121p,1050b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on thesis.pdf (21 pages, 116552 bytes).
+Output written on thesis.pdf (23 pages, 121021 bytes).
 PDF statistics:
- 313 PDF objects out of 1000 (max. 8388607)
- 281 compressed objects within 3 object streams
- 59 named destinations out of 1000 (max. 500000)
+ 323 PDF objects out of 1000 (max. 8388607)
+ 289 compressed objects within 3 object streams
+ 61 named destinations out of 1000 (max. 500000)
  26917 words of extra memory for PDF output out of 29859 (max. 10000000)
 
