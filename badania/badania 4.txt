@@ -1,0 +1,15 @@
+If you do not want to conduct a pilot study and cannot estimate the expected effect size, a common approach is to use a conservative or medium effect size estimate for the power analysis.
+
+Assuming a desired statistical power of 0.8 and a significance level (α) of 0.05, we can calculate the required sample size for a medium effect size (d = 0.5) using a two-tailed independent samples t-test, since your study involves two independent groups (predefined dialogue vs. LLM-enabled dialogue).
+
+Using an online sample size calculator (e.g., https://www.danielsoper.com/statcalc/calculator.aspx?id=48) or statistical software like G*Power, the required total sample size for a medium effect size (d = 0.5), power of 0.8, and α = 0.05 in a two-tailed independent samples t-test is:
+
+N = 128 (64 participants per group)
+
+This means that to have an 80% chance of detecting a medium effect size difference in engagement/immersion between the two conditions, you would need a total sample size of 128 participants, with 64 participants in each group (predefined dialogue and LLM-enabled dialogue).
+
+It's important to note that this sample size calculation assumes a medium effect size, which may be an overestimate or underestimate of the true effect size in your study. If the actual effect size is smaller than 0.5, you may need a larger sample size to achieve adequate power. Conversely, if the effect size is larger than 0.5, you may be able to get away with a smaller sample size.
+
+Additionally, this calculation assumes equal group sizes. If you anticipate or plan for unequal group sizes, the required total sample size may need to be adjusted accordingly.
+
+In summary, based on the assumptions of a desired power of 0.8, a significance level of 0.05, and a medium effect size (d = 0.5), a total sample size of 128 participants (64 per group) would be required for your experiment comparing engagement/immersion between the predefined dialogue and LLM-enabled dialogue conditions. However, it's always a good practice to consider conducting a pilot study to obtain a more accurate estimate of the effect size, which can then be used to refine the sample size calculation for the main study.

@@ -1,0 +1,19 @@
+2. Participant Recruitment and Sample Size:
+   - Determine the required sample size based on a power analysis, considering the expected effect size, desired statistical power, and significance level.
+   - Recruit participants from your target population (e.g., gamers, students, etc.) through appropriate channels (online forums, mailing lists, on-campus recruitment).
+
+3. Experimental Setup:
+   - Create two versions of the visual novel game: one with predefined dialogues and one with an integrated LLM for interactive dialogue.
+   - Ensure that the LLM is properly trained and configured to generate appropriate and coherent responses within the context of the game's narrative and characters.
+   - Set up a controlled environment for participants to play the game, such as a dedicated lab or online platform.
+
+4. Measures and Data Collection:
+   - Identify the dependent variables you want to measure, such as immersion, engagement, narrative coherence, or player satisfaction.
+   - Develop appropriate questionnaires, rating scales, or physiological measures (e.g., eye-tracking, galvanic skin response) to assess these variables.
+   - Collect demographic data (e.g., age, gender, gaming experience) to account for potential confounding variables.
+   - Consider conducting post-game interviews or focus groups to gather qualitative feedback from participants.
+
+6. Data Analysis:
+   - Use appropriate statistical techniques (e.g., t-tests, ANOVA, regression analysis) to analyze the collected data and compare the two experimental groups on the dependent variables.
+   - Investigate potential interactions between the experimental condition and other factors (e.g., demographic variables, gaming experience).
+   - Interpret the results in the context of your research questions and hypotheses.

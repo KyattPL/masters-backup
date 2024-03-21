@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  21 MAR 2024 00:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  21 MAR 2024 18:25
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -733,19 +733,54 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 Package: tocvsec2 2014/03/10 v1.3a variable ToC section entries
 \c@max@tocdepth=\count369
 \c@max@secnumdepth=\count370
+) (c:/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+ (c:/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (c:/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen308
+\captionmargin=\dimen309
+\caption@leftmargin=\dimen310
+\caption@rightmargin=\dimen311
+\caption@width=\dimen312
+\caption@indent=\dimen313
+\caption@parindent=\dimen314
+\caption@hangindent=\dimen315
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\addvspace \abovecaptionskip \bgroup \centeredlast #1.\enspace #2\par \egroup \vskip \belowcaptionskip  on input line 1175.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count371
+\c@continuedfloat=\count372
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: scrextend package is loaded.
+\caption@addmargin@hsize=\dimen316
+\caption@addmargin@linewidth=\dimen317
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count373
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count374
 ) (c:/texlive/2023/texmf-dist/tex/latex/lipsum/lipsum.sty (c:/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty (c:/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2024-01-22 L3 programming layer (loader) 
  (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count371
+\l__color_backend_stack_int=\count375
 \l__pdf_internal_box=\box88
 ))
 Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count372
-\l__lipsum_a_int=\count373
-\l__lipsum_b_int=\count374
+\g__lipsum_par_int=\count376
+\l__lipsum_a_int=\count377
+\l__lipsum_b_int=\count378
  (c:/texlive/2023/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
 runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > thesis.aex <nul: /p x=^%~$PATH:i>> thesis.aex)...executed.
 
@@ -754,38 +789,38 @@ runsystem(del thesis.aex)...executed.
  (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
  (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count375
-\scratchdimen=\dimen308
+\scratchcounter=\count379
+\scratchdimen=\dimen318
 \scratchbox=\box89
-\nofMPsegments=\count376
-\nofMParguments=\count377
+\nofMPsegments=\count380
+\nofMParguments=\count381
 \everyMPshowfont=\toks56
-\MPscratchCnt=\count378
-\MPscratchDim=\dimen309
-\MPnumerator=\count379
-\makeMPintoPDFobject=\count380
+\MPscratchCnt=\count382
+\MPscratchDim=\dimen319
+\MPnumerator=\count383
+\makeMPintoPDFobject=\count384
 \everyMPtoPDFconversion=\toks57
 ) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -827,31 +862,33 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 41.
-Package microtype Info: Applying patch `item' on input line 41.
-Package microtype Info: Applying patch `toc' on input line 41.
-Package microtype Info: Applying patch `eqnum' on input line 41.
-Package microtype Info: Applying patch `footnote' on input line 41.
-Package microtype Info: Applying patch `verbatim' on input line 41.
+LaTeX Info: Redefining \microtypecontext on input line 46.
+Package microtype Info: Applying patch `item' on input line 46.
+Package microtype Info: Applying patch `toc' on input line 46.
+Package microtype Info: Applying patch `eqnum' on input line 46.
+Package microtype Info: Applying patch `footnote' on input line 46.
+Package microtype Info: Applying patch `verbatim' on input line 46.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 41.
+LaTeX Info: Redefining \showhyphens on input line 46.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 (c:/texlive/2023/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-Package hyperref Info: Link coloring OFF on input line 41.
+Package hyperref Info: Link coloring OFF on input line 46.
  (./thesis.out) (./thesis.out)
 \@outlinefile=\write6
 \openout6 = `thesis.out'.
 
-Package hyperref Info: Option `pageanchor' set `false' on input line 44.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Option `pageanchor' set `false' on input line 49.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -887,19 +924,19 @@ Package hyperref Info: Option `pageanchor' set `false' on input line 44.
  (c:/texlive/2023/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (c:/texlive/2023/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (c:/texlive/2023/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Overfull \hbox (59.60358pt too wide) in paragraph at lines 44--44
+Overfull \hbox (59.60358pt too wide) in paragraph at lines 49--49
 [][] 
  []
 
@@ -944,61 +981,95 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: Text page 6 contains only floats.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6]
-<chapters/chapter1/imgs/ch1_1_2_spacewar.jpg, id=239, 1027.84pt x 770.88pt>
+[6]
+<chapters/chapter1/imgs/ch1_1_2_spacewar.jpg, id=241, 1027.84pt x 770.88pt>
 File: chapters/chapter1/imgs/ch1_1_2_spacewar.jpg Graphic file (type jpg)
 <use chapters/chapter1/imgs/ch1_1_2_spacewar.jpg>
-Package pdftex.def Info: chapters/chapter1/imgs/ch1_1_2_spacewar.jpg  used on input line 110.
+Package pdftex.def Info: chapters/chapter1/imgs/ch1_1_2_spacewar.jpg  used on input line 114.
 (pdftex.def)             Requested size: 213.39568pt x 160.04283pt.
-<chapters/chapter1/imgs/ch_1_1_2_pong.jpg, id=240, 963.6pt x 542.025pt>
+<chapters/chapter1/imgs/ch_1_1_2_pong.jpg, id=243, 963.6pt x 542.025pt>
 File: chapters/chapter1/imgs/ch_1_1_2_pong.jpg Graphic file (type jpg)
 <use chapters/chapter1/imgs/ch_1_1_2_pong.jpg>
-Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_2_pong.jpg  used on input line 117.
+Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_2_pong.jpg  used on input line 126.
 (pdftex.def)             Requested size: 213.39568pt x 120.03157pt.
- [7 <./chapters/chapter1/imgs/ch1_1_2_spacewar.jpg> <./chapters/chapter1/imgs/ch_1_1_2_pong.jpg>]) (./chapters/chapter2/chapter2.tex [8]
+ [7 <./chapters/chapter1/imgs/ch1_1_2_spacewar.jpg> <./chapters/chapter1/imgs/ch_1_1_2_pong.jpg>]
+<chapters/chapter1/imgs/ch1_1_2_breakout.jpg, id=253, 263.98625pt x 380.42125pt>
+File: chapters/chapter1/imgs/ch1_1_2_breakout.jpg Graphic file (type jpg)
+<use chapters/chapter1/imgs/ch1_1_2_breakout.jpg>
+Package pdftex.def Info: chapters/chapter1/imgs/ch1_1_2_breakout.jpg  used on input line 143.
+(pdftex.def)             Requested size: 213.39568pt x 307.51259pt.
+<chapters/chapter1/imgs/ch_1_1_2_space_invaders.jpg, id=256, 1284.8pt x 722.7pt>
+File: chapters/chapter1/imgs/ch_1_1_2_space_invaders.jpg Graphic file (type jpg)
+<use chapters/chapter1/imgs/ch_1_1_2_space_invaders.jpg>
+Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_2_space_invaders.jpg  used on input line 159.
+(pdftex.def)             Requested size: 213.39568pt x 120.03433pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8 <./chapters/chapter1/imgs/ch1_1_2_breakout.jpg>]
+<chapters/chapter1/imgs/ch_1_1_2_mario_1.jpg, id=267, 1457.445pt x 1084.05pt>
+File: chapters/chapter1/imgs/ch_1_1_2_mario_1.jpg Graphic file (type jpg)
+<use chapters/chapter1/imgs/ch_1_1_2_mario_1.jpg>
+Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_2_mario_1.jpg  used on input line 182.
+(pdftex.def)             Requested size: 188.2069pt x 170.70569pt.
+<chapters/chapter1/imgs/ch_1_1_2_mario_2.png, id=268, 821.31844pt x 415.5525pt>
+File: chapters/chapter1/imgs/ch_1_1_2_mario_2.png Graphic file (type png)
+<use chapters/chapter1/imgs/ch_1_1_2_mario_2.png>
+Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_2_mario_2.png  used on input line 187.
+(pdftex.def)             Requested size: 188.20999pt x 170.71368pt.
+ [9 <./chapters/chapter1/imgs/ch_1_1_2_space_invaders.jpg> <./chapters/chapter1/imgs/ch_1_1_2_mario_1.jpg> <./chapters/chapter1/imgs/ch_1_1_2_mario_2.png>]
+<chapters/chapter1/imgs/ch_1_1_2_zelda_1.png, id=279, 256.96pt x 240.9pt>
+File: chapters/chapter1/imgs/ch_1_1_2_zelda_1.png Graphic file (type png)
+<use chapters/chapter1/imgs/ch_1_1_2_zelda_1.png>
+Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_2_zelda_1.png  used on input line 208.
+(pdftex.def)             Requested size: 188.21834pt x 170.72038pt.
+<chapters/chapter1/imgs/ch_1_1_2_zelda_2.png, id=280, 638.385pt x 493.845pt>
+File: chapters/chapter1/imgs/ch_1_1_2_zelda_2.png Graphic file (type png)
+<use chapters/chapter1/imgs/ch_1_1_2_zelda_2.png>
+Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_2_zelda_2.png  used on input line 213.
+(pdftex.def)             Requested size: 188.21478pt x 170.71579pt.
+ [10 <./chapters/chapter1/imgs/ch_1_1_2_zelda_1.png> <./chapters/chapter1/imgs/ch_1_1_2_zelda_2.png>]) (./chapters/chapter2/chapter2.tex [11]
 Rozdzia\PlPrIeC {\l } 2.
-) (./chapters/chapter3/chapter3.tex [9
+) (./chapters/chapter3/chapter3.tex [12
 
 ]
 Rozdzia\PlPrIeC {\l } 3.
-) (./chapters/chapter4/chapter4.tex [10
+) (./chapters/chapter4/chapter4.tex [13
 
 ]
 Rozdzia\PlPrIeC {\l } 4.
-) (./chapters/chapter5/chapter5.tex [11
+) (./chapters/chapter5/chapter5.tex [14
 
 ]
 Rozdzia\PlPrIeC {\l } 5.
-) (./summary/summary.tex [12
+) (./summary/summary.tex [15
 
-]) [13
+]) [16
 
 ] (./thesis.lof)
 \tf@lof=\write8
 \openout8 = `thesis.lof'.
 
- [14
+ [17
 
 ] (./thesis.lop)
 \tf@lop=\write9
 \openout9 = `thesis.lop'.
 
- [15
+ [18
 
 ] (./thesis.lot)
 \tf@lot=\write10
 \openout10 = `thesis.lot'.
 
- [16
+ [19
 
-] [17
+] [20
 
 ] (./appendices/appendix1.tex
 Dodatek A.
-) (./thesis.bbl [18
+) (./thesis.bbl [21
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 13.
@@ -1010,21 +1081,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 4846) in paragraph at lines 13--14
-[]\T1/qtm/m/n/10.95 (+20) Stone, C., \T1/qtm/m/it/10.95 (+20) The evo-lu-tion of vi-deo ga-mes as a sto-ry-tel-ling me-dium, and the ro-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
-\T1/qtm/m/it/10.95 (+20) le of nar-ra-ti-ve in mo-dern ga-mes\T1/qtm/m/n/10.95 (+20) , []$\T1/cmtt/m/n/10.95 https : / / www . gamedeveloper . com / design /
+\T1/cmtt/m/n/10.95 games -[] as -[] a -[] storytelling -[] medium -[] and -[] the -[] role -[] of -[] narrative -[] in -[] modern -[]
  []
 
-
-Overfull \hbox (139.38733pt too wide) in paragraph at lines 13--14
-\T1/cmtt/m/n/10.95 the-[]evolution-[]of-[]video-[]games-[]as-[]a-[]storytelling-[]medium-[]and-[]the-[]role-[]of-[]narrative-[]in-[]modern-[]games$[]\T1/qtm/m/n/10.95 (-20) .
- []
-
-) [19
+) [22
 
 {c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./thesis.aux)
  ***********
@@ -1032,21 +1093,21 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 5B0D56BC5B9E1409D547C8103E88B511;6497.
+(rerunfilecheck)             Checksum: 1FC9B456DCDE17EB30A7AE007322BAF2;6499.
  ) 
 Here is how much of TeX's memory you used:
- 29476 strings out of 474221
- 548652 string characters out of 5750189
- 1937978 words of memory out of 5000000
- 50975 multiletter control sequences out of 15000+600000
- 605408 words of font info for 130 fonts, out of 8000000 for 9000
+ 30962 strings out of 474221
+ 578957 string characters out of 5750189
+ 1938978 words of memory out of 5000000
+ 52437 multiletter control sequences out of 15000+600000
+ 605878 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 123i,10n,121p,1050b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on thesis.pdf (23 pages, 255646 bytes).
+ 123i,10n,121p,1050b,545s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on thesis.pdf (26 pages, 805671 bytes).
 PDF statistics:
- 346 PDF objects out of 1000 (max. 8388607)
- 307 compressed objects within 4 object streams
- 64 named destinations out of 1000 (max. 500000)
- 27439 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 393 PDF objects out of 1000 (max. 8388607)
+ 340 compressed objects within 4 object streams
+ 71 named destinations out of 1000 (max. 500000)
+ 27469 words of extra memory for PDF output out of 29859 (max. 10000000)
 

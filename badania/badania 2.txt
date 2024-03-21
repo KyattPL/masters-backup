@@ -1,0 +1,20 @@
+Regarding your concerns about conducting an A/B test with two versions of the game, here are some suggestions:
+
+1. Sample Selection and Size:
+   - For a controlled experiment, it is generally recommended to have a representative sample of your target population (e.g., gamers, visual novel enthusiasts).
+   - Sample size calculation depends on several factors, such as the expected effect size, desired statistical power, and significance level. A power analysis can help determine the appropriate sample size.
+   - If possible, aim for a larger sample size to increase the statistical power and reduce the risk of false negatives (failing to detect an effect that is present).
+   - Conducting the experiment locally (e.g., in a lab setting) can provide better control over the experimental environment but may limit the sample size due to logistical constraints.
+   - An online study can potentially reach a larger and more diverse sample, but you may have less control over the environment and participant behavior.
+
+2. Expectations and Potential Challenges:
+   - Interactive dialogue with an LLM can indeed offer more freedom and immersion for participants, as they can explore the narrative and characters in a more natural and open-ended way.
+   - However, you raise a valid point about choice paralysis. Some participants may struggle with the open-ended nature of the interaction and feel overwhelmed by the need to formulate questions or prompts.
+   - To mitigate this, you could consider providing some guidance or examples to participants on how to interact with the LLM effectively. This could be done through tutorials, prompts, or even initial hand-holding in the early stages of the game.
+   - Additionally, you may want to measure participants' experience with open-ended dialogue systems or their preference for more structured versus open-ended gameplay as potential moderating variables.
+   - It's also essential to set realistic expectations for the LLM's capabilities and limitations. While it can generate coherent and contextually appropriate responses, there may be instances where the responses are suboptimal or inconsistent with the intended narrative.
+   - Gathering qualitative feedback through post-game interviews or focus groups can provide valuable insights into participants' experiences, frustrations, and overall impressions of the two versions.
+
+Considering these points, you may want to conduct a pilot study with a smaller sample to identify and address potential issues before running the main experiment. This can help refine the experimental design, instructions, and measures to ensure a smoother and more informative experience for participants.
+
+Remember, there are trade-offs between sample size, experimental control, and ecological validity (how well the experiment reflects real-world conditions). Consult with your thesis advisor or a statistician to determine the most appropriate approach given your research goals, resources, and constraints.
