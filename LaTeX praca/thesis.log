@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  24 MAR 2024 23:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  30 MAR 2024 17:16
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1126,50 +1126,130 @@ Underfull \hbox (badness 10000) in paragraph at lines 333--335
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13 <./chapters/chapter1/imgs/ch_1_1_2_lis_1.png> <./chapters/chapter1/imgs/ch_1_1_2_lis_2.png>]) (./chapters/chapter2/chapter2.tex [14 <./chapters/chapter1/imgs/ch_1_1_2_witcher_1.png> <./chapters/chapter1/imgs/ch_1_1_2_witcher_2.png>] [15]
+[13 <./chapters/chapter1/imgs/ch_1_1_2_lis_1.png> <./chapters/chapter1/imgs/ch_1_1_2_lis_2.png>]
+<chapters/chapter1/imgs/ch_1_1_3_ff1_1.png, id=329, 588.69937pt x 548.0475pt>
+File: chapters/chapter1/imgs/ch_1_1_3_ff1_1.png Graphic file (type png)
+<use chapters/chapter1/imgs/ch_1_1_3_ff1_1.png>
+Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_3_ff1_1.png  used on input line 381.
+(pdftex.def)             Requested size: 209.12897pt x 170.72086pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--383
+[][]
+ []
+
+<chapters/chapter1/imgs/ch_1_1_3_ff1_2.png, id=330, 581.92406pt x 536.75531pt>
+File: chapters/chapter1/imgs/ch_1_1_3_ff1_2.png Graphic file (type png)
+<use chapters/chapter1/imgs/ch_1_1_3_ff1_2.png>
+Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_3_ff1_2.png  used on input line 386.
+(pdftex.def)             Requested size: 209.12843pt x 170.71686pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 386--388
+[][]
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14 <./chapters/chapter1/imgs/ch_1_1_2_witcher_1.png> <./chapters/chapter1/imgs/ch_1_1_2_witcher_2.png>]
+<chapters/chapter1/imgs/ch_1_1_3_ff7_1.png, id=344, 755.07094pt x 433.62pt>
+File: chapters/chapter1/imgs/ch_1_1_3_ff7_1.png Graphic file (type png)
+<use chapters/chapter1/imgs/ch_1_1_3_ff7_1.png>
+Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_3_ff7_1.png  used on input line 426.
+(pdftex.def)             Requested size: 209.12566pt x 170.71892pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--428
+[][]
+ []
+
+<chapters/chapter1/imgs/ch_1_1_3_ff7_2.png, id=345, 724.95844pt x 474.27188pt>
+File: chapters/chapter1/imgs/ch_1_1_3_ff7_2.png Graphic file (type png)
+<use chapters/chapter1/imgs/ch_1_1_3_ff7_2.png>
+Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_3_ff7_2.png  used on input line 431.
+(pdftex.def)             Requested size: 209.12636pt x 170.71603pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--433
+[][]
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15 <./chapters/chapter1/imgs/ch_1_1_3_ff1_1.png> <./chapters/chapter1/imgs/ch_1_1_3_ff1_2.png>]
+<chapters/chapter1/imgs/ch_1_1_3_ff10_1.png, id=354, 767.86874pt x 532.23843pt>
+File: chapters/chapter1/imgs/ch_1_1_3_ff10_1.png Graphic file (type png)
+<use chapters/chapter1/imgs/ch_1_1_3_ff10_1.png>
+Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_3_ff10_1.png  used on input line 451.
+(pdftex.def)             Requested size: 209.1317pt x 170.7096pt.
+<chapters/chapter1/imgs/ch_1_1_3_ff10_2.png, id=355, 538.26094pt x 428.35031pt>
+File: chapters/chapter1/imgs/ch_1_1_3_ff10_2.png Graphic file (type png)
+<use chapters/chapter1/imgs/ch_1_1_3_ff10_2.png>
+Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_3_ff10_2.png  used on input line 456.
+(pdftex.def)             Requested size: 209.13245pt x 170.71616pt.
+ [16 <./chapters/chapter1/imgs/ch_1_1_3_ff7_1.png> <./chapters/chapter1/imgs/ch_1_1_3_ff7_2.png> <./chapters/chapter1/imgs/ch_1_1_3_ff10_1.png> <./chapters/chapter1/imgs/ch_1_1_3_ff10_2.png>]
+<chapters/chapter1/imgs/ch_1_1_3_ff13_1.png, id=363, 572.1375pt x 454.69875pt>
+File: chapters/chapter1/imgs/ch_1_1_3_ff13_1.png Graphic file (type png)
+<use chapters/chapter1/imgs/ch_1_1_3_ff13_1.png>
+Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_3_ff13_1.png  used on input line 475.
+(pdftex.def)             Requested size: 209.12964pt x 170.71974pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 475--477
+[][]
+ []
+
+<chapters/chapter1/imgs/ch_1_1_3_ff13_2.png, id=364, 1492.0258pt x 839.26451pt>
+File: chapters/chapter1/imgs/ch_1_1_3_ff13_2.png Graphic file (type png)
+<use chapters/chapter1/imgs/ch_1_1_3_ff13_2.png>
+Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_3_ff13_2.png  used on input line 480.
+(pdftex.def)             Requested size: 209.10985pt x 170.71849pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 480--482
+[][]
+ []
+
+[17 <./chapters/chapter1/imgs/ch_1_1_3_ff13_1.png> <./chapters/chapter1/imgs/ch_1_1_3_ff13_2.png>]) (./chapters/chapter2/chapter2.tex [18]
 Rozdzia\PlPrIeC {\l } 2.
-) (./chapters/chapter3/chapter3.tex [16
+) (./chapters/chapter3/chapter3.tex [19
 
 ]
 Rozdzia\PlPrIeC {\l } 3.
-) (./chapters/chapter4/chapter4.tex [17
+) (./chapters/chapter4/chapter4.tex [20
 
 ]
 Rozdzia\PlPrIeC {\l } 4.
-) (./chapters/chapter5/chapter5.tex [18
+) (./chapters/chapter5/chapter5.tex [21
 
 ]
 Rozdzia\PlPrIeC {\l } 5.
-) (./summary/summary.tex [19
+) (./summary/summary.tex [22
 
-]) [20
+]) [23
 
 ] (./thesis.lof)
 \tf@lof=\write8
 \openout8 = `thesis.lof'.
 
- [21
+ [24
 
 ] (./thesis.lop)
 \tf@lop=\write9
 \openout9 = `thesis.lop'.
 
- [22
+ [25
 
 ] (./thesis.lot)
 \tf@lot=\write10
 \openout10 = `thesis.lot'.
 
- [23
+ [26
 
-] [24
+] [27
 
 ] (./appendices/appendix1.tex
 Dodatek A.
-) (./thesis.bbl [25
+) (./thesis.bbl [28
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 13.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 7.
  (c:/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
@@ -1178,11 +1258,21 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 1533) in paragraph at lines 10--11
+[]\T1/qtm/m/n/10.95 (+20) Madsen, H., \T1/qtm/m/it/10.95 (+20) 25 years la-ter, the most over-lo-oked fi-nal fan-ta-sy de-se-rves mo-re cre-dit\T1/qtm/m/n/10.95 (+20) ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[]$\T1/cmtt/m/n/10.95 https : / / www\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 inverse\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 com / gaming / 25 -[] years -[] later -[] the -[] most -[] overlooked -[] final -[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
 \T1/cmtt/m/n/10.95 games -[] as -[] a -[] storytelling -[] medium -[] and -[] the -[] role -[] of -[] narrative -[] in -[] modern -[]
  []
 
-) [26
+) [29
 
 {c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./thesis.aux)
  ***********
@@ -1190,21 +1280,21 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: A4B9BAEAC4C4F38E1A255E4A95ED4C58;6499.
+(rerunfilecheck)             Checksum: 8E4D2FE0B16CF198445492912C28A492;6499.
  ) 
 Here is how much of TeX's memory you used:
- 31066 strings out of 474221
- 582738 string characters out of 5750189
+ 31179 strings out of 474221
+ 586611 string characters out of 5750189
  1938978 words of memory out of 5000000
- 52529 multiletter control sequences out of 15000+600000
- 606090 words of font info for 136 fonts, out of 8000000 for 9000
+ 52623 multiletter control sequences out of 15000+600000
+ 606666 words of font info for 141 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  123i,10n,121p,1050b,545s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on thesis.pdf (30 pages, 7639223 bytes).
+Output written on thesis.pdf (33 pages, 12928251 bytes).
 PDF statistics:
- 437 PDF objects out of 1000 (max. 8388607)
- 372 compressed objects within 4 object streams
- 79 named destinations out of 1000 (max. 500000)
- 27509 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 493 PDF objects out of 1000 (max. 8388607)
+ 416 compressed objects within 5 object streams
+ 88 named destinations out of 1000 (max. 500000)
+ 27549 words of extra memory for PDF output out of 29859 (max. 10000000)
 

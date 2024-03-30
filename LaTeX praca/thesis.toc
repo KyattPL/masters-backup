@@ -14,27 +14,27 @@
 \contentsline {subsection}{\numberline {1.1.1\relax .\enspace }Definicja narracji}{4}{subsection.1.1.1}%
 \contentsline {subsection}{\numberline {1.1.2\relax .\enspace }Przedstawienie narracji w grach na przestrzeni lat}{7}{subsection.1.1.2}%
 \contentsline {subsection}{\numberline {1.1.3\relax .\enspace }Prześledzenie rozwoju narracji na przykładzie serii Final Fantasy}{14}{subsection.1.1.3}%
-\contentsline {section}{\numberline {1.2\relax .\enspace }Rodzaje narracji w grach komputerowych}{14}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1\relax .\enspace }Struktury narracji}{14}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2\relax .\enspace }Rodzaje narracji}{14}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3\relax .\enspace }Techniki przedstawienia narracji}{14}{subsection.1.2.3}%
-\contentsline {section}{\numberline {1.3\relax .\enspace }Systemy dialogowe w grach komputerowych}{14}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1\relax .\enspace }Popularne systemy dialogowe}{14}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2\relax .\enspace }Interaktywna fikcja - system poleceń}{15}{subsection.1.3.2}%
-\contentsline {chapter}{\numberline {2\relax .\enspace }Sposoby generowania narracji}{16}{chapter.2}%
-\contentsline {section}{\numberline {2.1\relax .\enspace }Wykorzystanie algorytmów sztucznej inteligencji do kreowania narracji}{16}{section.2.1}%
-\contentsline {section}{\numberline {2.2\relax .\enspace }Wykorzystanie dużych modeli językowych (LLM) do kreowania narracji}{16}{section.2.2}%
-\contentsline {chapter}{\numberline {3\relax .\enspace }Zaangażowanie gracza}{17}{chapter.3}%
-\contentsline {section}{\numberline {3.1\relax .\enspace }Wpływ narracji na zaangażowanie}{17}{section.3.1}%
-\contentsline {section}{\numberline {3.2\relax .\enspace }Sposoby mierzenia zaangażowania gracza}{17}{section.3.2}%
-\contentsline {chapter}{\numberline {4\relax .\enspace }Planowany eksperyment}{18}{chapter.4}%
-\contentsline {section}{\numberline {4.1\relax .\enspace }Projekt gry wykorzystanej w eksperymencie}{18}{section.4.1}%
-\contentsline {section}{\numberline {4.2\relax .\enspace }Opis generatywnych agentów}{18}{section.4.2}%
-\contentsline {chapter}{\numberline {5\relax .\enspace }Wyniki}{19}{chapter.5}%
-\contentsline {chapter}{Podsumowanie}{20}{chapter*.19}%
-\contentsline {chapter}{Spis rysunk\'ow}{21}{chapter*.20}%
-\contentsline {chapter}{Spis listingów}{22}{chapter*.21}%
-\contentsline {chapter}{Spis tabel}{23}{chapter*.22}%
-\contentsline {chapter}{Dodatki}{24}{section*.23}%
-\contentsline {chapter}{\numberline {A\relax .\enspace }Dodatek 1}{25}{appendix.A}%
-\contentsline {chapter}{Bibliografia}{26}{chapter*.24}%
+\contentsline {section}{\numberline {1.2\relax .\enspace }Rodzaje narracji w grach komputerowych}{17}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1\relax .\enspace }Struktury narracji}{17}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2\relax .\enspace }Rodzaje narracji}{17}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3\relax .\enspace }Techniki przedstawienia narracji}{18}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3\relax .\enspace }Systemy dialogowe w grach komputerowych}{18}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1\relax .\enspace }Popularne systemy dialogowe}{18}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2\relax .\enspace }Interaktywna fikcja - system poleceń}{18}{subsection.1.3.2}%
+\contentsline {chapter}{\numberline {2\relax .\enspace }Sposoby generowania narracji}{19}{chapter.2}%
+\contentsline {section}{\numberline {2.1\relax .\enspace }Wykorzystanie algorytmów sztucznej inteligencji do kreowania narracji}{19}{section.2.1}%
+\contentsline {section}{\numberline {2.2\relax .\enspace }Wykorzystanie dużych modeli językowych (LLM) do kreowania narracji}{19}{section.2.2}%
+\contentsline {chapter}{\numberline {3\relax .\enspace }Zaangażowanie gracza}{20}{chapter.3}%
+\contentsline {section}{\numberline {3.1\relax .\enspace }Wpływ narracji na zaangażowanie}{20}{section.3.1}%
+\contentsline {section}{\numberline {3.2\relax .\enspace }Sposoby mierzenia zaangażowania gracza}{20}{section.3.2}%
+\contentsline {chapter}{\numberline {4\relax .\enspace }Planowany eksperyment}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1\relax .\enspace }Projekt gry wykorzystanej w eksperymencie}{21}{section.4.1}%
+\contentsline {section}{\numberline {4.2\relax .\enspace }Opis generatywnych agentów}{21}{section.4.2}%
+\contentsline {chapter}{\numberline {5\relax .\enspace }Wyniki}{22}{chapter.5}%
+\contentsline {chapter}{Podsumowanie}{23}{chapter*.23}%
+\contentsline {chapter}{Spis rysunk\'ow}{24}{chapter*.24}%
+\contentsline {chapter}{Spis listingów}{25}{chapter*.25}%
+\contentsline {chapter}{Spis tabel}{26}{chapter*.26}%
+\contentsline {chapter}{Dodatki}{27}{section*.27}%
+\contentsline {chapter}{\numberline {A\relax .\enspace }Dodatek 1}{28}{appendix.A}%
+\contentsline {chapter}{Bibliografia}{29}{chapter*.28}%

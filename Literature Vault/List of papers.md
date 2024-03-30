@@ -27,11 +27,11 @@
 TUTAJ LINK DO HISTORII NARRACJI: https://www.gamedeveloper.com/design/the-evolution-of-video-games-as-a-storytelling-medium-and-the-role-of-narrative-in-modern-games, PLIK: [[evolution_of_video_games.pdf|PDF]], adnotacje: [[evolution_of_video_games|PDF]], #praca-4a #praca-4b #praca-5a 
 
 HISTORIA NARRACJI STRONKI:
-https://the-artifice.com/final-fantasy-evolution-narratives/, PLIK: [[The Evolution of Final Fantasy’s Narratives _ The Artifice.pdf|PDF]]
-https://www.inverse.com/gaming/25-years-later-the-most-overlooked-final-fantasy-deserves-more-credit, PLIK: [[25 Years Later, the Most Overlooked Final Fantasy Deserves More Credit.pdf|PDF]]
-https://tvtropes.org/pmwiki/pmwiki.php/Main/VisualNovel, PLIK: [[Visual Novel - TV Tropes.pdf|PDF]]
-https://tvtropes.org/pmwiki/pmwiki.php/Main/KineticNovel, PLIK: [[Kinetic Novel - TV Tropes.pdf|PDF]]
+https://the-artifice.com/final-fantasy-evolution-narratives/, PLIK: [[The Evolution of Final Fantasy’s Narratives _ The Artifice.pdf|PDF]] #praca-4a 
+https://www.inverse.com/gaming/25-years-later-the-most-overlooked-final-fantasy-deserves-more-credit, PLIK: [[25 Years Later, the Most Overlooked Final Fantasy Deserves More Credit.pdf|PDF]] #praca-4a 
+https://tvtropes.org/pmwiki/pmwiki.php/Main/VisualNovel, PLIK: [[Visual Novel - TV Tropes.pdf|PDF]] #praca-6a
+https://tvtropes.org/pmwiki/pmwiki.php/Main/KineticNovel, PLIK: [[Kinetic Novel - TV Tropes.pdf|PDF]] #praca-6a 
 
 Interactive fiction:
-https://www.youtube.com/watch?v=zP1twKbLmAw
-http://www.otchlan.pl/forum/viewtopic.php?f=7&t=1378, PLIK: [[Samouczek - Otchłań.pdf|PDF]]
+https://www.youtube.com/watch?v=zP1twKbLmAw #praca-4c 
+http://www.otchlan.pl/forum/viewtopic.php?f=7&t=1378, PLIK: [[Samouczek - Otchłań.pdf|PDF]] #praca-4c 
