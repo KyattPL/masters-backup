@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  30 MAR 2024 17:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  4 APR 2024 15:43
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -982,23 +982,23 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: Text page 6 contains only floats.
 
 [6]
-<chapters/chapter1/imgs/ch1_1_2_spacewar.jpg, id=241, 1027.84pt x 770.88pt>
+<chapters/chapter1/imgs/ch1_1_2_spacewar.jpg, id=236, 1027.84pt x 770.88pt>
 File: chapters/chapter1/imgs/ch1_1_2_spacewar.jpg Graphic file (type jpg)
 <use chapters/chapter1/imgs/ch1_1_2_spacewar.jpg>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_1_2_spacewar.jpg  used on input line 114.
 (pdftex.def)             Requested size: 213.39568pt x 160.04283pt.
-<chapters/chapter1/imgs/ch_1_1_2_pong.jpg, id=243, 963.6pt x 542.025pt>
+<chapters/chapter1/imgs/ch_1_1_2_pong.jpg, id=238, 963.6pt x 542.025pt>
 File: chapters/chapter1/imgs/ch_1_1_2_pong.jpg Graphic file (type jpg)
 <use chapters/chapter1/imgs/ch_1_1_2_pong.jpg>
 Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_2_pong.jpg  used on input line 126.
 (pdftex.def)             Requested size: 213.39568pt x 120.03157pt.
  [7 <./chapters/chapter1/imgs/ch1_1_2_spacewar.jpg> <./chapters/chapter1/imgs/ch_1_1_2_pong.jpg>]
-<chapters/chapter1/imgs/ch1_1_2_breakout.jpg, id=253, 263.98625pt x 380.42125pt>
+<chapters/chapter1/imgs/ch1_1_2_breakout.jpg, id=248, 263.98625pt x 380.42125pt>
 File: chapters/chapter1/imgs/ch1_1_2_breakout.jpg Graphic file (type jpg)
 <use chapters/chapter1/imgs/ch1_1_2_breakout.jpg>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_1_2_breakout.jpg  used on input line 143.
 (pdftex.def)             Requested size: 213.39568pt x 307.51259pt.
-<chapters/chapter1/imgs/ch_1_1_2_space_invaders.jpg, id=256, 1284.8pt x 722.7pt>
+<chapters/chapter1/imgs/ch_1_1_2_space_invaders.jpg, id=251, 1284.8pt x 722.7pt>
 File: chapters/chapter1/imgs/ch_1_1_2_space_invaders.jpg Graphic file (type jpg)
 <use chapters/chapter1/imgs/ch_1_1_2_space_invaders.jpg>
 Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_2_space_invaders.jpg  used on input line 159.
@@ -1008,7 +1008,7 @@ Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_2_space_invaders.jpg  use
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [8 <./chapters/chapter1/imgs/ch1_1_2_breakout.jpg>]
-<chapters/chapter1/imgs/ch_1_1_2_mario_1.jpg, id=267, 1457.445pt x 1084.05pt>
+<chapters/chapter1/imgs/ch_1_1_2_mario_1.jpg, id=262, 1457.445pt x 1084.05pt>
 File: chapters/chapter1/imgs/ch_1_1_2_mario_1.jpg Graphic file (type jpg)
 <use chapters/chapter1/imgs/ch_1_1_2_mario_1.jpg>
 Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_2_mario_1.jpg  used on input line 182.
@@ -1018,7 +1018,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 182--184
 [][]
  []
 
-<chapters/chapter1/imgs/ch_1_1_2_mario_2.png, id=268, 821.31844pt x 415.5525pt>
+<chapters/chapter1/imgs/ch_1_1_2_mario_2.png, id=263, 821.31844pt x 415.5525pt>
 File: chapters/chapter1/imgs/ch_1_1_2_mario_2.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch_1_1_2_mario_2.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_2_mario_2.png  used on input line 187.
@@ -1029,12 +1029,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 187--189
  []
 
 [9 <./chapters/chapter1/imgs/ch_1_1_2_space_invaders.jpg> <./chapters/chapter1/imgs/ch_1_1_2_mario_1.jpg> <./chapters/chapter1/imgs/ch_1_1_2_mario_2.png>]
-<chapters/chapter1/imgs/ch_1_1_2_zelda_1.png, id=279, 256.96pt x 240.9pt>
+<chapters/chapter1/imgs/ch_1_1_2_zelda_1.png, id=274, 256.96pt x 240.9pt>
 File: chapters/chapter1/imgs/ch_1_1_2_zelda_1.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch_1_1_2_zelda_1.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_2_zelda_1.png  used on input line 208.
 (pdftex.def)             Requested size: 209.13235pt x 170.72038pt.
-<chapters/chapter1/imgs/ch_1_1_2_zelda_2.png, id=280, 638.385pt x 493.845pt>
+<chapters/chapter1/imgs/ch_1_1_2_zelda_2.png, id=275, 638.385pt x 493.845pt>
 File: chapters/chapter1/imgs/ch_1_1_2_zelda_2.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch_1_1_2_zelda_2.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_2_zelda_2.png  used on input line 213.
@@ -1045,11 +1045,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 213--215
  []
 
 
+LaTeX Warning: Reference `subsection:ch1_2_3' on page 10 undefined on input line 227.
+
+
 Overfull \hbox (1.1263pt too wide) in paragraph at lines 224--237
 []\T1/qtm/m/n/12 (-20) Pierwszym ty-tu-ªem opi-sa-nym w tej pod-sek-cji, któ-ry ope-ru-je na per-spek-ty-wie 3-osobowej
  []
 
-<chapters/chapter1/imgs/ch_1_1_2_crash_1.png, id=283, 736.25063pt x 557.08125pt>
+<chapters/chapter1/imgs/ch_1_1_2_crash_1.png, id=277, 736.25063pt x 557.08125pt>
 File: chapters/chapter1/imgs/ch_1_1_2_crash_1.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch_1_1_2_crash_1.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_2_crash_1.png  used on input line 241.
@@ -1059,7 +1062,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 241--243
 [][]
  []
 
-<chapters/chapter1/imgs/ch_1_1_2_crash_2.png, id=284, 749.04843pt x 508.14844pt>
+<chapters/chapter1/imgs/ch_1_1_2_crash_2.png, id=278, 749.04843pt x 508.14844pt>
 File: chapters/chapter1/imgs/ch_1_1_2_crash_2.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch_1_1_2_crash_2.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_2_crash_2.png  used on input line 246.
@@ -1070,7 +1073,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 246--248
  []
 
 [10 <./chapters/chapter1/imgs/ch_1_1_2_zelda_1.png> <./chapters/chapter1/imgs/ch_1_1_2_zelda_2.png>]
-<chapters/chapter1/imgs/ch_1_1_2_hl_1.png, id=292, 895.84688pt x 472.01344pt>
+<chapters/chapter1/imgs/ch_1_1_2_hl_1.png, id=286, 895.84688pt x 472.01344pt>
 File: chapters/chapter1/imgs/ch_1_1_2_hl_1.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch_1_1_2_hl_1.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_2_hl_1.png  used on input line 268.
@@ -1080,7 +1083,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 268--270
 [][]
  []
 
-<chapters/chapter1/imgs/ch_1_1_2_hl_2.png, id=293, 210.03468pt x 196.48407pt>
+<chapters/chapter1/imgs/ch_1_1_2_hl_2.png, id=287, 210.03468pt x 196.48407pt>
 File: chapters/chapter1/imgs/ch_1_1_2_hl_2.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch_1_1_2_hl_2.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_2_hl_2.png  used on input line 273.
@@ -1089,7 +1092,7 @@ Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_2_hl_2.png  used on input
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [11 <./chapters/chapter1/imgs/ch_1_1_2_crash_1.png> <./chapters/chapter1/imgs/ch_1_1_2_crash_2.png>]
-<chapters/chapter1/imgs/ch_1_1_2_lis_1.png, id=303, 1405.25pt x 790.955pt>
+<chapters/chapter1/imgs/ch_1_1_2_lis_1.png, id=297, 1405.25pt x 790.955pt>
 File: chapters/chapter1/imgs/ch_1_1_2_lis_1.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch_1_1_2_lis_1.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_2_lis_1.png  used on input line 301.
@@ -1099,7 +1102,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 301--303
 [][]
  []
 
-<chapters/chapter1/imgs/ch_1_1_2_lis_2.png, id=304, 642.4pt x 361.35pt>
+<chapters/chapter1/imgs/ch_1_1_2_lis_2.png, id=298, 642.4pt x 361.35pt>
 File: chapters/chapter1/imgs/ch_1_1_2_lis_2.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch_1_1_2_lis_2.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_2_lis_2.png  used on input line 306.
@@ -1108,12 +1111,12 @@ Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_2_lis_2.png  used on inpu
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [12 <./chapters/chapter1/imgs/ch_1_1_2_hl_1.png> <./chapters/chapter1/imgs/ch_1_1_2_hl_2.png>]
-<chapters/chapter1/imgs/ch_1_1_2_witcher_1.png, id=312, 968.86969pt x 696.35156pt>
+<chapters/chapter1/imgs/ch_1_1_2_witcher_1.png, id=306, 968.86969pt x 696.35156pt>
 File: chapters/chapter1/imgs/ch_1_1_2_witcher_1.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch_1_1_2_witcher_1.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_2_witcher_1.png  used on input line 328.
 (pdftex.def)             Requested size: 209.13081pt x 170.70856pt.
-<chapters/chapter1/imgs/ch_1_1_2_witcher_2.png, id=313, 3854.4pt x 2168.1pt>
+<chapters/chapter1/imgs/ch_1_1_2_witcher_2.png, id=307, 3854.4pt x 2168.1pt>
 File: chapters/chapter1/imgs/ch_1_1_2_witcher_2.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch_1_1_2_witcher_2.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_2_witcher_2.png  used on input line 333.
@@ -1127,7 +1130,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 333--335
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13 <./chapters/chapter1/imgs/ch_1_1_2_lis_1.png> <./chapters/chapter1/imgs/ch_1_1_2_lis_2.png>]
-<chapters/chapter1/imgs/ch_1_1_3_ff1_1.png, id=329, 588.69937pt x 548.0475pt>
+
+LaTeX Warning: Reference `subsection:ch1_2_3' on page 14 undefined on input line 373.
+
+<chapters/chapter1/imgs/ch_1_1_3_ff1_1.png, id=322, 588.69937pt x 548.0475pt>
 File: chapters/chapter1/imgs/ch_1_1_3_ff1_1.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch_1_1_3_ff1_1.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_3_ff1_1.png  used on input line 381.
@@ -1137,7 +1143,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 381--383
 [][]
  []
 
-<chapters/chapter1/imgs/ch_1_1_3_ff1_2.png, id=330, 581.92406pt x 536.75531pt>
+<chapters/chapter1/imgs/ch_1_1_3_ff1_2.png, id=323, 581.92406pt x 536.75531pt>
 File: chapters/chapter1/imgs/ch_1_1_3_ff1_2.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch_1_1_3_ff1_2.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_3_ff1_2.png  used on input line 386.
@@ -1151,7 +1157,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 386--388
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [14 <./chapters/chapter1/imgs/ch_1_1_2_witcher_1.png> <./chapters/chapter1/imgs/ch_1_1_2_witcher_2.png>]
-<chapters/chapter1/imgs/ch_1_1_3_ff7_1.png, id=344, 755.07094pt x 433.62pt>
+<chapters/chapter1/imgs/ch_1_1_3_ff7_1.png, id=337, 755.07094pt x 433.62pt>
 File: chapters/chapter1/imgs/ch_1_1_3_ff7_1.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch_1_1_3_ff7_1.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_3_ff7_1.png  used on input line 426.
@@ -1161,7 +1167,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 426--428
 [][]
  []
 
-<chapters/chapter1/imgs/ch_1_1_3_ff7_2.png, id=345, 724.95844pt x 474.27188pt>
+<chapters/chapter1/imgs/ch_1_1_3_ff7_2.png, id=338, 724.95844pt x 474.27188pt>
 File: chapters/chapter1/imgs/ch_1_1_3_ff7_2.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch_1_1_3_ff7_2.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_3_ff7_2.png  used on input line 431.
@@ -1175,18 +1181,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 431--433
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [15 <./chapters/chapter1/imgs/ch_1_1_3_ff1_1.png> <./chapters/chapter1/imgs/ch_1_1_3_ff1_2.png>]
-<chapters/chapter1/imgs/ch_1_1_3_ff10_1.png, id=354, 767.86874pt x 532.23843pt>
+<chapters/chapter1/imgs/ch_1_1_3_ff10_1.png, id=347, 767.86874pt x 532.23843pt>
 File: chapters/chapter1/imgs/ch_1_1_3_ff10_1.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch_1_1_3_ff10_1.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_3_ff10_1.png  used on input line 451.
 (pdftex.def)             Requested size: 209.1317pt x 170.7096pt.
-<chapters/chapter1/imgs/ch_1_1_3_ff10_2.png, id=355, 538.26094pt x 428.35031pt>
+<chapters/chapter1/imgs/ch_1_1_3_ff10_2.png, id=348, 538.26094pt x 428.35031pt>
 File: chapters/chapter1/imgs/ch_1_1_3_ff10_2.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch_1_1_3_ff10_2.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_3_ff10_2.png  used on input line 456.
 (pdftex.def)             Requested size: 209.13245pt x 170.71616pt.
  [16 <./chapters/chapter1/imgs/ch_1_1_3_ff7_1.png> <./chapters/chapter1/imgs/ch_1_1_3_ff7_2.png> <./chapters/chapter1/imgs/ch_1_1_3_ff10_1.png> <./chapters/chapter1/imgs/ch_1_1_3_ff10_2.png>]
-<chapters/chapter1/imgs/ch_1_1_3_ff13_1.png, id=363, 572.1375pt x 454.69875pt>
+<chapters/chapter1/imgs/ch_1_1_3_ff13_1.png, id=356, 572.1375pt x 454.69875pt>
 File: chapters/chapter1/imgs/ch_1_1_3_ff13_1.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch_1_1_3_ff13_1.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_3_ff13_1.png  used on input line 475.
@@ -1196,7 +1202,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 475--477
 [][]
  []
 
-<chapters/chapter1/imgs/ch_1_1_3_ff13_2.png, id=364, 1492.0258pt x 839.26451pt>
+<chapters/chapter1/imgs/ch_1_1_3_ff13_2.png, id=357, 1492.0258pt x 839.26451pt>
 File: chapters/chapter1/imgs/ch_1_1_3_ff13_2.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch_1_1_3_ff13_2.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch_1_1_3_ff13_2.png  used on input line 480.
@@ -1279,22 +1285,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 8E4D2FE0B16CF198445492912C28A492;6499.
+(rerunfilecheck)             Checksum: 0F8A672A95A0B5165A4F300F7A60492A;6354.
  ) 
 Here is how much of TeX's memory you used:
- 31179 strings out of 474221
- 586611 string characters out of 5750189
+ 31190 strings out of 474221
+ 586757 string characters out of 5750189
  1938978 words of memory out of 5000000
- 52623 multiletter control sequences out of 15000+600000
- 606666 words of font info for 141 fonts, out of 8000000 for 9000
+ 52624 multiletter control sequences out of 15000+600000
+ 609848 words of font info for 145 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  123i,10n,121p,1050b,545s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on thesis.pdf (33 pages, 12928251 bytes).
+Output written on thesis.pdf (33 pages, 12928871 bytes).
 PDF statistics:
- 493 PDF objects out of 1000 (max. 8388607)
- 416 compressed objects within 5 object streams
- 88 named destinations out of 1000 (max. 500000)
- 27549 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 492 PDF objects out of 1000 (max. 8388607)
+ 415 compressed objects within 5 object streams
+ 92 named destinations out of 1000 (max. 500000)
+ 29589 words of extra memory for PDF output out of 29859 (max. 10000000)
 
