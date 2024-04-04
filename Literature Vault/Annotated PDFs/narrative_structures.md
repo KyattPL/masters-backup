@@ -351,3 +351,17 @@ annotation-target: "[[narrative_structures.pdf]]"
 >%%TAGS%%
 >
 ^kedjqadpkco
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-04T15:29:30.598Z","updated":"2024-04-04T15:29:30.598Z","document":{"title":"GAC364982 103..134","link":[{"href":"urn:x-pdf:bd8b1834cf8d63fd77b0db36a76dab93"},{"href":"vault:/Papers PDFs/narrative_structures.pdf"}],"documentFingerprint":"bd8b1834cf8d63fd77b0db36a76dab93"},"uri":"vault:/Papers PDFs/narrative_structures.pdf","target":[{"source":"vault:/Papers PDFs/narrative_structures.pdf","selector":[{"type":"TextPositionSelector","start":49943,"end":49972},{"type":"TextQuoteSelector","exact":"Cut Scenes, Text, and Prompts","prefix":"sense ofdepth to the back story.","suffix":"This section details the use of "}]}]}
+>```
+>%%
+>*%%PREFIX%%sense ofdepth to the back story.%%HIGHLIGHT%% ==Cut Scenes, Text, and Prompts== %%POSTFIX%%This section details the use of*
+>%%LINK%%[[#^ev7l71601o|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ev7l71601o
