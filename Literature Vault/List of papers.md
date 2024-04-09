@@ -35,3 +35,4 @@ https://tvtropes.org/pmwiki/pmwiki.php/Main/KineticNovel, PLIK: [[Kinetic Novel 
 Interactive fiction:
 https://www.youtube.com/watch?v=zP1twKbLmAw #praca-4c 
 http://www.otchlan.pl/forum/viewtopic.php?f=7&t=1378, PLIK: [[Samouczek - Otchłań.pdf|PDF]] #praca-4c 
+https://en.wikipedia.org/wiki/Interactive_fiction
