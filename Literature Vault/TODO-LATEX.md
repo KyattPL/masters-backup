@@ -1,6 +1,5 @@
 1. Chyba słowniczek ma sens na te skróty
 2. Jak mam screeny z gry to czy wystarczy podpis pod obrazki (+ jaki powinien być) czy ma do bibliografii coś trafić? (Wtedy masa tego będzie)
-3. PIERWSZE CZTERY RYSUNKI - PODPIS POD SCREENA
 
 DO 3 LAT wstecz bibliografia - researchgate.net
 

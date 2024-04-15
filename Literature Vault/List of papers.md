@@ -23,6 +23,7 @@
 23. Interactive Fiction Games: A Colossal Adventure (https://arxiv.org/abs/1909.05398), PLIK: [[interactive_fiction.pdf|PDF]], adnotacje: [[interactive_fiction|PDF]], #praca-4c #praca-4d 
 24. QuestVille: Procedural Quest Generation Using NLP Models (https://dl.acm.org/doi/abs/10.1145/3582437.3587188), PLIK: [[questville.pdf|PDF]], adnotacje: [[questville|PDF]], #praca-4e 
 25. A Behavior Language for Story-based Believable Agents (https://ieeexplore.ieee.org/document/1024751), PLIK: [[a_behavior_language.pdf|PDF]], adnotacje: [[a_behavior_language|PDF]] #praca-4d 
+26. Interactive Fiction's Fourth Era (https://nickm.com/if/fourth_era.html), PLIK: [[interactive_fiction_fourth_era.pdf|PDF]], adnotacje: [[interactive_fiction_fourth_era|PDF]] #praca-4c
 
 TUTAJ LINK DO HISTORII NARRACJI: https://www.gamedeveloper.com/design/the-evolution-of-video-games-as-a-storytelling-medium-and-the-role-of-narrative-in-modern-games, PLIK: [[evolution_of_video_games.pdf|PDF]], adnotacje: [[evolution_of_video_games|PDF]], #praca-4a #praca-4b #praca-5a 
 

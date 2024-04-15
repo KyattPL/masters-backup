@@ -71,7 +71,6 @@ jakiej zostanie zaprezentowana odbiorcom. Takowa może być adaptowana zarówno 
 filmowego czy też gier komputerowych.
 
 \begin{table}[h!]
-	\caption{Dwanaście etapów wzorca narracyjnego "Podróży bohatera" \cite{narrative_structures}}
 	\label{tab1:ch1_1_1}
 	\begin{center}
 		\begin{tabular}{p{1.5in} p{4in}}
@@ -93,6 +92,7 @@ filmowego czy też gier komputerowych.
 			\hline
 		\end{tabular}
 	\end{center}
+    \caption{Dwanaście etapów wzorca narracyjnego "Podróży bohatera" \cite{narrative_structures}}
 \end{table}
 
 \newpage
@@ -110,8 +110,8 @@ na planszy 2-wymiarowej, gdzie tło stanowią gwiazdy. Gra nie posiada żadnej f
 istotnym elementem dalszego rozwoju branży.
 
 \begin{figure}[h]
-	\caption{Spacewar (1962)}
 	\includegraphics[width=0.5\textwidth]{ch1_1_2_spacewar.jpg}
+	\caption{Spacewar (1962)}
 	\centering
 	\label{fig:ch1_1_2_spacewar}
 \end{figure}
@@ -122,8 +122,8 @@ jej z powrotem, to uderzający zdobywa punkt. Wygrywa pierwszy gracz, który uzy
 w przypadku "Spacewar", "Pong" nastawiony jest na rozgrywkę dwuosobową i nie posiada żadnej formy narracji.
 
 \begin{figure}[h]
-	\caption{Pong (1972)}
 	\includegraphics[width=0.5\textwidth]{ch_1_1_2_pong.jpg}
+	\caption{Pong (1972)}
 	\centering
 	\label{fig:ch1_1_2_pong}
 \end{figure}
@@ -139,8 +139,8 @@ do niego. Rozgrywka ta została zaplanowana na maszyny \textit{arcade} z myślą
 punktów. Nie da się dostrzec w jej przypadku żadnej formy fabuły.
 
 \begin{figure}[h]
-	\caption{Breakout (1976)}
 	\includegraphics[width=0.5\textwidth]{ch1_1_2_breakout.jpg}
+	\caption{Breakout (1976)}
 	\centering
 	\label{fig:ch1_1_2_breakout}
 \end{figure}
@@ -155,8 +155,8 @@ maszyny \textit{arcade}, a co za tym idzie na zdobywanie punktów. Oprócz kwest
 podsekcji \ref{subsection:ch1_1_1}, nie występują inne przesłanki fabularne.
 
 \begin{figure}[h]
-	\caption{Space Invaders (1978)}
 	\includegraphics[width=0.5\textwidth]{ch_1_1_2_space_invaders.jpg}
+	\caption{Space Invaders (1978)}
 	\centering
 	\label{fig:ch1_1_2_space_invaders}
 \end{figure}
@@ -764,7 +764,7 @@ z gier wspierających konsole, ze względu na analagowe gałki w kontrolerach, z
 
 \newpage
 
-\subsubsection*{Precyzjne / nieprecyzyjne}
+\subsubsection*{Precyzjne / nieprecyzyjne}\label{subsubsection:ch1_3_1_precision}
 
 Jak wspomniano na początku sekcji, precyzja określa pokrycie wyświetlanych opcji dialogowych z
 faktycznymi kwestiami wypowiadanymi przez postać. Niektóre tytuły są krytykowane właśnie za
@@ -843,5 +843,66 @@ występuje de facto \textit{"trzecia opcja"}.
 
 \subsection{Interaktywna fikcja - system poleceń}\label{subsection:ch1_3_2}
 
-A to jest ciekawa sprawa i związana z tym jest taka polska gra, która się nazywa "Otchłań".
-Polecam serdecznie się zapoznać.
+Innego rodzaju systemem dialogowym --- a nawet i osobnym gatunkiem gier komputerowych --- jest
+tak zwana \textit{interaktywna fikcja}. Jest ona pewnego rodzaju oprogramowaniem symulującym
+środowisko, w którym to gracz używa wyłącznie komend tekstowych do poruszania się czy wpływania
+na to środowisko\cite{if_wiki}. Według Nick'a Montfort'a pojęcie to może być utożsamione z
+"przygodami tekstowymi" czy prościej "grami tekstowymi"\cite{IF_4th_era}. Z perspektywy nauczania
+maszynowego można uznać, że tego rodzaju gry zawierają w sobie elementy przetwarzania języka
+naturalnego (z ang. \textit{NLP - natural language processing}) jak i sekwencyjnego podejmowania
+decyzji\cite{hausknecht2020interactive}. Przykład rozgrywki zostanie zaprezentowany w oparciu
+o polski tytuł "Otchłań" (1999).
+
+Po rozpoczęciu rozgrywki gracz znajduje się interaktywnym świecie gry, w którym różne kolory tekstu 
+mają specyficzne znaczenia, wskazujące na różne elementy rozgrywki. Błękitny tekst podobny do
+\textbf{<21hp 104m 112mv 70exp>} oznacza status gracza, a sama gra oczekuje na polecenie.
+Zielony tekst oznacza lokacje, w których znajduje się gracz, a różowy tekst wskazuje możliwe 
+wyjścia z danego miejsca. Krótkie opisy dają graczowi dodatkowe informacje o otoczeniu. Całość 
+tworzy spójną, interaktywną fabułę, w której gracz może podejmować decyzje i eksplorować świat gry.
+Powyższe opisy są do zaobserwowania na rysunku \ref{fig:ch1_3_2_generic}.
+
+\begin{figure}[h]
+	\includegraphics[width=\textwidth]{ch1_3_2_generic.png}
+	\caption{Ogólny wygląd rozgrywki w "Otchłani"}
+	\centering
+	\label{fig:ch1_3_2_generic}
+\end{figure}
+
+Dialogi występujące w "Otchłani" z postaciami NPC prowadzone są w formie listy wybieralnych kwestii
+z perfekcyjną precyzją (Patrz sekcja \ref{subsubsection:ch1_3_1_precision}), tzn. kwestia wypowiadana
+jest w takiej formie, w jakiej występuja ona w menu. Sama konwersacja rozpoczynana jest oczywiście
+za pomocą odpowiedniej komendy, a zakończona może być przez odpowiedni wybór użytkownika lub po
+odpowiedzi od postaci NPC (co widać na rysunku \ref{fig:ch1_3_2_dialogue}).
+
+\begin{figure}[h]
+	\includegraphics[width=\textwidth]{ch1_3_2_dialogue.png}
+	\caption{Dialog w "Otchłani"}
+	\centering
+	\label{fig:ch1_3_2_dialogue}
+\end{figure}
+
+Gra oferuje pewnego rodzaju katalog dostępnych dla gracza poleceń, które pogrupowane są w
+odpowiednie kategorie tematyczne. Aby uzyskać listę wystarczy wydać polecenie "pomoc". Mimo braku
+szczegółowych opisów, komendy zostały zaprojektowane w formie dość intuicyjnych poleceń jako słowa
+z języka polskiego. Pełna lista dostępnych komend jest widoczna na rysunku \ref{fig:ch1_3_2_commands}.
+
+\begin{figure}[h]
+	\includegraphics[width=\textwidth]{ch1_3_2_commands.png}
+	\caption{Polecenia dostępne w "Otchłani"}
+	\centering
+	\label{fig:ch1_3_2_commands}
+\end{figure}
+
+W przypadku gdy grający ma problem ze zrozumieniem pewnych komend albo samego sposobu prowadzenia
+rozgrywki to może sięgnąć po samouczek dostępny na oficjalnym forum "Otchłani". Na rysunku
+\ref{fig:ch1_3_2_tutorial} zauważyć można szczegółowy opis komend związanych z kategorią
+eksplorowania świata gry.
+
+\begin{figure}[h]
+	\includegraphics[width=\textwidth]{ch1_3_2_tutorial.png}
+	\caption{Fragment samouczka "Otchłani"}
+	\centering
+	\label{fig:ch1_3_2_tutorial}
+\end{figure}
+
+Bla bla bla tutaj historycznie można coś od Włodka Markowicza dorzucić, że Polska Gurom!
