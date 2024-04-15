@@ -7,3 +7,10 @@
 1. W pliku .bib widać jakich używam prac, rozstrzał jest duży (najstarsze chyba to początek 2000 lat) no i pytanie czy wystarczy tych prac po 2018-2020 czy szukać jeszcze świeżych?
 
 # Odnośnie eksperymentu
+1. Test A/B wersji z konkretnymi wyborami + wersji z czatbotem, tylko pytanie w jakiej formie:
+2. Ogólnie nie potrzebuję dostępu do iMotion bo wszelkie dane typu potliwość czy eye tracking nie wydają się znajdować uzasadnienia dla tego problemu (pomiar satysfkacji / zaangażowania). Tak samo z resztą z pomiarem czasu - naturalnie dłużej powinno zająć zadawanie pytań ale niezależnie od tego to nie mówi w zasadzie nic jak ktoś wykorzystywał ten czas (pozytywnie czy negatywnie).
+3. Planuję w takim razie zrobić tylko ankiety na podstawie literatury + zebrać opinie w sposób otwarty.
+4. Jako, że grę mam w wersji angielskiej + takie proste rzeczy do zebrania są to mam 2 możliwości:
+	1. Zbieranie stacjonarne - w zasadzie jedynym ale dużym plusem jest jakość odpowiedzi
+	2. Zbieranie online - zamiast zebrać kilkunastu osób mogę potencjalnie zdobyć i 100+ odpowiedzi rozgłaszając na odpowiednich forach, grupach + mogę próbować zrównoważyć demograficznie grupy (poszukać kobiet, starszych itp.). Zasadniczo to dopiero taka liczba osób może być jakoś statystycznie istotna.
+5. Dlatego proponuję zahostować 2 wersje gry online, przykodować jakieś Google ankiety i zbierać dane przez jakiś czas.
