@@ -1,10 +1,26 @@
 \chapter{Sposoby generowania narracji}\label{chapter:ch2}
 
-Bla bla bla\dots
+W poprzednich sekcjach omówiona została historia oraz wykorzystywane w grach komputerowych rodzaje
+narracji. W każdym z tych elementów istnieje jeden element wspólny: to ludzie odpowiadają za tworzenie
+narracji, odpowiednie jej planowanie i prezentowanie odbiorcy. Związane z tym są oczywiście olbrzymie
+koszty oraz duży nakład czasu poświęcony przez pracowników. Biorąc pod uwagę terminy stale goniące
+producentów gier, nic dziwnego, że pewne zaplanowane fragmenty fabularne nie znajdują miejsca w końcowym
+produkcie. Z tego względu, patrząc na postępujący rozwój technologiczny, nasuwa się pytanie ---
+czy da się zarządzać narracją w grze komputerowej w sposób automatyczny? W ramach tej sekcji
+przedstawione zostaną znane rozwiązania z dziedziny sztucznej inteligencji pomagające w kreowaniu fabuły
+oraz nakreślony zostanie potencjał w tej sferze dużych modeli językowych.
 
 \section{Wykorzystanie algorytmów sztucznej inteligencji do kreowania narracji}\label{section:ch2_1}
 
-Wyszczególnione zostaną najpopularniejsze zaawansowane algorytmy sztucznej inteligencji.
+Mówiąc o ogólnym wykorzystaniu algorytmów sztucznej inteligencji można cofnąć się do bardzo prostych
+rozwiązań wykorzystanych np. w "Pong" (Patrz sekcja \ref{subsection:ch1_1_2}), do technik generowania
+proceduralnego (zwłaszcza poziomów) czy też do systemów rankingowych (np. system TrueSkill). Jako, że
+nie są to metody stricte powiązane z narracją to nie zostaną one opisane bardziej szczegółowo.
+Przedstawione natomiast będą kluczowe obszary wykorzystywane w grach: częściowo-uporządkowane planowanie
+(ang. \textit{POP} - partially-ordered planning), modelowanie doświadczeń gracza (ang. \textit{PEM} -
+player experience modelling), przetwarzanie języka naturalnego (ang. \textit{NLP} - natural language
+processing), postać niegrywalna (ang. \textit{NPC} - non-playable character), proces decyzyjny Markowa
+(ang. \textit{MDP} - Markov decision process).
 
 \subsubsection*{POP (Partially-ordered planning)}
 
