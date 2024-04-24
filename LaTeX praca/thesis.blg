@@ -3,44 +3,48 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis.aux
 The style file: dyplom.bst
 Database file #1: bibliography.bib
-You've used 11 entries,
+Warning--empty journal in characters_and_directors
+Warning--can't use both author and editor fields in game_ai_storytelling
+Warning--empty chapter and pages in game_ai_storytelling
+You've used 14 entries,
             2662 wiz_defined-function locations,
-            627 strings with 6462 characters,
-and the built_in function-call counts, 3553 in all, are:
-= -- 269
-> -- 95
-< -- 3
-+ -- 43
-- -- 30
-* -- 185
-:= -- 442
-add.period$ -- 22
-call.type$ -- 11
-change.case$ -- 56
+            647 strings with 7330 characters,
+and the built_in function-call counts, 5548 in all, are:
+= -- 405
+> -- 211
+< -- 6
++ -- 90
+- -- 74
+* -- 338
+:= -- 704
+add.period$ -- 27
+call.type$ -- 14
+change.case$ -- 86
 chr.to.int$ -- 0
-cite$ -- 11
-duplicate$ -- 330
-empty$ -- 346
-format.name$ -- 33
-if$ -- 772
+cite$ -- 17
+duplicate$ -- 481
+empty$ -- 486
+format.name$ -- 80
+if$ -- 1179
 int.to.chr$ -- 0
-int.to.str$ -- 11
-missing$ -- 66
-newline$ -- 36
-num.names$ -- 18
-pop$ -- 153
+int.to.str$ -- 14
+missing$ -- 107
+newline$ -- 45
+num.names$ -- 24
+pop$ -- 230
 preamble$ -- 1
-purify$ -- 38
+purify$ -- 66
 quote$ -- 0
-skip$ -- 116
+skip$ -- 163
 stack$ -- 0
-substring$ -- 117
-swap$ -- 177
-text.length$ -- 3
+substring$ -- 192
+swap$ -- 282
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 44
-warning$ -- 0
-while$ -- 21
-width$ -- 13
-write$ -- 91
+type$ -- 54
+warning$ -- 3
+while$ -- 32
+width$ -- 16
+write$ -- 115
+(There were 3 warnings)

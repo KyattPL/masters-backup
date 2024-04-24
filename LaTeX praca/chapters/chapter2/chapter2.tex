@@ -1,3 +1,5 @@
+\graphicspath{{chapters/chapter2/imgs/}}
+
 \chapter{Sposoby generowania narracji}\label{chapter:ch2}
 
 W poprzednich sekcjach omówiona została historia oraz wykorzystywane w grach komputerowych rodzaje
@@ -24,11 +26,51 @@ processing), postać niegrywalna (ang. \textit{NPC} - non-playable character), p
 
 \subsubsection*{POP (Partially-ordered planning)}
 
-Bla bla bla...
+Planowanie częściowo-uporządkowane jest skierowanym grafym acyklicznym, gdzie węzły są operacjami
+(inaczej nazywanymi akcjami), które po wywołaniu zmieniają stan świata. Krawędzie przedstawiają
+relacje przyczynowe i czasowe pomiędzy akcjami. Powiązanie przyczynowe $a_{i} \rightarrow^{c}a_{j}$
+oznacza, że wykonanie akcji $a_{i}$ zmieni stan warunku $c$ na prawdziwy w świecie fabuły, a co za
+tym idzie akcja $a_{j}$ zależna od tego warunku będzie możliwa do wykonania. Powiązanie czasowe
+przedstawia ograniczenie porządkowe pomiędzy operacjami, gdzie jedna operacja musi być wykonana przed
+inną\cite{game_ai_storytelling}. Przykładowa struktura fabularna zrealizowana za pomocą planowania
+częściowo-uporządkowanego została przedstawiona na rysunku \ref{fig:ch2_1_pop}.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{ch2_1_pop.png}
+    \caption{Fabuła "Czerwonego Kapturka" zapisana za pomocą POP}
+    \label{fig:ch2_1_pop}
+\end{figure}
+
+Za pomocą tej techniki kreować można rozbudowane plany fabularne, które mogą ulegać zmianie na
+podstawie akcji podejmowanych przez gracza czy zmian zachodzących w świecie gry. Odpowiednie algorytmy
+przeszukiwania nazywane \textit{"plannerami"} rozwiązują problem planowania, tzn. mając dany stan
+świata, pewne atomowe akcje możliwe do wykonania przez grającego oraz założony cel, znajdują
+odpowiednią sekwencję operacji, które doprowadzą do osięgnięcia tegoż celu\cite{game_ai_storytelling}.
+
+Podstawowym problemem pojawiającym się przy wykorzystaniu metody POP jest to, że zarówno gracz jak i
+potencjalnie inne niegrywalne postacie, mogą być zdolne do wywołania akcji w świecie gry, która
+zagraża dalszemu przebiegowi fabularnemu zgodnego z planem\cite{characters_and_directors}. Wtedy
+stosowane są odpowiednie techniki naprawcze, które prowadzą do mniej lub bardziej doskonałych rozwiązań.
 
 \subsubsection*{PEM (Player experience modelling)}
 
-Bla bla bla...
+Modelowanie doświadczeń gracza polega na zbieraniu danych behawioralnych czy też wydajnościowych
+(punkty, czas, decyzje) ze względu na rozgrywkę za pomocą wielu modalności: mowy gracza, obrazów
+(śledzenie ruchów ciała, mimiki twarzy, gałek ocznych) czy też sygnałów fizjologicznych (puls czy
+przewodność skóry). Pomiar sygnałów fizjologicznych jest oczywiście problematyczny ze względu na
+wykorzystanie dodatkowego sprzętu a zarazem inwazyjność przeszkadzającą w swobodnej rozgrywce
+\cite{reusable_game_ai}.
+
+W ramach tego obszaru sztuczna inteligencja objawia się zazwyczaj pod postacią sieci neuronowych czy
+też drzew decyzyjnych, które pozwalają dokonywać klasyfikacji w zakresie\cite{reusable_game_ai}:
+
+\begin{itemize}
+    \item rozpoznawania emocji grającego - w ramach anagażujących systemów dialogowych
+    \item balansowania rozgrywki - tak by gracz nie odczuwał frustracji ze względu na zbyt wysoki poziom
+          trudności a zarazem by nie doznawał nudy ze względu na zbyt prostą rozgrywkę
+    \item oceniania umiejętności gracza - do prowadzenia badań w sposób ukryty
+\end{itemize}
 
 \subsubsection*{NLP (Natural language processing)}
 
@@ -42,7 +84,7 @@ Bla bla bla...
 
 Bla bla bla...
 
-Żeby nie być gołosłownym to przedstawione zostaną teraz trzy przykłady gier wykorzystujących
+Żeby nie być gołosłownym to przedstawione zostaną teraz dwa przykłady gier wykorzystujących
 algorytmy sztucznej inteligencji
 
 \subsubsection*{Facade}
