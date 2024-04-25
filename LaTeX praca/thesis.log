@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  25 APR 2024 00:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  25 APR 2024 17:28
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1347,7 +1347,10 @@ File: chapters/chapter2/imgs/ch2_1_pop.png Graphic file (type png)
 <use chapters/chapter2/imgs/ch2_1_pop.png>
 Package pdftex.def Info: chapters/chapter2/imgs/ch2_1_pop.png  used on input line 40.
 (pdftex.def)             Requested size: 213.39568pt x 245.18721pt.
- [34 <./chapters/chapter2/imgs/ch2_1_pop.png>]) (./chapters/chapter3/chapter3.tex [35] [36]
+ [34 <./chapters/chapter2/imgs/ch2_1_pop.png>]
+Underfull \vbox (badness 1412) has occurred while \output is active []
+
+ [35]) (./chapters/chapter3/chapter3.tex [36]
 Rozdzia\PlPrIeC {\l } 3.
 ) (./chapters/chapter4/chapter4.tex [37
 
@@ -1432,10 +1435,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  123i,10n,121p,1050b,573s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on thesis.pdf (50 pages, 16099291 bytes).
+Output written on thesis.pdf (50 pages, 16100129 bytes).
 PDF statistics:
- 744 PDF objects out of 1000 (max. 8388607)
- 620 compressed objects within 7 object streams
+ 746 PDF objects out of 1000 (max. 8388607)
+ 622 compressed objects within 7 object streams
  156 named destinations out of 1000 (max. 500000)
  30688 words of extra memory for PDF output out of 35830 (max. 10000000)
 
