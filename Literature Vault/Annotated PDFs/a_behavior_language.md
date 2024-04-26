@@ -337,3 +337,31 @@ annotation-target: "[[a_behavior_language.pdf]]"
 >%%TAGS%%
 >
 ^5ddfttvnce3
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-26T12:08:34.357Z","updated":"2024-04-26T12:08:34.357Z","document":{"title":"Microsoft Word - AI and IE 2002.doc","link":[{"href":"urn:x-pdf:63d270332837102c893ec7afc7a6da78"},{"href":"vault:/Papers PDFs/a_behavior_language.pdf"}],"documentFingerprint":"63d270332837102c893ec7afc7a6da78"},"uri":"vault:/Papers PDFs/a_behavior_language.pdf","target":[{"source":"vault:/Papers PDFs/a_behavior_language.pdf","selector":[{"type":"TextPositionSelector","start":1470,"end":1528},{"type":"TextQuoteSelector","exact":" The  complete,  real-time  3D,  one-act interactive drama","prefix":"02,  Mateas  and  Stern  2000). ","suffix":" will be available in a free pub"}]}]}
+>```
+>%%
+>*%%PREFIX%%02,  Mateas  and  Stern  2000).%%HIGHLIGHT%% ==The  complete,  real-time  3D,  one-act interactive drama== %%POSTFIX%%will be available in a free pub*
+>%%LINK%%[[#^zx10m8eee1|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^zx10m8eee1
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-26T12:08:55.854Z","updated":"2024-04-26T12:08:55.854Z","document":{"title":"Microsoft Word - AI and IE 2002.doc","link":[{"href":"urn:x-pdf:63d270332837102c893ec7afc7a6da78"},{"href":"vault:/Papers PDFs/a_behavior_language.pdf"}],"documentFingerprint":"63d270332837102c893ec7afc7a6da78"},"uri":"vault:/Papers PDFs/a_behavior_language.pdf","target":[{"source":"vault:/Papers PDFs/a_behavior_language.pdf","selector":[{"type":"TextPositionSelector","start":1592,"end":2246},{"type":"TextQuoteSelector","exact":"In the story,  Grace  and  Trip,  a  married  couple  in  their  early  thirties, has invited the player over for drinks. Unbeknownst  to  the  player,  their  marriage  is  in  serious  trouble,  and  in  fact,  tonight  is  the  night  that  all  their  troubles  are  going  to  come  to  the  surface.  Whether  and  how their marriage falls apart, and the state of the player’s relationship  with  Grace  and  Trip  at  the  end  of  the  story,  depends  on  how  the  player  interacts  in  the  world.  The  player  interacts  by  navigating  in  the  world,  manipulating  objects,  and,  most  significantly,  through  natural  language  dialog","prefix":"lic release at the end of 2002. ","suffix":".  This  project  raises  a  num"}]}]}
+>```
+>%%
+>*%%PREFIX%%lic release at the end of 2002.%%HIGHLIGHT%% ==In the story,  Grace  and  Trip,  a  married  couple  in  their  early  thirties, has invited the player over for drinks. Unbeknownst  to  the  player,  their  marriage  is  in  serious  trouble,  and  in  fact,  tonight  is  the  night  that  all  their  troubles  are  going  to  come  to  the  surface.  Whether  and  how their marriage falls apart, and the state of the player’s relationship  with  Grace  and  Trip  at  the  end  of  the  story,  depends  on  how  the  player  interacts  in  the  world.  The  player  interacts  by  navigating  in  the  world,  manipulating  objects,  and,  most  significantly,  through  natural  language  dialog== %%POSTFIX%%.  This  project  raises  a  num*
+>%%LINK%%[[#^6cz9wl45788|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^6cz9wl45788

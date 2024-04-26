@@ -5,47 +5,48 @@ The style file: dyplom.bst
 Database file #1: bibliography.bib
 Warning--empty journal in from_pong_to_narrative
 Warning--empty journal in characters_and_directors
+Warning--missing school in storytelling_through
 Warning--can't use both author and editor fields in game_ai_storytelling
 Warning--empty chapter and pages in game_ai_storytelling
-You've used 15 entries,
+You've used 19 entries,
             2662 wiz_defined-function locations,
-            652 strings with 7427 characters,
-and the built_in function-call counts, 5827 in all, are:
-= -- 422
-> -- 218
-< -- 7
-+ -- 93
-- -- 76
-* -- 355
-:= -- 744
-add.period$ -- 29
-call.type$ -- 15
-change.case$ -- 90
+            673 strings with 8033 characters,
+and the built_in function-call counts, 7481 in all, are:
+= -- 544
+> -- 276
+< -- 11
++ -- 118
+- -- 96
+* -- 458
+:= -- 961
+add.period$ -- 37
+call.type$ -- 19
+change.case$ -- 111
 chr.to.int$ -- 0
-cite$ -- 19
-duplicate$ -- 511
-empty$ -- 512
-format.name$ -- 82
-if$ -- 1233
+cite$ -- 24
+duplicate$ -- 658
+empty$ -- 649
+format.name$ -- 105
+if$ -- 1580
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 114
-newline$ -- 48
-num.names$ -- 26
-pop$ -- 241
+int.to.str$ -- 19
+missing$ -- 145
+newline$ -- 60
+num.names$ -- 34
+pop$ -- 294
 preamble$ -- 1
-purify$ -- 69
+purify$ -- 87
 quote$ -- 0
-skip$ -- 171
+skip$ -- 222
 stack$ -- 0
-substring$ -- 197
-swap$ -- 296
-text.length$ -- 7
+substring$ -- 266
+swap$ -- 393
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 58
-warning$ -- 4
-while$ -- 34
-width$ -- 17
-write$ -- 123
-(There were 4 warnings)
+type$ -- 74
+warning$ -- 5
+while$ -- 46
+width$ -- 21
+write$ -- 156
+(There were 5 warnings)

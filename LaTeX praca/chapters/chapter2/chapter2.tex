@@ -93,19 +93,18 @@ Postacie niegrywalne to wszelkie jednostki czy postacie, z którymi gracz może 
 interakcję lub dostrzegać ich autonomiczne poruszanie w świecie. Mogą to być statyczne byty,
 które usytuowane są w jednym określonym miejscu i mają na celu dawać grającemu zadania czy też
 informacje o świecie gry. Z drugiej strony wszelkie jednostki, z którymi gracz walczy również
-podlegają pod tę definicję. Forma postaci niegrywalnych, tak jak i w literaturze, nie jest 
-istotna, gdyż bohaterem literackim może być zarówno człowiek jak i zantropomorfizowane zwierzę
-czy rzecz.
+podlegają pod tę definicję. Forma postaci niegrywalnych, tak jak i w literaturze, nie jest
+istotna, gdyż bohaterem może być zarówno człowiek jak i zantropomorfizowane zwierzę czy rzecz.
 
 NPC pojawiły się w grach z początkiem lat 90-tych. Oparte były przede wszystkim na zpredefiniowanych
-skryptach i drzewach decyzyjnych (współcześnie nadal wiele postaci jest opartych o te rozwiązania)
-\cite{from_pong_to_narrative}.
+skryptach i drzewach decyzyjnych\cite{storytelling_through} (współcześnie nadal wiele postaci jest
+opartych o te rozwiązania) \cite{from_pong_to_narrative}.
 
 Wraz z rozwojem technologicznym twórcy gry mają możliwość przeznaczenia więcej mocy obliczeniowej
 na wiarygodne dla gracza postacie NPC. Związane jest to z dokładniejszymi modelami i animacjami
 postaci ale również z bardziej zaawansowanymi wzorcami zachowania. Producenci zaczęli wykorzystywać
 od lat 2010 w tym celu techniki uczenia maszynowego oraz głębokiego nauczania
-\cite{from_pong_to_narrative}. Pozwala to przeciwnikom (czy też sprzymierzeńcom) gracza 
+\cite{from_pong_to_narrative}. Pozwala to przeciwnikom (czy też sprzymierzeńcom) gracza
 dostosowywać się do sposobu prowadzenia przez niego rozgrywki. Współczesne tytuły takie jak
 "Read Dead Redemption 2" czy "The Last of Us Part II" wykorzystują głębokie sieci neuronowe do
 budowania postaci NPC\cite{from_pong_to_narrative}.
@@ -122,21 +121,40 @@ wszystkie nagrody są jednakowe, to proces decyzyjny Markowa upraszcza się do �
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.5\textwidth]{ch2_1_mdp.png}
+    \includegraphics[width=0.8\textwidth]{ch2_1_mdp.png}
     \caption{Przykładowy proces decyzyjny Markowa}
     \label{fig:ch2_1_mdp}
 \end{figure}
 
-Żeby nie być gołosłownym to przedstawione zostaną teraz dwa przykłady gier wykorzystujących
-algorytmy sztucznej inteligencji
+Na powyższym rysunku przedstawiony został przykładowy proces decyzjny Markowa z trzema stanami (zielone
+kółka), dwiema akcjami (czerwone kółka) oraz dwiema nagrodami (pomarańczowe strzałki). Model MDP może
+być wykorzystany w ramach generowania treści gier komputerowych do budowania zadań dla gracza,
+przykładowo dla gry kucharskiej baza składników może być ułożona w odpowiednie łańcuchy Markowa, tak
+by bardziej pasujące do siebie składniki miały większe prawdopodobieństwo bycia wspólnie wybranym
+\cite{ammanabrolu2020automated}.
 
-\subsubsection*{Facade}
+Proces może być dodatkowo wykorzystany w proceduralnym generowaniu treści czy świata dla gracza.
+Zakładając, że to gracz jest \textit{"agentem"} podejmującym akcje w świecie gry (które są jawnie
+zdefiniowane przez twórców), doprowadza on do zmiany stanu świata co jest idealnie reprezentowane
+przez proces decyzyjny Markowa\cite{automated_planning}.
 
-Bla bla bla...
+\subsubsection*{Przykład wykorzystania - "Façade"}
 
-\subsubsection*{QuestVille}
+"Façade" (2005) to tytuł, który próbował złamać znany do tamtej pory podział na narrację liniową czy też
+rozgałęziającą się, na rzecz w pełni interaktywnej historii kontrolowanej przez gracza. Jest to
+trójwymiarowa gra czasu rzeczywistego przedstawiona w formie jednego aktu. Narracja koncentruje się
+wokół Grace i Tripa, małżeństwa po trzydziestce, które zaprasza gracza na drinka. Gracz nie wie, że ich
+małżeństwo znajduje się na grząskim gruncie, a tego wieczoru wszystkie ich małżeńskie problemy wyjdą na
+jaw. To, w jaki sposób ich związek się rozpadnie, a także ostateczny związek gracza z Grace i Tripem,
+zależy od interakcji gracza ze światem. Gracz angażuje się poprzez poruszanie się po środowisku,
+manipulowanie przedmiotami i, co najważniejsze, poprzez dialogi w języku naturalnym\cite{1024751}.
 
-Bla bla bla...
+Twórcy na potrzebę "Façade" stworzyli własny język ABL (\textit{"A Behavior Language"} - z ang. język
+zachowań). Stanowi on pewnego rodzaju połączenie drzew decyzjnych i procesów decyzjnych Markowa
+wspomnianych wcześniej. Programy ABL są zorganizowane jako zbiór zachowań, które mogą być procesowane
+sekwencyjnie lub równolegle. Dodatkowo, zachowania mogą mieć narzucone określone wymagania by
+mogły one się odbyć, a w zależności od powodzenia lub porażki w realizacji zachowania świat gry
+może zostać odpowiednio zmieniony.
 
 \section{Wykorzystanie dużych modeli językowych (LLM) do kreowania narracji}\label{section:ch2_2}
 
@@ -154,4 +172,4 @@ Bla bla bla...
 
 \subsubsection*{Przykład zastosowania dużych modeli językowych}
 
-Bla bla bla...
+Tutaj będzie o QuestVille i może o Inworld.AI czy coś...

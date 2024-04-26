@@ -1,5 +1,8 @@
 \begin{thebibliography}{10}
 
+\bibitem{ammanabrolu2020automated}
+Ammanabrolu, P., Broniec, W., Mueller, A., Paul, J., Riedl, M.O., \emph{Toward automated quest generation in text-adventure games}. 2020.
+
 \bibitem{from_pong_to_narrative}
 Assaf, M., \emph{From pong to narrative: The evolution of ai in gaming}. 2023, tom 108.
 
@@ -33,8 +36,17 @@ Majewski, J., i~in., \emph{Theorising video game narrative}, Bond University. 20
 \bibitem{otchlan_historia}
 Markowicz, W., \emph{Otchłań - historia zapomnianej gry tekstowej}, \url{https://www.youtube.com/watch?v=zP1twKbLmAw}. Data dost. 18 marca 2024.
 
+\bibitem{1024751}
+Mateas, M., Stern, A., \emph{A behavior language for story-based believable agents}, IEEE Intelligent Systems. 2002, tom~17, 4, str. 39--47.
+
 \bibitem{IF_4th_era}
 Montfort, N., \emph{Interactive fiction's fourth era}, \url{https://nickm.com/if/fourth_era.html}. 2008. Data dost. 15 kwietnia 2024.
+
+\bibitem{storytelling_through}
+Papworth, S., \emph{Storytelling through Gameplay: Dimensions of AI Design for Narrative Purposes}, Rozprawa doktorska. 2016.
+
+\bibitem{automated_planning}
+Ramirez, A., Bulitko, V., \emph{Automated planning and player modeling for interactive storytelling}, IEEE Transactions on Computational Intelligence and AI in Games. 2015, tom~7, 4, str. 375--386.
 
 \bibitem{game_ai_storytelling}
 Riedl, M., Thue, D., Bulitko, V., \emph{Game AI as Storytelling} (Springer New York, New York, NY, 2011), str. 125--150.
