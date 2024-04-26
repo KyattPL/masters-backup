@@ -84,13 +84,48 @@ Z podstaw przetwarzania języka naturalnego korzystały tytuły realizowane w ko
 fikcji, takie jak "Otchłań" (Patrz sekcja \ref{subsection:ch1_3_2}). Pozwalają one graczowi za pomocą
 określonego zestawu komend poruszać się i wchodzić w interakcję z całym światem gry.
 
+Związane z tą dziedziną są duże modele językowe, które potrafią operować językiem naturalnym.
+Ich bardziej szczegółowy opis będzie przedstawiony w sekcji \ref{section:ch2_2}.
+
 \subsubsection*{NPC (Non-playable character)}
 
-Bla bla bla...
+Postacie niegrywalne to wszelkie jednostki czy postacie, z którymi gracz może wchodzić w
+interakcję lub dostrzegać ich autonomiczne poruszanie w świecie. Mogą to być statyczne byty,
+które usytuowane są w jednym określonym miejscu i mają na celu dawać grającemu zadania czy też
+informacje o świecie gry. Z drugiej strony wszelkie jednostki, z którymi gracz walczy również
+podlegają pod tę definicję. Forma postaci niegrywalnych, tak jak i w literaturze, nie jest 
+istotna, gdyż bohaterem literackim może być zarówno człowiek jak i zantropomorfizowane zwierzę
+czy rzecz.
+
+NPC pojawiły się w grach z początkiem lat 90-tych. Oparte były przede wszystkim na zpredefiniowanych
+skryptach i drzewach decyzyjnych (współcześnie nadal wiele postaci jest opartych o te rozwiązania)
+\cite{from_pong_to_narrative}.
+
+Wraz z rozwojem technologicznym twórcy gry mają możliwość przeznaczenia więcej mocy obliczeniowej
+na wiarygodne dla gracza postacie NPC. Związane jest to z dokładniejszymi modelami i animacjami
+postaci ale również z bardziej zaawansowanymi wzorcami zachowania. Producenci zaczęli wykorzystywać
+od lat 2010 w tym celu techniki uczenia maszynowego oraz głębokiego nauczania
+\cite{from_pong_to_narrative}. Pozwala to przeciwnikom (czy też sprzymierzeńcom) gracza 
+dostosowywać się do sposobu prowadzenia przez niego rozgrywki. Współczesne tytuły takie jak
+"Read Dead Redemption 2" czy "The Last of Us Part II" wykorzystują głębokie sieci neuronowe do
+budowania postaci NPC\cite{from_pong_to_narrative}.
 
 \subsubsection*{MDP (Markov decision process)}
 
-Bla bla bla...
+Łańcuch Markowa jest stochastycznym modelem opisującym ciąg możliwych zdarzeń, w którym
+prawdopodobieństwo każdego zdarzenia zależy jedynie od wyniku poprzedniego. Rozróżniane one
+są dodatkowo ze względu na dyskretne lub ciągłe momenty czasowe, w których następuje zmiana
+stanów. Proces decyzyjny Markowa (MDP) jest zasadniczo rozszerzeniem łańcuchów Markowa ---
+różnicę stanowi dodanie akcji (które pozwalają na podejmowanie decyzji) oraz nagród otrzymywanych
+po przejściu z jednego stan w drugi. Jeżeli dla każdego stanu istnieje tylko jedna akcja i
+wszystkie nagrody są jednakowe, to proces decyzyjny Markowa upraszcza się do łańcucha Markowa.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{ch2_1_mdp.png}
+    \caption{Przykładowy proces decyzyjny Markowa}
+    \label{fig:ch2_1_mdp}
+\end{figure}
 
 Żeby nie być gołosłownym to przedstawione zostaną teraz dwa przykłady gier wykorzystujących
 algorytmy sztucznej inteligencji
