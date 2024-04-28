@@ -1247,3 +1247,17 @@ annotation-target: "[[larp_language.pdf]]"
 >%%TAGS%%
 >
 ^d85sanmzeb
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-28T13:33:32.274Z","updated":"2024-04-28T13:33:32.274Z","document":{"title":"LARP: Language-Agent Role Play for Open-World Games","link":[{"href":"urn:x-pdf:69ce745fdd1ac42946e72945c5c9e6f2"},{"href":"vault:/Papers PDFs/larp_language.pdf"}],"documentFingerprint":"69ce745fdd1ac42946e72945c5c9e6f2"},"uri":"vault:/Papers PDFs/larp_language.pdf","target":[{"source":"vault:/Papers PDFs/larp_language.pdf","selector":[{"type":"TextPositionSelector","start":1268,"end":1624},{"type":"TextQuoteSelector","exact":"Large Language Models (LLMs) are machine learning models capable of performing a variety of Natural LanguageProcessing (NLP) tasks such as generating text, translating text from one language to another, and answeringquestions conversationally. The term large refers to the vast amount of parameters the language model can updateduring its learning process.","prefix":"b.github.io/LARP/.1 Introduction","suffix":" With the development of pre-tra"}]}]}
+>```
+>%%
+>*%%PREFIX%%b.github.io/LARP/.1 Introduction%%HIGHLIGHT%% ==Large Language Models (LLMs) are machine learning models capable of performing a variety of Natural LanguageProcessing (NLP) tasks such as generating text, translating text from one language to another, and answeringquestions conversationally. The term large refers to the vast amount of parameters the language model can updateduring its learning process.== %%POSTFIX%%With the development of pre-tra*
+>%%LINK%%[[#^pq4gp6d0idg|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^pq4gp6d0idg
