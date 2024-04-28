@@ -178,7 +178,46 @@ wymaganą do ich wyuczenia ilość danych. Pojęcie LLM skoncentrowane jest zasa
 danego modelu, niezależnie od przyjętej do jego wyuczenia architektury.
 
 Z uwagi na fakt, że zdecydowana większość modeli oparta jest na architekturze transformera to zostanie
-ona krótko nakreślona. Dane wejściowe modelu mogą być
+ona krótko nakreślona. Dane podawane na wejście do modelu mogą być różnych modalności np. tekst,
+audio czy obraz. Następnie, dane te dzielone są na tzw. żetony (ang. \textit{tokens}) - fragmenty tekstu,
+obrazu lub dźwięku. Każdy żeton jest kodowany jako wielowymiarowy wektor liczbowy, odzwierciedlający
+jego semantyczne właściwości. Następnie sekwencja wektorów przechodzi przez blok uwagi (ang.
+\textit{attention}), gdzie wektory wzajemnie się aktualizują (ponieważ np. znaczenie słowa zależy od
+kontekstu, czyli od słów występujących dookoła niego). Ten proces pozwala na lepsze zrozumienie
+zależności pomiędzy elementami wejściowymi. Po bloku uwagi, wektory są przetwarzane przez
+perceptron wielowarstwowy (ang. \textit{MLP - multi-layer perceptron}). Cykl bloków uwagi i MLP jest
+wielokrotnie powtarzany. Na końcu procesu otrzymujemy pojedynczą macierz, na podstawie której, poprzez
+operację softmax, generowany jest rozkład prawdopodobieństwa dla możliwych żetonów następujących po
+danym fragmencie wejściowym. Autorzy raportu technicznego dotyczącego GPT-4 zauważają, że:
+
+\begin{quote}
+    \textit{"...Takie modele są ważnym obszarem badań, ponieważ mają potencjał do wykorzystania w szerokim
+        zakresie zastosowań, takich jak systemy dialogowe"}\cite{openai2024gpt4}
+\end{quote}
+
+Można również wnioskować, że następne iteracje modeli będą coraz lepsze:
+
+\begin{quote}
+    \textit{"Jednym z głównych celów rozwoju takich modeli jest poprawa ich zdolności do rozumienia i
+        generowania tekstu w języku naturalnym, szczególnie w bardziej złożonych i zniuansowanych
+        scenariuszach."}\cite{openai2024gpt4}
+\end{quote}
+
+Wymienione są jednak przez autorów ograniczenia aktualnych modeli językowych, które uniemożliwiają ich
+masową adopcję w wielu przestrzeniach:
+
+\begin{quote}
+    \textit{"Pomimo swoich możliwości, GPT-4 ma podobne ograniczenia do wcześniejszych modeli GPT: nie jest w
+        pełni niezawodny (np. może cierpieć na „halucynacje”), ma ograniczone okno kontekstowe i nie uczy
+        się na podstawie doświadczenia. Należy zachować ostrożność podczas korzystania z wyników GPT-4,
+        szczególnie w kontekstach, w których ważna jest niezawodność."}\cite{openai2024gpt4}
+\end{quote}
+
+Pod pojęciem "halucynacji" rozumiane jest wymyślanie faktów, ponieważ modele te same w sobie nie posiadają
+żadnej podpiętej bazy wiedzy a generowany przez nie tekst wynika z modelu probabilistycznego (co nie
+znaczy, że w ogólnie nie dysponują wiedzą). Wielkość okna kontekstowego oznacza na jakim rozmiarze
+danych / żetonów model jest w stanie jednocześnie pracować (tzn. w przypadku bardzo długich konwersacji
+czy plików model może nie brać pod uwagę wczesnych informacji przy udzielaniu odpowiedzi).
 
 \subsubsection*{Przykłady zastosowania dużych modeli językowych}
 
