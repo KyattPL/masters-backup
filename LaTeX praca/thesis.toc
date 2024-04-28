@@ -23,17 +23,17 @@
 \contentsline {chapter}{\numberline {2\relax .\enspace }Sposoby generowania narracji}{33}{chapter.2}%
 \contentsline {section}{\numberline {2.1\relax .\enspace }Wykorzystanie algorytmów sztucznej inteligencji do kreowania narracji}{33}{section.2.1}%
 \contentsline {section}{\numberline {2.2\relax .\enspace }Wykorzystanie dużych modeli językowych (LLM) do kreowania narracji}{37}{section.2.2}%
-\contentsline {chapter}{\numberline {3\relax .\enspace }Zaangażowanie gracza}{40}{chapter.3}%
-\contentsline {section}{\numberline {3.1\relax .\enspace }Wpływ narracji na zaangażowanie}{40}{section.3.1}%
-\contentsline {section}{\numberline {3.2\relax .\enspace }Sposoby pomiaru zaangażowania gracza}{40}{section.3.2}%
-\contentsline {chapter}{\numberline {4\relax .\enspace }Planowany eksperyment}{41}{chapter.4}%
-\contentsline {section}{\numberline {4.1\relax .\enspace }Projekt gry wykorzystanej w eksperymencie}{41}{section.4.1}%
-\contentsline {section}{\numberline {4.2\relax .\enspace }Opis generatywnych agentów}{41}{section.4.2}%
-\contentsline {chapter}{\numberline {5\relax .\enspace }Wyniki}{42}{chapter.5}%
-\contentsline {chapter}{Podsumowanie}{43}{chapter*.66}%
-\contentsline {chapter}{Spis rysunk\'ow}{44}{chapter*.67}%
-\contentsline {chapter}{Spis listingów}{45}{chapter*.68}%
-\contentsline {chapter}{Spis tabel}{46}{chapter*.69}%
-\contentsline {chapter}{Dodatki}{47}{section*.70}%
-\contentsline {chapter}{\numberline {A\relax .\enspace }Dodatek 1}{48}{appendix.A}%
-\contentsline {chapter}{Bibliografia}{49}{chapter*.71}%
+\contentsline {chapter}{\numberline {3\relax .\enspace }Zaangażowanie gracza}{41}{chapter.3}%
+\contentsline {section}{\numberline {3.1\relax .\enspace }Wpływ narracji na zaangażowanie}{41}{section.3.1}%
+\contentsline {section}{\numberline {3.2\relax .\enspace }Sposoby pomiaru zaangażowania gracza}{41}{section.3.2}%
+\contentsline {chapter}{\numberline {4\relax .\enspace }Planowany eksperyment}{42}{chapter.4}%
+\contentsline {section}{\numberline {4.1\relax .\enspace }Projekt gry wykorzystanej w eksperymencie}{42}{section.4.1}%
+\contentsline {section}{\numberline {4.2\relax .\enspace }Opis generatywnych agentów}{42}{section.4.2}%
+\contentsline {chapter}{\numberline {5\relax .\enspace }Wyniki}{43}{chapter.5}%
+\contentsline {chapter}{Podsumowanie}{44}{chapter*.66}%
+\contentsline {chapter}{Spis rysunk\'ow}{45}{chapter*.67}%
+\contentsline {chapter}{Spis listingów}{46}{chapter*.68}%
+\contentsline {chapter}{Spis tabel}{47}{chapter*.69}%
+\contentsline {chapter}{Dodatki}{48}{section*.70}%
+\contentsline {chapter}{\numberline {A\relax .\enspace }Dodatek 1}{49}{appendix.A}%
+\contentsline {chapter}{Bibliografia}{50}{chapter*.71}%

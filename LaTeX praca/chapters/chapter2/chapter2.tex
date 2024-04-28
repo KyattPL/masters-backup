@@ -221,4 +221,66 @@ czy plików model może nie brać pod uwagę wczesnych informacji przy udzielani
 
 \subsubsection*{Przykłady zastosowania dużych modeli językowych}
 
-Tutaj będzie o QuestVille i może o Inworld.AI czy coś...
+\begin{itemize}
+    \item Wykorzystanie LLM do generowania questów
+    \item Generowanie map i instancji assetów na podstawie pliku JSON
+    \item LARP jako teoretyczny szkielet do autonomicznych agentów
+    \item AI Town jako przykład autonomicznych agentów istniejących w świecie gry
+\end{itemize}
+
+Wraz z ostatnimi postępami w dziedzinie przetwarzania języka naturalnego (NLP), duże modele językowe,
+takie jak BERT i GPT-2, zyskały na popularności w generowaniu narracji. W badaniu Al-Nassar i in. (2023)
+zbadano potencjał tych modeli do proceduralnego generowania zadań (questów) w grze QuestVille. Podejście
+to polegało na połączeniu dwóch modeli NLP: BERT i GPT-2 w sekwencji. Najpierw zdefiniowano krótkie
+zdania będące podstawowymi zadaniami, z jednym słowem zamaskowanym. Zdania te przesyłano do modelu
+BERT, który predykował najbardziej prawdopodobne słowa pasujące do kontekstu. Następnie losowo wybierano
+jedno ze zwróconych słów i umieszczano je w zdaniu, tworząc prompt dla modelu GPT-2. Model ten generował
+dodatkowy tekst narracyjny uzupełniający podstawowe zadanie o motywacje, opis sytuacji i wprowadzał
+elementy fabularne. Wyniki sugerują, że takie połączenie modeli ma potencjał do generowania angażujących
+zadań z narracją, bardziej wciągających niż podstawowe polecenia. Prefixowanie promptów relacjami
+między postaciami niesterowalymi w grze kierowało generowaną treść w odpowiedni kontekst. Jednak
+generowane zdania nie zawsze były w pełni spójne i odpowiednie. Autorzy uznali, że dalsze postępy w
+dziedzinie NLP, w tym pojawienie się nowszych, lepszych modeli, mogą doprowadzić do jeszcze lepszych
+rezultatów w przyszłości.
+
+Wraz z rozwojem zaawansowanych modeli językowych, takich jak GPT-3 od OpenAI, pojawiają się nowe
+możliwości ich zastosowania w generowaniu interaktywnej narracji w grach wideo. Jak wskazano w
+przeanalizowanej pracy (chatgpt narrative system.pdf), modele te mogą odgrywać kluczową rolę w
+dynamicznym tworzeniu treści gry na podstawie wejściowych danych tekstowych i kontekstu rozgrywki.
+Opisany prototyp gry wykorzystuje model ChatGPT do generowania początkowej sceny narracyjnej oraz
+opisu przeciwników (orków) na podstawie wysłanego do modelu żądania w formacie JSON. Kluczowym
+elementem jest też dynamiczne tworzenie dalszych fragmentów narracji na podstawie działań gracza i
+stanu gry, w tym cech przypisanych wrogom (np. "płonący", "pijany"). Wprowadzanie tych cech jako danych
+wejściowych pozwala modelowi językowemu na bardziej kontekstowe dopasowanie narracji.
+Autorzy prototypu zdecydowali się na ograniczenie zakresu możliwych wyjść modelu (np. rodzaje broni
+wrogów) dla zachowania spójności z mechanicznymi elementami gry. Wskazuje to na konieczność znalezienia
+właściwej równowagi pomiędzy swobodą generatywną modelu a wymogami spójnego, graczytelnego doświadczenia.
+Wyzwaniem opisanym w pracy było zmapowanie całego stanu gry, takiego jak pozycje postaci, jako danych
+wejściowych do modelu ChatGPT. Ostatecznie autorzy zdecydowali się na prostszy model, w którym tylko
+kluczowe elementy stanu gry są przekazywane do generowania narracji. Podsumowując, zaprezentowany
+prototyp stanowi ciekawą próbę praktycznego wykorzystania dużych modeli językowych do tworzenia
+angażującej, interaktywnej narracji w grze wideo w oparciu o działania gracza. Pokazuje zarówno
+obiecujące możliwości, jak i obecne ograniczenia takiego podejścia.
+
+Duże modele językowe (LLM) zyskały w ostatnich latach na znaczeniu dzięki postępom w metodach uczenia
+maszynowego oraz ogromnym zasobom danych tekstowych używanych do ich trenowania. W pracy "LARP:
+LANGUAGE-AGENT ROLE PLAY FOR OPEN-WORLD GAMES" autorzy proponują wykorzystanie LLM jako podstawę dla
+generatywnych agentów w środowiskach otwartych światów gier fabularnych. Kluczowym elementem architektury
+zaproponowanej w pracy jest kognitywna architektura agenta inspirowana psychologią poznawczą. Składa
+się ona z modułów odpowiedzialnych za pamięć długotrwałą, roboczą, przetwarzanie pamięci oraz
+podejmowanie decyzji. Pozwala to na symulację ludzkich procesów poznawczych, takich jak kodowanie,
+przechowywanie i przypominanie informacji z pamięci, a także rekonstrukcję zdarzeń oraz zapominanie.
+Integracja tych mechanizmów z LLM umożliwia agentowi prowadzenie spójnej, długoterminowej narracji w
+otwartym świecie gry. Kolejnym istotnym aspektem jest moduł interakcji ze środowiskiem, który przekłada
+decyzje agenta na konkretne działania w grze. Wykorzystuje on bibliotekę akcji podstawowych oraz generuje
+nowe sekwencje akcji przy użyciu dopasowanego LLM w celu realizacji zamierzonych celów agenta. Ten proces
+stale wzbogaca bibliotekę akcji o nowe schematy postępowania. Ponadto, praca zakłada implementację
+mechanizmu dopasowywania różnorodnych osobowości i perspektyw dla agentów za pomocą klastra
+drobniejszych, wyspecjalizowanych modeli LLM. Pozwala to na generowanie narracji dostosowanych do
+zróżnicowanych tożsamości, stylów językowych i postaw bohaterów niezależnych. Podejście LARP łączy
+zaawansowane techniki przetwarzania języka naturalnego z inspiracjami z psychologii poznawczej w celu
+umożliwienia generowania spójnych, długoterminowych narracji agentów w bogatych, otwartych światach gier
+fabularnych. Stanowi ono obiecujący kierunek badań na styku sztucznej inteligencji, projektowania gier
+oraz narracji interaktywnych.
+
+TODO BO CLAUDE LIMIT
