@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/intro.rpy", line 14: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-4: truncated \uXXXX escape
-            with open('F:\uczelnia\magister\PRACA DYPLOMOWA\GameAI\game\.env') as f:
-                                                                              ^
+File "game/talk_to_adam.rpy", line 22: invalid syntax
+        jump interrogate_loop
+              ^
 
 Ren'Py Version: Ren'Py 8.2.0.24012702
-Sun Feb 18 15:59:18 2024
+Wed May  1 00:44:53 2024
