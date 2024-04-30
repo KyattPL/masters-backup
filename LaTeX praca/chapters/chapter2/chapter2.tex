@@ -238,24 +238,24 @@ rezultatów w przyszłości.\cite{questville}
 Jak wskazują w swojej pracy Umbraško i Drury (2023)\cite{chatgpt_narrative},
 duże modele językowe mogą odgrywać kluczową rolę w
 dynamicznym tworzeniu treści gry na podstawie wejściowych danych tekstowych i kontekstu rozgrywki.
-Opisany prototyp gry wykorzystuje model ChatGPT do generowania początkowej sceny narracyjnej oraz
+Opisany prototyp gry wykorzystuje interfejs API ChatGPT do generowania początkowej sceny narracyjnej oraz
 opisu przeciwników (orków) na podstawie wysłanego do modelu żądania w formacie JSON. Kluczowym
 elementem jest też dynamiczne tworzenie dalszych fragmentów narracji na podstawie działań gracza i
 stanu gry, w tym cech przypisanych wrogom (np. "płonący", "pijany"). Wprowadzanie tych cech jako danych
 wejściowych pozwala modelowi językowemu na bardziej kontekstowe dopasowanie narracji.
 Autorzy prototypu zdecydowali się na ograniczenie zakresu możliwych wyjść modelu (np. rodzaje broni
 wrogów) dla zachowania spójności z mechanicznymi elementami gry. Wskazuje to na konieczność znalezienia
-właściwej równowagi pomiędzy swobodą generatywną modelu a wymogami spójnego, graczytelnego doświadczenia.
+właściwej równowagi pomiędzy swobodą generatywną modelu a wymogami spójnego i czytelnego doświadczenia.
 Wyzwaniem opisanym w pracy było zmapowanie całego stanu gry, takiego jak pozycje postaci, jako danych
 wejściowych do modelu ChatGPT. Ostatecznie autorzy zdecydowali się na prostszy model, w którym tylko
-kluczowe elementy stanu gry są przekazywane do generowania narracji. Podsumowując, zaprezentowany
+kluczowe elementy stanu gry są przekazywane do generowania narracji. Zaprezentowany
 prototyp stanowi ciekawą próbę praktycznego wykorzystania dużych modeli językowych do tworzenia
 angażującej, interaktywnej narracji w grze wideo w oparciu o działania gracza. Pokazuje zarówno
 obiecujące możliwości, jak i obecne ograniczenia takiego podejścia.\cite{chatgpt_narrative}
 
 W pracy "LARP: Language-Agent Role Play for Open-World Games" (2023)\cite{larp_language} autorzy
-proponują wykorzystanie LLM jako podstawę dla
-generatywnych agentów w środowiskach otwartych światów gier fabularnych. Kluczowym elementem architektury
+proponują wykorzystanie dużych modeli językowych jako podstawę pod generatywnych agentów 
+występujących w środowiskach otwartych światów gier fabularnych. Kluczowym elementem architektury
 zaproponowanej w pracy jest kognitywna architektura agenta inspirowana psychologią poznawczą. Składa
 się ona z modułów odpowiedzialnych za pamięć długotrwałą, roboczą, przetwarzanie pamięci oraz
 podejmowanie decyzji. Pozwala to na symulację ludzkich procesów poznawczych, takich jak kodowanie,
@@ -265,21 +265,35 @@ otwartym świecie gry. Kolejnym istotnym aspektem jest moduł interakcji ze śro
 decyzje agenta na konkretne działania w grze. Wykorzystuje on bibliotekę akcji podstawowych oraz generuje
 nowe sekwencje akcji przy użyciu dopasowanego LLM w celu realizacji zamierzonych celów agenta. Ten proces
 stale wzbogaca bibliotekę akcji o nowe schematy postępowania. Ponadto, praca zakłada implementację
-mechanizmu dopasowywania różnorodnych osobowości i perspektyw dla agentów za pomocą klastra
+mechanizmu dopasowywania różnorodnych osobowości i perspektyw dla agentów za pomocą zbioru
 drobniejszych, wyspecjalizowanych modeli LLM. Pozwala to na generowanie narracji dostosowanych do
-zróżnicowanych tożsamości, stylów językowych i postaw bohaterów niezależnych. Podejście LARP łączy
+zróżnicowanych tożsamości, stylów językowych i postaw bohaterów niegrywalnych. Podejście LARP łączy
 zaawansowane techniki przetwarzania języka naturalnego z inspiracjami z psychologii poznawczej w celu
 umożliwienia generowania spójnych, długoterminowych narracji agentów w bogatych, otwartych światach gier
 fabularnych\cite{larp_language}.
 
-W pracy "Generative Agents: Interactive Simulacra of Human Behavior" (2023)\cite{ai_town_ref} autorzy przedstawiają koncepcję
+W ramach pracy "Generative Agents: Interactive Simulacra of Human Behavior" (2023)\cite{ai_town_ref} autorzy przedstawiają koncepcję
 generatywnych agentów, które wykorzystują duże modele językowe do symulacji wiarygodnych zachowań
-ludzkich. Architektura agenta opiera się na trzech głównych komponentach: strumieniu pamięci, refleksji
+ludzkich. W porównaniu z poprzednią, ta prezentuje wnioski dotyczące faktycznej implementacji tej struktury.
+Architektura agenta opiera się na trzech głównych komponentach: strumieniu pamięci, refleksji
 i planowaniu. Strumień pamięci to moduł długoterminowej pamięci, który rejestruje doświadczenia agenta
 w języku naturalnym. Refleksja pozwala agentowi na wyciąganie wniosków na wyższym poziomie abstrakcji,
 co przekłada się na lepsze kierowanie jego zachowaniem. Planowanie to proces przekształcania tych
 wniosków i aktualnego środowiska w wysokopoziomowe plany działań, które są następnie realizowane przez
-agenta. Integracja tych elementów z dużymi modelami językowymi umożliwia agentom generowanie spójnych,
-długoterminowych narracji, które odzwierciedlają dynamicznie zmieniające się doświadczenia i środowisko.
-Praca ta otwiera nowe perspektywy dla tworzenia agentów, które mogą być użyteczne w różnorodnych
-aplikacjach, od gier po symulacje społeczne i treningi interpersonalne\cite{ai_town_ref}.
+agenta. Autorzy przeprowadzają dwie ewaluacje agentów generatywnych: kontrolowaną ewaluację indywidualnych 
+zachowań oraz kompleksową ewaluację interakcji między agentami w otwartym środowisku przez dwa dni czasu gry. 
+W ewaluacji technicznej wykorzystują metodę "wywiadu" z agentem w języku naturalnym, aby zbadać jego zdolność 
+do pozostania w charakterze, pamiętania, planowania, reagowania i dokładnego refleksji. Porównują różne 
+wersje systemu z ograniczonym dostępem do pamięci, refleksji i planowania, obserwując, że każdy z tych 
+komponentów jest kluczowy dla wiarygodności zachowań agenta\cite{ai_town_ref}.
+
+Jak widać obecnie trwają intensywne prace badawcze nad wykorzystaniem dużych modeli językowych, 
+w dziedzinie tworzenia treści literackich oraz elementów gier. Jednym z 
+obiecujących zastosowań jest stworzenie w pełni autonomicznych, generatywnych agentów literackich, 
+zdolnych do samodzielnego tworzenia spójnych i angażujących narracji. Rozwiązania te stopniowo 
+znajdują swoje odzwierciedlenie również na rynku komercyjnym, czego przykładem są platformy takie 
+jak Inworld.ai czy Nvidia Avatar Cloud Engine. Umożliwiają one twórcom gier, a nawet indywidualnym 
+użytkownikom, korzystanie z zaawansowanych modeli językowych w celu generowania dialogów postaci, 
+opisów środowisk czy całych wątków fabularnych. Chociaż wciąż istnieją liczne wyzwania natury 
+technicznej i etycznej, rozwój tej technologii może znacząco zmienić oblicze branży rozrywkowej 
+oraz procesów twórczych w dziedzinie literatury.
