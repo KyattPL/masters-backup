@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  28 APR 2024 21:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  30 APR 2024 23:06
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1392,7 +1392,7 @@ Dodatek A.
 ) (./thesis.bbl [49
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 10.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 13.
  (c:/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
@@ -1401,12 +1401,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 []\T1/qtm/m/it/10.95 (+20) Dialogue whe-el (in-qu-isi-tion)\T1/qtm/m/n/10.95 (+20) , []$\T1/cmtt/m/n/10.95 https : / / dragonage\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 fandom\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 com / wiki /
  []
 
 
-Underfull \hbox (badness 7944) in paragraph at lines 28--29
+Underfull \hbox (badness 7944) in paragraph at lines 31--32
 []\T1/qtm/m/n/10.95 (+20) Madsen, H., \T1/qtm/m/it/10.95 (+20) 25 years la-ter, the most over-lo-oked fi-nal fan-ta-sy de-se-rves mo-re
  []
 
@@ -1416,14 +1416,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [50
 
 {c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51]
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 \T1/cmtt/m/n/10.95 games -[] as -[] a -[] storytelling -[] medium -[] and -[] the -[] role -[] of -[] narrative -[] in -[] modern -[]
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [51]) [52] (./thesis.aux)
+) [52] (./thesis.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1436,18 +1436,18 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 28C646396D306C455AAC7868378126CD;6349.
  ) 
 Here is how much of TeX's memory you used:
- 31538 strings out of 474221
- 595997 string characters out of 5750189
- 1939978 words of memory out of 5000000
- 52817 multiletter control sequences out of 15000+600000
- 614993 words of font info for 186 fonts, out of 8000000 for 9000
+ 31548 strings out of 474221
+ 596136 string characters out of 5750189
+ 1940978 words of memory out of 5000000
+ 52820 multiletter control sequences out of 15000+600000
+ 615228 words of font info for 188 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  123i,10n,121p,3556b,657s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on thesis.pdf (56 pages, 16158430 bytes).
+Output written on thesis.pdf (56 pages, 16159918 bytes).
 PDF statistics:
- 798 PDF objects out of 1000 (max. 8388607)
- 666 compressed objects within 7 object streams
- 168 named destinations out of 1000 (max. 500000)
+ 806 PDF objects out of 1000 (max. 8388607)
+ 674 compressed objects within 7 object streams
+ 171 named destinations out of 1000 (max. 500000)
  30693 words of extra memory for PDF output out of 35830 (max. 10000000)
 

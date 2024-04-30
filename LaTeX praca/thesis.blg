@@ -3,50 +3,51 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis.aux
 The style file: dyplom.bst
 Database file #1: bibliography.bib
+Warning--empty pages in questville
 Warning--empty journal in from_pong_to_narrative
 Warning--empty journal in characters_and_directors
 Warning--missing school in storytelling_through
 Warning--can't use both author and editor fields in game_ai_storytelling
 Warning--empty chapter and pages in game_ai_storytelling
-You've used 21 entries,
+You've used 24 entries,
             2662 wiz_defined-function locations,
-            680 strings with 13196 characters,
-and the built_in function-call counts, 19377 in all, are:
-= -- 1150
-> -- 1715
+            692 strings with 13790 characters,
+and the built_in function-call counts, 20615 in all, are:
+= -- 1226
+> -- 1786
 < -- 11
-+ -- 694
-- -- 670
-* -- 1620
-:= -- 2741
-add.period$ -- 41
-call.type$ -- 21
-change.case$ -- 404
++ -- 723
+- -- 696
+* -- 1709
+:= -- 2913
+add.period$ -- 46
+call.type$ -- 24
+change.case$ -- 426
 chr.to.int$ -- 0
-cite$ -- 26
-duplicate$ -- 1272
-empty$ -- 986
-format.name$ -- 681
-if$ -- 3679
+cite$ -- 30
+duplicate$ -- 1371
+empty$ -- 1090
+format.name$ -- 710
+if$ -- 3926
 int.to.chr$ -- 0
-int.to.str$ -- 21
-missing$ -- 438
-newline$ -- 66
-num.names$ -- 38
-pop$ -- 890
+int.to.str$ -- 24
+missing$ -- 464
+newline$ -- 75
+num.names$ -- 44
+pop$ -- 953
 preamble$ -- 1
-purify$ -- 378
+purify$ -- 397
 quote$ -- 0
-skip$ -- 236
+skip$ -- 258
 stack$ -- 0
-substring$ -- 276
-swap$ -- 981
+substring$ -- 291
+swap$ -- 1035
 text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 82
-warning$ -- 5
-while$ -- 50
-width$ -- 23
-write$ -- 170
-(There were 5 warnings)
+type$ -- 94
+warning$ -- 6
+while$ -- 56
+width$ -- 26
+write$ -- 193
+(There were 6 warnings)

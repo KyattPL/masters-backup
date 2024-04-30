@@ -1,5 +1,8 @@
 \begin{thebibliography}{10}
 
+\bibitem{questville}
+Al-Nassar, S., Schaap, A., Zwart, M.V.D., Preuss, M., G\'{o}mez-Maureira, M.A., \emph{Questville: Procedural quest generation using nlp models}, w: \emph{Proceedings of the 18th International Conference on the Foundations of Digital Games}, FDG '23 (Association for Computing Machinery, New York, NY, USA, 2023).
+
 \bibitem{ammanabrolu2020automated}
 Ammanabrolu, P., Broniec, W., Mueller, A., Paul, J., Riedl, M.O., \emph{Toward automated quest generation in text-adventure games}. 2020.
 
@@ -48,6 +51,9 @@ OpenAI, Achiam, J., Adler, S., Agarwal, S., Ahmad, L., Akkaya, I., Aleman, F.L.,
 \bibitem{storytelling_through}
 Papworth, S., \emph{Storytelling through Gameplay: Dimensions of AI Design for Narrative Purposes}, Rozprawa doktorska. 2016.
 
+\bibitem{ai_town_ref}
+Park, J.S., O'Brien, J.C., Cai, C.J., Morris, M.R., Liang, P., Bernstein, M.S., \emph{Generative agents: Interactive simulacra of human behavior}. 2023.
+
 \bibitem{automated_planning}
 Ramirez, A., Bulitko, V., \emph{Automated planning and player modeling for interactive storytelling}, IEEE Transactions on Computational Intelligence and AI in Games. 2015, tom~7, 4, str. 375--386.
 
@@ -56,6 +62,9 @@ Riedl, M., Thue, D., Bulitko, V., \emph{Game AI as Storytelling} (Springer New Y
 
 \bibitem{the_evolution_of_video_games}
 Stone, C., \emph{The evolution of video games as a storytelling medium, and the role of narrative in modern games}, \url{https://www.gamedeveloper.com/design/the-evolution-of-video-games-as-a-storytelling-medium-and-the-role-of-narrative-in-modern-games}. Data dost. 18 marca 2024.
+
+\bibitem{chatgpt_narrative}
+Umbraško, A., Drury, R., \emph{Applying chatgpt in ai-based dynamic video game narrative generation system}. 2023.
 
 \bibitem{reusable_game_ai}
 Westera, W., Prada, R., Mascarenhas, S., Santos, P.A., Dias, J., Guimar{\~a}es, M., Georgiadis, K., Nyamsuren, E., Bahreini, K., Yumak, Z., Christyowidiasmoro, C., Dascalu, M., Gutu-Robu, G., Ruseti, S., \emph{Artificial intelligence moving serious gaming: Presenting reusable game ai components}, Education and Information Technologies. 2020, tom~25, 1, str. 351--380.
