@@ -10,10 +10,10 @@ label talk_to_adam:
     $ current_question = 1
     $ sessId = None
 
-    while current_question <= 5:
+    while current_question <= 10:
         python:
             prompt = "Remaining questions: {}.\nEx. questions: 'Where were you?', 'What do you know about X?'\nType 'exit' to quit.".format(
-                6 - current_question)
+                11 - current_question)
             question = renpy.input(prompt, length=64)
             question = question.strip()
 

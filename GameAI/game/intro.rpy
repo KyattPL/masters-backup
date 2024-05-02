@@ -31,16 +31,18 @@ init python:
         AUTH_TOKEN = os.getenv('AUTH_TOKEN')
 
         url = f'https://studio.inworld.ai/v1/workspaces/{WORKSPACE_ID}/characters/{char}:simpleSendText'
-        headers = {"Content-Type": "application/json", "authorization": f"Basic {AUTH_TOKEN}=="}
-        myobj = {"character": f"workspaces/{WORKSPACE_ID}/characters/{char}", "text": f"{prompt}", "endUserFullname": f"{protagonist}", "endUserId":"12345"}
+        headers = {"Content-Type": "application/json",
+                   "authorization": f"Basic {AUTH_TOKEN}=="}
+        myobj = {"character": f"workspaces/{WORKSPACE_ID}/characters/{char}",
+                 "text": f"{prompt}", "endUserFullname": f"{protagonist}", "endUserId": "12345"}
 
         if sessionId is not None:
             myobj['sessionId'] = sessionId
 
         x = requests.post(url, json=myobj, headers=headers).json()
-        
-        #x['textList']
-        #x['sessionId']
+
+        # x['textList']
+        # x['sessionId']
 
         return x
 
@@ -50,7 +52,7 @@ label intro:
         inputPrompt = inputPrompt.strip()
 
         protagonist_name = inputPrompt
-    
+
     scene mansion front evening
     with fade
 
