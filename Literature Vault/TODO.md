@@ -1,7 +1,3 @@
-- Wczesne zakończenie rozmowy w grze
-- Pomocnicze/przykładowe prompty w wersji AI w celu zminimalizowania "paraliżu wyboru"
-- IMO po prostu online, żeby mieć te 100-200 osób bo nie wiem czy na 20-30 wyjdzie coś statystycznie dużego(?)
-
 Moim zdaniem:
 - Bez losowania mordercy bo jest to dodatkowa zmienna przy badaniu. Miało by to jakiś sens gdyby istniały pewne podgrupy tzn. po tyle samo osób miałoby jednego mordercę. Zakładając, że będę miał naście / dziesiąt uczestników badania to podział na 4-5 grup po kilka osób chyba mija się z celem zbytnio. Mogę najwyżej wspomnieć w samej pracy, że jest potencjał na takie rozwiązanie
 - Testy A/B to koniecznie dobry pomysł i teraz są dwie opcje:

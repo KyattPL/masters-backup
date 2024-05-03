@@ -1,6 +1,7 @@
 renpy-8.2.0-sdk/
 
 GameAI-1.0-dists/
+GameNONAI-1.0-dists/
 
 GameAI/game/.env
 

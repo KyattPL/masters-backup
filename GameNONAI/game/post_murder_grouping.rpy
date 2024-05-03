@@ -37,8 +37,10 @@ label post_murder_grouping:
 
     me "Okay, I'll read it out loud..."
     me "To whoever finds this,"
-    me "I'm sorry for the mess I've left behind. I know this is a cowardly way to end things, but I couldn't bear the pain any longer. I've been struggling with depression for years, and nothing seemed to bring me joy or meaning. Not even my passion for crime investigation, which used to be my only reason to live."
-    me "I've always admired the great minds of history, the ones who solved mysteries, created masterpieces, and changed the world. Sherlock Holmes, Agatha Christie, Leonardo da Vinci, Mozart... They were my heroes, my inspiration, my escape. But I realized I could never be like them. I was just a mediocre detective, a failed artist, a nobody."
+    me "I'm sorry for the mess I've left behind. I know this is a cowardly way to end things, but I couldn't bear the pain any longer."
+    me "I've been struggling with depression for years, and nothing seemed to bring me joy or meaning. Not even my passion for crime investigation, which used to be my only reason to live."
+    me "I've always admired the great minds of history, the ones who solved mysteries, created masterpieces, and changed the world."
+    me "Sherlock Holmes, Agatha Christie, Leonardo da Vinci, Mozart... They were my heroes, my inspiration, my escape. But I realized I could never be like them. I was just a mediocre detective, a failed artist, a nobody."
     me "Please don't blame yourself for my death. It was my choice, and mine alone. I don't expect you to understand, or to forgive me. I just hope you can find some peace, and some happiness, in this cruel world."
     me "Goodbye, Sylvia."
 

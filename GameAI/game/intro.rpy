@@ -39,10 +39,9 @@ init python:
         if sessionId is not None:
             myobj['sessionId'] = sessionId
 
+        # x = renpy.fetch(url=url, method="POST", json=myobj, timeout=15,
+        #                 headers=headers, result="json")
         x = requests.post(url, json=myobj, headers=headers).json()
-
-        # x['textList']
-        # x['sessionId']
 
         return x
 
