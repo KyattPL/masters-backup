@@ -771,3 +771,31 @@ annotation-target: "[[development_of_game.pdf]]"
 >%%TAGS%%
 >
 ^5s4ejthun3u
+
+
+>%%
+>```annotation-json
+>{"created":"2024-05-04T16:20:06.319Z","updated":"2024-05-04T16:20:06.319Z","document":{"title":"()","link":[{"href":"urn:x-pdf:60778cda0c9a948669013c9a36bfa4f1"},{"href":"vault:/Papers PDFs/development_of_game.pdf"}],"documentFingerprint":"60778cda0c9a948669013c9a36bfa4f1"},"uri":"vault:/Papers PDFs/development_of_game.pdf","target":[{"source":"vault:/Papers PDFs/development_of_game.pdf","selector":[{"type":"TextPositionSelector","start":30227,"end":30460},{"type":"TextQuoteSelector","exact":"By using the standard errorsassociated with each item (see Table 2), confidence intervals canbe formed to allow inferences about the extent to which adjacentitems might switch positions on the hierarchy in subsequentadministrations. ","prefix":"ns stable across other samples. ","suffix":"For example, Table 2 shows the i"}]}]}
+>```
+>%%
+>*%%PREFIX%%ns stable across other samples.%%HIGHLIGHT%% ==By using the standard errorsassociated with each item (see Table 2), confidence intervals canbe formed to allow inferences about the extent to which adjacentitems might switch positions on the hierarchy in subsequentadministrations.== %%POSTFIX%%For example, Table 2 shows the i*
+>%%LINK%%[[#^13xdta9w7lfd|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^13xdta9w7lfd
+
+
+>%%
+>```annotation-json
+>{"created":"2024-05-04T16:26:19.678Z","updated":"2024-05-04T16:26:19.678Z","document":{"title":"()","link":[{"href":"urn:x-pdf:60778cda0c9a948669013c9a36bfa4f1"},{"href":"vault:/Papers PDFs/development_of_game.pdf"}],"documentFingerprint":"60778cda0c9a948669013c9a36bfa4f1"},"uri":"vault:/Papers PDFs/development_of_game.pdf","target":[{"source":"vault:/Papers PDFs/development_of_game.pdf","selector":[{"type":"TextPositionSelector","start":34505,"end":34647},{"type":"TextQuoteSelector","exact":"An additional test of unidimensionality was done using a Raschprincipal components analysis. The total variance explained by themeasure was 69","prefix":"athered with subsequent studies.","suffix":"%.3 The amount of unexplained va"}]}]}
+>```
+>%%
+>*%%PREFIX%%athered with subsequent studies.%%HIGHLIGHT%% ==An additional test of unidimensionality was done using a Raschprincipal components analysis. The total variance explained by themeasure was 69== %%POSTFIX%%%.3 The amount of unexplained va*
+>%%LINK%%[[#^5enqt0s4dex|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^5enqt0s4dex
