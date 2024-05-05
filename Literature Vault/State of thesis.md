@@ -20,10 +20,9 @@ Więc TODO jest przejrzenie kropek poniżej i dopisanie, z której pracy mogę b
 		- Potencjalne frameworki (**są chyba w dwóch artykułach opisane całe struktury pamięci**)
 		- Przykład wykorzystania LLM do kreowania narracji
 3. Zaangażowanie gracza:
-	1. Wpływ narracji na zaangażowanie gracza
-		- Definicja i rodzaje zaangażowania gracza: ...
-		- Czynniki narracyjne wpływające na zaangażowanie gracza: ...
-		- Metody i techniki zwiększania zaangażowania gracza poprzez narrację: ...
+	1. Definicje i rodzaje zaangażowania
+		- Problem psychologiczny - czym jest to zaangażowanie
+		- Próby kategoryzowania zaangażowania: immersion, presence, flow, competence, tension, challenge
 	2. Sposoby mierzenia zaangażowania gracza
 		- Kryteria i wskaźniki zaangażowania gracza: czas gry, osiągnięcia, opinie, reakcje
 		- Metody i narzędzia mierzenia zaangażowania gracza: ankiety, wywiady, obserwacje, pomiary

@@ -385,6 +385,14 @@ FUNCTION {format.names}
       't :=
       nameptr #1 >
         {
+          nameptr #9
+          #1 + =
+          numnames #4
+          > and
+            { "others" 't :=
+              #1 'namesleft := }
+            'skip$
+          if$
           namesleft #1 >
             { ", " * t * }
             {

@@ -24,16 +24,16 @@
 \contentsline {section}{\numberline {2.1\relax .\enspace }Wykorzystanie algorytmów sztucznej inteligencji do kreowania narracji}{33}{section.2.1}%
 \contentsline {section}{\numberline {2.2\relax .\enspace }Wykorzystanie dużych modeli językowych (LLM) do kreowania narracji}{37}{section.2.2}%
 \contentsline {chapter}{\numberline {3\relax .\enspace }Zaangażowanie gracza}{42}{chapter.3}%
-\contentsline {section}{\numberline {3.1\relax .\enspace }Wpływ narracji na zaangażowanie}{42}{section.3.1}%
-\contentsline {section}{\numberline {3.2\relax .\enspace }Sposoby pomiaru zaangażowania gracza}{42}{section.3.2}%
-\contentsline {chapter}{\numberline {4\relax .\enspace }Planowany eksperyment}{43}{chapter.4}%
-\contentsline {section}{\numberline {4.1\relax .\enspace }Projekt gry wykorzystanej w eksperymencie}{43}{section.4.1}%
-\contentsline {section}{\numberline {4.2\relax .\enspace }Opis generatywnych agentów}{43}{section.4.2}%
-\contentsline {chapter}{\numberline {5\relax .\enspace }Wyniki}{44}{chapter.5}%
-\contentsline {chapter}{Podsumowanie}{45}{chapter*.66}%
-\contentsline {chapter}{Spis rysunk\'ow}{46}{chapter*.67}%
-\contentsline {chapter}{Spis listingów}{47}{chapter*.68}%
-\contentsline {chapter}{Spis tabel}{48}{chapter*.69}%
-\contentsline {chapter}{Dodatki}{49}{section*.70}%
-\contentsline {chapter}{\numberline {A\relax .\enspace }Dodatek 1}{50}{appendix.A}%
-\contentsline {chapter}{Bibliografia}{51}{chapter*.71}%
+\contentsline {section}{\numberline {3.1\relax .\enspace }Definicje i rodzaje zaangażowania}{42}{section.3.1}%
+\contentsline {section}{\numberline {3.2\relax .\enspace }Sposoby pomiaru zaangażowania gracza}{43}{section.3.2}%
+\contentsline {chapter}{\numberline {4\relax .\enspace }Planowany eksperyment}{44}{chapter.4}%
+\contentsline {section}{\numberline {4.1\relax .\enspace }Projekt gry wykorzystanej w eksperymencie}{44}{section.4.1}%
+\contentsline {section}{\numberline {4.2\relax .\enspace }Opis generatywnych agentów}{44}{section.4.2}%
+\contentsline {chapter}{\numberline {5\relax .\enspace }Wyniki}{45}{chapter.5}%
+\contentsline {chapter}{Podsumowanie}{46}{chapter*.67}%
+\contentsline {chapter}{Spis rysunk\'ow}{47}{chapter*.68}%
+\contentsline {chapter}{Spis listingów}{48}{chapter*.69}%
+\contentsline {chapter}{Spis tabel}{49}{chapter*.70}%
+\contentsline {chapter}{Dodatki}{50}{section*.71}%
+\contentsline {chapter}{\numberline {A\relax .\enspace }Dodatek 1}{51}{appendix.A}%
+\contentsline {chapter}{Bibliografia}{52}{chapter*.72}%

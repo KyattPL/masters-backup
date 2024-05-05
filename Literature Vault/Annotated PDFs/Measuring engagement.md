@@ -267,3 +267,17 @@ annotation-target: "[[Measuring engagement.pdf]]"
 >%%TAGS%%
 >
 ^2nayc89p402
+
+
+>%%
+>```annotation-json
+>{"created":"2024-05-05T22:22:37.208Z","updated":"2024-05-05T22:22:37.208Z","document":{"title":"Measuring engagement in video game-based environments: Investigation of the User Engagement Scale","link":[{"href":"urn:x-pdf:a6701911f58cc580b1f63fbdc591b083"},{"href":"vault:/Papers PDFs/Measuring engagement.pdf"}],"documentFingerprint":"a6701911f58cc580b1f63fbdc591b083"},"uri":"vault:/Papers PDFs/Measuring engagement.pdf","target":[{"source":"vault:/Papers PDFs/Measuring engagement.pdf","selector":[{"type":"TextPositionSelector","start":15581,"end":16181},{"type":"TextQuoteSelector","exact":"As previously noted, O’Brien and Toms used work in educa-tional multimedia as a starting point to define a number of bothpragmatic and hedonic dimensions that influence user engage-ment. In addition to the construct of flow, they also wanted to cap-ture the hedonic aspects of aesthetics, fun/pleasure, and noveltyalong with pragmatic aspects of usability and a more reflectivesense of whether the user would like to re-engage with this expe-rience again in the future. From these constructs, they developedand validated a self-report instrument with six subscales repre-senting six unique constructs","prefix":"ien and Toms (2008, 2010,2012). ","suffix":" (O’Brien and Toms, 2010):\u000fAE – "}]}]}
+>```
+>%%
+>*%%PREFIX%%ien and Toms (2008, 2010,2012).%%HIGHLIGHT%% ==As previously noted, O’Brien and Toms used work in educa-tional multimedia as a starting point to define a number of bothpragmatic and hedonic dimensions that influence user engage-ment. In addition to the construct of flow, they also wanted to cap-ture the hedonic aspects of aesthetics, fun/pleasure, and noveltyalong with pragmatic aspects of usability and a more reflectivesense of whether the user would like to re-engage with this expe-rience again in the future. From these constructs, they developedand validated a self-report instrument with six subscales repre-senting six unique constructs== %%POSTFIX%%(O’Brien and Toms, 2010):AE –*
+>%%LINK%%[[#^zly6hqgysz|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^zly6hqgysz

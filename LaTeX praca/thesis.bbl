@@ -1,5 +1,8 @@
 \begin{thebibliography}{10}
 
+\bibitem{eng_in_games}
+Abbasi, A.Z., Ting, D.H., Hlavacs, H., \emph{Engagement in games: Developing an instrument to measure consumer videogame engagement and its validation}, International Journal of Computer Games Technology. 2017, tom 2017, str. 7363925.
+
 \bibitem{questville}
 Al-Nassar, S., Schaap, A., Zwart, M.V.D., Preuss, M., G\'{o}mez-Maureira, M.A., \emph{Questville: Procedural quest generation using nlp models}, w: \emph{Proceedings of the 18th International Conference on the Foundations of Digital Games}, FDG '23 (Association for Computing Machinery, New York, NY, USA, 2023).
 
@@ -17,6 +20,9 @@ Fraser, J., Papaioannou, I., Lemon, O., \emph{Spoken conversational ai in video 
 
 \bibitem{hausknecht2020interactive}
 Hausknecht, M., Ammanabrolu, P., Côté, M.A., Yuan, X., \emph{Interactive fiction games: A colossal adventure}. 2020.
+
+\bibitem{measuring_user_exp}
+Ijsselsteijn, W., De~Kort, Y., Poels, K., Jurgelionis, A., Bellotti, F., \emph{Characterising and measuring user experiences in digital games}, Journal of Applied Mechanics-transactions of The Asme - J APPL MECH. 2007.
 
 \bibitem{if_wiki}
 \emph{Interactive fiction}, \url{https://en.wikipedia.org/wiki/Interactive_fiction}. Data dost. 9 kwietnia 2024.
@@ -46,7 +52,7 @@ Mateas, M., Stern, A., \emph{A behavior language for story-based believable agen
 Montfort, N., \emph{Interactive fiction's fourth era}, \url{https://nickm.com/if/fourth_era.html}. 2008. Data dost. 15 kwietnia 2024.
 
 \bibitem{openai2024gpt4}
-OpenAI, Achiam, J., Adler, S., Agarwal, S., Ahmad, L., Akkaya, I., Aleman, F.L., Almeida, D., Altenschmidt, J., Altman, S., Anadkat, S., Avila, R., Babuschkin, I., Balaji, S., Balcom, V., Baltescu, P., Bao, H., Bavarian, M., Belgum, J., Bello, I., Berdine, J., Bernadett-Shapiro, G., Berner, C., Bogdonoff, L., Boiko, O., Boyd, M., Brakman, A.L., Brockman, G., Brooks, T., Brundage, M., Button, K., Cai, T., Campbell, R., Cann, A., Carey, B., Carlson, C., Carmichael, R., Chan, B., Chang, C., Chantzis, F., Chen, D., Chen, S., Chen, R., Chen, J., Chen, M., Chess, B., Cho, C., Chu, C., Chung, H.W., Cummings, D., Currier, J., Dai, Y., Decareaux, C., Degry, T., Deutsch, N., Deville, D., Dhar, A., Dohan, D., Dowling, S., Dunning, S., Ecoffet, A., Eleti, A., Eloundou, T., Farhi, D., Fedus, L., Felix, N., Fishman, S.P., Forte, J., Fulford, I., Gao, L., Georges, E., Gibson, C., Goel, V., Gogineni, T., Goh, G., Gontijo-Lopes, R., Gordon, J., Grafstein, M., Gray, S., Greene, R., Gross, J., Gu, S.S., Guo, Y., Hallacy, C., Han, J., Harris, J., He, Y., Heaton, M., Heidecke, J., Hesse, C., Hickey, A., Hickey, W., Hoeschele, P., Houghton, B., Hsu, K., Hu, S., Hu, X., Huizinga, J., Jain, S., Jain, S., Jang, J., Jiang, A., Jiang, R., Jin, H., Jin, D., Jomoto, S., Jonn, B., Jun, H., Kaftan, T., Łukasz Kaiser, Kamali, A., Kanitscheider, I., Keskar, N.S., Khan, T., Kilpatrick, L., Kim, J.W., Kim, C., Kim, Y., Kirchner, J.H., Kiros, J., Knight, M., Kokotajlo, D., Łukasz Kondraciuk, Kondrich, A., Konstantinidis, A., Kosic, K., Krueger, G., Kuo, V., Lampe, M., Lan, I., Lee, T., Leike, J., Leung, J., Levy, D., Li, C.M., Lim, R., Lin, M., Lin, S., Litwin, M., Lopez, T., Lowe, R., Lue, P., Makanju, A., Malfacini, K., Manning, S., Markov, T., Markovski, Y., Martin, B., Mayer, K., Mayne, A., McGrew, B., McKinney, S.M., McLeavey, C., McMillan, P., McNeil, J., Medina, D., Mehta, A., Menick, J., Metz, L., Mishchenko, A., Mishkin, P., Monaco, V., Morikawa, E., Mossing, D., Mu, T., Murati, M., Murk, O., Mély, D., Nair, A., Nakano, R., Nayak, R., Neelakantan, A., Ngo, R., Noh, H., Ouyang, L., O'Keefe, C., Pachocki, J., Paino, A., Palermo, J., Pantuliano, A., Parascandolo, G., Parish, J., Parparita, E., Passos, A., Pavlov, M., Peng, A., Perelman, A., de~Avila Belbute~Peres, F., Petrov, M., de~Oliveira~Pinto, H.P., Michael, Pokorny, Pokrass, M., Pong, V.H., Powell, T., Power, A., Power, B., Proehl, E., Puri, R., Radford, A., Rae, J., Ramesh, A., Raymond, C., Real, F., Rimbach, K., Ross, C., Rotsted, B., Roussez, H., Ryder, N., Saltarelli, M., Sanders, T., Santurkar, S., Sastry, G., Schmidt, H., Schnurr, D., Schulman, J., Selsam, D., Sheppard, K., Sherbakov, T., Shieh, J., Shoker, S., Shyam, P., Sidor, S., Sigler, E., Simens, M., Sitkin, J., Slama, K., Sohl, I., Sokolowsky, B., Song, Y., Staudacher, N., Such, F.P., Summers, N., Sutskever, I., Tang, J., Tezak, N., Thompson, M.B., Tillet, P., Tootoonchian, A., Tseng, E., Tuggle, P., Turley, N., Tworek, J., Uribe, J.F.C., Vallone, A., Vijayvergiya, A., Voss, C., Wainwright, C., Wang, J.J., Wang, A., Wang, B., Ward, J., Wei, J., Weinmann, C., Welihinda, A., Welinder, P., Weng, J., Weng, L., Wiethoff, M., Willner, D., Winter, C., Wolrich, S., Wong, H., Workman, L., Wu, S., Wu, J., Wu, M., Xiao, K., Xu, T., Yoo, S., Yu, K., Yuan, Q., Zaremba, W., Zellers, R., Zhang, C., Zhang, M., Zhao, S., Zheng, T., Zhuang, J., Zhuk, W., Zoph, B., \emph{Gpt-4 technical report}. 2024.
+OpenAI, Achiam, J., Adler, S., Agarwal, S., Ahmad, L., Akkaya, I., Aleman, F.L., Almeida, D., Altenschmidt, J., i~in., \emph{Gpt-4 technical report}. 2024.
 
 \bibitem{storytelling_through}
 Papworth, S., \emph{Storytelling through Gameplay: Dimensions of AI Design for Narrative Purposes}, Rozprawa doktorska. 2016.
@@ -67,7 +73,10 @@ Stone, C., \emph{The evolution of video games as a storytelling medium, and the 
 Umbraško, A., Drury, R., \emph{Applying chatgpt in ai-based dynamic video game narrative generation system}. 2023.
 
 \bibitem{reusable_game_ai}
-Westera, W., Prada, R., Mascarenhas, S., Santos, P.A., Dias, J., Guimar{\~a}es, M., Georgiadis, K., Nyamsuren, E., Bahreini, K., Yumak, Z., Christyowidiasmoro, C., Dascalu, M., Gutu-Robu, G., Ruseti, S., \emph{Artificial intelligence moving serious gaming: Presenting reusable game ai components}, Education and Information Technologies. 2020, tom~25, 1, str. 351--380.
+Westera, W., Prada, R., Mascarenhas, S., Santos, P.A., Dias, J., Guimar{\~a}es, M., Georgiadis, K., Nyamsuren, E., Bahreini, K., i~in., \emph{Artificial intelligence moving serious gaming: Presenting reusable game ai components}, Education and Information Technologies. 2020, tom~25, 1, str. 351--380.
+
+\bibitem{measuring_engagement}
+Wiebe, E.N., Lamb, A., Hardy, M., Sharek, D., \emph{Measuring engagement in video game-based environments: Investigation of the user engagement scale}, Computers in Human Behavior. 2014, tom~32, str. 123--132.
 
 \bibitem{larp_language}
 Yan, M., Li, R., Zhang, H., Wang, H., Yang, Z., Yan, J., \emph{Larp: Language-agent role play for open-world games}. 2023.
