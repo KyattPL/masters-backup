@@ -281,3 +281,17 @@ annotation-target: "[[Measuring engagement.pdf]]"
 >%%TAGS%%
 >
 ^zly6hqgysz
+
+
+>%%
+>```annotation-json
+>{"created":"2024-05-06T16:26:00.285Z","updated":"2024-05-06T16:26:00.285Z","document":{"title":"Measuring engagement in video game-based environments: Investigation of the User Engagement Scale","link":[{"href":"urn:x-pdf:a6701911f58cc580b1f63fbdc591b083"},{"href":"vault:/Papers PDFs/Measuring engagement.pdf"}],"documentFingerprint":"a6701911f58cc580b1f63fbdc591b083"},"uri":"vault:/Papers PDFs/Measuring engagement.pdf","target":[{"source":"vault:/Papers PDFs/Measuring engagement.pdf","selector":[{"type":"TextPositionSelector","start":10581,"end":11013},{"type":"TextQuoteSelector","exact":"Flow can be thought of as a deep immersive experience that resultsfrom an individual engaging in a task that has an appropriate bal-ance of challenge relative to a user’s skill level (Csikszentmihalyi,1990; Faiola et al., 2012; Sherry, 2004). Flow and game play areoften linked in contexts where the user finds a familiar formalstructure (of the game) but novel content created by the systemdesign and user choice within the system ","prefix":"engagement in such environments.","suffix":"(Sherry, 2004). The con-nection "}]}]}
+>```
+>%%
+>*%%PREFIX%%engagement in such environments.%%HIGHLIGHT%% ==Flow can be thought of as a deep immersive experience that resultsfrom an individual engaging in a task that has an appropriate bal-ance of challenge relative to a user’s skill level (Csikszentmihalyi,1990; Faiola et al., 2012; Sherry, 2004). Flow and game play areoften linked in contexts where the user finds a familiar formalstructure (of the game) but novel content created by the systemdesign and user choice within the system== %%POSTFIX%%(Sherry, 2004). The con-nection*
+>%%LINK%%[[#^ih53aor1g2j|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ih53aor1g2j

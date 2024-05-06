@@ -603,3 +603,17 @@ annotation-target: "[[measuring_narrative.pdf]]"
 >%%TAGS%%
 >
 ^y9evlbfgeg
+
+
+>%%
+>```annotation-json
+>{"created":"2024-05-06T16:31:44.390Z","updated":"2024-05-06T16:31:44.390Z","document":{"title":"measuring_narrative.pdf","link":[{"href":"urn:x-pdf:83a44c9fd23a01c90aafad1f016157b8"},{"href":"vault:/Papers PDFs/measuring_narrative.pdf"}],"documentFingerprint":"83a44c9fd23a01c90aafad1f016157b8"},"uri":"vault:/Papers PDFs/measuring_narrative.pdf","target":[{"source":"vault:/Papers PDFs/measuring_narrative.pdf","selector":[{"type":"TextPositionSelector","start":10406,"end":10646},{"type":"TextQuoteSelector","exact":"A mental models perspective suggests that flow withor transportation into a narrative occurs when a reader or viewer becomescompletely focused on the activity of comprehension—creating and updatingthe mental models that represent the story ","prefix":"rrative’’(Green, 2004, p. 247). ","suffix":"(Busselle & Bilandzic, 2008). Th"}]}]}
+>```
+>%%
+>*%%PREFIX%%rrative’’(Green, 2004, p. 247).%%HIGHLIGHT%% ==A mental models perspective suggests that flow withor transportation into a narrative occurs when a reader or viewer becomescompletely focused on the activity of comprehension—creating and updatingthe mental models that represent the story== %%POSTFIX%%(Busselle & Bilandzic, 2008). Th*
+>%%LINK%%[[#^rqcts6kyzgf|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^rqcts6kyzgf

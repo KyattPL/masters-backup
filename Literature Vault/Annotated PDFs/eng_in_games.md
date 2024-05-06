@@ -156,3 +156,31 @@ annotation-target: "[[eng_in_games.pdf]]"
 >%%TAGS%%
 >
 ^drp8jfcwht8
+
+
+>%%
+>```annotation-json
+>{"created":"2024-05-06T16:14:38.352Z","updated":"2024-05-06T16:14:38.352Z","document":{"title":"Engagement in Games: Developing an Instrument to Measure Consumer Videogame Engagement and Its Validation","link":[{"href":"urn:x-pdf:b830b6d34584bc4b4f05800489745c1a"},{"href":"vault:/Papers PDFs/eng_in_games.pdf"}],"documentFingerprint":"b830b6d34584bc4b4f05800489745c1a"},"uri":"vault:/Papers PDFs/eng_in_games.pdf","target":[{"source":"vault:/Papers PDFs/eng_in_games.pdf","selector":[{"type":"TextPositionSelector","start":35738,"end":35954},{"type":"TextQuoteSelector","exact":"to measure engagement from these theoretical constructsimmersion, flow, presence, involvement, and absorption, which were more related to player’s psychological engagement (cog-nitive engagement) in videogame playing","prefix":"evious measurements were limited","suffix":". However, anotherpsychological "}]}]}
+>```
+>%%
+>*%%PREFIX%%evious measurements were limited%%HIGHLIGHT%% ==to measure engagement from these theoretical constructsimmersion, flow, presence, involvement, and absorption, which were more related to player’s psychological engagement (cog-nitive engagement) in videogame playing== %%POSTFIX%%. However, anotherpsychological*
+>%%LINK%%[[#^25cfc5ci2dl|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^25cfc5ci2dl
+
+
+>%%
+>```annotation-json
+>{"created":"2024-05-06T16:37:44.195Z","updated":"2024-05-06T16:37:44.195Z","document":{"title":"Engagement in Games: Developing an Instrument to Measure Consumer Videogame Engagement and Its Validation","link":[{"href":"urn:x-pdf:b830b6d34584bc4b4f05800489745c1a"},{"href":"vault:/Papers PDFs/eng_in_games.pdf"}],"documentFingerprint":"b830b6d34584bc4b4f05800489745c1a"},"uri":"vault:/Papers PDFs/eng_in_games.pdf","target":[{"source":"vault:/Papers PDFs/eng_in_games.pdf","selector":[{"type":"TextPositionSelector","start":14395,"end":14696},{"type":"TextQuoteSelector","exact":"Recently, a study by [23]has revisited the game engagement model in which the author has revised the game engagement model which was originallygiven by [19]. The author has identified that absorption isprincipally a flow. Therefore, it is better to exclude “absorp-tion” from the game engagement model","prefix":"gagement in videogame-playing.” ","suffix":". Furthermore, theauthor has int"}]}]}
+>```
+>%%
+>*%%PREFIX%%gagement in videogame-playing.”%%HIGHLIGHT%% ==Recently, a study by [23]has revisited the game engagement model in which the author has revised the game engagement model which was originallygiven by [19]. The author has identified that absorption isprincipally a flow. Therefore, it is better to exclude “absorp-tion” from the game engagement model== %%POSTFIX%%. Furthermore, theauthor has int*
+>%%LINK%%[[#^uj9y61s7p4n|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^uj9y61s7p4n
