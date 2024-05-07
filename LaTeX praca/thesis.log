@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  6 MAY 2024 18:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  7 MAY 2024 16:51
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1358,7 +1358,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [40] [41]
 Rozdzia\PlPrIeC {\l } 3.
-[42
+
+Underfull \vbox (badness 2012) has occurred while \output is active []
+
+ [42
 
 ] [43]) (./chapters/chapter4/chapter4.tex [44]
 Rozdzia\PlPrIeC {\l } 4.
@@ -1444,7 +1447,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  123i,10n,121p,1050b,657s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on thesis.pdf (58 pages, 16169416 bytes).
+Output written on thesis.pdf (58 pages, 16169091 bytes).
 PDF statistics:
  848 PDF objects out of 1000 (max. 8388607)
  713 compressed objects within 8 object streams

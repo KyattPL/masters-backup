@@ -295,3 +295,17 @@ annotation-target: "[[Measuring engagement.pdf]]"
 >%%TAGS%%
 >
 ^ih53aor1g2j
+
+
+>%%
+>```annotation-json
+>{"created":"2024-05-07T14:27:30.928Z","updated":"2024-05-07T14:27:30.928Z","document":{"title":"Measuring engagement in video game-based environments: Investigation of the User Engagement Scale","link":[{"href":"urn:x-pdf:a6701911f58cc580b1f63fbdc591b083"},{"href":"vault:/Papers PDFs/Measuring engagement.pdf"}],"documentFingerprint":"a6701911f58cc580b1f63fbdc591b083"},"uri":"vault:/Papers PDFs/Measuring engagement.pdf","target":[{"source":"vault:/Papers PDFs/Measuring engagement.pdf","selector":[{"type":"TextPositionSelector","start":5869,"end":6978},{"type":"TextQuoteSelector","exact":"Of particular interest to this current study, Appleton, Fredricksand other allied researchers helped define where engagement re-sides with regards to a broad spectrum of cognitive and affectivedimensions or states such as motivation and self-efficacy (cf.,Sharek, 2012). They note that self-determination theory (Ryan &Deci, 2000) helps explain how intrinsic motivation—driven by fac-tors such as the need for competence—is an important precursorfor engagement (Boyle et al., 2011; Przybylski et al., 2010). How-ever, while engagement is certainly related to motivation, it canbe considered a separate construct (Appleton et al., 2006;Przybylski et al., 2010). One can conceive engagement as a seriesof (state-like) temporal interactions during task while motivationis a more (state or trait-like) global personal orientation towardsthe learning/task (Bempechat & Shernoff, 2012). The interactionbetween the two can form a feedback loop where the experiencewith the task can shape the more state-like elements of self-effi-cacy and motivation which in turn influences the user’s desire tore-engage with a task","prefix":"mensions play incognitive tasks.","suffix":" (Sharek, 2012).A second line of"}]}]}
+>```
+>%%
+>*%%PREFIX%%mensions play incognitive tasks.%%HIGHLIGHT%% ==Of particular interest to this current study, Appleton, Fredricksand other allied researchers helped define where engagement re-sides with regards to a broad spectrum of cognitive and affectivedimensions or states such as motivation and self-efficacy (cf.,Sharek, 2012). They note that self-determination theory (Ryan &Deci, 2000) helps explain how intrinsic motivation—driven by fac-tors such as the need for competence—is an important precursorfor engagement (Boyle et al., 2011; Przybylski et al., 2010). How-ever, while engagement is certainly related to motivation, it canbe considered a separate construct (Appleton et al., 2006;Przybylski et al., 2010). One can conceive engagement as a seriesof (state-like) temporal interactions during task while motivationis a more (state or trait-like) global personal orientation towardsthe learning/task (Bempechat & Shernoff, 2012). The interactionbetween the two can form a feedback loop where the experiencewith the task can shape the more state-like elements of self-effi-cacy and motivation which in turn influences the user’s desire tore-engage with a task== %%POSTFIX%%(Sharek, 2012).A second line of*
+>%%LINK%%[[#^wc282vitof|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^wc282vitof
