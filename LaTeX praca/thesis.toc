@@ -26,14 +26,14 @@
 \contentsline {chapter}{\numberline {3\relax .\enspace }Zaangażowanie gracza}{42}{chapter.3}%
 \contentsline {section}{\numberline {3.1\relax .\enspace }Definicje i rodzaje zaangażowania}{42}{section.3.1}%
 \contentsline {section}{\numberline {3.2\relax .\enspace }Sposoby pomiaru zaangażowania gracza}{44}{section.3.2}%
-\contentsline {chapter}{\numberline {4\relax .\enspace }Planowany eksperyment}{45}{chapter.4}%
-\contentsline {section}{\numberline {4.1\relax .\enspace }Projekt gry wykorzystanej w eksperymencie}{45}{section.4.1}%
-\contentsline {section}{\numberline {4.2\relax .\enspace }Opis generatywnych agentów}{45}{section.4.2}%
-\contentsline {chapter}{\numberline {5\relax .\enspace }Wyniki}{46}{chapter.5}%
-\contentsline {chapter}{Podsumowanie}{47}{chapter*.66}%
-\contentsline {chapter}{Spis rysunk\'ow}{48}{chapter*.67}%
-\contentsline {chapter}{Spis listingów}{49}{chapter*.68}%
-\contentsline {chapter}{Spis tabel}{50}{chapter*.69}%
-\contentsline {chapter}{Dodatki}{51}{section*.70}%
-\contentsline {chapter}{\numberline {A\relax .\enspace }Dodatek 1}{52}{appendix.A}%
-\contentsline {chapter}{Bibliografia}{53}{chapter*.71}%
+\contentsline {chapter}{\numberline {4\relax .\enspace }Planowany eksperyment}{46}{chapter.4}%
+\contentsline {section}{\numberline {4.1\relax .\enspace }Projekt gry wykorzystanej w eksperymencie}{46}{section.4.1}%
+\contentsline {section}{\numberline {4.2\relax .\enspace }Opis generatywnych agentów}{46}{section.4.2}%
+\contentsline {chapter}{\numberline {5\relax .\enspace }Wyniki}{47}{chapter.5}%
+\contentsline {chapter}{Podsumowanie}{48}{chapter*.66}%
+\contentsline {chapter}{Spis rysunk\'ow}{49}{chapter*.67}%
+\contentsline {chapter}{Spis listingów}{50}{chapter*.68}%
+\contentsline {chapter}{Spis tabel}{51}{chapter*.69}%
+\contentsline {chapter}{Dodatki}{52}{section*.70}%
+\contentsline {chapter}{\numberline {A\relax .\enspace }Dodatek 1}{53}{appendix.A}%
+\contentsline {chapter}{Bibliografia}{54}{chapter*.71}%
