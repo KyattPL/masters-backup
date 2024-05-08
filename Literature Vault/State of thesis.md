@@ -28,8 +28,15 @@ Więc TODO jest przejrzenie kropek poniżej i dopisanie, z której pracy mogę b
 		- Metody i narzędzia mierzenia zaangażowania gracza: ankiety, wywiady, obserwacje, pomiary
 4. Planowany eksperyment: 
 	1. Opis "visual novel" i tła fabularnego gry eksperymentu
+		- Co to "visual novel"?
+		- W czym zrobiona gra?
+		- Skąd assety?
+		- Jaka jest ogólna fabuła / sposób rozgrywki / czas gry?
 	2. Opis generatywnych agentów (dostarczanych przez platformę inworld.ai)
 		- Struktury wykorzystywane przez inworld.ai (wraz z wyjaśnieniem ich przeznaczenia)
 		- Konkretne postacie (w sensie dane) wytworzone dla celu tej pracy
-		- Podłączenie i wykorzystanie tych agentów
+		- Podłączenie i wykorzystanie tych agentów w kodzie
+	3. Opis przeprowadzenia eksperymentu
+		- Test A/B: dwie wersje gry i formularza ankiety
+		- W ramach formularza: dane demograficzne, kwestionariusz GEQ z 3.2, pytania ogólne
 5. Wyniki
