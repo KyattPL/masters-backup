@@ -35,49 +35,49 @@ label reveal_murderer:
 
         adam "BUT IT WASN'T MEEEE!"
         adam "YOU'VE MADE A MISTAKE."
-        
+
         hide adam
         with dissolve
     if chosen_murderer == "Florian":
         show florian worriedtalk
         with dissolve
 
-        adam "BUT IT WASN'T MEEEE!"
-        adam "YOU'VE MADE A MISTAKE."
-        
+        florian "BUT IT WASN'T MEEEE!"
+        florian "YOU'VE MADE A MISTAKE."
+
         hide florian
         with dissolve
     if chosen_murderer == "Mary":
         show mary shock
         with dissolve
 
-        adam "BUT IT WASN'T MEEEE!"
-        adam "YOU'VE MADE A MISTAKE."
-        
+        mary "BUT IT WASN'T MEEEE!"
+        mary "YOU'VE MADE A MISTAKE."
+
         hide mary
         with dissolve
     if chosen_murderer == "Nathaniel":
         show nathaniel worriedtalk
         with dissolve
 
-        adam "BUT IT WASN'T MEEEE!"
-        adam "YOU'VE MADE A MISTAKE."
-        
+        nathaniel "BUT IT WASN'T MEEEE!"
+        nathaniel "YOU'VE MADE A MISTAKE."
+
         hide nathaniel
         with dissolve
     if chosen_murderer == "Randy":
         show randy worriedtalk
         with dissolve
 
-        adam "BUT IT WASN'T MEEEE!"
-        adam "YOU'VE MADE A MISTAKE."
-        
+        randy "BUT IT WASN'T MEEEE!"
+        randy "YOU'VE MADE A MISTAKE."
+
         hide randy
         with dissolve
     if chosen_murderer == "Sylvia":
         me "She commited a suicide!"
         me "She was desperate and had no will to live!"
-    
+
     if chosen_murderer != "Randy":
         scene dark
         with fade

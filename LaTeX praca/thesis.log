@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  9 MAY 2024 00:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  12 MAY 2024 13:18
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1431,18 +1431,18 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 644374E80FBC6CAE3B77A0908D230F20;8013.
  ) 
 Here is how much of TeX's memory you used:
- 31589 strings out of 474221
- 596851 string characters out of 5750189
+ 31636 strings out of 474221
+ 597588 string characters out of 5750189
  1939978 words of memory out of 5000000
- 52842 multiletter control sequences out of 15000+600000
- 615025 words of font info for 185 fonts, out of 8000000 for 9000
+ 52874 multiletter control sequences out of 15000+600000
+ 625916 words of font info for 202 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 123i,11n,121p,1050b,659s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 123i,14n,121p,1050b,659s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on thesis.pdf (63 pages, 16178395 bytes).
+Output written on thesis.pdf (63 pages, 16178671 bytes).
 PDF statistics:
- 944 PDF objects out of 1000 (max. 8388607)
- 803 compressed objects within 9 object streams
- 196 named destinations out of 1000 (max. 500000)
- 30765 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 946 PDF objects out of 1000 (max. 8388607)
+ 805 compressed objects within 9 object streams
+ 197 named destinations out of 1000 (max. 500000)
+ 38445 words of extra memory for PDF output out of 42996 (max. 10000000)
 
