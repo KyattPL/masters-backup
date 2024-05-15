@@ -28,21 +28,21 @@
 \contentsline {section}{\numberline {3.2\relax .\enspace }Sposoby pomiaru zaangażowania gracza}{45}{section.3.2}%
 \contentsline {chapter}{\numberline {4\relax .\enspace }Planowany eksperyment}{48}{chapter.4}%
 \contentsline {section}{\numberline {4.1\relax .\enspace }Projekt gry wykorzystanej w eksperymencie}{48}{section.4.1}%
-\contentsline {subsection}{Co to jest visual novel}{48}{subsection*.67}%
-\contentsline {subsection}{Projekt gry}{48}{subsection*.68}%
-\contentsline {subsection}{Zarys fabularny}{48}{subsection*.69}%
-\contentsline {section}{\numberline {4.2\relax .\enspace }Opis generatywnych agentów}{48}{section.4.2}%
-\contentsline {subsection}{Struktury wykorzystywane przez inworld.ai}{48}{subsection*.70}%
-\contentsline {subsection}{Opis wykreowanych postaci}{48}{subsection*.71}%
-\contentsline {subsection}{Wykorzystanie agentów w praktyce}{48}{subsection*.72}%
-\contentsline {section}{\numberline {4.3\relax .\enspace }Zaplanowany przebieg eksperymentu}{48}{section.4.3}%
-\contentsline {subsection}{Forma eksperymentu}{49}{subsection*.73}%
-\contentsline {subsection}{Gromadzone dane}{49}{subsection*.74}%
-\contentsline {chapter}{\numberline {5\relax .\enspace }Wyniki}{50}{chapter.5}%
-\contentsline {chapter}{Podsumowanie}{51}{chapter*.75}%
-\contentsline {chapter}{Spis rysunk\'ow}{52}{chapter*.76}%
-\contentsline {chapter}{Spis listingów}{53}{chapter*.77}%
-\contentsline {chapter}{Spis tabel}{54}{chapter*.78}%
-\contentsline {chapter}{Dodatki}{55}{section*.79}%
-\contentsline {chapter}{\numberline {A\relax .\enspace }Dodatek 1}{56}{appendix.A}%
-\contentsline {chapter}{Bibliografia}{57}{chapter*.80}%
+\contentsline {subsection}{Gatunek \textit {visual novel}}{48}{subsection*.67}%
+\contentsline {subsection}{Projekt gry}{49}{subsection*.68}%
+\contentsline {subsection}{Zarys fabularny}{49}{subsection*.69}%
+\contentsline {section}{\numberline {4.2\relax .\enspace }Opis generatywnych agentów}{49}{section.4.2}%
+\contentsline {subsection}{Struktury wykorzystywane przez inworld.ai}{49}{subsection*.70}%
+\contentsline {subsection}{Opis wykreowanych postaci}{49}{subsection*.71}%
+\contentsline {subsection}{Wykorzystanie agentów w praktyce}{49}{subsection*.72}%
+\contentsline {section}{\numberline {4.3\relax .\enspace }Zaplanowany przebieg eksperymentu}{49}{section.4.3}%
+\contentsline {subsection}{Forma eksperymentu}{50}{subsection*.73}%
+\contentsline {subsection}{Gromadzone dane}{50}{subsection*.74}%
+\contentsline {chapter}{\numberline {5\relax .\enspace }Wyniki}{51}{chapter.5}%
+\contentsline {chapter}{Podsumowanie}{52}{chapter*.75}%
+\contentsline {chapter}{Spis rysunk\'ow}{53}{chapter*.76}%
+\contentsline {chapter}{Spis listingów}{54}{chapter*.77}%
+\contentsline {chapter}{Spis tabel}{55}{chapter*.78}%
+\contentsline {chapter}{Dodatki}{56}{section*.79}%
+\contentsline {chapter}{\numberline {A\relax .\enspace }Dodatek 1}{57}{appendix.A}%
+\contentsline {chapter}{Bibliografia}{58}{chapter*.80}%
