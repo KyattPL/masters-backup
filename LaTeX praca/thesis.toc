@@ -4,37 +4,38 @@
 \contentsline {chapter}{Abstract }{}{chapter*.2}%
 \setcounter {tocdepth}{2}
 \save@tocdepth \setcounter {tocdepth}{0}
-\contentsline {chapter}{Wstęp}{2}{chapter*.4}%
-\contentsline {section}{Zakres pracy}{2}{section*.5}%
-\contentsline {section}{Cel pracy}{2}{section*.6}%
-\contentsline {section}{Struktura pracy}{3}{section*.7}%
+\contentsline {chapter}{Wstęp}{3}{chapter*.4}%
+\contentsline {section}{Zakres pracy}{3}{section*.5}%
+\contentsline {section}{Cel pracy}{3}{section*.6}%
+\contentsline {section}{Struktura pracy}{4}{section*.7}%
 \save@tocdepth \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {1\relax .\enspace }Narracja w grach}{4}{chapter.1}%
-\contentsline {section}{\numberline {1.1\relax .\enspace }Historia narracji w grach komputerowych}{4}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1\relax .\enspace }Definicja narracji}{4}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2\relax .\enspace }Przedstawienie narracji w grach na przestrzeni lat}{7}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3\relax .\enspace }Prześledzenie rozwoju narracji na przykładzie serii Final Fantasy}{14}{subsection.1.1.3}%
-\contentsline {section}{\numberline {1.2\relax .\enspace }Rodzaje narracji w grach komputerowych}{18}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1\relax .\enspace }Struktury narracyjne}{18}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2\relax .\enspace }Sposoby przedstawiania narracji}{21}{subsection.1.2.2}%
-\contentsline {section}{\numberline {1.3\relax .\enspace }Systemy dialogowe w grach komputerowych}{25}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1\relax .\enspace }Popularne systemy dialogowe}{25}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2\relax .\enspace }Interaktywna fikcja - system poleceń}{30}{subsection.1.3.2}%
-\contentsline {chapter}{\numberline {2\relax .\enspace }Sposoby generowania narracji}{33}{chapter.2}%
-\contentsline {section}{\numberline {2.1\relax .\enspace }Wykorzystanie algorytmów sztucznej inteligencji do kreowania narracji}{33}{section.2.1}%
-\contentsline {section}{\numberline {2.2\relax .\enspace }Wykorzystanie dużych modeli językowych (LLM) do kreowania narracji}{37}{section.2.2}%
-\contentsline {chapter}{\numberline {3\relax .\enspace }Zaangażowanie gracza}{42}{chapter.3}%
-\contentsline {section}{\numberline {3.1\relax .\enspace }Definicje i rodzaje zaangażowania}{42}{section.3.1}%
-\contentsline {section}{\numberline {3.2\relax .\enspace }Sposoby pomiaru zaangażowania gracza}{44}{section.3.2}%
-\contentsline {chapter}{\numberline {4\relax .\enspace }Planowany eksperyment}{47}{chapter.4}%
-\contentsline {section}{\numberline {4.1\relax .\enspace }Projekt gry wykorzystanej w eksperymencie}{47}{section.4.1}%
-\contentsline {section}{\numberline {4.2\relax .\enspace }Opis generatywnych agentów}{50}{section.4.2}%
-\contentsline {section}{\numberline {4.3\relax .\enspace }Zaplanowany przebieg eksperymentu}{51}{section.4.3}%
-\contentsline {chapter}{\numberline {5\relax .\enspace }Wyniki}{52}{chapter.5}%
-\contentsline {chapter}{Podsumowanie}{53}{chapter*.78}%
-\contentsline {chapter}{Spis rysunk\'ow}{54}{chapter*.79}%
-\contentsline {chapter}{Spis listingów}{56}{chapter*.80}%
-\contentsline {chapter}{Spis tabel}{57}{chapter*.81}%
-\contentsline {chapter}{Dodatki}{58}{section*.82}%
-\contentsline {chapter}{\numberline {A\relax .\enspace }Dodatek 1}{59}{appendix.A}%
-\contentsline {chapter}{Bibliografia}{60}{chapter*.83}%
+\contentsline {chapter}{\numberline {1\relax .\enspace }Narracja w grach}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1\relax .\enspace }Historia narracji w grach komputerowych}{5}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1\relax .\enspace }Definicja narracji}{5}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2\relax .\enspace }Przedstawienie narracji w grach na przestrzeni lat}{8}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3\relax .\enspace }Prześledzenie rozwoju narracji na przykładzie serii Final Fantasy}{15}{subsection.1.1.3}%
+\contentsline {section}{\numberline {1.2\relax .\enspace }Rodzaje narracji w grach komputerowych}{19}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1\relax .\enspace }Struktury narracyjne}{19}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2\relax .\enspace }Sposoby przedstawiania narracji}{22}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3\relax .\enspace }Systemy dialogowe w grach komputerowych}{26}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1\relax .\enspace }Popularne systemy dialogowe}{26}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2\relax .\enspace }Interaktywna fikcja - system poleceń}{31}{subsection.1.3.2}%
+\contentsline {chapter}{\numberline {2\relax .\enspace }Sposoby generowania narracji}{34}{chapter.2}%
+\contentsline {section}{\numberline {2.1\relax .\enspace }Wykorzystanie algorytmów sztucznej inteligencji do kreowania narracji}{34}{section.2.1}%
+\contentsline {section}{\numberline {2.2\relax .\enspace }Wykorzystanie dużych modeli językowych (LLM) do kreowania narracji}{38}{section.2.2}%
+\contentsline {chapter}{\numberline {3\relax .\enspace }Zaangażowanie gracza}{43}{chapter.3}%
+\contentsline {section}{\numberline {3.1\relax .\enspace }Definicje i rodzaje zaangażowania}{43}{section.3.1}%
+\contentsline {section}{\numberline {3.2\relax .\enspace }Sposoby pomiaru zaangażowania gracza}{45}{section.3.2}%
+\contentsline {chapter}{\numberline {4\relax .\enspace }Planowany eksperyment}{48}{chapter.4}%
+\contentsline {section}{\numberline {4.1\relax .\enspace }Projekt gry wykorzystanej w eksperymencie}{48}{section.4.1}%
+\contentsline {section}{\numberline {4.2\relax .\enspace }Opis generatywnych agentów}{51}{section.4.2}%
+\contentsline {section}{\numberline {4.3\relax .\enspace }Zaplanowany przebieg eksperymentu}{52}{section.4.3}%
+\contentsline {chapter}{\numberline {5\relax .\enspace }Wyniki}{53}{chapter.5}%
+\contentsline {chapter}{Podsumowanie}{54}{chapter*.78}%
+\contentsline {chapter}{Spis rysunk\'ow}{55}{chapter*.79}%
+\contentsline {chapter}{Spis listingów}{57}{chapter*.80}%
+\contentsline {chapter}{Spis tabel}{58}{chapter*.81}%
+\contentsline {chapter}{Dodatki}{59}{section*.82}%
+\contentsline {chapter}{\numberline {A\relax .\enspace }Słownik}{60}{appendix.A}%
+\contentsline {chapter}{\numberline {B\relax .\enspace }Instrukcje inworld.ai dla postaci}{61}{appendix.B}%
+\contentsline {chapter}{Bibliografia}{62}{chapter*.83}%
