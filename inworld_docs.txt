@@ -1,0 +1,25 @@
+Common Knowledge defines any general information that is intended to be known by more than one character. For example, you can define world-building information that all characters should be aware of, or you can define knowledge that is only applied to a specific group of characters. For example: those who are aware that magic exists in the world and know how to use it.
+
+Core Description is the foundation of your character’s personality and significantly influences all subsequent responses. It should focus on details about the character’s current circumstances, their backstory, their hopes, and how they present themselves. If there are any key relationships, businesses, or locations related to your character, they can be mentioned here. Also, if the character uses a particular manner of speaking or behavior rules to follow, you can also add that.
+
+In the Motivations section, you’ll want to add single sentences describing what motivates the character when talking to others. It could be to accomplish a goal or desire, make an opinion known, or help the user learn about something. It is important to think about what drives your character. This will impact the character’s responses and they will look for opportunities to inject their motivations into the conversation.
+
+In the Flaws field, enter single sentences regarding your character’s shortcomings and fears. What is holding them back from accomplishing their motivations? How do they express their internal conflict through outward dialogue? What topics will trigger a negative reaction?
+
+Role: This provides a framework for how the character interacts with the world around them. It can be something broad like “Hero” or “Assistant”. However, more specific archetypes or professions, like “Medieval Warrior” or “Brand Ambassador for Company X” will help to better inform Inworld’s AI
+
+Hobbies and Interests: Include a short list of your character’s hobbies and interests. Your character may refer to these in conversation. They can be broad (ex. Helping solve users’ problems) or specific to the character’s motivations (ex. Ambushing rival gangs)
+
+Personality Traits: These will help Inworld’s AI create the appropriate personality and responses.
+
+Mood and Personality Sliders: They decide what kinds of emotions your character will have in response to interactions. They also color what your character says – if you create an upbeat character, they’re typically going to respond with upbeat responses.
+
+Facts and Knowledge help to provide predefined answers to user's questions. Personal knowledge is anything the character knows personally whereas common knowledge is where you can add broader information about a time period or a game world that multiple characters will share. Knowledge Filters: This feature is designed to reduce hallucinations and cognition that may deviate from a character's established parameters. We offer three distinct tiers of knowledge filters for characters: Strict / Mild / No Knowledge Filter.
+
+The Goals section enables you to set specific triggers, prompting your character to respond in a certain way during particular scenarios or interactions. The goal operates as a 'consequence mechanism' which gets activated by an activation event and initiates a specific action. It allows developers to have better control of characters in runtime. In addition to facilitating character interactions, the goal system monitors the achievement of goals, issuing a distinct signal to the client upon a goal's completion. For example, if you have a goal to have a character suggest a quest to the player, your activation condition might be the player asking about available quests. When this intent is recognized, the goal is activated, and the character begins executing the associated actions - perhaps describing the quest and instructing the player on how to start it. Once the character finishes these actions, the goal is marked as completed, and a trigger is sent to the client.
+
+Dialogue Style: You can choose from a variety of Preset dialogue styles or else design your own Custom style. This feature (combined with Personality and Emotions) will determine how the character delivers their responses. They can be inquisitive and ask lots of questions. Or be mysterious and not give too much away.
+
+Character Mutations: The purpose of character mutations is to make agent fields mutable and give you more control over the character. This feature makes it possible to implement characters with temporary changes. Mutations are part of the goals system. It allows you to modify the current active character as a goal action.  To enable or disable a goal using the Unity or Unreal Engine SDK, see Enable Goals.
+
+Scenes: Scenes provide context by describing the immediate surroundings of your character. If you just plan on talking to your character in Inworld’s studio or in the Inworld Arcade, then you won’t need to add a scene unless it’s for added context.
