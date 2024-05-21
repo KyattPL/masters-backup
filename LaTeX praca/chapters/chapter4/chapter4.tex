@@ -238,42 +238,95 @@ ukryć.
 
 \subsubsection*{Wykorzystanie agentów w praktyce}
 
-Aby lepiej zobrazować praktyczne zastosowanie funkcjonalności platformy inworld.ai, poniżej
-przedstawiono przykładową implementację jednej z postaci niezależnych (NPC) wykorzystując bogate
-możliwości zdefiniowania jej osobowości, wiedzy, motywacji oraz stylu prowadzenia dialogu.
+\lipsum[1]
 
-    [Zrzut ekranu 1 - Zakładka Core Description dla przykładowego NPC]
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{ch4_2_common_knowledge.png}
+    \caption{Wspólna wiedza wszystkich postaci}
+    \label{fig:ch4_2_common_knowledge}
+\end{figure}
 
-Na powyższym zrzucie ekranu widzimy wypełnioną zakładkę Core Description, w której zdefiniowano
-fundamenty osobowości przykładowego NPC - średniowiecznego wojownika o imieniu Alaric. Przedstawiono
-jego historię, motywacje związane z ochroną królestwa, sposób bycia oraz charakterystyczny styl
-komunikacji pełen ozdobników i zwrotów grzecznościowych typowych dla rycerza.
+\lipsum[1]
 
-    [Zrzut ekranu 2 - Zakładka Personality Traits i Mood dla przykładowego NPC]
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{ch4_2_adam_basic.png}
+    \caption{Podstawowe informacje o Adamie}
+    \label{fig:ch4_2_adam_basic}
+\end{figure}
 
-Kolejny zrzut ukazuje sprecyzowanie cech osobowości postaci Alarica poprzez wybór odpowiednich
-przymiotników oraz dostosowanie suwerków nastroju i osobowości, które sprawią, że postać będzie
-reagować z pewną dozą powagi i honorowego nastawienia.
+\lipsum[1]
 
-    [Zrzut ekranu 3 - Zakładki Knowledge i Goals dla przykładowego NPC]
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{ch4_2_adam_details.png}
+    \caption{Szczegółowe informacje o Adamie}
+    \label{fig:ch4_2_adam_details}
+\end{figure}
 
-Na tym przykładzie widać, w jaki sposób można zdefiniować wiedzę postaci - zarówno jej osobistą
-wiedzę na temat historii królestwa, jak i wspólną wiedzę o funkcjonowaniu oraz regułach obowiązujących
-w średniowiecznym świecie fantasy. Ponadto, określono cel dla NPC związany z wysłaniem gracza na
-konkretną misję po rozpoznaniu przez system intencji gracza zapytania o dostępne zadania.
+\lipsum[1]
 
-    [Zrzut ekranu 4 - Wygląd i otoczenie przykładowego NPC]
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{ch4_2_adam_knowledge.png}
+    \caption{Wiedza osobista Adama}
+    \label{fig:ch4_2_adam_knowledge}
+\end{figure}
 
-Ten zrzut przedstawia finalny wygląd postaci średniowiecznego wojownika oraz scenę - dziedziniec
-zamku, gdzie będzie się on pojawał podczas interakcji z graczem.
+\lipsum[1]
 
-Aby zintegrować tak skonfigurowanego agenta z aplikacją, konieczne jest nawiązanie połączenia z
-platformą Inworld AI. Poniższy blok kodu ilustruje przykładową implementację w języku Python:
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{ch4_2_adam_personality.png}
+    \caption{Osobowość Adama}
+    \label{fig:ch4_2_adam_personality}
+\end{figure}
 
-[Code snippet]
+\lipsum[1]
 
-Przedstawiony kod ilustruje podstawową integrację z platformą Inworld AI, w tym inicjalizację sesji,
-pobieranie danych postaci, obsługę odpowiedzi z platformy oraz wysyłanie wiadomości do wirtualnego agenta.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{ch4_2_adam_goals.png}
+    \caption{Cele Adama}
+    \label{fig:ch4_2_adam_goals}
+\end{figure}
+
+\lipsum[1]
+
+\begin{listing}
+    \begin{minted}{python}  
+def query_inworld_api(char, prompt, protagonist="John", sessionId=None):
+    import requests
+    import os
+    from requests.auth import HTTPBasicAuth
+
+    BASE_URL = 'https://api.inworld.ai/studio/v1'
+    WORKSPACE_ID = os.getenv('WORK_ID')
+    STUDIO_API_KEY = os.getenv('STUDIO_KEY')
+    STUDIO_API_SECRET = os.getenv('STUDIO_SECRET')
+    AUTH_TOKEN = os.getenv('AUTH_TOKEN')
+
+    url = (f'https://studio.inworld.ai/v1/workspaces/{WORKSPACE_ID}/characters/'
+        f'{char}:simpleSendText'
+    )
+    headers = {"Content-Type": "application/json",
+                "authorization": f"Basic {AUTH_TOKEN}=="}
+    myobj = {"character": f"workspaces/{WORKSPACE_ID}/characters/{char}",
+                "text": f"{prompt}", "endUserFullname": f"{protagonist}", "endUserId": "12345"}
+
+    if sessionId is not None:
+        myobj['sessionId'] = sessionId
+
+    x = renpy.fetch(url=url, method="POST", json=myobj, timeout=15,
+                    headers=headers, result="json")
+
+    return x
+\end{minted}
+    \caption{Funkcja wykorzystująca API Inworld AI do rozmowy z agentem} \label{listing:myListing}
+\end{listing}
+
+\lipsum[1]
 
 \section{Zaplanowany przebieg eksperymentu}\label{section:ch4_3}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  20 MAY 2024 17:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  21 MAY 2024 19:54
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1401,39 +1401,351 @@ Underfull \vbox (badness 3803) has occurred while \output is active []
  [50 <./chapters/chapter4/imgs/ch4_1_intro.png> <./chapters/chapter4/imgs/ch4_1_dialogue.png>] [51]
 Underfull \vbox (badness 6461) has occurred while \output is active []
 
- [52] [53] [54]) (./chapters/chapter5/chapter5.tex [55]
+ [52] [53]
+<chapters/chapter4/imgs/ch4_2_common_knowledge.png, id=777, 622.57594pt x 656.4525pt>
+File: chapters/chapter4/imgs/ch4_2_common_knowledge.png Graphic file (type png)
+<use chapters/chapter4/imgs/ch4_2_common_knowledge.png>
+Package pdftex.def Info: chapters/chapter4/imgs/ch4_2_common_knowledge.png  used on input line 245.
+(pdftex.def)             Requested size: 384.1096pt x 405.01305pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[54]
+<chapters/chapter4/imgs/ch4_2_adam_basic.png, id=783, 607.51968pt x 581.92406pt>
+File: chapters/chapter4/imgs/ch4_2_adam_basic.png Graphic file (type png)
+<use chapters/chapter4/imgs/ch4_2_adam_basic.png>
+Package pdftex.def Info: chapters/chapter4/imgs/ch4_2_adam_basic.png  used on input line 254.
+(pdftex.def)             Requested size: 384.1096pt x 367.93713pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<chapters/chapter4/imgs/ch4_2_adam_details.png, id=784, 424.58624pt x 465.23813pt>
+File: chapters/chapter4/imgs/ch4_2_adam_details.png Graphic file (type png)
+<use chapters/chapter4/imgs/ch4_2_adam_details.png>
+Package pdftex.def Info: chapters/chapter4/imgs/ch4_2_adam_details.png  used on input line 263.
+(pdftex.def)             Requested size: 384.1096pt x 420.90402pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[55 <./chapters/chapter4/imgs/ch4_2_common_knowledge.png>]
+<chapters/chapter4/imgs/ch4_2_adam_knowledge.png, id=790, 565.36218pt x 389.95688pt>
+File: chapters/chapter4/imgs/ch4_2_adam_knowledge.png Graphic file (type png)
+<use chapters/chapter4/imgs/ch4_2_adam_knowledge.png>
+Package pdftex.def Info: chapters/chapter4/imgs/ch4_2_adam_knowledge.png  used on input line 272.
+(pdftex.def)             Requested size: 384.1096pt x 264.94106pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[56 <./chapters/chapter4/imgs/ch4_2_adam_basic.png>]
+<chapters/chapter4/imgs/ch4_2_adam_personality.png, id=796, 586.44093pt x 518.6878pt>
+File: chapters/chapter4/imgs/ch4_2_adam_personality.png Graphic file (type png)
+<use chapters/chapter4/imgs/ch4_2_adam_personality.png>
+Package pdftex.def Info: chapters/chapter4/imgs/ch4_2_adam_personality.png  used on input line 281.
+(pdftex.def)             Requested size: 384.1096pt x 339.73112pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<chapters/chapter4/imgs/ch4_2_adam_goals.png, id=797, 539.76656pt x 660.21657pt>
+File: chapters/chapter4/imgs/ch4_2_adam_goals.png Graphic file (type png)
+<use chapters/chapter4/imgs/ch4_2_adam_goals.png>
+Package pdftex.def Info: chapters/chapter4/imgs/ch4_2_adam_goals.png  used on input line 290.
+(pdftex.def)             Requested size: 384.1096pt x 469.83496pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 1509) has occurred while \output is active []
+
+ [57 <./chapters/chapter4/imgs/ch4_2_adam_details.png>]
+
+LaTeX Warning: Text page 58 contains only floats.
+
+[58 <./chapters/chapter4/imgs/ch4_2_adam_knowledge.png> <./chapters/chapter4/imgs/ch4_2_adam_personality.png>]
+\openout4 = `thesis.pyg'.
+
+ (./_minted-thesis/default.pygstyle) (./_minted-thesis/AA115B3B44FE7565621A65C17B9CF10523183AFFD145D87B3DD3FD27A0A7BB96.pygtex
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 2.
+
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 2.
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 2.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 2.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 2.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 3.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 3.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 3.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 3.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 4.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 4.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 4.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 4.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 5.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 5.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 5.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 5.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 5.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 5.
+
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 7.
+(c:/texlive/2023/texmf-dist/tex/latex/base/ts1cmtt.fd
+File: ts1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 13.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 13.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 13.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 13.
+
+
+Overfull \hbox (13.99574pt too wide) in paragraph at lines 13--13
+\T1/cmtt/m/n/10.95 ([]f[][]\TS1/cmtt/m/n/10.95 '\T1/cmtt/m/n/10.95 https://studio.inworld.ai/v1/workspaces/[][]{[]WORKSPACE_ID[]}[][]/characters/\TS1/cmtt/m/n/10.95 '[]|  
+ []
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 14.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 14.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 14.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 14.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 17.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 17.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 17.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 17.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 18.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 18.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 18.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 18.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 18.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 18.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 18.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 18.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 19.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 19.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 19.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 19.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 19.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 19.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 19.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 19.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 21.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 21.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 21.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 21.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 21.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 21.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 21.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 21.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 27.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 27.
+
+)
+Package hyperref Info: bookmark level for unknown listing defaults to 0 on input line 326.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59 <./chapters/chapter4/imgs/ch4_2_adam_goals.png>] [60{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]) (./chapters/chapter5/chapter5.tex [61]
 Rozdzia\PlPrIeC {\l } 5.
-) (./summary/summary.tex [56
+) (./summary/summary.tex [62
 
-]) [57
+]) [63
 
-] (./thesis.lof [58
+] (./thesis.lof [64
 
 ])
 \tf@lof=\write8
 \openout8 = `thesis.lof'.
 
- [59] (./thesis.lop)
+ [65] (./thesis.lop)
 \tf@lop=\write9
 \openout9 = `thesis.lop'.
 
- [60
+ [66
 
 ] (./thesis.lot)
 \tf@lot=\write10
 \openout10 = `thesis.lot'.
 
- [61
+ [67
 
-] [62
+] [68
 
 ] (./appendices/appendix1.tex
 Dodatek A.
-) (./appendices/appendix2.tex [63
+) (./appendices/appendix2.tex [69
 
 ]
 Dodatek B.
-) (./thesis.bbl [64
+) (./thesis.bbl [70
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
@@ -1443,7 +1755,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [65
+ [71
 
 ]
 Underfull \hbox (badness 7944) in paragraph at lines 55--56
@@ -1458,7 +1770,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [66]) [67] (./thesis.aux)
+ [72]) [73] (./thesis.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1468,21 +1780,23 @@ L3 programming layer <2024-01-22>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 7E8448E0078130A4B18B0340AAC1580B;6791.
+(rerunfilecheck)             Checksum: 52F771AF3D01AAB7BFB72C256331A9ED;6791.
+runsystem(del thesis.pyg)...executed.
+
  ) 
 Here is how much of TeX's memory you used:
- 31700 strings out of 474221
- 599241 string characters out of 5750189
+ 31940 strings out of 474221
+ 605170 string characters out of 5750189
  1939978 words of memory out of 5000000
- 52907 multiletter control sequences out of 15000+600000
- 629737 words of font info for 210 fonts, out of 8000000 for 9000
+ 53115 multiletter control sequences out of 15000+600000
+ 633099 words of font info for 214 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 123i,14n,121p,1050b,655s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmbi.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on thesis.pdf (71 pages, 21308163 bytes).
+ 123i,14n,121p,1050b,864s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmbi.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on thesis.pdf (77 pages, 21807073 bytes).
 PDF statistics:
- 992 PDF objects out of 1000 (max. 8388607)
- 833 compressed objects within 9 object streams
- 211 named destinations out of 1000 (max. 500000)
- 40964 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 1057 PDF objects out of 1200 (max. 8388607)
+ 881 compressed objects within 9 object streams
+ 224 named destinations out of 1000 (max. 500000)
+ 43554 words of extra memory for PDF output out of 51595 (max. 10000000)
 
