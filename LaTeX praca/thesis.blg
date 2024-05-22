@@ -11,45 +11,45 @@ Warning--empty journal in characters_and_directors
 Warning--missing school in storytelling_through
 Warning--can't use both author and editor fields in game_ai_storytelling
 Warning--empty chapter and pages in game_ai_storytelling
-You've used 34 entries,
+You've used 35 entries,
             2685 wiz_defined-function locations,
-            750 strings with 15647 characters,
-and the built_in function-call counts, 19651 in all, are:
-= -- 1646
-> -- 1184
+            754 strings with 15741 characters,
+and the built_in function-call counts, 19868 in all, are:
+= -- 1664
+> -- 1185
 < -- 23
-+ -- 584
++ -- 585
 - -- 475
-* -- 1447
-:= -- 2648
-add.period$ -- 65
-call.type$ -- 34
-change.case$ -- 484
+* -- 1457
+:= -- 2666
+add.period$ -- 67
+call.type$ -- 35
+change.case$ -- 489
 chr.to.int$ -- 0
-cite$ -- 42
-duplicate$ -- 1227
-empty$ -- 1205
+cite$ -- 43
+duplicate$ -- 1249
+empty$ -- 1232
 format.name$ -- 496
-if$ -- 3965
+if$ -- 4016
 int.to.chr$ -- 0
-int.to.str$ -- 34
-missing$ -- 276
-newline$ -- 105
+int.to.str$ -- 35
+missing$ -- 280
+newline$ -- 108
 num.names$ -- 60
-pop$ -- 846
+pop$ -- 859
 preamble$ -- 1
-purify$ -- 444
+purify$ -- 447
 quote$ -- 0
-skip$ -- 536
+skip$ -- 544
 stack$ -- 0
-substring$ -- 514
-swap$ -- 751
+substring$ -- 521
+swap$ -- 760
 text.length$ -- 23
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 132
+type$ -- 136
 warning$ -- 8
 while$ -- 84
-width$ -- 36
-write$ -- 276
+width$ -- 37
+write$ -- 283
 (There were 8 warnings)
