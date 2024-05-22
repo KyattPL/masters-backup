@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  22 MAY 2024 17:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  22 MAY 2024 23:36
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1394,68 +1394,42 @@ Package pdftex.def Info: chapters/chapter4/imgs/ch4_1_dialogue.png  used on inpu
 
 Underfull \vbox (badness 3803) has occurred while \output is active []
 
- [50 <./chapters/chapter4/imgs/ch4_1_intro.png> <./chapters/chapter4/imgs/ch4_1_dialogue.png>] [51] [52] [53]
-<chapters/chapter4/imgs/ch4_2_common_knowledge.png, id=793, 622.57594pt x 656.4525pt>
+ [50 <./chapters/chapter4/imgs/ch4_1_intro.png> <./chapters/chapter4/imgs/ch4_1_dialogue.png>] [51] [52] [53] [54]
+<chapters/chapter4/imgs/ch4_2_common_knowledge.png, id=799, 622.57594pt x 656.4525pt>
 File: chapters/chapter4/imgs/ch4_2_common_knowledge.png Graphic file (type png)
 <use chapters/chapter4/imgs/ch4_2_common_knowledge.png>
-Package pdftex.def Info: chapters/chapter4/imgs/ch4_2_common_knowledge.png  used on input line 250.
+Package pdftex.def Info: chapters/chapter4/imgs/ch4_2_common_knowledge.png  used on input line 256.
 (pdftex.def)             Requested size: 384.1096pt x 405.01305pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<chapters/chapter4/imgs/ch4_2_adam_basic.png, id=794, 607.51968pt x 581.92406pt>
+ [55 <./chapters/chapter4/imgs/ch4_2_common_knowledge.png>]
+<chapters/chapter4/imgs/ch4_2_adam_basic.png, id=806, 607.51968pt x 581.92406pt>
 File: chapters/chapter4/imgs/ch4_2_adam_basic.png Graphic file (type png)
 <use chapters/chapter4/imgs/ch4_2_adam_basic.png>
-Package pdftex.def Info: chapters/chapter4/imgs/ch4_2_adam_basic.png  used on input line 259.
+Package pdftex.def Info: chapters/chapter4/imgs/ch4_2_adam_basic.png  used on input line 270.
 (pdftex.def)             Requested size: 384.1096pt x 367.93713pt.
-[54]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<chapters/chapter4/imgs/ch4_2_adam_details.png, id=800, 424.58624pt x 465.23813pt>
+ [56 <./chapters/chapter4/imgs/ch4_2_adam_basic.png>]
+<chapters/chapter4/imgs/ch4_2_adam_details.png, id=813, 424.58624pt x 465.23813pt>
 File: chapters/chapter4/imgs/ch4_2_adam_details.png Graphic file (type png)
 <use chapters/chapter4/imgs/ch4_2_adam_details.png>
-Package pdftex.def Info: chapters/chapter4/imgs/ch4_2_adam_details.png  used on input line 268.
+Package pdftex.def Info: chapters/chapter4/imgs/ch4_2_adam_details.png  used on input line 282.
 (pdftex.def)             Requested size: 384.1096pt x 420.90402pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[55 <./chapters/chapter4/imgs/ch4_2_common_knowledge.png>]
-<chapters/chapter4/imgs/ch4_2_adam_knowledge.png, id=806, 565.36218pt x 389.95688pt>
+ [57 <./chapters/chapter4/imgs/ch4_2_adam_details.png>]
+<chapters/chapter4/imgs/ch4_2_adam_knowledge.png, id=821, 565.36218pt x 389.95688pt>
 File: chapters/chapter4/imgs/ch4_2_adam_knowledge.png Graphic file (type png)
 <use chapters/chapter4/imgs/ch4_2_adam_knowledge.png>
-Package pdftex.def Info: chapters/chapter4/imgs/ch4_2_adam_knowledge.png  used on input line 277.
-(pdftex.def)             Requested size: 384.1096pt x 264.94106pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<chapters/chapter4/imgs/ch4_2_adam_personality.png, id=807, 586.44093pt x 518.6878pt>
+Package pdftex.def Info: chapters/chapter4/imgs/ch4_2_adam_knowledge.png  used on input line 295.
+(pdftex.def)             Requested size: 298.75264pt x 206.06923pt.
+<chapters/chapter4/imgs/ch4_2_adam_personality.png, id=823, 586.44093pt x 518.6878pt>
 File: chapters/chapter4/imgs/ch4_2_adam_personality.png Graphic file (type png)
 <use chapters/chapter4/imgs/ch4_2_adam_personality.png>
-Package pdftex.def Info: chapters/chapter4/imgs/ch4_2_adam_personality.png  used on input line 286.
-(pdftex.def)             Requested size: 384.1096pt x 339.73112pt.
-[56 <./chapters/chapter4/imgs/ch4_2_adam_basic.png>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<chapters/chapter4/imgs/ch4_2_adam_goals.png, id=813, 539.76656pt x 660.21657pt>
+Package pdftex.def Info: chapters/chapter4/imgs/ch4_2_adam_personality.png  used on input line 306.
+(pdftex.def)             Requested size: 298.75264pt x 264.23444pt.
+ [58 <./chapters/chapter4/imgs/ch4_2_adam_knowledge.png> <./chapters/chapter4/imgs/ch4_2_adam_personality.png>]
+<chapters/chapter4/imgs/ch4_2_adam_goals.png, id=831, 539.76656pt x 660.21657pt>
 File: chapters/chapter4/imgs/ch4_2_adam_goals.png Graphic file (type png)
 <use chapters/chapter4/imgs/ch4_2_adam_goals.png>
-Package pdftex.def Info: chapters/chapter4/imgs/ch4_2_adam_goals.png  used on input line 295.
+Package pdftex.def Info: chapters/chapter4/imgs/ch4_2_adam_goals.png  used on input line 323.
 (pdftex.def)             Requested size: 384.1096pt x 469.83496pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 1509) has occurred while \output is active []
-
- [57 <./chapters/chapter4/imgs/ch4_2_adam_details.png>]
-
-LaTeX Warning: Text page 58 contains only floats.
-
-[58 <./chapters/chapter4/imgs/ch4_2_adam_knowledge.png> <./chapters/chapter4/imgs/ch4_2_adam_personality.png>]
+ [59 <./chapters/chapter4/imgs/ch4_2_adam_goals.png>]
 \openout4 = `thesis.pyg'.
 
  (./_minted-thesis/default.pygstyle) (./_minted-thesis/AA115B3B44FE7565621A65C17B9CF10523183AFFD145D87B3DD3FD27A0A7BB96.pygtex
@@ -1700,43 +1674,40 @@ LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
 (Font)              using `T1/cmtt/bx/n' instead on input line 27.
 
 )
-Package hyperref Info: bookmark level for unknown listing defaults to 0 on input line 331.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [59 <./chapters/chapter4/imgs/ch4_2_adam_goals.png>] [60{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]) (./chapters/chapter5/chapter5.tex [61]
+Package hyperref Info: bookmark level for unknown listing defaults to 0 on input line 362.
+) (./chapters/chapter5/chapter5.tex [60{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 Rozdzia\PlPrIeC {\l } 5.
-) (./summary/summary.tex [62
+) (./summary/summary.tex [61
 
-]) [63
+]) [62
 
-] (./thesis.lof [64
+] (./thesis.lof [63
 
 ])
 \tf@lof=\write8
 \openout8 = `thesis.lof'.
 
- [65] (./thesis.lop)
+ [64] (./thesis.lop)
 \tf@lop=\write9
 \openout9 = `thesis.lop'.
 
- [66
+ [65
 
 ] (./thesis.lot)
 \tf@lot=\write10
 \openout10 = `thesis.lot'.
 
- [67
+ [66
 
-] [68
+] [67
 
 ] (./appendices/appendix1.tex
 Dodatek A.
-) (./appendices/appendix2.tex [69
+) (./appendices/appendix2.tex [68
 
 ]
 Dodatek B.
-) (./thesis.bbl [70
+) (./thesis.bbl [69
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
@@ -1746,7 +1717,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71
+ [70
 
 ]
 Underfull \hbox (badness 7944) in paragraph at lines 58--59
@@ -1761,7 +1732,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [72]) [73] (./thesis.aux)
+ [71]) [72] (./thesis.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1772,18 +1743,18 @@ runsystem(del thesis.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 31949 strings out of 474221
- 605302 string characters out of 5750189
+ 31948 strings out of 474221
+ 605293 string characters out of 5750189
  1939978 words of memory out of 5000000
  53119 multiletter control sequences out of 15000+600000
  636195 words of font info for 217 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  123i,14n,121p,1050b,864s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmbi.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on thesis.pdf (77 pages, 21812513 bytes).
+Output written on thesis.pdf (76 pages, 21810511 bytes).
 PDF statistics:
- 1074 PDF objects out of 1200 (max. 8388607)
- 898 compressed objects within 9 object streams
- 225 named destinations out of 1000 (max. 500000)
+ 1078 PDF objects out of 1200 (max. 8388607)
+ 902 compressed objects within 10 object streams
+ 224 named destinations out of 1000 (max. 500000)
  45602 words of extra memory for PDF output out of 51595 (max. 10000000)
 

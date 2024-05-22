@@ -245,6 +245,12 @@ funkcjonalności do stworzenia interaktywnej postaci w grze wideo. Przedstawione
 wykorzystane do utworzenia postaci Adama (reszta postaci jest widoczna w dodatku \ref{appendix:B}) oraz
 sposób połączenia z platformą Inworld AI z poziomu kodu.
 
+\newpage
+
+Na rysunku \ref{fig:ch4_2_common_knowledge} przedstawiono wiedzę ogólną posiadaną przez wszystkie postacie.
+Pojedynczy fakt zapisany jest w formie 1-2 zdań i oddzielone są znakami końca linii. Poniżej widoczne
+są wszystkie postacie posiadające te informacje.
+
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.9\textwidth]{ch4_2_common_knowledge.png}
@@ -252,7 +258,12 @@ sposób połączenia z platformą Inworld AI z poziomu kodu.
     \label{fig:ch4_2_common_knowledge}
 \end{figure}
 
-\lipsum[1]
+\newpage
+
+W ramach podstawowych informacji do zdefiniowania są: rdzenny opis, motywacje i wady. Na rysunku
+\ref{fig:ch4_2_adam_basic} zaprezentowano ich wypełnienie dla postaci Adama. Zauważyć można wystąpienie
+zmiennych pomocniczych: {character} i {player}. Pozwalają one odnosić się do odpowiedniej osoby nawet
+jeśli nastąpi zmiana jej imienia.
 
 \begin{figure}[h!]
     \centering
@@ -261,7 +272,10 @@ sposób połączenia z platformą Inworld AI z poziomu kodu.
     \label{fig:ch4_2_adam_basic}
 \end{figure}
 
-\lipsum[1]
+\newpage
+
+W panelu szczegółowych informacji określić można: imię, zaimki, opis, role, wiek, pseudonimy oraz
+zainteresowania postaci (co zostało pokazane na rysunku \ref{fig:ch4_2_adam_details}).
 
 \begin{figure}[h!]
     \centering
@@ -270,25 +284,39 @@ sposób połączenia z platformą Inworld AI z poziomu kodu.
     \label{fig:ch4_2_adam_details}
 \end{figure}
 
-\lipsum[1]
+\newpage
+
+Wiedza osobista złożona jest z faktów wyrażonych w formie pojedynczych zdań prostych. Na rysunku
+\ref{fig:ch4_2_adam_knowledge} widać informacje znane przez Adama jak i dodaną wcześniej utworzoną
+wiedzę ogólną.
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.9\textwidth]{ch4_2_adam_knowledge.png}
+    \includegraphics[width=0.7\textwidth]{ch4_2_adam_knowledge.png}
     \caption{Wiedza osobista Adama}
     \label{fig:ch4_2_adam_knowledge}
 \end{figure}
 
-\lipsum[1]
+Osobowość postaci określona jest poprzez konkretne przymiotniki jednoznacznie określające charakter jak i
+przez omawiane wcześniej suwaki nastroju, które dają większą szczegółowość przy wyborze cech (co
+zaprezentowano na rysunku \ref{fig:ch4_2_adam_personality}).
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.9\textwidth]{ch4_2_adam_personality.png}
+    \includegraphics[width=0.7\textwidth]{ch4_2_adam_personality.png}
     \caption{Osobowość Adama}
     \label{fig:ch4_2_adam_personality}
 \end{figure}
 
-\lipsum[1]
+\newpage
+
+Cele postaci określane są w postaci pliku YAML (widoczne na rysunku \ref{fig:ch4_2_adam_goals}). W górnej
+części pliku zdefiniowano "intencje" czyli konkretne zamiary, z którymi gracz może występować do postaci
+podczas rozmowy. Za pomocą fraz treningowych projektant może określić, że przykładowo zapytanie
+\textit{"What about Randy?"} lub jemu podobne, związane jest z intencją "asked\_randy". Jest to potrzebne
+do określenia celów, ponieważ tak jak widać na rysunku, cele mogą być aktywowane poprzez napotkanie
+konkretnych intencji. Wtedy postać wywołuję w pewnego rodzaju monologu wewnętrznym instrukcję zawartą
+po słowie kluczowym \textit{instruction} co pozwala twórcy odpowiednio sterować rozmową.
 
 \begin{figure}[h!]
     \centering
@@ -297,7 +325,10 @@ sposób połączenia z platformą Inworld AI z poziomu kodu.
     \label{fig:ch4_2_adam_goals}
 \end{figure}
 
-\lipsum[1]
+\newpage
+
+Na listingu \ref{listing:ch4_2_1} przedstawiono funkcję napisaną w języku Python wysyłającą zapytanie
+do konkretnej postaci na platformie Inworld AI.
 
 \begin{listing}
     \begin{minted}{python}  
@@ -328,10 +359,8 @@ def query_inworld_api(char, prompt, protagonist="John", sessionId=None):
 
     return x
 \end{minted}
-    \caption{Funkcja wykorzystująca API Inworld AI do rozmowy z agentem} \label{listing:myListing}
+    \caption{Funkcja wykorzystująca API Inworld AI do rozmowy z agentem} \label{listing:ch4_2_1}
 \end{listing}
-
-\lipsum[1]
 
 \section{Zaplanowany przebieg eksperymentu}\label{section:ch4_3}
 
