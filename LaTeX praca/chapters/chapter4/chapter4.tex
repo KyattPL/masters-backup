@@ -1,429 +1,299 @@
 \graphicspath{{chapters/chapter4/imgs/}}
 
-\chapter{Planowany eksperyment}\label{chapter:ch4}
+\chapter{Sposoby generowania narracji}\label{chapter:ch4}
 
-W tej sekcji przedstawiony zostanie pełny plan eksperymentu, w tym: projekt gry przeglądarkowej
-z gatunku \textit{visual novel}, opis implementacji i wykorzystania generatywnych agentów
-opartych na dużych modelach językowych oraz sam przebieg badań.
+W poprzednich sekcjach omówiona została historia oraz wykorzystywane w grach komputerowych rodzaje
+narracji. W każdym z tych elementów istnieje jeden element wspólny: to ludzie odpowiadają za tworzenie
+narracji, odpowiednie jej planowanie i prezentowanie odbiorcy. Związane z tym są oczywiście olbrzymie
+koszty oraz duży nakład czasu poświęcony przez pracowników. Biorąc pod uwagę terminy stale goniące
+producentów gier, nic dziwnego, że pewne zaplanowane fragmenty fabularne nie znajdują miejsca w końcowym
+produkcie. Z tego względu, patrząc na postępujący rozwój technologiczny, nasuwa się pytanie ---
+czy da się zarządzać narracją w grze komputerowej w sposób automatyczny? W ramach tej sekcji
+przedstawione zostaną znane rozwiązania z dziedziny sztucznej inteligencji pomagające w kreowaniu fabuły
+oraz nakreślony zostanie potencjał w tej sferze dużych modeli językowych.
 
-\section{Projekt gry wykorzystanej w eksperymencie}\label{section:ch4_1}
+\section{Wykorzystanie algorytmów sztucznej inteligencji do kreowania narracji}\label{section:ch4_1}
 
-Celem gry ma być oczywiście zbadanie wpływu wykorzystania generatywnych agentów na zaangażowanie
-grającego w narrację. W związku z tym rozgrywka powinna kłaść nacisk przede wszystkim na
-przedstawianie treści fabularnych, pozostawiając walory estetyczne czy mechaniki gry na drugim
-planie. Dodatkowo, całe doświadczenie powinno mieścić się w przedziale 15-30min i być dostępne
-w łatwy sposób (bez instalacji). Z uwagi na te założenia zdecydowano się na utworzenie gry
-dwuwymiarowej z gatunku \textit{visual novel} (Patrz sekcja poniżej).
+Mówiąc o ogólnym wykorzystaniu algorytmów sztucznej inteligencji można cofnąć się do bardzo prostych
+rozwiązań wykorzystanych np. w "Pong" (Patrz sekcja \ref{subsection:ch1_1_2}), do technik generowania
+proceduralnego (zwłaszcza poziomów) czy też do systemów rankingowych (np. system TrueSkill). Jako, że
+nie są to metody stricte powiązane z narracją to nie zostaną one opisane bardziej szczegółowo.
+Przedstawione natomiast będą kluczowe obszary wykorzystywane w grach: częściowo-uporządkowane planowanie
+(ang. \textit{POP} - partially-ordered planning), modelowanie doświadczeń gracza (ang. \textit{PEM} -
+player experience modelling), przetwarzanie języka naturalnego (ang. \textit{NLP} - natural language
+processing), postać niegrywalna (ang. \textit{NPC} - non-playable character), proces decyzyjny Markowa
+(ang. \textit{MDP} - Markov decision process).
 
-\subsubsection*{Gatunek \textit{visual novel}}\label{subsubsection:ch4_1_1}
+\subsubsection*{POP (Partially-ordered planning)}
 
-Forma \textit{visual novel} (z ang. \textit{powieść wizualna}) jest najczęściej uznawana jako
-gatunek gier komputerowych, choć niektórzy dostrzegają w niej zupełnie odrębne od gier
-medium\cite{tvtropes_visual_novel}.
+Planowanie częściowo-uporządkowane jest skierowanym grafym acyklicznym, gdzie węzły są operacjami
+(inaczej nazywanymi akcjami), które po wywołaniu zmieniają stan świata. Krawędzie przedstawiają
+relacje przyczynowe i czasowe pomiędzy akcjami. Powiązanie przyczynowe $a_{i} \rightarrow^{c}a_{j}$
+oznacza, że wykonanie akcji $a_{i}$ zmieni stan warunku $c$ na prawdziwy w świecie fabuły, a co za
+tym idzie akcja $a_{j}$ zależna od tego warunku będzie możliwa do wykonania. Powiązanie czasowe
+przedstawia ograniczenie porządkowe pomiędzy operacjami, gdzie jedna operacja musi być wykonana przed
+inną\cite{game_ai_storytelling}. Przykładowa struktura fabularna zrealizowana za pomocą planowania
+częściowo-uporządkowanego została przedstawiona na rysunku \ref{fig:ch4_1_pop}.
 
-Kluczowymi cechami \textit{visual novel} są prezentacja tekstu za pomocą okienek dialogowych, które gracz
-musi klikać, aby przejść dalej, oraz statyczne grafiki przedstawiające postacie i otoczenie. Choć
-powieści wizualne często zawierają elementy multimedialne, takie jak animacje, muzyka czy dubbing,
-to nie są one ich kluczowymi składnikami\cite{tvtropes_visual_novel}.
-
-\textit{Visual novel} koncentrują się przede wszystkim na prezentacji narracji, z niewielką lub zerową
-ilością rozgrywki. Wiele z nich oferuje nieliniową, rozgałęziającą się fabułę z wieloma
-zakończeniami i systemem wyborów wpływających na dalszy przebieg wydarzeń\cite{tvtropes_visual_novel}.
-Z drugiej strony, istnieją też powieści wizualne
-pozbawione jakiejkolwiek rozgrywki i rozgałęzień fabularnych, określane mianem
-\textit{kinetic novel}\cite{tvtropes_kinetic_novel}.
-
-Ogólnie powieści wizualne wyróżniają się dominacją narracji przedstawianej za pomocą tekstu i grafik nad
-rozgrywką. Kryterium odróżniające je od gier przygodowych jest stopień, w jakim faktycznie
-wykorzystują mechaniki gry i gameplay w stosunku do narracji\cite{tvtropes_visual_novel}.
-
-\subsubsection*{Projekt gry}
-
-Gra została opracowana przy wykorzystaniu silnika Ren'Py w wersji 8.2.1, opartego na języku Python.
-Ren'Py to popularne narzędzie służące do tworzenia gier tego rodzaju, oferujące zaawansowane
-możliwości pisania scenariuszy, zarządzania obrazami i dźwiękiem oraz tworzenia systemów wyborów
-i rozgałęzień fabularnych.
-
-Wszystkie niezbędne zasoby graficzne pozyskane zostały ze społeczności twórców niezależnych na
-platformie itch.io. Grafiki postaci i tła zostały wyprodukowane przez twórców
-LinXueLian (\url{https://linxuelian.itch.io/}) oraz Potat0Master (\url{https://potat0master.itch.io/}),
-specjalizujących się w tego typu materiałach na potrzeby \textit{visual novel} i gier przygodowych.
-
-Finalną wersję gry opublikowano na platformie dystrybucji cyfrowej itch.io, która stała się
-głównym kanałem udostępniania produkcji odbiorcom. Itch.io jest popularnym miejscem dla niezależnych
-twórców gier, w tym deweloperów \textit{visual novel} wykorzystujących silniki takie jak Ren'Py.
-
-Na rysunku \ref{fig:ch4_1_menu} przedstawiono ekran początkowy widziany przez gracza po uruchomieniu
-gry. Panele ustawień, zarządzania zapisami / wczytaniami gry oraz pomocy są automatycznie generowane
-przez silnik Ren'Py.
-
-\begin{figure}[h!]
+\begin{figure}[h]
     \centering
-    \includegraphics[width=0.9\textwidth]{ch4_1_menu.png}
-    \caption{Ekran startowy gry}
-    \label{fig:ch4_1_menu}
+    \includegraphics[width=0.5\textwidth]{ch4_1_pop.png}
+    \caption{Fabuła "Czerwonego Kapturka" zapisana za pomocą POP}
+    \label{fig:ch4_1_pop}
 \end{figure}
 
-\newpage
-Przykład prezentacji treści fabularnej jest widoczny na rysunku \ref{fig:ch4_1_intro}. Widok
-zasadniczo składa się z tła, opcjonalnie z postaci widocznej na pierwszym planie oraz z panelu
-tekstowego (W tym przypadku nie widać imienia postaci więc grający powinien dany fragment uznać
-za monolog wewnętrzny głównego bohatera).
+Za pomocą tej techniki kreować można rozbudowane plany fabularne, które mogą ulegać zmianie na
+podstawie akcji podejmowanych przez gracza czy zmian zachodzących w świecie gry. Odpowiednie algorytmy
+przeszukiwania nazywane \textit{"plannerami"} rozwiązują problem planowania, tzn. mając dany stan
+świata, pewne atomowe akcje możliwe do wykonania przez grającego oraz założony cel, znajdują
+odpowiednią sekwencję operacji, które doprowadzą do osięgnięcia tegoż celu\cite{game_ai_storytelling}.
 
-\begin{figure}[h!]
+Podstawowym problemem pojawiającym się przy wykorzystaniu metody POP jest to, że zarówno gracz jak i
+potencjalnie inne niegrywalne postacie, mogą być zdolne do wywołania akcji w świecie gry, która
+zagraża dalszemu przebiegowi fabularnemu zgodnego z planem\cite{characters_and_directors}. Wtedy
+stosowane są odpowiednie techniki naprawcze, które prowadzą do mniej lub bardziej doskonałych rozwiązań.
+
+\subsubsection*{PEM (Player experience modelling)}
+
+Modelowanie doświadczeń gracza polega na zbieraniu danych behawioralnych czy też wydajnościowych
+(punkty, czas, decyzje) ze względu na rozgrywkę za pomocą wielu modalności: mowy gracza, obrazów
+(śledzenie ruchów ciała, mimiki twarzy, gałek ocznych) czy też sygnałów fizjologicznych (puls czy
+przewodność skóry). Pomiar sygnałów fizjologicznych jest oczywiście problematyczny ze względu na
+wykorzystanie dodatkowego sprzętu a zarazem inwazyjność przeszkadzającą w swobodnej rozgrywce
+\cite{reusable_game_ai}.
+
+W ramach tego obszaru sztuczna inteligencja objawia się zazwyczaj pod postacią sieci neuronowych czy
+też drzew decyzyjnych, które pozwalają dokonywać klasyfikacji w zakresie\cite{reusable_game_ai}:
+
+\begin{itemize}
+    \item rozpoznawania emocji grającego - w ramach anagażujących systemów dialogowych
+    \item balansowania rozgrywki - tak by gracz nie odczuwał frustracji ze względu na zbyt wysoki poziom
+          trudności a zarazem by nie doznawał nudy ze względu na zbyt prostą rozgrywkę
+    \item oceniania umiejętności gracza - do prowadzenia badań w sposób ukryty
+\end{itemize}
+
+\subsubsection*{NLP (Natural language processing)}
+
+Przetwarzanie języka naturalnego jest dziedziną w obrębie sztucznej inteligencji, która zajmuje się
+zrozumieniem, interpretacją i manipulacją ludzkiego języka\cite{reusable_game_ai}. W ramach gier
+komputerowych pozwala to graczowi poruszać się po świecie czy też komunikować z innymi postaciami NPC
+w sposób zarówno naturalny (zamiast wchodzenia w interakcję z odpowiednimi interfejsami) jak i dość
+otwarty (na tyle na ile dany system jest w stanie przetwarzać odpowiednie frazy).
+
+Z podstaw przetwarzania języka naturalnego korzystały tytuły realizowane w konwencji interaktywnej
+fikcji, takie jak "Otchłań" (Patrz sekcja \ref{subsection:ch1_3_2}). Pozwalają one graczowi za pomocą
+określonego zestawu komend poruszać się i wchodzić w interakcję z całym światem gry.
+
+Związane z tą dziedziną są duże modele językowe, które potrafią operować językiem naturalnym.
+Ich bardziej szczegółowy opis będzie przedstawiony w sekcji \ref{section:ch4_2}.
+
+\subsubsection*{NPC (Non-playable character)}
+
+Postacie niegrywalne to wszelkie jednostki czy postacie, z którymi gracz może wchodzić w
+interakcję lub dostrzegać ich autonomiczne poruszanie w świecie. Mogą to być statyczne byty,
+które usytuowane są w jednym określonym miejscu i mają na celu dawać grającemu zadania czy też
+informacje o świecie gry. Z drugiej strony wszelkie jednostki, z którymi gracz walczy również
+podlegają pod tę definicję. Forma postaci niegrywalnych, tak jak i w literaturze, nie jest
+istotna, gdyż bohaterem może być zarówno człowiek jak i zantropomorfizowane zwierzę czy rzecz.
+
+NPC pojawiły się w grach z początkiem lat 90-tych. Oparte były przede wszystkim na zpredefiniowanych
+skryptach i drzewach decyzyjnych\cite{storytelling_through} (współcześnie nadal wiele postaci jest
+opartych o te rozwiązania) \cite{from_pong_to_narrative}.
+
+Wraz z rozwojem technologicznym twórcy gry mają możliwość przeznaczenia więcej mocy obliczeniowej
+na wiarygodne dla gracza postacie NPC. Związane jest to z dokładniejszymi modelami i animacjami
+postaci ale również z bardziej zaawansowanymi wzorcami zachowania. Producenci zaczęli wykorzystywać
+od lat 2010 w tym celu techniki uczenia maszynowego oraz głębokiego nauczania
+\cite{from_pong_to_narrative}. Pozwala to przeciwnikom (czy też sprzymierzeńcom) gracza
+dostosowywać się do sposobu prowadzenia przez niego rozgrywki. Współczesne tytuły takie jak
+"Read Dead Redemption 2" czy "The Last of Us Part II" wykorzystują głębokie sieci neuronowe do
+budowania postaci NPC\cite{from_pong_to_narrative}.
+
+\subsubsection*{MDP (Markov decision process)}
+
+Łańcuch Markowa jest stochastycznym modelem opisującym ciąg możliwych zdarzeń, w którym
+prawdopodobieństwo każdego zdarzenia zależy jedynie od wyniku poprzedniego. Rozróżniane one
+są dodatkowo ze względu na dyskretne lub ciągłe momenty czasowe, w których następuje zmiana
+stanów. Proces decyzyjny Markowa (MDP) jest zasadniczo rozszerzeniem łańcuchów Markowa ---
+różnicę stanowi dodanie akcji (które pozwalają na podejmowanie decyzji) oraz nagród otrzymywanych
+po przejściu z jednego stan w drugi. Jeżeli dla każdego stanu istnieje tylko jedna akcja i
+wszystkie nagrody są jednakowe, to proces decyzyjny Markowa upraszcza się do łańcucha Markowa.
+
+\begin{figure}[h]
     \centering
-    \includegraphics[width=0.9\textwidth]{ch4_1_intro.png}
-    \caption{Wprowadzenie fabularne / przykład narracji}
-    \label{fig:ch4_1_intro}
+    \includegraphics[width=0.8\textwidth]{ch4_1_mdp.png}
+    \caption{Przykładowy proces decyzyjny Markowa}
+    \label{fig:ch4_1_mdp}
 \end{figure}
 
-Przykładowy widok dialogu z jedną z postaci NPC został przedstawiony na rysunku \ref{fig:ch4_1_dialogue}.
-
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.9\textwidth]{ch4_1_dialogue.png}
-    \caption{Przykładowy dialog z postacią NPC}
-    \label{fig:ch4_1_dialogue}
-\end{figure}
-
-\subsubsection*{Zarys fabularny}
-
-Gracz zostaje zaproszony na imprezę organizowaną przez Sylvię, młodą i piękną dziedziczkę. Na
-przyjęciu pojawiają się również: Adam - marzyciel pracujący w piekarni ojca, Nathaniel -
-bezwzględny biznesmen, Randy - genialny pianista o ciemnej stronie, Mary - zmagająca się z
-problemami finansowymi pisarka kryminałów oraz Florian - zakochany w Sylvii syn bogatego prawnika.
-Podczas imprezy Sylvia zostaje zamordowana. Gracz znajduje jej ciało i zostawiony list, który
-sugeruje jej samobójstwo po czym wzywa policję. Do przyjazdu służb potrzeba kilku godzin, więc
-główny bohater postanawia samemu rozwiązać tę sprawę.
-
-Gracz musi rozmawiać z pozostałymi postaciami NPC, zbierając od nich informacje na temat ich
-relacji z Sylvią, motywów i alibi w nocy morderstwa. Adam był skrycie zakochany w Sylvii i
-zazdrosny o jej związek z Florianem. Nathaniel próbował bezskutecznie przejąć piekarnię ojca Adama.
-Randy to utalentowany, ale arogancki pianista z ciemną przeszłością i problemami z prawem,
-skrywający wiele tajemnic. Mary to pisarka kryminałów zmagająca się z problemami finansowymi,
-będąca najlepszą przyjaciółką Sylvii. Florian to bogaty prawnik zakochany w Sylvii, będący rywalem
-Adama w miłości, choć nie zdawał sobie z tego sprawy. Każda postać ma własny charakter i sekrety,
-które mogą okazać się istotne dla śledztwa.
-
-Gra kończy się konfrontacją, podczas której gracz wskazuje sprawcę.
-W zależności od ostatecznego wyboru może być przedstawione "dobre" lub "złe" zakończenie.
-
-\section{Opis generatywnych agentów}\label{section:ch4_2}
-
-Inworld AI to platforma umożliwiająca tworzenie interaktywnych postaci wirtualnych, które mogą być
-wykorzystywane w różnorodnych zastosowaniach. Cały proces tworzenia tych charakterów odbywa się za
-pomocą intuicyjnego interfejsu, niewymagającego użycia kodu programistycznego.
-
-Zakres możliwych zastosowań postaci stworzonych za pomocą Inworld AI jest szeroki i obejmuje m.in. gry
-wideo otwartego świata, wirtualne awatary i ambasadorów marek, imersyjne doświadczenia edukacyjne oraz
-szkolenia. Platforma ta umożliwia tworzenie realistycznie wyglądających i zachowujących się postaci
-niezależnych (NPC), które mogą wchodzić w interakcje z użytkownikami w sposób zbliżony do interakcji z
-prawdziwymi ludźmi.
-
-Ze względu na bardzo szybkie tempo rozwoju sztucznej inteligencji, Inworld AI stale wprowadza nowe
-funkcjonalności czy też przekształca istniejące aby zapewnić użytkownikom wirtualne postacie na
-najwyższym poziomie.
-
-Zastosowanie postaci wygenerowanych przez Inworld AI może przynieść korzyści w wielu branżach, takich
-jak rozrywka, marketing, edukacja czy szkolenia. Dzięki ich realistycznemu wyglądowi i zachowaniu, mogą
-one zwiększać zaangażowanie użytkowników oraz oferować bardziej imersyjne i angażujące doświadczenia.
-
-Inworld AI wykorzystuje podejście polegające na dynamicznym przełączaniu się między różnymi dużymi
-modelami językowymi (LLM) w zależności od kontekstu konwersacji i wymagań dotyczących opóźnienia\cite{inworld_docs}.
-Korzystają zarówno z zewnętrznych interfejsów API, takich jak GPT-3 od OpenAI, jak i własnych
-wewnętrznych modeli\cite{inworld_docs}. Wybór konkretnego modelu LLM jest dokonywany w oparciu o zrozumienie mocnych
-stron poszczególnych modeli i tego, który będzie najlepiej służył danej interakcji konwersacyjnej.
-Oprócz wykorzystywania gotowych modeli zewnętrznych, Inworld AI rozwija również własne modele
-językowe dostosowane do ich specyficznych potrzeb\cite{inworld_docs}.
-
-\subsubsection*{Kluczowe funkcjonalności platformy Inworld AI}
-
-W ramach tej podsekcji przedstawione zostaną najważniejsze elementy możliwe do dostosowania przez
-użytkownika przy tworzeniu własnych postaci. Stanowi to przegląd możliwości platformy Inworld AI
-oraz pozwala dostrzec w jaki sposób można sterować procesem kreacji.
-
-\begin{description}
-
-    \item[Wspólna Wiedza (\textit{Common Knowledge})] umożliwia zdefiniowanie ogólnej wiedzy, która ma być znana przez wiele
-          postaci. Może to obejmować informacje o świecie gry, które wszystkie postacie powinny znać lub wiedzę
-          przypisaną tylko do konkretnej grupy postaci, np. tych, które wiedzą, że w ich świecie występuje magia
-          i potrafią jej używać\cite{inworld_docs}.
-
-    \item[Rdzenny Opis (\textit{Core Description})] stanowi fundament osobowości postaci i w znacznym stopniu wpływa na
-          wszystkie jej późniejsze reakcje. Powinien koncentrować się na szczegółach dotyczących obecnych
-          okoliczności życiowych postaci, jej historii oraz sposobu w jaki się prezentuje. W tej sekcji
-          można również wspomnieć o kluczowych relacjach czy lokalizacjach
-          związanych z daną postacią. Jeśli postać wypowiada się lub zachowuje w specyficzny sposób,
-          można to również zawrzeć w ramach tego opisu\cite{inworld_docs}.
-
-    \item[Motywacje (\textit{Motivations})] to pojedyncze zdania opisujące co motywuje postać do
-          rozmów z innymi. Może to być chęć realizacji celu lub pragnienia, przedstawienia swojej opinii lub
-          pomocy użytkownikowi w zdobyciu wiedzy. Ważne jest aby określić co napędza daną postać, ponieważ
-          będzie to wpływać na jej reakcje a ona sama będzie poszukiwać okazji do wplatania swoich motywacji w rozmowę\cite{inworld_docs}.
-
-    \item[Wady (\textit{Flaws})] to pojedyncze zdania dotyczące niedoskonałości i lęków postaci. Określają
-          co powstrzymuje postać od podążania za swoimi motywacjami oraz jakie zdarzenia mogą wywował negatywną
-          reakcję\cite{inworld_docs}.
-
-    \item[Rola (\textit{Role})] zapewnia ramy określające, w jaki sposób postać wchodzi w interakcje z otaczającym ją
-          światem. Może to być coś ogólnego jak "Bohater" lub "Asystent", natomiast bardziej szczegółowe
-          profesje czy typy mają większy wpływ na sztuczną inteligencję Inworld AI\cite{inworld_docs}.
-
-    \item[Zainteresowania i Hobby (\textit{Hobbies and Interests})] to krótka lista hobby i zainteresowań postaci. Może
-          się do nich odwoływać w rozmowie. Mogą być one szerokie (np. pomaganie w rozwiązywaniu problemów
-          użytkowników) lub specyficzne dla motywacji postaci (np. okradanie rywalizujących gangów)\cite{inworld_docs}.
-
-    \item[Cechy Osobowości (\textit{Personality Traits})] to lista przymiotników określających postać będącą
-          w konkretnym stanie. Ma ona wpływ na odpowiedzi udzielane przez postać\cite{inworld_docs}.
-
-    \item[Suwaki nastroju i osobowości (\textit{Mood and Personality Sliders})] decydują o rodzajach e-\\
-          mocji, które będzie przejawiać postać w odpowiedzi na interakcje. Emocje te są odzwierciedlone
-          na dyskretnej lecz niebinarnej skali (1-9), co znaczy przykładowo, że zamiast wybierać
-          stricte pomiędzy "przygnębieniem" a "euforią" istnieje możliwość wyboru "zadowolenia"\cite{inworld_docs}.
-
-    \item[Fakty i Wiedza (\textit{Facts and Knowledge})] pomagają w predefiniowaniu odpowiedzi na pytania użytkowników.
-          \textit{Wiedza osobista} to wszystko co dotyczy tej konkretnej postaci, natomiast \textit{wspólna wiedza} to miejsce, gdzie można
-          dodać szersze informacje np. o epoce lub świecie gry, które mogą być współdzielone między wieloma
-          postaciami. \textbf{Filtry wiedzy} (\textit{Knowledge filters}) mają na celu redukcję odstępstw i niespójności, które
-          mogłyby wykraczać dopuszczalną kreatywność postaci. Oferowane są trzy poziomy filtrów: ścisły (
-          postać trzyma się tylko tego co określił twórca), łagodny (postać może delikatnie odbiegać od
-          ustalonej wiedzy) i brak filtra (postać może rozmawiać o wszystkim)\cite{inworld_docs}.
-
-    \item[Cele (\textit{Goals})] umożliwiają ustawienie specyficznych wyzwalaczy, które spowodują, że postać
-          zareaguje w określony sposób w konkretnych scenariuszach i interakcjach. Cel działa jako "mechanizm
-          konsekwencji", który jest aktywowany przez zdarzenie wyzwalające i inicjuje określoną akcję. Pozwala
-          to twórcom na lepszą kontrolę nad postaciami w czasie rzeczywistym. Dodatkowo, system celów
-          monitoruje ich osiąganie, wysyłając wyraźny sygnał do klienta po zakończeniu celu\cite{inworld_docs}.
-
-    \item[Styl Dialogu (\textit{Dialogue Style})] umożliwia wybór spośród szeregu predefiniowanych stylów lub stworzenie
-          własnego, niestandardowego stylu. Ta funkcja, w połączeniu z cechami osobowości, zdecyduje o
-          sposobie, w jaki postać będzie prezentować swoje odpowiedzi. Może być ciekawa i zadawać mnóstwo pytań
-          lub być tajemnicza i niewiele zdradzać\cite{inworld_docs}.
-
-    \item[Mutacje Postaci (\textit{Character Mutations})] służą do wprowadzania tymczasowych zmian w atrybutach
-          postaci, dając więcej kontroli nad nią. Funkcja ta umożliwia implementację postaci przechodzących
-          przemijające zmiany. Mutacje są częścią systemu celów\cite{inworld_docs}.
-
-    \item[Sceny (\textit{Scenes})] dostarczają kontekstu, opisując bezpośrednie otoczenie postaci\cite{inworld_docs}.
-
-\end{description}
-
-\subsubsection*{Opis wykreowanych postaci}
-
-W tej sekcji przedstawiony zostanie krótki opis każdej postaci wykreowanej w ramach platformy Inworld AI
-(konkretne dane umieszczone są w dodatku \ref{appendix:B}).
-
-\textbf{Adam} jest marzycielem mieszkającym w ciasnym mieszkanku, który pracuje w piekarni swojego ojca.
-Marzy o lepszym życiu i pragnie wyrwać się z ciasnych ram swojej codzienności. Zna Floriana z liceum i był
-potajemnie zakochany w Sylvii. Czuje zazdrość wobec Floriana z powodu jego relacji z Sylvią.
-Adam nienawidzi Nathaniela, który chce wykupić piekarnię jego ojca. Nie przepada również za
-Randym, którego uważa za aroganta. W nocy, gdy doszło do morderstwa, postanowił obserwować Sylvię
-i to on znalazł jej ciało.
-
-\textbf{Florian} pochodzi z bogatej rodziny prawniczej. Choć miał wszystko, brakowało mu prawdziwej miłości,
-którą znalazł dopiero przy Sylvii. Jest osobą lojalną i gotową do poświęceń dla bliskich. Przyjaźni
-się z Adamem od czasów liceum, choć nie wie o jego uczuciach do Sylvii. Wiedział, że Sylvia
-była najlepszą przyjaciółką Mary. Florian nie lubi Nathaniela za jego metody działania i pamięta, że groził
-on Sylvii. Podziwia talent Randy'ego, nie wiedząc o jego problemach z prawem. Twierdzi, że spał przez całą
-noc i nie widział Sylvii przed jej śmiercią.
-
-\textbf{Mary} jest pisarką powieści kryminalnych, która zmaga się z finansowymi problemami. Jej najlepszą
-przyjaciółką była Sylvia, która zawsze ją wspierała. Znała Sylvię bardzo dobrze, wiedziała o jej
-depresji i problemach. Jest w dobrych stosunkach z Nathaniel'em, który próbował pomóc jej w
-znalezieniu wydawcy. Mary nie ufa Randy'emu i uważa go za podejrzanego. Gdy doszło do morderstwa,
-była w łazience i usłyszała krzyk, ale nie widziała, kto zabił Sylvię.
-
-\textbf{Nathaniel} jest biznesmenem, który dorobił się majątku dzięki swojej determinacji i bezwzględności.
-Pragnie zdobyć szacunek, którego nigdy nie zaznał. Lubi Adama, choć ich relacja jest
-napięta z powodu interesów. Nathaniel ceni Randy'ego za jego talent i wierzy, że po odbyciu kary
-więzienia Randy stał się lepszą osobą. Myśli, że Mary mogłaby zabić z desperacji. Twierdzi, że
-spędził noc w kuchni, widząc Randy'ego palącego papierosy na zewnątrz.
-
-\textbf{Randy} to utalentowany pianista z trudną przeszłością. Choć jest podziwiany za swój talent, jego
-charakter pozostawia wiele do życzenia - jest arogancki i porywczy. Uważa, że Adam wcale nie jest taki
-miły na jakiego się wydaje, ze wględu na otoczenie, w którym dorastał. Ma mieszane uczucia co do Floriana,
-którego uważa za podejrzanego. Jego zdaniem Mary mogła potrzebować prawdziwej inspiracji do swojej pracy, co
-mogło skłonić ją do morderstwa. Twierdzi, że spędził noc na zewnątrz, paląc papierosy. W rzeczywistości
-to on zabił Sylvię, choć stara się to ukryć.
-
-\subsubsection*{Wykorzystanie agentów w praktyce}
-
-Ta sekcja ma na celu przedstawienie w jaki sposób projektant może wykorzystać wymienione wcześniej
-funkcjonalności do stworzenia interaktywnej postaci w grze wideo. Przedstawione zostaną dokładne dane
-wykorzystane do utworzenia postaci Adama (reszta postaci jest widoczna w dodatku \ref{appendix:B}) oraz
-sposób połączenia z platformą Inworld AI z poziomu kodu.
-
-\newpage
-
-Na rysunku \ref{fig:ch4_2_common_knowledge} przedstawiono wiedzę ogólną posiadaną przez wszystkie postacie.
-Pojedynczy fakt zapisany jest w formie 1-2 zdań i oddzielone są znakami końca linii. Poniżej widoczne
-są wszystkie postacie posiadające te informacje.
-
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.9\textwidth]{ch4_2_common_knowledge.png}
-    \caption{Wspólna wiedza wszystkich postaci}
-    \label{fig:ch4_2_common_knowledge}
-\end{figure}
-
-\newpage
-
-W ramach podstawowych informacji do zdefiniowania są: rdzenny opis, motywacje i wady. Na rysunku
-\ref{fig:ch4_2_adam_basic} zaprezentowano ich wypełnienie dla postaci Adama. Zauważyć można wystąpienie
-zmiennych pomocniczych: {character} i {player}. Pozwalają one odnosić się do odpowiedniej osoby nawet
-jeśli nastąpi zmiana jej imienia.
-
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.9\textwidth]{ch4_2_adam_basic.png}
-    \caption{Podstawowe informacje o Adamie}
-    \label{fig:ch4_2_adam_basic}
-\end{figure}
-
-\newpage
-
-W panelu szczegółowych informacji określić można: imię, zaimki, opis, role, wiek, pseudonimy oraz
-zainteresowania postaci (co zostało pokazane na rysunku \ref{fig:ch4_2_adam_details}).
-
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.9\textwidth]{ch4_2_adam_details.png}
-    \caption{Szczegółowe informacje o Adamie}
-    \label{fig:ch4_2_adam_details}
-\end{figure}
-
-\newpage
-
-Wiedza osobista złożona jest z faktów wyrażonych w formie pojedynczych zdań prostych. Na rysunku
-\ref{fig:ch4_2_adam_knowledge} widać informacje znane przez Adama jak i dodaną wcześniej utworzoną
-wiedzę ogólną.
-
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.7\textwidth]{ch4_2_adam_knowledge.png}
-    \caption{Wiedza osobista Adama}
-    \label{fig:ch4_2_adam_knowledge}
-\end{figure}
-
-Osobowość postaci określona jest poprzez konkretne przymiotniki jednoznacznie określające charakter jak i
-przez omawiane wcześniej suwaki nastroju, które dają większą szczegółowość przy wyborze cech (co
-zaprezentowano na rysunku \ref{fig:ch4_2_adam_personality}).
-
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.7\textwidth]{ch4_2_adam_personality.png}
-    \caption{Osobowość Adama}
-    \label{fig:ch4_2_adam_personality}
-\end{figure}
-
-\newpage
-
-Cele postaci określane są w postaci pliku YAML (widoczne na rysunku \ref{fig:ch4_2_adam_goals}). W górnej
-części pliku zdefiniowano "intencje" czyli konkretne zamiary, z którymi gracz może występować do postaci
-podczas rozmowy. Za pomocą fraz treningowych projektant może określić, że przykładowo zapytanie
-\textit{"What about Randy?"} lub jemu podobne, związane jest z intencją "asked\_randy". Jest to potrzebne
-do określenia celów, ponieważ tak jak widać na rysunku, cele mogą być aktywowane poprzez napotkanie
-konkretnych intencji. Wtedy postać wywołuję w pewnego rodzaju monologu wewnętrznym instrukcję zawartą
-po słowie kluczowym \textit{instruction} co pozwala twórcy odpowiednio sterować rozmową.
-
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.9\textwidth]{ch4_2_adam_goals.png}
-    \caption{Cele Adama}
-    \label{fig:ch4_2_adam_goals}
-\end{figure}
-
-\newpage
-
-Na listingu \ref{listing:ch4_2_1} przedstawiono funkcję napisaną w języku Python wysyłającą zapytanie
-do konkretnej postaci na platformie Inworld AI.
-
-\begin{listing}
-    \begin{minted}{python}  
-def query_inworld_api(char, prompt, protagonist="John", sessionId=None):
-    import requests
-    import os
-    from requests.auth import HTTPBasicAuth
-
-    BASE_URL = 'https://api.inworld.ai/studio/v1'
-    WORKSPACE_ID = os.getenv('WORK_ID')
-    STUDIO_API_KEY = os.getenv('STUDIO_KEY')
-    STUDIO_API_SECRET = os.getenv('STUDIO_SECRET')
-    AUTH_TOKEN = os.getenv('AUTH_TOKEN')
-
-    url = (f'https://studio.inworld.ai/v1/workspaces/{WORKSPACE_ID}/characters/'
-        f'{char}:simpleSendText'
-    )
-    headers = {"Content-Type": "application/json",
-                "authorization": f"Basic {AUTH_TOKEN}=="}
-    myobj = {"character": f"workspaces/{WORKSPACE_ID}/characters/{char}",
-                "text": f"{prompt}", "endUserFullname": f"{protagonist}", "endUserId": "12345"}
-
-    if sessionId is not None:
-        myobj['sessionId'] = sessionId
-
-    x = renpy.fetch(url=url, method="POST", json=myobj, timeout=15,
-                    headers=headers, result="json")
-
-    return x
-\end{minted}
-    \caption{Funkcja wykorzystująca API Inworld AI do rozmowy z agentem} \label{listing:ch4_2_1}
-\end{listing}
-
-\section{Zaplanowany przebieg eksperymentu}\label{section:ch4_3}
-
-W tej sekcji opisany zostanie cały proces przebiegu eksperymentu, od naboru uczestników po
-zbieranie ostatecznych danych.
-
-\subsubsection*{Forma eksperymentu}
-
-W celu zbadania wpływu sztucznej inteligencji na doświadczenie użytkownika w grze, przeprowadzony
-został eksperyment A/B z udziałem dwóch wersji gry - z włączoną sztuczną inteligencją oraz bez niej.
-Obie wersje gry zostały zahostowane na platformie itch.io, co ułatwiło udostępnienie ich uczestnikom.
-
-Przygotowano dwa warianty formularzy do testów A/B w celu zebrania danych. Formularz A wymagał od
-uczestnika podania podstawowych informacji demograficznych, a następnie gry w wersję bez AI. Po
-zakończeniu tej sesji, uczestnik wypełniał kwestionariusz oceniający doświadczenie gracza (patrz \ref{tab1:ch3_2}).
-Następnie przechodził do gry w wersję z włączoną sztuczną inteligencją i ponownie wypełniał ten
-sam kwestionariusz GEQ (patrz \ref{tab1:ch3_2}).
-
-Formularz B miał odwróconą kolejność - po podaniu danych demograficznych, uczestnik grał najpierw
-w wersję z AI, wypełniał kwestionariusz GEQ, a następnie przechodził do wersji bez sztucznej
-inteligencji i ponownie oceniał doświadczenie przy pomocy tego samego kwestionariusza.
-
-Aby zapewnić losowe przydzielenie uczestników do jednej z dwóch wersji formularza, wykorzystana
-została strona internetowa allocate.monster. Wygenerowany został jeden unikalny link, który losowo
-przekierowywał użytkownika na jedną z dwóch wersji formularza (A lub B).
-
-Uczestnicy badań zostali zgromadzeni z mediów społecznościowych (Facebook, X, SurveyCircle) na podstawie
-postów w odpowiednich grupach / podgrupach.
-
-\subsubsection*{Gromadzone dane}
-
-Na początku każdej ankiety uczestnicy wypełniali kwestionariusz z danymi demograficznymi. Obejmował
-on takie informacje jak wiek, płeć, kraj pochodzenia, wiek w którym dana osoba zaczęła grać w gry
-wideo oraz średnią liczbę godzin tygodniowo poświęcanych na granie. Te dane posłużyły do
-scharakteryzowania profilu uczestników badania.
-
-Kluczowym elementem eksperymentu było zebranie danych dotyczących doświadczenia gracza za pomocą
-kwestionariusza Game Experience Questionnaire (GEQ, patrz \ref{tab1:ch3_2}). Uczestnicy oceniali swoje
-wrażenia z gry w skali od 1 do 5. Kwestionariusz GEQ wypełniany był dwukrotnie - po zakończeniu sesji z
-wersją gry bez sztucznej inteligencji oraz po wersji z włączoną AI.
-
-Dodatkowo, po każdej sesji gry uczestnicy odpowiadali na cztery otwarte pytania związane z
-interakcjami z niesterowanymi przez graczy postaciami (NPC):
-
-\begin{enumerate}
-    \item "Jak się czułeś/czułaś podczas interakcji z NPC?"
-    \item "Jak bardzo byłeś/byłaś zainteresowany/a rozmową z NPC?"
-    \item "Czy podobało Ci się rozmawianie z NPC?"
-    \item "Inne przemyślenia"
-\end{enumerate}
-
-Te pytania otwarte miały na celu uzyskanie pogłębionych informacji jakościowych na temat
-doświadczenia gracza w interakcjach z NPC, uzupełniających dane ilościowe z kwestionariusza GEQ.
-
-Zgromadzone dane pochodzące z kwestionariuszy, zarówno ilościowe jak i jakościowe, umożliwiły
-przeprowadzenie analiz porównawczych między obiema wersjami gry - z sztuczną inteligencją i bez
-niej. Pozwoliło to na ocenę wpływu AI na różne aspekty doświadczenia gracza, w szczególności na
-odczucia związane z interakcjami z NPC.
+Na powyższym rysunku przedstawiony został przykładowy proces decyzjny Markowa z trzema stanami (zielone
+kółka), dwiema akcjami (czerwone kółka) oraz dwiema nagrodami (pomarańczowe strzałki). Model MDP może
+być wykorzystany w ramach generowania treści gier komputerowych do budowania zadań dla gracza,
+przykładowo dla gry kucharskiej baza składników może być ułożona w odpowiednie łańcuchy Markowa, tak
+by bardziej pasujące do siebie składniki miały większe prawdopodobieństwo bycia wspólnie wybranym
+\cite{ammanabrolu2020automated}.
+
+Proces może być dodatkowo wykorzystany w proceduralnym generowaniu treści czy świata dla gracza.
+Zakładając, że to gracz jest \textit{"agentem"} podejmującym akcje w świecie gry (które są jawnie
+zdefiniowane przez twórców), doprowadza on do zmiany stanu świata co jest idealnie reprezentowane
+przez proces decyzyjny Markowa\cite{automated_planning}.
+
+\subsubsection*{Przykład wykorzystania - "Façade"}
+
+"Façade" (2005) to tytuł, który próbował złamać znany do tamtej pory podział na narrację liniową czy też
+rozgałęziającą się, na rzecz w pełni interaktywnej historii kontrolowanej przez gracza. Jest to
+trójwymiarowa gra czasu rzeczywistego przedstawiona w formie jednego aktu. Narracja koncentruje się
+wokół Grace i Tripa, małżeństwa po trzydziestce, które zaprasza gracza na drinka. Gracz nie wie, że ich
+małżeństwo znajduje się na grząskim gruncie, a tego wieczoru wszystkie ich małżeńskie problemy wyjdą na
+jaw. To, w jaki sposób ich związek się rozpadnie, a także ostateczny związek gracza z Grace i Tripem,
+zależy od interakcji gracza ze światem. Gracz angażuje się poprzez poruszanie się po środowisku,
+manipulowanie przedmiotami i, co najważniejsze, poprzez dialogi w języku naturalnym\cite{1024751}.
+
+Twórcy na potrzebę "Façade" stworzyli własny język ABL (\textit{"A Behavior Language"} - z ang. język
+zachowań). Stanowi on pewnego rodzaju połączenie drzew decyzjnych i procesów decyzjnych Markowa
+wspomnianych wcześniej. Programy ABL są zorganizowane jako zbiór zachowań, które mogą być procesowane
+sekwencyjnie lub równolegle. Dodatkowo, zachowania mogą mieć narzucone określone wymagania by
+mogły one się odbyć, a w zależności od powodzenia lub porażki w realizacji zachowania świat gry
+może zostać odpowiednio zmieniony.
+
+\section{Wykorzystanie dużych modeli językowych (LLM) do kreowania narracji}\label{section:ch4_2}
+
+W ostatnich latach coraz większa liczba prac naukowych oraz rozwiązań komercyjnych skupia się wokół
+tzw. dużych modeli językowych. Okazuje się bowiem, że wprowadzając optymalizacje w sferze oprogramowania
+czy też po prostu przeznaczając więcej mocy obliczeniowej na wyuczenie takowych modeli, zyskuje się
+adekwatnie większą \textit{"skuteczność"} jeżeli chodzi o wykonywane przez nie zadania z zakresu
+przetwarzania języka naturalnego (i nie tylko!).
+
+W związku z tym nasuwa się następujące pytanie --- czy można wykorzystać \textbf{aktualne} duże modele
+językowe do skutecznego kreowania narracji? W ramach tej sekcji przedstawiona zostanie dokładniejsza
+charakterystyka tych modeli a zarazem istniejące próby ich wykorzystania.
+
+\subsubsection*{Definicja i charakterystyka dużych modeli językowych}
+
+Duże modele językowe są modelami nauczania maszynowego, które są w stanie wykonywać zadania z dziedziny
+przetwarzania języka naturalnego, takie jak generowanie tekstu, tłumaczenie tekstu z jednego języka
+na inny czy prowadzenie rozmowy z człowiekiem w sposób konwersacyjny\cite{larp_language}. Pojęcie
+"duże" oznacza w tym przypadku zarówno skalę samych modeli (miliardy czy biliony parametrów) jak i
+wymaganą do ich wyuczenia ilość danych. Pojęcie LLM skoncentrowane jest zasadniczo wokół funkcjonalności
+danego modelu, niezależnie od przyjętej do jego wyuczenia architektury.
+
+Z uwagi na fakt, że zdecydowana większość modeli oparta jest na architekturze transformera to zostanie
+ona krótko nakreślona. Dane podawane na wejście do modelu mogą być różnych modalności np. tekst,
+audio czy obraz. Następnie, dane te dzielone są na tzw. żetony (ang. \textit{tokens}) - fragmenty tekstu,
+obrazu lub dźwięku. Każdy żeton jest kodowany jako wielowymiarowy wektor liczbowy, odzwierciedlający
+jego semantyczne właściwości. Następnie sekwencja wektorów przechodzi przez blok uwagi (ang.
+\textit{attention}), gdzie wektory wzajemnie się aktualizują (ponieważ np. znaczenie słowa zależy od
+kontekstu, czyli od słów występujących dookoła niego). Ten proces pozwala na lepsze zrozumienie
+zależności pomiędzy elementami wejściowymi. Po bloku uwagi, wektory są przetwarzane przez
+perceptron wielowarstwowy (ang. \textit{MLP - multi-layer perceptron}). Cykl bloków uwagi i MLP jest
+wielokrotnie powtarzany. Na końcu procesu otrzymujemy pojedynczą macierz, na podstawie której, poprzez
+operację softmax, generowany jest rozkład prawdopodobieństwa dla możliwych żetonów następujących po
+danym fragmencie wejściowym. Autorzy raportu technicznego dotyczącego GPT-4 zauważają, że:
+
+\begin{quote}
+    \textit{"...Takie modele są ważnym obszarem badań, ponieważ mają potencjał do wykorzystania w szerokim
+        zakresie zastosowań, takich jak systemy dialogowe"}\cite{openai2024gpt4}
+\end{quote}
+
+Można również wnioskować, że następne iteracje modeli będą coraz lepsze:
+
+\begin{quote}
+    \textit{"Jednym z głównych celów rozwoju takich modeli jest poprawa ich zdolności do rozumienia i
+        generowania tekstu w języku naturalnym, szczególnie w bardziej złożonych i zniuansowanych
+        scenariuszach."}\cite{openai2024gpt4}
+\end{quote}
+
+Wymienione są jednak przez autorów ograniczenia aktualnych modeli językowych, które uniemożliwiają ich
+masową adopcję w wielu przestrzeniach:
+
+\begin{quote}
+    \textit{"Pomimo swoich możliwości, GPT-4 ma podobne ograniczenia do wcześniejszych modeli GPT: nie jest w
+        pełni niezawodny (np. może cierpieć na „halucynacje”), ma ograniczone okno kontekstowe i nie uczy
+        się na podstawie doświadczenia. Należy zachować ostrożność podczas korzystania z wyników GPT-4,
+        szczególnie w kontekstach, w których ważna jest niezawodność."}\cite{openai2024gpt4}
+\end{quote}
+
+Pod pojęciem "halucynacji" rozumiane jest wymyślanie faktów, ponieważ modele te same w sobie nie posiadają
+żadnej podpiętej bazy wiedzy a generowany przez nie tekst wynika z modelu probabilistycznego (co nie
+znaczy, że w ogólnie nie dysponują wiedzą). Wielkość okna kontekstowego oznacza na jakim rozmiarze
+danych / żetonów model jest w stanie jednocześnie pracować (tzn. w przypadku bardzo długich konwersacji
+czy plików model może nie brać pod uwagę wczesnych informacji przy udzielaniu odpowiedzi).
+
+\subsubsection*{Przykłady zastosowania dużych modeli językowych}
+
+W badaniu Schaap i innych (2023)\cite{questville} zbadano potencjał modeli BERT i GPT-2
+do proceduralnego generowania zadań (questów) w grze QuestVille. Podejście
+to polegało na połączeniu dwóch modeli językowych: BERT i GPT-2 w sekwencji. Najpierw zdefiniowano krótkie
+zdania będące podstawowymi zadaniami, z jednym słowem zamaskowanym. Zdania te przesyłano do modelu
+BERT, który przewidywał najbardziej prawdopodobne słowa pasujące do kontekstu. Następnie losowo wybierano
+jedno ze zwróconych słów i umieszczano je w zdaniu, tworząc wejście dla modelu GPT-2. Model ten generował
+dodatkowy tekst narracyjny uzupełniający podstawowe zadanie o motywacje, opis sytuacji i wprowadzał
+elementy fabularne. Wyniki sugerują, że takie połączenie modeli ma potencjał do generowania angażujących
+zadań z narracją, bardziej wciągających niż podstawowe polecenia. Poprzedzanie wejść relacjami
+między postaciami niegrywalnymi w grze kierowało generowaną treść w odpowiedni kontekst. Jednak
+generowane zdania nie zawsze były w pełni spójne i odpowiednie. Autorzy uznali, że dalsze postępy w
+dziedzinie NLP, w tym pojawienie się nowszych, lepszych modeli, mogą doprowadzić do jeszcze lepszych
+rezultatów w przyszłości.\cite{questville}
+
+Jak wskazują w swojej pracy Umbraško i Drury (2023)\cite{chatgpt_narrative},
+duże modele językowe mogą odgrywać kluczową rolę w
+dynamicznym tworzeniu treści gry na podstawie wejściowych danych tekstowych i kontekstu rozgrywki.
+Opisany prototyp gry wykorzystuje interfejs API ChatGPT do generowania początkowej sceny narracyjnej oraz
+opisu przeciwników (orków) na podstawie wysłanego do modelu żądania w formacie JSON. Kluczowym
+elementem jest też dynamiczne tworzenie dalszych fragmentów narracji na podstawie działań gracza i
+stanu gry, w tym cech przypisanych wrogom (np. "płonący", "pijany"). Wprowadzanie tych cech jako danych
+wejściowych pozwala modelowi językowemu na bardziej kontekstowe dopasowanie narracji.
+Autorzy prototypu zdecydowali się na ograniczenie zakresu możliwych wyjść modelu (np. rodzaje broni
+wrogów) dla zachowania spójności z mechanicznymi elementami gry. Wskazuje to na konieczność znalezienia
+właściwej równowagi pomiędzy swobodą generatywną modelu a wymogami spójnego i czytelnego doświadczenia.
+Wyzwaniem opisanym w pracy było zmapowanie całego stanu gry, takiego jak pozycje postaci, jako danych
+wejściowych do modelu ChatGPT. Ostatecznie autorzy zdecydowali się na prostszy model, w którym tylko
+kluczowe elementy stanu gry są przekazywane do generowania narracji. Zaprezentowany
+prototyp stanowi ciekawą próbę praktycznego wykorzystania dużych modeli językowych do tworzenia
+angażującej, interaktywnej narracji w grze wideo w oparciu o działania gracza. Pokazuje zarówno
+obiecujące możliwości, jak i obecne ograniczenia takiego podejścia.\cite{chatgpt_narrative}
+
+W pracy "LARP: Language-Agent Role Play for Open-World Games" (2023)\cite{larp_language} autorzy
+proponują wykorzystanie dużych modeli językowych jako podstawę pod generatywnych agentów
+występujących w środowiskach otwartych światów gier fabularnych. Kluczowym elementem architektury
+zaproponowanej w pracy jest kognitywna architektura agenta inspirowana psychologią poznawczą. Składa
+się ona z modułów odpowiedzialnych za pamięć długotrwałą, roboczą, przetwarzanie pamięci oraz
+podejmowanie decyzji. Pozwala to na symulację ludzkich procesów poznawczych, takich jak kodowanie,
+przechowywanie i przypominanie informacji z pamięci, a także rekonstrukcję zdarzeń oraz zapominanie.
+Integracja tych mechanizmów z LLM umożliwia agentowi prowadzenie spójnej, długoterminowej narracji w
+otwartym świecie gry. Kolejnym istotnym aspektem jest moduł interakcji ze środowiskiem, który przekłada
+decyzje agenta na konkretne działania w grze. Wykorzystuje on bibliotekę akcji podstawowych oraz generuje
+nowe sekwencje akcji przy użyciu dopasowanego LLM w celu realizacji zamierzonych celów agenta. Ten proces
+stale wzbogaca bibliotekę akcji o nowe schematy postępowania. Ponadto, praca zakłada implementację
+mechanizmu dopasowywania różnorodnych osobowości i perspektyw dla agentów za pomocą zbioru
+drobniejszych, wyspecjalizowanych modeli LLM. Pozwala to na generowanie narracji dostosowanych do
+zróżnicowanych tożsamości, stylów językowych i postaw bohaterów niegrywalnych. Podejście LARP łączy
+zaawansowane techniki przetwarzania języka naturalnego z inspiracjami z psychologii poznawczej w celu
+umożliwienia generowania spójnych, długoterminowych narracji agentów w bogatych, otwartych światach gier
+fabularnych\cite{larp_language}.
+
+W ramach pracy "Generative Agents: Interactive Simulacra of Human Behavior" (2023)\cite{ai_town_ref} autorzy przedstawiają koncepcję
+generatywnych agentów, które wykorzystują duże modele językowe do symulacji wiarygodnych zachowań
+ludzkich. W porównaniu z poprzednią, ta prezentuje wnioski dotyczące faktycznej implementacji tej struktury.
+Architektura agenta opiera się na trzech głównych komponentach: strumieniu pamięci, refleksji
+i planowaniu. Strumień pamięci to moduł długoterminowej pamięci, który rejestruje doświadczenia agenta
+w języku naturalnym. Refleksja pozwala agentowi na wyciąganie wniosków na wyższym poziomie abstrakcji,
+co przekłada się na lepsze kierowanie jego zachowaniem. Planowanie to proces przekształcania tych
+wniosków i aktualnego środowiska w wysokopoziomowe plany działań, które są następnie realizowane przez
+agenta. Autorzy przeprowadzają dwie ewaluacje agentów generatywnych: kontrolowaną ewaluację indywidualnych
+zachowań oraz kompleksową ewaluację interakcji między agentami w otwartym środowisku przez dwa dni czasu gry.
+W ewaluacji technicznej wykorzystują metodę "wywiadu" z agentem w języku naturalnym, aby zbadać jego zdolność
+do pozostania w charakterze, pamiętania, planowania, reagowania i dokładnego refleksji. Porównują różne
+wersje systemu z ograniczonym dostępem do pamięci, refleksji i planowania, obserwując, że każdy z tych
+komponentów jest kluczowy dla wiarygodności zachowań agenta\cite{ai_town_ref}.
+
+Jak widać obecnie trwają intensywne prace badawcze nad wykorzystaniem dużych modeli językowych,
+w dziedzinie tworzenia treści literackich oraz elementów gier. Jednym z
+obiecujących zastosowań jest stworzenie w pełni autonomicznych, generatywnych agentów literackich,
+zdolnych do samodzielnego tworzenia spójnych i angażujących narracji. Rozwiązania te stopniowo
+znajdują swoje odzwierciedlenie również na rynku komercyjnym, czego przykładem są platformy takie
+jak Inworld.ai czy Nvidia Avatar Cloud Engine. Umożliwiają one twórcom gier, a nawet indywidualnym
+użytkownikom, korzystanie z zaawansowanych modeli językowych w celu generowania dialogów postaci,
+opisów środowisk czy całych wątków fabularnych. Chociaż wciąż istnieją liczne wyzwania natury
+technicznej i etycznej, rozwój tej technologii może znacząco zmienić oblicze branży rozrywkowej
+oraz procesów twórczych w dziedzinie literatury.
