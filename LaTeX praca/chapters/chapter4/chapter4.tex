@@ -128,6 +128,14 @@ Zastosowanie postaci wygenerowanych przez Inworld AI może przynieść korzyści
 jak rozrywka, marketing, edukacja czy szkolenia. Dzięki ich realistycznemu wyglądowi i zachowaniu, mogą
 one zwiększać zaangażowanie użytkowników oraz oferować bardziej imersyjne i angażujące doświadczenia.
 
+Inworld AI wykorzystuje podejście polegające na dynamicznym przełączaniu się między różnymi dużymi 
+modelami językowymi (LLM) w zależności od kontekstu konwersacji i wymagań dotyczących opóźnienia\cite{inworld_docs}. 
+Korzystają zarówno z zewnętrznych interfejsów API, takich jak GPT-3 od OpenAI, jak i własnych 
+wewnętrznych modeli\cite{inworld_docs}. Wybór konkretnego modelu LLM jest dokonywany w oparciu o zrozumienie mocnych 
+stron poszczególnych modeli i tego, który będzie najlepiej służył danej interakcji konwersacyjnej. 
+Oprócz wykorzystywania gotowych modeli zewnętrznych, Inworld AI rozwija również własne modele 
+językowe dostosowane do ich specyficznych potrzeb\cite{inworld_docs}.
+
 \subsubsection*{Kluczowe funkcjonalności platformy Inworld AI}
 
 W ramach tej podsekcji przedstawione zostaną najważniejsze elementy możliwe do dostosowania przez
@@ -364,12 +372,56 @@ def query_inworld_api(char, prompt, protagonist="John", sessionId=None):
 
 \section{Zaplanowany przebieg eksperymentu}\label{section:ch4_3}
 
-pofkepfokawpefkwpeofk
+W tej sekcji opisany zostanie cały proces przebiegu eksperymentu, od naboru uczestników po
+zbieranie ostatecznych danych.
 
 \subsubsection*{Forma eksperymentu}
 
-lorfloefleofe
+W celu zbadania wpływu sztucznej inteligencji na doświadczenie użytkownika w grze, przeprowadzony 
+został eksperyment A/B z udziałem dwóch wersji gry - z włączoną sztuczną inteligencją oraz bez niej. 
+Obie wersje gry zostały zahostowane na platformie itch.io, co ułatwiło udostępnienie ich uczestnikom.
+
+Przygotowano dwa warianty formularzy do testów A/B w celu zebrania danych. Formularz A wymagał od 
+uczestnika podania podstawowych informacji demograficznych, a następnie gry w wersji bez AI. Po 
+zakończeniu tej sesji, uczestnik wypełniał kwestionariusz oceniający doświadczenie gracza (GEQ). 
+Następnie przechodził do gry w wersji z włączoną sztuczną inteligencją i ponownie wypełniał ten 
+sam kwestionariusz GEQ.
+
+Formularz B miał odwróconą kolejność - po podaniu danych demograficznych, uczestnik grał najpierw 
+w wersję z AI, wypełniał kwestionariusz GEQ, a następnie przechodził do wersji bez sztucznej 
+inteligencji i ponownie oceniał doświadczenie przy pomocy tego samego kwestionariusza.
+
+Aby zapewnić losowe przydzielenie uczestników do jednej z dwóch wersji formularza, wykorzystana 
+została strona internetowa allocate.monster. Wygenerowany został jeden unikalny link, który losowo 
+przekierowywał użytkownika na jedną z dwóch wersji formularza (A lub B).
 
 \subsubsection*{Gromadzone dane}
 
-lorfloefleofe
+Na początku każdej sesji uczestnicy wypełniali kwestionariusz z danymi demograficznymi. Obejmował 
+on takie informacje jak wiek, płeć, kraj pochodzenia, wiek w którym dana osoba zaczęła grać w gry 
+wideo oraz średnią liczbę godzin tygodniowo poświęcanych na granie. Te dane posłużyły do 
+scharakteryzowania profilu uczestników badania.
+
+Kluczowym elementem eksperymentu było zebranie danych dotyczących doświadczenia gracza za pomocą 
+kwestionariusza Game Experience Questionnaire (GEQ). Uczestnicy oceniali swoje wrażenia z gry w 
+skali od 1 do 5 dla różnych aspektów takich jak immersja, wyzwanie, kompetencje, frustracja itp.  
+Kwestionariusz GEQ wypełniany był dwukrotnie - po zakończeniu sesji z wersją gry bez sztucznej 
+inteligencji oraz po wersji z włączoną AI.
+
+Dodatkowo, po każdej sesji gry uczestnicy odpowiadali na cztery otwarte pytania związane z 
+interakcjami z niesterowanymi przez graczy postaciami (NPC):
+
+\begin{enumerate}
+    \item "Jak się czułeś/czułaś podczas interakcji z NPC?"
+    \item "Jak bardzo byłeś/byłaś zainteresowany/a rozmową z NPC?"
+    \item "Czy podobało Ci się rozmawianie z NPC?"
+    \item "Inne przemyślenia"
+\end{enumerate}
+
+Te pytania otwarte miały na celu uzyskanie pogłębionych informacji jakościowych na temat 
+doświadczenia gracza w interakcjach z NPC, uzupełniających dane ilościowe z kwestionariusza GEQ.
+
+Zgromadzone dane pochodzące z kwestionariuszy, zarówno ilościowe jak i jakościowe, umożliwiły 
+przeprowadzenie analiz porównawczych między obiema wersjami gry - z sztuczną inteligencją i bez 
+niej. Pozwoliło to na ocenę wpływu AI na różne aspekty doświadczenia gracza, w szczególności na 
+odczucia związane z interakcjami z NPC.

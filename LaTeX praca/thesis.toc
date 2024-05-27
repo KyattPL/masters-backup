@@ -30,12 +30,12 @@
 \contentsline {section}{\numberline {4.1\relax .\enspace }Projekt gry wykorzystanej w eksperymencie}{48}{section.4.1}%
 \contentsline {section}{\numberline {4.2\relax .\enspace }Opis generatywnych agentów}{51}{section.4.2}%
 \contentsline {section}{\numberline {4.3\relax .\enspace }Zaplanowany przebieg eksperymentu}{60}{section.4.3}%
-\contentsline {chapter}{\numberline {5\relax .\enspace }Wyniki}{61}{chapter.5}%
-\contentsline {chapter}{Podsumowanie}{62}{chapter*.84}%
-\contentsline {chapter}{Spis rysunk\'ow}{63}{chapter*.85}%
-\contentsline {chapter}{Spis listingów}{65}{chapter*.86}%
-\contentsline {chapter}{Spis tabel}{66}{chapter*.87}%
-\contentsline {chapter}{Dodatki}{67}{section*.88}%
-\contentsline {chapter}{\numberline {A\relax .\enspace }Słownik}{68}{appendix.A}%
-\contentsline {chapter}{\numberline {B\relax .\enspace }Instrukcje inworld.ai dla postaci}{69}{appendix.B}%
-\contentsline {chapter}{Bibliografia}{70}{chapter*.89}%
+\contentsline {chapter}{\numberline {5\relax .\enspace }Wyniki}{63}{chapter.5}%
+\contentsline {chapter}{Podsumowanie}{64}{chapter*.84}%
+\contentsline {chapter}{Spis rysunk\'ow}{65}{chapter*.85}%
+\contentsline {chapter}{Spis listingów}{67}{chapter*.86}%
+\contentsline {chapter}{Spis tabel}{68}{chapter*.87}%
+\contentsline {chapter}{Dodatki}{69}{section*.88}%
+\contentsline {chapter}{\numberline {A\relax .\enspace }Słownik}{70}{appendix.A}%
+\contentsline {chapter}{\numberline {B\relax .\enspace }Instrukcje inworld.ai dla postaci}{71}{appendix.B}%
+\contentsline {chapter}{Bibliografia}{72}{chapter*.89}%
