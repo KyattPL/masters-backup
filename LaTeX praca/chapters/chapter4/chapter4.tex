@@ -19,10 +19,10 @@ rozwiązań wykorzystanych np. w "Pong" (Patrz sekcja \ref{subsection:ch1_2}), d
 proceduralnego (zwłaszcza poziomów) czy też do systemów rankingowych (np. system TrueSkill). Jako, że
 nie są to metody stricte powiązane z narracją to nie zostaną one opisane bardziej szczegółowo.
 Przedstawione natomiast będą kluczowe obszary wykorzystywane w grach: częściowo-uporządkowane planowanie
-(ang. \textit{POP} - partially-ordered planning), modelowanie doświadczeń gracza (ang. \textit{PEM} -
-player experience modelling), przetwarzanie języka naturalnego (ang. \textit{NLP} - natural language
-processing), postać niegrywalna (ang. \textit{NPC} - non-playable character), proces decyzyjny Markowa
-(ang. \textit{MDP} - Markov decision process).
+(ang. \textit{\gls{pop}} - partially-ordered planning), modelowanie doświadczeń gracza (ang. \textit{\gls{pem}} -
+player experience modelling), przetwarzanie języka naturalnego (ang. \textit{\gls{nlp}} - natural language
+processing), postać niegrywalna (ang. \textit{\gls{npc}} - non-playable character), proces decyzyjny Markowa
+(ang. \textit{\gls{mdp}} - Markov decision process).
 
 \subsubsection*{POP (Partially-ordered planning)}
 
@@ -48,7 +48,7 @@ przeszukiwania nazywane \textit{"plannerami"} rozwiązują problem planowania, t
 świata, pewne atomowe akcje możliwe do wykonania przez grającego oraz założony cel, znajdują
 odpowiednią sekwencję operacji, które doprowadzą do osięgnięcia tegoż celu\cite{game_ai_storytelling}.
 
-Podstawowym problemem pojawiającym się przy wykorzystaniu metody POP jest to, że zarówno gracz jak i
+Podstawowym problemem pojawiającym się przy wykorzystaniu metody \gls{pop} jest to, że zarówno gracz jak i
 potencjalnie inne niegrywalne postacie, mogą być zdolne do wywołania akcji w świecie gry, która
 zagraża dalszemu przebiegowi fabularnemu zgodnego z planem\cite{characters_and_directors}. Wtedy
 stosowane są odpowiednie techniki naprawcze, które prowadzą do mniej lub bardziej doskonałych rozwiązań.
@@ -76,7 +76,7 @@ też drzew decyzyjnych, które pozwalają dokonywać klasyfikacji w zakresie\cit
 
 Przetwarzanie języka naturalnego jest dziedziną w obrębie sztucznej inteligencji, która zajmuje się
 zrozumieniem, interpretacją i manipulacją ludzkiego języka\cite{reusable_game_ai}. W ramach gier
-komputerowych pozwala to graczowi poruszać się po świecie czy też komunikować z innymi postaciami NPC
+komputerowych pozwala to graczowi poruszać się po świecie czy też komunikować z innymi postaciami \gls{npc}
 w sposób zarówno naturalny (zamiast wchodzenia w interakcję z odpowiednimi interfejsami) jak i dość
 otwarty (na tyle na ile dany system jest w stanie przetwarzać odpowiednie frazy).
 
@@ -96,25 +96,25 @@ informacje o świecie gry. Z drugiej strony wszelkie jednostki, z którymi gracz
 podlegają pod tę definicję. Forma postaci niegrywalnych, tak jak i w literaturze, nie jest
 istotna, gdyż bohaterem może być zarówno człowiek jak i zantropomorfizowane zwierzę czy rzecz.
 
-NPC pojawiły się w grach z początkiem lat 90-tych. Oparte były przede wszystkim na zpredefiniowanych
+\gls{npc} pojawiły się w grach z początkiem lat 90-tych. Oparte były przede wszystkim na zpredefiniowanych
 skryptach i drzewach decyzyjnych\cite{storytelling_through} (współcześnie nadal wiele postaci jest
 opartych o te rozwiązania) \cite{from_pong_to_narrative}.
 
 Wraz z rozwojem technologicznym twórcy gry mają możliwość przeznaczenia więcej mocy obliczeniowej
-na wiarygodne dla gracza postacie NPC. Związane jest to z dokładniejszymi modelami i animacjami
+na wiarygodne dla gracza postacie \gls{npc}. Związane jest to z dokładniejszymi modelami i animacjami
 postaci ale również z bardziej zaawansowanymi wzorcami zachowania. Producenci zaczęli wykorzystywać
 od lat 2010 w tym celu techniki uczenia maszynowego oraz głębokiego nauczania
 \cite{from_pong_to_narrative}. Pozwala to przeciwnikom (czy też sprzymierzeńcom) gracza
 dostosowywać się do sposobu prowadzenia przez niego rozgrywki. Współczesne tytuły takie jak
 "Read Dead Redemption 2" czy "The Last of Us Part II" wykorzystują głębokie sieci neuronowe do
-budowania postaci NPC\cite{from_pong_to_narrative}.
+budowania postaci \gls{npc}\cite{from_pong_to_narrative}.
 
 \subsubsection*{MDP (Markov decision process)}
 
 Łańcuch Markowa jest stochastycznym modelem opisującym ciąg możliwych zdarzeń, w którym
 prawdopodobieństwo każdego zdarzenia zależy jedynie od wyniku poprzedniego. Rozróżniane one
 są dodatkowo ze względu na dyskretne lub ciągłe momenty czasowe, w których następuje zmiana
-stanów. Proces decyzyjny Markowa (MDP) jest zasadniczo rozszerzeniem łańcuchów Markowa ---
+stanów. Proces decyzyjny Markowa (\gls{mdp}) jest zasadniczo rozszerzeniem łańcuchów Markowa ---
 różnicę stanowi dodanie akcji (które pozwalają na podejmowanie decyzji) oraz nagród otrzymywanych
 po przejściu z jednego stan w drugi. Jeżeli dla każdego stanu istnieje tylko jedna akcja i
 wszystkie nagrody są jednakowe, to proces decyzyjny Markowa upraszcza się do łańcucha Markowa.
@@ -127,7 +127,7 @@ wszystkie nagrody są jednakowe, to proces decyzyjny Markowa upraszcza się do �
 \end{figure}
 
 Na powyższym rysunku przedstawiony został przykładowy proces decyzjny Markowa z trzema stanami (zielone
-kółka), dwiema akcjami (czerwone kółka) oraz dwiema nagrodami (pomarańczowe strzałki). Model MDP może
+kółka), dwiema akcjami (czerwone kółka) oraz dwiema nagrodami (pomarańczowe strzałki). Model \gls{mdp} może
 być wykorzystany w ramach generowania treści gier komputerowych do budowania zadań dla gracza,
 przykładowo dla gry kucharskiej baza składników może być ułożona w odpowiednie łańcuchy Markowa, tak
 by bardziej pasujące do siebie składniki miały większe prawdopodobieństwo bycia wspólnie wybranym
@@ -174,7 +174,7 @@ Duże modele językowe są modelami nauczania maszynowego, które są w stanie w
 przetwarzania języka naturalnego, takie jak generowanie tekstu, tłumaczenie tekstu z jednego języka
 na inny czy prowadzenie rozmowy z człowiekiem w sposób konwersacyjny\cite{larp_language}. Pojęcie
 "duże" oznacza w tym przypadku zarówno skalę samych modeli (miliardy czy biliony parametrów) jak i
-wymaganą do ich wyuczenia ilość danych. Pojęcie LLM skoncentrowane jest zasadniczo wokół funkcjonalności
+wymaganą do ich wyuczenia ilość danych. Pojęcie \gls{llm} skoncentrowane jest zasadniczo wokół funkcjonalności
 danego modelu, niezależnie od przyjętej do jego wyuczenia architektury.
 
 Z uwagi na fakt, że zdecydowana większość modeli oparta jest na architekturze transformera to zostanie
@@ -188,7 +188,7 @@ zależności pomiędzy elementami wejściowymi. Po bloku uwagi, wektory są prze
 perceptron wielowarstwowy (ang. \textit{MLP - multi-layer perceptron}). Cykl bloków uwagi i MLP jest
 wielokrotnie powtarzany. Na końcu procesu otrzymujemy pojedynczą macierz, na podstawie której, poprzez
 operację softmax, generowany jest rozkład prawdopodobieństwa dla możliwych żetonów następujących po
-danym fragmencie wejściowym. Autorzy raportu technicznego dotyczącego GPT-4 zauważają, że:
+danym fragmencie wejściowym. Autorzy raportu technicznego dotyczącego \gls{gpt}-4 zauważają, że:
 
 \begin{quote}
     \textit{"...Takie modele są ważnym obszarem badań, ponieważ mają potencjał do wykorzystania w szerokim
@@ -207,9 +207,9 @@ Wymienione są jednak przez autorów ograniczenia aktualnych modeli językowych,
 masową adopcję w wielu przestrzeniach:
 
 \begin{quote}
-    \textit{"Pomimo swoich możliwości, GPT-4 ma podobne ograniczenia do wcześniejszych modeli GPT: nie jest w
+    \textit{"Pomimo swoich możliwości, \gls{gpt}-4 ma podobne ograniczenia do wcześniejszych modeli \gls{gpt}: nie jest w
         pełni niezawodny (np. może cierpieć na „halucynacje”), ma ograniczone okno kontekstowe i nie uczy
-        się na podstawie doświadczenia. Należy zachować ostrożność podczas korzystania z wyników GPT-4,
+        się na podstawie doświadczenia. Należy zachować ostrożność podczas korzystania z wyników \gls{gpt}-4,
         szczególnie w kontekstach, w których ważna jest niezawodność."}\cite{openai2024gpt4}
 \end{quote}
 
@@ -221,25 +221,25 @@ czy plików model może nie brać pod uwagę wczesnych informacji przy udzielani
 
 \subsubsection*{Przykłady zastosowania dużych modeli językowych}
 
-W badaniu Schaap i innych (2023)\cite{questville} zbadano potencjał modeli BERT i GPT-2
+W badaniu Schaap i innych (2023)\cite{questville} zbadano potencjał modeli BERT i \gls{gpt}-2
 do proceduralnego generowania zadań (questów) w grze QuestVille. Podejście
-to polegało na połączeniu dwóch modeli językowych: BERT i GPT-2 w sekwencji. Najpierw zdefiniowano krótkie
+to polegało na połączeniu dwóch modeli językowych: BERT i \gls{gpt}-2 w sekwencji. Najpierw zdefiniowano krótkie
 zdania będące podstawowymi zadaniami, z jednym słowem zamaskowanym. Zdania te przesyłano do modelu
 BERT, który przewidywał najbardziej prawdopodobne słowa pasujące do kontekstu. Następnie losowo wybierano
-jedno ze zwróconych słów i umieszczano je w zdaniu, tworząc wejście dla modelu GPT-2. Model ten generował
+jedno ze zwróconych słów i umieszczano je w zdaniu, tworząc wejście dla modelu \gls{gpt}-2. Model ten generował
 dodatkowy tekst narracyjny uzupełniający podstawowe zadanie o motywacje, opis sytuacji i wprowadzał
 elementy fabularne. Wyniki sugerują, że takie połączenie modeli ma potencjał do generowania angażujących
 zadań z narracją, bardziej wciągających niż podstawowe polecenia. Poprzedzanie wejść relacjami
 między postaciami niegrywalnymi w grze kierowało generowaną treść w odpowiedni kontekst. Jednak
 generowane zdania nie zawsze były w pełni spójne i odpowiednie. Autorzy uznali, że dalsze postępy w
-dziedzinie NLP, w tym pojawienie się nowszych, lepszych modeli, mogą doprowadzić do jeszcze lepszych
+dziedzinie \gls{nlp}, w tym pojawienie się nowszych, lepszych modeli, mogą doprowadzić do jeszcze lepszych
 rezultatów w przyszłości.\cite{questville}
 
 Jak wskazują w swojej pracy Umbraško i Drury (2023)\cite{chatgpt_narrative},
 duże modele językowe mogą odgrywać kluczową rolę w
 dynamicznym tworzeniu treści gry na podstawie wejściowych danych tekstowych i kontekstu rozgrywki.
-Opisany prototyp gry wykorzystuje interfejs API ChatGPT do generowania początkowej sceny narracyjnej oraz
-opisu przeciwników (orków) na podstawie wysłanego do modelu żądania w formacie JSON. Kluczowym
+Opisany prototyp gry wykorzystuje interfejs \gls{api} ChatGPT do generowania początkowej sceny narracyjnej oraz
+opisu przeciwników (orków) na podstawie wysłanego do modelu żądania w formacie \gls{json}. Kluczowym
 elementem jest też dynamiczne tworzenie dalszych fragmentów narracji na podstawie działań gracza i
 stanu gry, w tym cech przypisanych wrogom (np. "płonący", "pijany"). Wprowadzanie tych cech jako danych
 wejściowych pozwala modelowi językowemu na bardziej kontekstowe dopasowanie narracji.
@@ -260,13 +260,13 @@ zaproponowanej w pracy jest kognitywna architektura agenta inspirowana psycholog
 się ona z modułów odpowiedzialnych za pamięć długotrwałą, roboczą, przetwarzanie pamięci oraz
 podejmowanie decyzji. Pozwala to na symulację ludzkich procesów poznawczych, takich jak kodowanie,
 przechowywanie i przypominanie informacji z pamięci, a także rekonstrukcję zdarzeń oraz zapominanie.
-Integracja tych mechanizmów z LLM umożliwia agentowi prowadzenie spójnej, długoterminowej narracji w
+Integracja tych mechanizmów z \gls{llm} umożliwia agentowi prowadzenie spójnej, długoterminowej narracji w
 otwartym świecie gry. Kolejnym istotnym aspektem jest moduł interakcji ze środowiskiem, który przekłada
 decyzje agenta na konkretne działania w grze. Wykorzystuje on bibliotekę akcji podstawowych oraz generuje
-nowe sekwencje akcji przy użyciu dopasowanego LLM w celu realizacji zamierzonych celów agenta. Ten proces
+nowe sekwencje akcji przy użyciu dopasowanego \gls{llm} w celu realizacji zamierzonych celów agenta. Ten proces
 stale wzbogaca bibliotekę akcji o nowe schematy postępowania. Ponadto, praca zakłada implementację
 mechanizmu dopasowywania różnorodnych osobowości i perspektyw dla agentów za pomocą zbioru
-drobniejszych, wyspecjalizowanych modeli LLM. Pozwala to na generowanie narracji dostosowanych do
+drobniejszych, wyspecjalizowanych modeli \gls{llm}. Pozwala to na generowanie narracji dostosowanych do
 zróżnicowanych tożsamości, stylów językowych i postaw bohaterów niegrywalnych. Podejście LARP łączy
 zaawansowane techniki przetwarzania języka naturalnego z inspiracjami z psychologii poznawczej w celu
 umożliwienia generowania spójnych, długoterminowych narracji agentów w bogatych, otwartych światach gier
@@ -292,7 +292,7 @@ w dziedzinie tworzenia treści literackich oraz elementów gier. Jednym z
 obiecujących zastosowań jest stworzenie w pełni autonomicznych, generatywnych agentów literackich,
 zdolnych do samodzielnego tworzenia spójnych i angażujących narracji. Rozwiązania te stopniowo
 znajdują swoje odzwierciedlenie również na rynku komercyjnym, czego przykładem są platformy takie
-jak Inworld.ai czy Nvidia Avatar Cloud Engine. Umożliwiają one twórcom gier, a nawet indywidualnym
+jak Inworld AI czy Nvidia Avatar Cloud Engine. Umożliwiają one twórcom gier, a nawet indywidualnym
 użytkownikom, korzystanie z zaawansowanych modeli językowych w celu generowania dialogów postaci,
 opisów środowisk czy całych wątków fabularnych. Chociaż wciąż istnieją liczne wyzwania natury
 technicznej i etycznej, rozwój tej technologii może znacząco zmienić oblicze branży rozrywkowej

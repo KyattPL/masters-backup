@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  28 MAY 2024 19:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  29 MAY 2024 01:27
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -768,20 +768,146 @@ Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count373
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count374
-) (c:/texlive/2023/texmf-dist/tex/latex/lipsum/lipsum.sty (c:/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty (c:/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2023/09/29 v4.53 (NLCT)
+ (c:/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (c:/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex (c:/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks56
+\XKV@tempa@toks=\toks57
+)
+\XKV@depth=\count375
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (c:/texlive/2023/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+Package: mfirstuc 2022/10/14 v2.08 (NLCT)
+\@glsmfirst=\toks58
+\@glsmrest=\toks59
+) (c:/texlive/2023/texmf-dist/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+) (c:/texlive/2023/texmf-dist/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2019/09/27 v2.32 (NLCT)
+ (c:/texlive/2023/texmf-dist/tex/latex/substr/substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count376
+) (c:/texlive/2023/texmf-dist/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2019/09/27 v2.32 (NLCT)
+ (c:/texlive/2023/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+ `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (c:/texlive/2023/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count377
+) (c:/texlive/2023/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count378
+\FP@xia=\count379
+\FP@xib=\count380
+\FP@xfa=\count381
+\FP@xfb=\count382
+\FP@rega=\count383
+\FP@regb=\count384
+\FP@regs=\count385
+\FP@times=\count386
+) (c:/texlive/2023/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+) (c:/texlive/2023/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+) (c:/texlive/2023/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+) (c:/texlive/2023/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+) (c:/texlive/2023/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+) (c:/texlive/2023/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count387
+) (c:/texlive/2023/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+) (c:/texlive/2023/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+) (c:/texlive/2023/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks60
+\@dtl@tmpcount=\count388
+\dtl@tmplength=\skip72
+\dtl@sortresult=\count389
+\@dtl@numgrpsepcount=\count390
+\@dtl@datatype=\count391
+\dtl@codeA=\count392
+\dtl@codeB=\count393
+\@dtl@foreach@level=\count394
+)
+\gls@level=\count395
+\@gls@tmpb=\toks61
+\gls@tmplen=\skip73
+\glskeylisttok=\toks62
+\glslabeltok=\toks63
+\glsshorttok=\toks64
+\glslongtok=\toks65
+ (c:/texlive/2023/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
+Package: glossary-hypernav 2023/09/29 v4.53 (NLCT)
+) (c:/texlive/2023/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
+Package: glossary-list 2023/09/29 v4.53 (NLCT)
+\glslistdottedwidth=\skip74
+) (c:/texlive/2023/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
+Package: glossary-long 2023/09/29 v4.53 (NLCT)
+ (c:/texlive/2023/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
+\LTleft=\skip75
+\LTright=\skip76
+\LTpre=\skip77
+\LTpost=\skip78
+\LTchunksize=\count396
+\LTcapwidth=\dimen318
+\LT@head=\box88
+\LT@firsthead=\box89
+\LT@foot=\box90
+\LT@lastfoot=\box91
+\LT@gbox=\box92
+\LT@cols=\count397
+\LT@rows=\count398
+\c@LT@tables=\count399
+\c@LT@chunks=\count400
+\LT@p@ftn=\toks66
+)
+\glsdescwidth=\skip79
+\glspagelistwidth=\skip80
+) (c:/texlive/2023/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
+Package: glossary-super 2023/09/29 v4.53 (NLCT)
+ (c:/texlive/2023/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2020/02/02 v4.1g the supertabular environment
+\c@tracingst=\count401
+\ST@wd=\dimen319
+\ST@rightskip=\skip81
+\ST@leftskip=\skip82
+\ST@parfillskip=\skip83
+\ST@pageleft=\dimen320
+\ST@headht=\dimen321
+\ST@tailht=\dimen322
+\ST@pagesofar=\dimen323
+\ST@pboxht=\dimen324
+\ST@lineht=\dimen325
+\ST@prevht=\dimen326
+\ST@toadd=\dimen327
+\ST@dimen=\dimen328
+\ST@pbox=\box93
+)) (c:/texlive/2023/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
+Package: glossary-tree 2023/09/29 v4.53 (NLCT)
+\glstreeindent=\skip84
+)) (c:/texlive/2023/texmf-dist/tex/latex/lipsum/lipsum.sty (c:/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty (c:/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2024-01-22 L3 programming layer (loader) 
  (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count375
-\l__pdf_internal_box=\box88
+\l__color_backend_stack_int=\count402
+\l__pdf_internal_box=\box94
 ))
 Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count376
-\l__lipsum_a_int=\count377
-\l__lipsum_b_int=\count378
- (c:/texlive/2023/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
+\g__lipsum_par_int=\count403
+\l__lipsum_a_int=\count404
+\l__lipsum_b_int=\count405
+ (c:/texlive/2023/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)) (./glossary/glossary.tex)
 runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > thesis.aex <nul: /p x=^%~$PATH:i>> thesis.aex)...executed.
 
 runsystem(del thesis.aex)...executed.
@@ -789,39 +915,39 @@ runsystem(del thesis.aex)...executed.
  (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
  (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count379
-\scratchdimen=\dimen318
-\scratchbox=\box89
-\nofMPsegments=\count380
-\nofMParguments=\count381
-\everyMPshowfont=\toks56
-\MPscratchCnt=\count382
-\MPscratchDim=\dimen319
-\MPnumerator=\count383
-\makeMPintoPDFobject=\count384
-\everyMPtoPDFconversion=\toks57
+\scratchcounter=\count406
+\scratchdimen=\dimen329
+\scratchbox=\box95
+\nofMPsegments=\count407
+\nofMParguments=\count408
+\everyMPshowfont=\toks67
+\MPscratchCnt=\count409
+\MPscratchDim=\dimen330
+\MPnumerator=\count410
+\makeMPintoPDFobject=\count411
+\everyMPtoPDFconversion=\toks68
 ) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -862,33 +988,38 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 46.
-Package microtype Info: Applying patch `item' on input line 46.
-Package microtype Info: Applying patch `toc' on input line 46.
-Package microtype Info: Applying patch `eqnum' on input line 46.
-Package microtype Info: Applying patch `footnote' on input line 46.
-Package microtype Info: Applying patch `verbatim' on input line 46.
+LaTeX Info: Redefining \microtypecontext on input line 50.
+Package microtype Info: Applying patch `item' on input line 50.
+Package microtype Info: Applying patch `toc' on input line 50.
+Package microtype Info: Applying patch `eqnum' on input line 50.
+Package microtype Info: Applying patch `footnote' on input line 50.
+Package microtype Info: Applying patch `verbatim' on input line 50.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 46.
+LaTeX Info: Redefining \showhyphens on input line 50.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 (c:/texlive/2023/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-Package hyperref Info: Link coloring OFF on input line 46.
+Package hyperref Info: Link coloring OFF on input line 50.
  (./thesis.out) (./thesis.out)
 \@outlinefile=\write6
 \openout6 = `thesis.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: longtable package is loaded.
+ (c:/texlive/2023/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Option `pageanchor' set `false' on input line 49.
+Package hyperref Info: Option `pageanchor' set `false' on input line 53.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -924,19 +1055,19 @@ Package hyperref Info: Option `pageanchor' set `false' on input line 49.
  (c:/texlive/2023/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 53.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (c:/texlive/2023/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 53.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (c:/texlive/2023/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Overfull \hbox (59.60358pt too wide) in paragraph at lines 49--49
+Overfull \hbox (59.60358pt too wide) in paragraph at lines 53--53
 [][] 
  []
 
@@ -1032,12 +1163,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 186--188
  []
 
 [10 <./chapters/chapter1/imgs/ch1_2_space_invaders.jpg> <./chapters/chapter1/imgs/ch1_2_mario_1.jpg> <./chapters/chapter1/imgs/ch1_2_mario_2.png>]
-<chapters/chapter1/imgs/ch1_2_zelda_1.png, id=362, 256.96pt x 240.9pt>
+<chapters/chapter1/imgs/ch1_2_zelda_1.png, id=363, 256.96pt x 240.9pt>
 File: chapters/chapter1/imgs/ch1_2_zelda_1.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_2_zelda_1.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_zelda_1.png  used on input line 207.
 (pdftex.def)             Requested size: 209.13235pt x 170.72038pt.
-<chapters/chapter1/imgs/ch1_2_zelda_2.png, id=363, 638.385pt x 493.845pt>
+<chapters/chapter1/imgs/ch1_2_zelda_2.png, id=364, 638.385pt x 493.845pt>
 File: chapters/chapter1/imgs/ch1_2_zelda_2.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_2_zelda_2.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_zelda_2.png  used on input line 212.
@@ -1052,7 +1183,7 @@ Overfull \hbox (1.1263pt too wide) in paragraph at lines 223--236
 []\T1/qtm/m/n/12 (-20) Pierwszym ty-tu-ªem opi-sa-nym w tej pod-sek-cji, któ-ry ope-ru-je na per-spek-ty-wie 3-osobowej
  []
 
-<chapters/chapter1/imgs/ch1_2_crash_1.png, id=366, 736.25063pt x 557.08125pt>
+<chapters/chapter1/imgs/ch1_2_crash_1.png, id=367, 736.25063pt x 557.08125pt>
 File: chapters/chapter1/imgs/ch1_2_crash_1.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_2_crash_1.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_crash_1.png  used on input line 240.
@@ -1062,7 +1193,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 240--242
 [][]
  []
 
-<chapters/chapter1/imgs/ch1_2_crash_2.png, id=367, 749.04843pt x 508.14844pt>
+<chapters/chapter1/imgs/ch1_2_crash_2.png, id=368, 749.04843pt x 508.14844pt>
 File: chapters/chapter1/imgs/ch1_2_crash_2.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_2_crash_2.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_crash_2.png  used on input line 245.
@@ -1072,8 +1203,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 245--247
 [][]
  []
 
-[11 <./chapters/chapter1/imgs/ch1_2_zelda_1.png> <./chapters/chapter1/imgs/ch1_2_zelda_2.png>]
-<chapters/chapter1/imgs/ch1_2_hl_1.png, id=375, 895.84688pt x 472.01344pt>
+
+Underfull \vbox (badness 2980) has occurred while \output is active []
+
+ [11 <./chapters/chapter1/imgs/ch1_2_zelda_1.png> <./chapters/chapter1/imgs/ch1_2_zelda_2.png>]
+<chapters/chapter1/imgs/ch1_2_hl_1.png, id=378, 895.84688pt x 472.01344pt>
 File: chapters/chapter1/imgs/ch1_2_hl_1.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_2_hl_1.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_hl_1.png  used on input line 267.
@@ -1083,7 +1217,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 267--269
 [][]
  []
 
-<chapters/chapter1/imgs/ch1_2_hl_2.png, id=376, 210.03468pt x 196.48407pt>
+<chapters/chapter1/imgs/ch1_2_hl_2.png, id=379, 210.03468pt x 196.48407pt>
 File: chapters/chapter1/imgs/ch1_2_hl_2.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_2_hl_2.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_hl_2.png  used on input line 272.
@@ -1092,7 +1226,7 @@ Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_hl_2.png  used on input li
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [12 <./chapters/chapter1/imgs/ch1_2_crash_1.png> <./chapters/chapter1/imgs/ch1_2_crash_2.png>]
-<chapters/chapter1/imgs/ch1_2_lis_1.png, id=386, 1405.25pt x 790.955pt>
+<chapters/chapter1/imgs/ch1_2_lis_1.png, id=389, 1405.25pt x 790.955pt>
 File: chapters/chapter1/imgs/ch1_2_lis_1.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_2_lis_1.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_lis_1.png  used on input line 300.
@@ -1102,7 +1236,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 300--302
 [][]
  []
 
-<chapters/chapter1/imgs/ch1_2_lis_2.png, id=387, 642.4pt x 361.35pt>
+<chapters/chapter1/imgs/ch1_2_lis_2.png, id=390, 642.4pt x 361.35pt>
 File: chapters/chapter1/imgs/ch1_2_lis_2.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_2_lis_2.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_lis_2.png  used on input line 305.
@@ -1111,12 +1245,12 @@ Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_lis_2.png  used on input l
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13 <./chapters/chapter1/imgs/ch1_2_hl_1.png> <./chapters/chapter1/imgs/ch1_2_hl_2.png>]
-<chapters/chapter1/imgs/ch1_2_witcher_1.png, id=395, 968.86969pt x 696.35156pt>
+<chapters/chapter1/imgs/ch1_2_witcher_1.png, id=398, 968.86969pt x 696.35156pt>
 File: chapters/chapter1/imgs/ch1_2_witcher_1.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_2_witcher_1.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_witcher_1.png  used on input line 327.
 (pdftex.def)             Requested size: 209.13081pt x 170.70856pt.
-<chapters/chapter1/imgs/ch1_2_witcher_2.png, id=396, 3854.4pt x 2168.1pt>
+<chapters/chapter1/imgs/ch1_2_witcher_2.png, id=399, 3854.4pt x 2168.1pt>
 File: chapters/chapter1/imgs/ch1_2_witcher_2.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_2_witcher_2.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_witcher_2.png  used on input line 332.
@@ -1130,7 +1264,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 332--334
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [14 <./chapters/chapter1/imgs/ch1_2_lis_1.png> <./chapters/chapter1/imgs/ch1_2_lis_2.png>]
-<chapters/chapter1/imgs/ch1_3_ff1_1.png, id=411, 588.69937pt x 548.0475pt>
+<chapters/chapter1/imgs/ch1_3_ff1_1.png, id=415, 588.69937pt x 548.0475pt>
 File: chapters/chapter1/imgs/ch1_3_ff1_1.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_3_ff1_1.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_3_ff1_1.png  used on input line 380.
@@ -1140,7 +1274,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 380--382
 [][]
  []
 
-<chapters/chapter1/imgs/ch1_3_ff1_2.png, id=412, 581.92406pt x 536.75531pt>
+<chapters/chapter1/imgs/ch1_3_ff1_2.png, id=416, 581.92406pt x 536.75531pt>
 File: chapters/chapter1/imgs/ch1_3_ff1_2.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_3_ff1_2.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_3_ff1_2.png  used on input line 385.
@@ -1154,7 +1288,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 385--387
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [15 <./chapters/chapter1/imgs/ch1_2_witcher_1.png> <./chapters/chapter1/imgs/ch1_2_witcher_2.png>]
-<chapters/chapter1/imgs/ch1_3_ff7_1.png, id=427, 755.07094pt x 433.62pt>
+<chapters/chapter1/imgs/ch1_3_ff7_1.png, id=431, 755.07094pt x 433.62pt>
 File: chapters/chapter1/imgs/ch1_3_ff7_1.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_3_ff7_1.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_3_ff7_1.png  used on input line 425.
@@ -1164,7 +1298,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 425--427
 [][]
  []
 
-<chapters/chapter1/imgs/ch1_3_ff7_2.png, id=428, 724.95844pt x 474.27188pt>
+<chapters/chapter1/imgs/ch1_3_ff7_2.png, id=432, 724.95844pt x 474.27188pt>
 File: chapters/chapter1/imgs/ch1_3_ff7_2.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_3_ff7_2.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_3_ff7_2.png  used on input line 430.
@@ -1178,18 +1312,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 430--432
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [16 <./chapters/chapter1/imgs/ch1_3_ff1_1.png> <./chapters/chapter1/imgs/ch1_3_ff1_2.png>]
-<chapters/chapter1/imgs/ch1_3_ff10_1.png, id=436, 767.86874pt x 532.23843pt>
+<chapters/chapter1/imgs/ch1_3_ff10_1.png, id=440, 767.86874pt x 532.23843pt>
 File: chapters/chapter1/imgs/ch1_3_ff10_1.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_3_ff10_1.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_3_ff10_1.png  used on input line 450.
 (pdftex.def)             Requested size: 209.1317pt x 170.7096pt.
-<chapters/chapter1/imgs/ch1_3_ff10_2.png, id=437, 538.26094pt x 428.35031pt>
+<chapters/chapter1/imgs/ch1_3_ff10_2.png, id=441, 538.26094pt x 428.35031pt>
 File: chapters/chapter1/imgs/ch1_3_ff10_2.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_3_ff10_2.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_3_ff10_2.png  used on input line 455.
 (pdftex.def)             Requested size: 209.13245pt x 170.71616pt.
  [17 <./chapters/chapter1/imgs/ch1_3_ff7_1.png> <./chapters/chapter1/imgs/ch1_3_ff7_2.png> <./chapters/chapter1/imgs/ch1_3_ff10_1.png> <./chapters/chapter1/imgs/ch1_3_ff10_2.png>]
-<chapters/chapter1/imgs/ch1_3_ff13_1.png, id=445, 572.1375pt x 454.69875pt>
+<chapters/chapter1/imgs/ch1_3_ff13_1.png, id=449, 572.1375pt x 454.69875pt>
 File: chapters/chapter1/imgs/ch1_3_ff13_1.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_3_ff13_1.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_3_ff13_1.png  used on input line 474.
@@ -1199,7 +1333,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 474--476
 [][]
  []
 
-<chapters/chapter1/imgs/ch1_3_ff13_2.png, id=446, 1492.0258pt x 839.26451pt>
+<chapters/chapter1/imgs/ch1_3_ff13_2.png, id=450, 1492.0258pt x 839.26451pt>
 File: chapters/chapter1/imgs/ch1_3_ff13_2.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_3_ff13_2.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_3_ff13_2.png  used on input line 479.
@@ -1211,7 +1345,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 479--481
 
 ) (./chapters/chapter2/chapter2.tex [18 <./chapters/chapter1/imgs/ch1_3_ff13_1.png> <./chapters/chapter1/imgs/ch1_3_ff13_2.png>]
 Rozdzia\PlPrIeC {\l } 2.
-<chapters/chapter2/imgs/ch2_1_linear.png, id=459, 447.92343pt x 91.09032pt>
+<chapters/chapter2/imgs/ch2_1_linear.png, id=465, 447.92343pt x 91.09032pt>
 File: chapters/chapter2/imgs/ch2_1_linear.png Graphic file (type png)
 <use chapters/chapter2/imgs/ch2_1_linear.png>
 Package pdftex.def Info: chapters/chapter2/imgs/ch2_1_linear.png  used on input line 32.
@@ -1219,39 +1353,39 @@ Package pdftex.def Info: chapters/chapter2/imgs/ch2_1_linear.png  used on input 
 [19
 
  <./chapters/chapter2/imgs/ch2_1_linear.png>]
-<chapters/chapter2/imgs/ch2_1_pearls.png, id=471, 1068.24094pt x 578.16pt>
+<chapters/chapter2/imgs/ch2_1_pearls.png, id=477, 1068.24094pt x 578.16pt>
 File: chapters/chapter2/imgs/ch2_1_pearls.png Graphic file (type png)
 <use chapters/chapter2/imgs/ch2_1_pearls.png>
 Package pdftex.def Info: chapters/chapter2/imgs/ch2_1_pearls.png  used on input line 51.
 (pdftex.def)             Requested size: 426.79135pt x 230.98642pt.
-<chapters/chapter2/imgs/ch2_1_branching.png, id=476, 806.26219pt x 643.6547pt>
+<chapters/chapter2/imgs/ch2_1_branching.png, id=482, 806.26219pt x 643.6547pt>
 File: chapters/chapter2/imgs/ch2_1_branching.png Graphic file (type png)
 <use chapters/chapter2/imgs/ch2_1_branching.png>
 Package pdftex.def Info: chapters/chapter2/imgs/ch2_1_branching.png  used on input line 72.
 (pdftex.def)             Requested size: 426.79135pt x 340.71304pt.
  [20 <./chapters/chapter2/imgs/ch2_1_pearls.png>] [21 <./chapters/chapter2/imgs/ch2_1_branching.png>] [22]
-<chapters/chapter2/imgs/ch2_2_cutscene.jpg, id=498, 1430.34375pt x 819.06pt>
+<chapters/chapter2/imgs/ch2_2_cutscene.jpg, id=507, 1430.34375pt x 819.06pt>
 File: chapters/chapter2/imgs/ch2_2_cutscene.jpg Graphic file (type jpg)
 <use chapters/chapter2/imgs/ch2_2_cutscene.jpg>
 Package pdftex.def Info: chapters/chapter2/imgs/ch2_2_cutscene.jpg  used on input line 135.
 (pdftex.def)             Requested size: 209.12964pt x 170.7079pt.
-<chapters/chapter2/imgs/ch2_2_cutscene2.jpg, id=499, 1284.8pt x 722.7pt>
+<chapters/chapter2/imgs/ch2_2_cutscene2.jpg, id=508, 1284.8pt x 722.7pt>
 File: chapters/chapter2/imgs/ch2_2_cutscene2.jpg Graphic file (type jpg)
 <use chapters/chapter2/imgs/ch2_2_cutscene2.jpg>
 Package pdftex.def Info: chapters/chapter2/imgs/ch2_2_cutscene2.jpg  used on input line 140.
 (pdftex.def)             Requested size: 209.1206pt x 170.71672pt.
  [23 <./chapters/chapter2/imgs/ch2_2_cutscene.jpg> <./chapters/chapter2/imgs/ch2_2_cutscene2.jpg>]
-<chapters/chapter2/imgs/ch2_ff1.png, id=506, 588.69937pt x 548.0475pt>
+<chapters/chapter2/imgs/ch2_ff1.png, id=516, 588.69937pt x 548.0475pt>
 File: chapters/chapter2/imgs/ch2_ff1.png Graphic file (type png)
 <use chapters/chapter2/imgs/ch2_ff1.png>
 Package pdftex.def Info: chapters/chapter2/imgs/ch2_ff1.png  used on input line 161.
 (pdftex.def)             Requested size: 209.12897pt x 170.72086pt.
-<chapters/chapter2/imgs/ch2_ff13.png, id=507, 1492.0258pt x 839.26451pt>
+<chapters/chapter2/imgs/ch2_ff13.png, id=517, 1492.0258pt x 839.26451pt>
 File: chapters/chapter2/imgs/ch2_ff13.png Graphic file (type png)
 <use chapters/chapter2/imgs/ch2_ff13.png>
 Package pdftex.def Info: chapters/chapter2/imgs/ch2_ff13.png  used on input line 166.
 (pdftex.def)             Requested size: 209.10985pt x 170.71849pt.
-<chapters/chapter2/imgs/ch2_witcher_2.png, id=510, 3854.4pt x 2168.1pt>
+<chapters/chapter2/imgs/ch2_witcher_2.png, id=520, 3854.4pt x 2168.1pt>
 File: chapters/chapter2/imgs/ch2_witcher_2.png Graphic file (type png)
 <use chapters/chapter2/imgs/ch2_witcher_2.png>
 Package pdftex.def Info: chapters/chapter2/imgs/ch2_witcher_2.png  used on input line 189.
@@ -1265,7 +1399,7 @@ Underfull \vbox (badness 2941) has occurred while \output is active []
 
  [24 <./chapters/chapter2/imgs/ch2_ff1.png> <./chapters/chapter2/imgs/ch2_ff13.png>] [25 <./chapters/chapter2/imgs/ch2_witcher_2.png>]
 Rozdzia\PlPrIeC {\l } 3.
-<chapters/chapter3/imgs/ch3_1_box.png, id=523, 513.92pt x 289.08pt>
+<chapters/chapter3/imgs/ch3_1_box.png, id=535, 513.92pt x 289.08pt>
 File: chapters/chapter3/imgs/ch3_1_box.png Graphic file (type png)
 <use chapters/chapter3/imgs/ch3_1_box.png>
 Package pdftex.def Info: chapters/chapter3/imgs/ch3_1_box.png  used on input line 38.
@@ -1276,58 +1410,58 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [26
 
 ]
-<chapters/chapter3/imgs/ch3_1_lis.png, id=530, 642.4pt x 361.35pt>
+<chapters/chapter3/imgs/ch3_1_lis.png, id=542, 642.4pt x 361.35pt>
 File: chapters/chapter3/imgs/ch3_1_lis.png Graphic file (type png)
 <use chapters/chapter3/imgs/ch3_1_lis.png>
 Package pdftex.def Info: chapters/chapter3/imgs/ch3_1_lis.png  used on input line 57.
 (pdftex.def)             Requested size: 384.1096pt x 216.06732pt.
  [27 <./chapters/chapter3/imgs/ch3_1_box.png (PNG copy)> <./chapters/chapter3/imgs/ch3_1_lis.png>]
-<chapters/chapter3/imgs/ch3_1_precision.png, id=538, 534.49687pt x 253.69781pt>
+<chapters/chapter3/imgs/ch3_1_precision.png, id=550, 534.49687pt x 253.69781pt>
 File: chapters/chapter3/imgs/ch3_1_precision.png Graphic file (type png)
 <use chapters/chapter3/imgs/ch3_1_precision.png>
 Package pdftex.def Info: chapters/chapter3/imgs/ch3_1_precision.png  used on input line 75.
 (pdftex.def)             Requested size: 426.79135pt x 202.58302pt.
  [28 <./chapters/chapter3/imgs/ch3_1_precision.png>]
-<chapters/chapter3/imgs/ch3_1_emotions.png, id=548, 635.37375pt x 435.87843pt>
+<chapters/chapter3/imgs/ch3_1_emotions.png, id=560, 635.37375pt x 435.87843pt>
 File: chapters/chapter3/imgs/ch3_1_emotions.png Graphic file (type png)
 <use chapters/chapter3/imgs/ch3_1_emotions.png>
 Package pdftex.def Info: chapters/chapter3/imgs/ch3_1_emotions.png  used on input line 92.
 (pdftex.def)             Requested size: 341.43437pt x 234.24017pt.
-<chapters/chapter3/imgs/ch3_1_emotions2.png, id=552, 472.76625pt x 212.29312pt>
+<chapters/chapter3/imgs/ch3_1_emotions2.png, id=564, 472.76625pt x 212.29312pt>
 File: chapters/chapter3/imgs/ch3_1_emotions2.png Graphic file (type png)
 <use chapters/chapter3/imgs/ch3_1_emotions2.png>
 Package pdftex.def Info: chapters/chapter3/imgs/ch3_1_emotions2.png  used on input line 101.
 (pdftex.def)             Requested size: 426.79135pt x 191.6516pt.
  [29 <./chapters/chapter3/imgs/ch3_1_emotions.png> <./chapters/chapter3/imgs/ch3_1_emotions2.png>]
-<chapters/chapter3/imgs/ch3_1_stats.png, id=561, 598.48593pt x 448.67625pt>
+<chapters/chapter3/imgs/ch3_1_stats.png, id=574, 598.48593pt x 448.67625pt>
 File: chapters/chapter3/imgs/ch3_1_stats.png Graphic file (type png)
 <use chapters/chapter3/imgs/ch3_1_stats.png>
 Package pdftex.def Info: chapters/chapter3/imgs/ch3_1_stats.png  used on input line 117.
 (pdftex.def)             Requested size: 426.79135pt x 319.96585pt.
  [30 <./chapters/chapter3/imgs/ch3_1_stats.png>]
-<chapters/chapter3/imgs/ch3_1witcher.png, id=569, 3854.4pt x 2168.1pt>
+<chapters/chapter3/imgs/ch3_1witcher.png, id=585, 3854.4pt x 2168.1pt>
 File: chapters/chapter3/imgs/ch3_1witcher.png Graphic file (type png)
 <use chapters/chapter3/imgs/ch3_1witcher.png>
 Package pdftex.def Info: chapters/chapter3/imgs/ch3_1witcher.png  used on input line 135.
 (pdftex.def)             Requested size: 426.79135pt x 240.04662pt.
  [31 <./chapters/chapter3/imgs/ch3_1witcher.png>]
-<chapters/chapter3/imgs/ch3_2_generic.png, id=583, 1102.1175pt x 520.94624pt>
+<chapters/chapter3/imgs/ch3_2_generic.png, id=600, 1102.1175pt x 520.94624pt>
 File: chapters/chapter3/imgs/ch3_2_generic.png Graphic file (type png)
 <use chapters/chapter3/imgs/ch3_2_generic.png>
 Package pdftex.def Info: chapters/chapter3/imgs/ch3_2_generic.png  used on input line 162.
 (pdftex.def)             Requested size: 426.79135pt x 201.7374pt.
-<chapters/chapter3/imgs/ch3_2_dialogue.png, id=587, 1120.185pt x 530.98375pt>
+<chapters/chapter3/imgs/ch3_2_dialogue.png, id=606, 1120.185pt x 530.98375pt>
 File: chapters/chapter3/imgs/ch3_2_dialogue.png Graphic file (type png)
 <use chapters/chapter3/imgs/ch3_2_dialogue.png>
 Package pdftex.def Info: chapters/chapter3/imgs/ch3_2_dialogue.png  used on input line 175.
 (pdftex.def)             Requested size: 426.79135pt x 202.30255pt.
  [32 <./chapters/chapter3/imgs/ch3_2_generic.png> <./chapters/chapter3/imgs/ch3_2_dialogue.png>]
-<chapters/chapter3/imgs/ch3_2_commands.png, id=597, 1118.1775pt x 496.85625pt>
+<chapters/chapter3/imgs/ch3_2_commands.png, id=616, 1118.1775pt x 496.85625pt>
 File: chapters/chapter3/imgs/ch3_2_commands.png Graphic file (type png)
 <use chapters/chapter3/imgs/ch3_2_commands.png>
 Package pdftex.def Info: chapters/chapter3/imgs/ch3_2_commands.png  used on input line 187.
 (pdftex.def)             Requested size: 426.79135pt x 189.64128pt.
-<chapters/chapter3/imgs/ch3_2_tutorial.png, id=599, 884.30376pt x 369.38pt>
+<chapters/chapter3/imgs/ch3_2_tutorial.png, id=618, 884.30376pt x 369.38pt>
 File: chapters/chapter3/imgs/ch3_2_tutorial.png Graphic file (type png)
 <use chapters/chapter3/imgs/ch3_2_tutorial.png>
 Package pdftex.def Info: chapters/chapter3/imgs/ch3_2_tutorial.png  used on input line 199.
@@ -1337,13 +1471,13 @@ Rozdzia\PlPrIeC {\l } 4.
 [34
 
 ]
-<chapters/chapter4/imgs/ch4_1_pop.png, id=623, 389.20406pt x 447.17062pt>
+<chapters/chapter4/imgs/ch4_1_pop.png, id=650, 389.20406pt x 447.17062pt>
 File: chapters/chapter4/imgs/ch4_1_pop.png Graphic file (type png)
 <use chapters/chapter4/imgs/ch4_1_pop.png>
 Package pdftex.def Info: chapters/chapter4/imgs/ch4_1_pop.png  used on input line 40.
 (pdftex.def)             Requested size: 213.39568pt x 245.18721pt.
  [35 <./chapters/chapter4/imgs/ch4_1_pop.png>] [36]
-<chapters/chapter4/imgs/ch4_1_mdp.png, id=652, 993.7125pt x 623.32875pt>
+<chapters/chapter4/imgs/ch4_1_mdp.png, id=685, 993.7125pt x 623.32875pt>
 File: chapters/chapter4/imgs/ch4_1_mdp.png Graphic file (type png)
 <use chapters/chapter4/imgs/ch4_1_mdp.png>
 Package pdftex.def Info: chapters/chapter4/imgs/ch4_1_mdp.png  used on input line 124.
@@ -1374,18 +1508,18 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<chapters/chapter6/imgs/ch6_1_menu.png, id=803, 1285.80376pt x 724.7075pt>
+<chapters/chapter6/imgs/ch6_1_menu.png, id=859, 1285.80376pt x 724.7075pt>
 File: chapters/chapter6/imgs/ch6_1_menu.png Graphic file (type png)
 <use chapters/chapter6/imgs/ch6_1_menu.png>
 Package pdftex.def Info: chapters/chapter6/imgs/ch6_1_menu.png  used on input line 62.
 (pdftex.def)             Requested size: 384.1096pt x 216.48505pt.
  [49{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./chapters/chapter6/imgs/ch6_1_menu.png>]
-<chapters/chapter6/imgs/ch6_1_intro.png, id=814, 1285.80376pt x 724.7075pt>
+<chapters/chapter6/imgs/ch6_1_intro.png, id=870, 1285.80376pt x 724.7075pt>
 File: chapters/chapter6/imgs/ch6_1_intro.png Graphic file (type png)
 <use chapters/chapter6/imgs/ch6_1_intro.png>
 Package pdftex.def Info: chapters/chapter6/imgs/ch6_1_intro.png  used on input line 75.
 (pdftex.def)             Requested size: 384.1096pt x 216.48505pt.
-<chapters/chapter6/imgs/ch6_1_dialogue.png, id=816, 1285.80376pt x 724.7075pt>
+<chapters/chapter6/imgs/ch6_1_dialogue.png, id=873, 1285.80376pt x 724.7075pt>
 File: chapters/chapter6/imgs/ch6_1_dialogue.png Graphic file (type png)
 <use chapters/chapter6/imgs/ch6_1_dialogue.png>
 Package pdftex.def Info: chapters/chapter6/imgs/ch6_1_dialogue.png  used on input line 84.
@@ -1394,36 +1528,36 @@ Package pdftex.def Info: chapters/chapter6/imgs/ch6_1_dialogue.png  used on inpu
 Underfull \vbox (badness 3803) has occurred while \output is active []
 
  [50 <./chapters/chapter6/imgs/ch6_1_intro.png> <./chapters/chapter6/imgs/ch6_1_dialogue.png>] [51] [52] [53] [54]
-<chapters/chapter6/imgs/ch6_2_common_knowledge.png, id=867, 622.57594pt x 656.4525pt>
+<chapters/chapter6/imgs/ch6_2_common_knowledge.png, id=929, 622.57594pt x 656.4525pt>
 File: chapters/chapter6/imgs/ch6_2_common_knowledge.png Graphic file (type png)
 <use chapters/chapter6/imgs/ch6_2_common_knowledge.png>
 Package pdftex.def Info: chapters/chapter6/imgs/ch6_2_common_knowledge.png  used on input line 264.
 (pdftex.def)             Requested size: 384.1096pt x 405.01305pt.
  [55 <./chapters/chapter6/imgs/ch6_2_common_knowledge.png>]
-<chapters/chapter6/imgs/ch6_2_adam_basic.png, id=874, 607.51968pt x 581.92406pt>
+<chapters/chapter6/imgs/ch6_2_adam_basic.png, id=936, 607.51968pt x 581.92406pt>
 File: chapters/chapter6/imgs/ch6_2_adam_basic.png Graphic file (type png)
 <use chapters/chapter6/imgs/ch6_2_adam_basic.png>
 Package pdftex.def Info: chapters/chapter6/imgs/ch6_2_adam_basic.png  used on input line 278.
 (pdftex.def)             Requested size: 384.1096pt x 367.93713pt.
  [56 <./chapters/chapter6/imgs/ch6_2_adam_basic.png>]
-<chapters/chapter6/imgs/ch6_2_adam_details.png, id=881, 424.58624pt x 465.23813pt>
+<chapters/chapter6/imgs/ch6_2_adam_details.png, id=943, 424.58624pt x 465.23813pt>
 File: chapters/chapter6/imgs/ch6_2_adam_details.png Graphic file (type png)
 <use chapters/chapter6/imgs/ch6_2_adam_details.png>
 Package pdftex.def Info: chapters/chapter6/imgs/ch6_2_adam_details.png  used on input line 290.
 (pdftex.def)             Requested size: 384.1096pt x 420.90402pt.
  [57 <./chapters/chapter6/imgs/ch6_2_adam_details.png>]
-<chapters/chapter6/imgs/ch6_2_adam_knowledge.png, id=889, 565.36218pt x 389.95688pt>
+<chapters/chapter6/imgs/ch6_2_adam_knowledge.png, id=951, 565.36218pt x 389.95688pt>
 File: chapters/chapter6/imgs/ch6_2_adam_knowledge.png Graphic file (type png)
 <use chapters/chapter6/imgs/ch6_2_adam_knowledge.png>
 Package pdftex.def Info: chapters/chapter6/imgs/ch6_2_adam_knowledge.png  used on input line 303.
 (pdftex.def)             Requested size: 298.75264pt x 206.06923pt.
-<chapters/chapter6/imgs/ch6_2_adam_personality.png, id=891, 586.44093pt x 518.6878pt>
+<chapters/chapter6/imgs/ch6_2_adam_personality.png, id=953, 586.44093pt x 518.6878pt>
 File: chapters/chapter6/imgs/ch6_2_adam_personality.png Graphic file (type png)
 <use chapters/chapter6/imgs/ch6_2_adam_personality.png>
 Package pdftex.def Info: chapters/chapter6/imgs/ch6_2_adam_personality.png  used on input line 314.
 (pdftex.def)             Requested size: 298.75264pt x 264.23444pt.
  [58 <./chapters/chapter6/imgs/ch6_2_adam_knowledge.png> <./chapters/chapter6/imgs/ch6_2_adam_personality.png>]
-<chapters/chapter6/imgs/ch6_2_adam_goals.png, id=899, 539.76656pt x 660.21657pt>
+<chapters/chapter6/imgs/ch6_2_adam_goals.png, id=962, 539.76656pt x 660.21657pt>
 File: chapters/chapter6/imgs/ch6_2_adam_goals.png Graphic file (type png)
 <use chapters/chapter6/imgs/ch6_2_adam_goals.png>
 Package pdftex.def Info: chapters/chapter6/imgs/ch6_2_adam_goals.png  used on input line 331.
@@ -1698,14 +1832,16 @@ Rozdzia\PlPrIeC {\l } 7.
 
  [68
 
-] [69
+]
+Using TeX to sort glossary entries---this may take a while
+[69
+
+
+
+] [70
 
 ] (./appendices/appendix1.tex
 Dodatek A.
-) (./appendices/appendix2.tex [70
-
-]
-Dodatek B.
 ) (./thesis.bbl [71
 
 ]
@@ -1737,23 +1873,23 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: BF57D91CF3F25D8CC63967C12A6FE979;8948.
+(rerunfilecheck)             Checksum: C0ECC63437D9F6C030E2B79A0F88BCE1;9005.
 runsystem(del thesis.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 32030 strings out of 474221
- 606643 string characters out of 5750189
+ 36418 strings out of 474221
+ 678327 string characters out of 5750189
  1939978 words of memory out of 5000000
- 53188 multiletter control sequences out of 15000+600000
- 636195 words of font info for 217 fonts, out of 8000000 for 9000
+ 57463 multiletter control sequences out of 15000+600000
+ 636318 words of font info for 218 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 123i,14n,121p,1050b,864s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 123i,14n,121p,2372b,904s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmbi.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on thesis.pdf (78 pages, 30264728 bytes).
+Output written on thesis.pdf (78 pages, 30272246 bytes).
 PDF statistics:
- 1161 PDF objects out of 1200 (max. 8388607)
- 978 compressed objects within 10 object streams
- 229 named destinations out of 1000 (max. 500000)
+ 1286 PDF objects out of 1440 (max. 8388607)
+ 1101 compressed objects within 12 object streams
+ 245 named destinations out of 1000 (max. 500000)
  45747 words of extra memory for PDF output out of 51595 (max. 10000000)
 

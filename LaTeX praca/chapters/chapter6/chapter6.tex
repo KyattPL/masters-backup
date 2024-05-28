@@ -77,7 +77,7 @@ za monolog wewnętrzny głównego bohatera).
     \label{fig:ch6_1_intro}
 \end{figure}
 
-Przykładowy widok dialogu z jedną z postaci NPC został przedstawiony na rysunku \ref{fig:ch6_1_dialogue}.
+Przykładowy widok dialogu z jedną z postaci \gls{npc} został przedstawiony na rysunku \ref{fig:ch6_1_dialogue}.
 
 \begin{figure}[h!]
     \centering
@@ -96,7 +96,7 @@ Podczas imprezy Sylvia zostaje zamordowana. Gracz znajduje jej ciało i zostawio
 sugeruje jej samobójstwo po czym wzywa policję. Do przyjazdu służb potrzeba kilku godzin, więc
 główny bohater postanawia samemu rozwiązać tę sprawę.
 
-Gracz musi rozmawiać z pozostałymi postaciami NPC, zbierając od nich informacje na temat ich
+Gracz musi rozmawiać z pozostałymi postaciami \gls{npc}, zbierając od nich informacje na temat ich
 relacji z Sylvią, motywów i alibi w nocy morderstwa. Adam był skrycie zakochany w Sylvii i
 zazdrosny o jej związek z Florianem. Nathaniel próbował bezskutecznie przejąć piekarnię ojca Adama.
 Randy to utalentowany, ale arogancki pianista z ciemną przeszłością i problemami z prawem,
@@ -117,7 +117,7 @@ pomocą intuicyjnego interfejsu, niewymagającego użycia kodu programistycznego
 Zakres możliwych zastosowań postaci stworzonych za pomocą Inworld AI jest szeroki i obejmuje m.in. gry
 wideo otwartego świata, wirtualne awatary i ambasadorów marek, imersyjne doświadczenia edukacyjne oraz
 szkolenia. Platforma ta umożliwia tworzenie realistycznie wyglądających i zachowujących się postaci
-niezależnych (NPC), które mogą wchodzić w interakcje z użytkownikami w sposób zbliżony do interakcji z
+niezależnych (\gls{npc}), które mogą wchodzić w interakcje z użytkownikami w sposób zbliżony do interakcji z
 prawdziwymi ludźmi.
 
 Ze względu na bardzo szybkie tempo rozwoju sztucznej inteligencji, Inworld AI stale wprowadza nowe
@@ -129,9 +129,9 @@ jak rozrywka, marketing, edukacja czy szkolenia. Dzięki ich realistycznemu wygl
 one zwiększać zaangażowanie użytkowników oraz oferować bardziej imersyjne i angażujące doświadczenia.
 
 Inworld AI wykorzystuje podejście polegające na dynamicznym przełączaniu się między różnymi dużymi
-modelami językowymi (LLM) w zależności od kontekstu konwersacji i wymagań dotyczących opóźnienia\cite{inworld_docs}.
-Korzystają zarówno z zewnętrznych interfejsów API, takich jak GPT-3 od OpenAI, jak i własnych
-wewnętrznych modeli\cite{inworld_docs}. Wybór konkretnego modelu LLM jest dokonywany w oparciu o zrozumienie mocnych
+modelami językowymi (\gls{llm}) w zależności od kontekstu konwersacji i wymagań dotyczących opóźnienia\cite{inworld_docs}.
+Korzystają zarówno z zewnętrznych interfejsów \gls{api}, takich jak \gls{gpt}-3 od OpenAI, jak i własnych
+wewnętrznych modeli\cite{inworld_docs}. Wybór konkretnego modelu \gls{llm} jest dokonywany w oparciu o zrozumienie mocnych
 stron poszczególnych modeli i tego, który będzie najlepiej służył danej interakcji konwersacyjnej.
 Oprócz wykorzystywania gotowych modeli zewnętrznych, Inworld AI rozwija również własne modele
 językowe dostosowane do ich specyficznych potrzeb\cite{inworld_docs}.
@@ -211,7 +211,7 @@ oraz pozwala dostrzec w jaki sposób można sterować procesem kreacji.
 \subsubsection*{Opis wykreowanych postaci}
 
 W tej sekcji przedstawiony zostanie krótki opis każdej postaci wykreowanej w ramach platformy Inworld AI
-(konkretne dane umieszczone są w dodatku \ref{appendix:B}).
+(konkretne dane umieszczone są w dodatku \ref{appendix:A}).
 
 \textbf{Adam} jest marzycielem mieszkającym w ciasnym mieszkanku, który pracuje w piekarni swojego ojca.
 Marzy o lepszym życiu i pragnie wyrwać się z ciasnych ram swojej codzienności. Zna Floriana z liceum i był
@@ -250,7 +250,7 @@ to on zabił Sylvię, choć stara się to ukryć.
 
 Ta sekcja ma na celu przedstawienie w jaki sposób projektant może wykorzystać wymienione wcześniej
 funkcjonalności do stworzenia interaktywnej postaci w grze wideo. Przedstawione zostaną dokładne dane
-wykorzystane do utworzenia postaci Adama (reszta postaci jest widoczna w dodatku \ref{appendix:B}) oraz
+wykorzystane do utworzenia postaci Adama (reszta postaci jest widoczna w dodatku \ref{appendix:A}) oraz
 sposób połączenia z platformą Inworld AI z poziomu kodu.
 
 \newpage
@@ -318,7 +318,7 @@ zaprezentowano na rysunku \ref{fig:ch6_2_adam_personality}).
 
 \newpage
 
-Cele postaci określane są w postaci pliku YAML (widoczne na rysunku \ref{fig:ch6_2_adam_goals}). W górnej
+Cele postaci określane są w postaci pliku \gls{yaml} (widoczne na rysunku \ref{fig:ch6_2_adam_goals}). W górnej
 części pliku zdefiniowano "intencje" czyli konkretne zamiary, z którymi gracz może występować do postaci
 podczas rozmowy. Za pomocą fraz treningowych projektant może określić, że przykładowo zapytanie
 \textit{"What about Randy?"} lub jemu podobne, związane jest z intencją "asked\_randy". Jest to potrzebne
@@ -382,13 +382,13 @@ został eksperyment A/B z udziałem dwóch wersji gry - z włączoną sztuczną 
 Obie wersje gry zostały zahostowane na platformie itch.io, co ułatwiło udostępnienie ich uczestnikom.
 
 Przygotowano dwa warianty formularzy do testów A/B w celu zebrania danych. Formularz A wymagał od
-uczestnika podania podstawowych informacji demograficznych, a następnie gry w wersję bez AI. Po
+uczestnika podania podstawowych informacji demograficznych, a następnie gry w wersję bez \gls{ai}. Po
 zakończeniu tej sesji, uczestnik wypełniał kwestionariusz oceniający doświadczenie gracza (patrz \ref{tab1:ch5_2}).
 Następnie przechodził do gry w wersję z włączoną sztuczną inteligencją i ponownie wypełniał ten
-sam kwestionariusz GEQ (patrz \ref{tab1:ch5_2}).
+sam kwestionariusz \gls{geq} (patrz \ref{tab1:ch5_2}).
 
 Formularz B miał odwróconą kolejność - po podaniu danych demograficznych, uczestnik grał najpierw
-w wersję z AI, wypełniał kwestionariusz GEQ, a następnie przechodził do wersji bez sztucznej
+w wersję z \gls{ai}, wypełniał kwestionariusz \gls{geq}, a następnie przechodził do wersji bez sztucznej
 inteligencji i ponownie oceniał doświadczenie przy pomocy tego samego kwestionariusza.
 
 Aby zapewnić losowe przydzielenie uczestników do jednej z dwóch wersji formularza, wykorzystana
@@ -406,24 +406,24 @@ wideo oraz średnią liczbę godzin tygodniowo poświęcanych na granie. Te dane
 scharakteryzowania profilu uczestników badania.
 
 Kluczowym elementem eksperymentu było zebranie danych dotyczących doświadczenia gracza za pomocą
-kwestionariusza Game Experience Questionnaire (GEQ, patrz \ref{tab1:ch5_2}). Uczestnicy oceniali swoje
-wrażenia z gry w skali od 1 do 5. Kwestionariusz GEQ wypełniany był dwukrotnie - po zakończeniu sesji z
-wersją gry bez sztucznej inteligencji oraz po wersji z włączoną AI.
+kwestionariusza Game Experience Questionnaire (\gls{geq}, patrz \ref{tab1:ch5_2}). Uczestnicy oceniali swoje
+wrażenia z gry w skali od 1 do 5. Kwestionariusz \gls{geq} wypełniany był dwukrotnie - po zakończeniu sesji z
+wersją gry bez sztucznej inteligencji oraz po wersji z włączoną \gls{ai}.
 
 Dodatkowo, po każdej sesji gry uczestnicy odpowiadali na cztery otwarte pytania związane z
-interakcjami z niesterowanymi przez graczy postaciami (NPC):
+interakcjami z niesterowanymi przez graczy postaciami (\gls{npc}):
 
 \begin{enumerate}
-    \item "Jak się czułeś/czułaś podczas interakcji z NPC?"
-    \item "Jak bardzo byłeś/byłaś zainteresowany/a rozmową z NPC?"
-    \item "Czy podobało Ci się rozmawianie z NPC?"
+    \item "Jak się czułeś/czułaś podczas interakcji z \gls{npc}?"
+    \item "Jak bardzo byłeś/byłaś zainteresowany/a rozmową z \gls{npc}?"
+    \item "Czy podobało Ci się rozmawianie z \gls{npc}?"
     \item "Inne przemyślenia"
 \end{enumerate}
 
 Te pytania otwarte miały na celu uzyskanie pogłębionych informacji jakościowych na temat
-doświadczenia gracza w interakcjach z NPC, uzupełniających dane ilościowe z kwestionariusza GEQ.
+doświadczenia gracza w interakcjach z \gls{npc}, uzupełniających dane ilościowe z kwestionariusza \gls{geq}.
 
 Zgromadzone dane pochodzące z kwestionariuszy, zarówno ilościowe jak i jakościowe, umożliwiły
 przeprowadzenie analiz porównawczych między obiema wersjami gry - z sztuczną inteligencją i bez
-niej. Pozwoliło to na ocenę wpływu AI na różne aspekty doświadczenia gracza, w szczególności na
-odczucia związane z interakcjami z NPC.
+niej. Pozwoliło to na ocenę wpływu \gls{ai} na różne aspekty doświadczenia gracza, w szczególności na
+odczucia związane z interakcjami z \gls{npc}.
