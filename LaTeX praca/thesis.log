@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  28 MAY 2024 02:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  28 MAY 2024 19:31
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1334,23 +1334,16 @@ Package pdftex.def Info: chapters/chapter3/imgs/ch3_2_tutorial.png  used on inpu
 (pdftex.def)             Requested size: 426.79135pt x 178.27545pt.
 ) (./chapters/chapter4/chapter4.tex [33 <./chapters/chapter3/imgs/ch3_2_commands.png> <./chapters/chapter3/imgs/ch3_2_tutorial.png>]
 Rozdzia\PlPrIeC {\l } 4.
-
-LaTeX Warning: Reference `subsection:ch1_1_2' on page 34 undefined on input line 18.
-
 [34
 
 ]
-<chapters/chapter4/imgs/ch4_1_pop.png, id=622, 389.20406pt x 447.17062pt>
+<chapters/chapter4/imgs/ch4_1_pop.png, id=623, 389.20406pt x 447.17062pt>
 File: chapters/chapter4/imgs/ch4_1_pop.png Graphic file (type png)
 <use chapters/chapter4/imgs/ch4_1_pop.png>
 Package pdftex.def Info: chapters/chapter4/imgs/ch4_1_pop.png  used on input line 40.
 (pdftex.def)             Requested size: 213.39568pt x 245.18721pt.
- [35 <./chapters/chapter4/imgs/ch4_1_pop.png>]
-
-LaTeX Warning: Reference `subsection:ch1_3_2' on page 36 undefined on input line 84.
-
-[36]
-<chapters/chapter4/imgs/ch4_1_mdp.png, id=650, 993.7125pt x 623.32875pt>
+ [35 <./chapters/chapter4/imgs/ch4_1_pop.png>] [36]
+<chapters/chapter4/imgs/ch4_1_mdp.png, id=652, 993.7125pt x 623.32875pt>
 File: chapters/chapter4/imgs/ch4_1_mdp.png Graphic file (type png)
 <use chapters/chapter4/imgs/ch4_1_mdp.png>
 Package pdftex.def Info: chapters/chapter4/imgs/ch4_1_mdp.png  used on input line 124.
@@ -1381,18 +1374,18 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<chapters/chapter6/imgs/ch6_1_menu.png, id=801, 1285.80376pt x 724.7075pt>
+<chapters/chapter6/imgs/ch6_1_menu.png, id=803, 1285.80376pt x 724.7075pt>
 File: chapters/chapter6/imgs/ch6_1_menu.png Graphic file (type png)
 <use chapters/chapter6/imgs/ch6_1_menu.png>
 Package pdftex.def Info: chapters/chapter6/imgs/ch6_1_menu.png  used on input line 62.
 (pdftex.def)             Requested size: 384.1096pt x 216.48505pt.
  [49{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./chapters/chapter6/imgs/ch6_1_menu.png>]
-<chapters/chapter6/imgs/ch6_1_intro.png, id=812, 1285.80376pt x 724.7075pt>
+<chapters/chapter6/imgs/ch6_1_intro.png, id=814, 1285.80376pt x 724.7075pt>
 File: chapters/chapter6/imgs/ch6_1_intro.png Graphic file (type png)
 <use chapters/chapter6/imgs/ch6_1_intro.png>
 Package pdftex.def Info: chapters/chapter6/imgs/ch6_1_intro.png  used on input line 75.
 (pdftex.def)             Requested size: 384.1096pt x 216.48505pt.
-<chapters/chapter6/imgs/ch6_1_dialogue.png, id=814, 1285.80376pt x 724.7075pt>
+<chapters/chapter6/imgs/ch6_1_dialogue.png, id=816, 1285.80376pt x 724.7075pt>
 File: chapters/chapter6/imgs/ch6_1_dialogue.png Graphic file (type png)
 <use chapters/chapter6/imgs/ch6_1_dialogue.png>
 Package pdftex.def Info: chapters/chapter6/imgs/ch6_1_dialogue.png  used on input line 84.
@@ -1401,36 +1394,36 @@ Package pdftex.def Info: chapters/chapter6/imgs/ch6_1_dialogue.png  used on inpu
 Underfull \vbox (badness 3803) has occurred while \output is active []
 
  [50 <./chapters/chapter6/imgs/ch6_1_intro.png> <./chapters/chapter6/imgs/ch6_1_dialogue.png>] [51] [52] [53] [54]
-<chapters/chapter6/imgs/ch6_2_common_knowledge.png, id=865, 622.57594pt x 656.4525pt>
+<chapters/chapter6/imgs/ch6_2_common_knowledge.png, id=867, 622.57594pt x 656.4525pt>
 File: chapters/chapter6/imgs/ch6_2_common_knowledge.png Graphic file (type png)
 <use chapters/chapter6/imgs/ch6_2_common_knowledge.png>
 Package pdftex.def Info: chapters/chapter6/imgs/ch6_2_common_knowledge.png  used on input line 264.
 (pdftex.def)             Requested size: 384.1096pt x 405.01305pt.
  [55 <./chapters/chapter6/imgs/ch6_2_common_knowledge.png>]
-<chapters/chapter6/imgs/ch6_2_adam_basic.png, id=872, 607.51968pt x 581.92406pt>
+<chapters/chapter6/imgs/ch6_2_adam_basic.png, id=874, 607.51968pt x 581.92406pt>
 File: chapters/chapter6/imgs/ch6_2_adam_basic.png Graphic file (type png)
 <use chapters/chapter6/imgs/ch6_2_adam_basic.png>
 Package pdftex.def Info: chapters/chapter6/imgs/ch6_2_adam_basic.png  used on input line 278.
 (pdftex.def)             Requested size: 384.1096pt x 367.93713pt.
  [56 <./chapters/chapter6/imgs/ch6_2_adam_basic.png>]
-<chapters/chapter6/imgs/ch6_2_adam_details.png, id=879, 424.58624pt x 465.23813pt>
+<chapters/chapter6/imgs/ch6_2_adam_details.png, id=881, 424.58624pt x 465.23813pt>
 File: chapters/chapter6/imgs/ch6_2_adam_details.png Graphic file (type png)
 <use chapters/chapter6/imgs/ch6_2_adam_details.png>
 Package pdftex.def Info: chapters/chapter6/imgs/ch6_2_adam_details.png  used on input line 290.
 (pdftex.def)             Requested size: 384.1096pt x 420.90402pt.
  [57 <./chapters/chapter6/imgs/ch6_2_adam_details.png>]
-<chapters/chapter6/imgs/ch6_2_adam_knowledge.png, id=887, 565.36218pt x 389.95688pt>
+<chapters/chapter6/imgs/ch6_2_adam_knowledge.png, id=889, 565.36218pt x 389.95688pt>
 File: chapters/chapter6/imgs/ch6_2_adam_knowledge.png Graphic file (type png)
 <use chapters/chapter6/imgs/ch6_2_adam_knowledge.png>
 Package pdftex.def Info: chapters/chapter6/imgs/ch6_2_adam_knowledge.png  used on input line 303.
 (pdftex.def)             Requested size: 298.75264pt x 206.06923pt.
-<chapters/chapter6/imgs/ch6_2_adam_personality.png, id=889, 586.44093pt x 518.6878pt>
+<chapters/chapter6/imgs/ch6_2_adam_personality.png, id=891, 586.44093pt x 518.6878pt>
 File: chapters/chapter6/imgs/ch6_2_adam_personality.png Graphic file (type png)
 <use chapters/chapter6/imgs/ch6_2_adam_personality.png>
 Package pdftex.def Info: chapters/chapter6/imgs/ch6_2_adam_personality.png  used on input line 314.
 (pdftex.def)             Requested size: 298.75264pt x 264.23444pt.
  [58 <./chapters/chapter6/imgs/ch6_2_adam_knowledge.png> <./chapters/chapter6/imgs/ch6_2_adam_personality.png>]
-<chapters/chapter6/imgs/ch6_2_adam_goals.png, id=897, 539.76656pt x 660.21657pt>
+<chapters/chapter6/imgs/ch6_2_adam_goals.png, id=899, 539.76656pt x 660.21657pt>
 File: chapters/chapter6/imgs/ch6_2_adam_goals.png Graphic file (type png)
 <use chapters/chapter6/imgs/ch6_2_adam_goals.png>
 Package pdftex.def Info: chapters/chapter6/imgs/ch6_2_adam_goals.png  used on input line 331.
@@ -1681,17 +1674,7 @@ LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
 
 )
 Package hyperref Info: bookmark level for unknown listing defaults to 0 on input line 370.
- [60{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-
-LaTeX Warning: Reference `tab1:ch3_2' on page 61 undefined on input line 386.
-
-
-LaTeX Warning: Reference `tab1:ch3_2' on page 61 undefined on input line 388.
-
-
-LaTeX Warning: Reference `tab1:ch3_2' on page 61 undefined on input line 409.
-
-) (./chapters/chapter7/chapter7.tex [61] [62]
+ [60{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]) (./chapters/chapter7/chapter7.tex [61] [62]
 Rozdzia\PlPrIeC {\l } 7.
 ) (./summary/summary.tex [63
 
@@ -1753,28 +1736,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: BF57D91CF3F25D8CC63967C12A6FE979;8948.
 runsystem(del thesis.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 32033 strings out of 474221
- 606695 string characters out of 5750189
+ 32030 strings out of 474221
+ 606643 string characters out of 5750189
  1939978 words of memory out of 5000000
- 53191 multiletter control sequences out of 15000+600000
+ 53188 multiletter control sequences out of 15000+600000
  636195 words of font info for 217 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  123i,14n,121p,1050b,864s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmbi.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on thesis.pdf (78 pages, 30264830 bytes).
+Output written on thesis.pdf (78 pages, 30264728 bytes).
 PDF statistics:
- 1156 PDF objects out of 1200 (max. 8388607)
- 973 compressed objects within 10 object streams
+ 1161 PDF objects out of 1200 (max. 8388607)
+ 978 compressed objects within 10 object streams
  229 named destinations out of 1000 (max. 500000)
  45747 words of extra memory for PDF output out of 51595 (max. 10000000)
 
