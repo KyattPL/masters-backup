@@ -1,0 +1,9 @@
+3 - gender
+4 - age
+5 - country
+6 - age when started (categories)
+7 - average hours (categories)
+8-26 - questionnaire items
+27-30 - open questions
+31-49 - questionnaire items
+50-53 - open questions
