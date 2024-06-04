@@ -1,0 +1,17 @@
+- z demografii nic nie robić tylko przedstawić w pracy
+- z pytań otwartych będzie analiza jakościowa czy jak to się zwie i wyciągnięcie popularnych wątków
+- z kwestionariusza:
+	- sprawdzić czy oceny są w rozkładzie normalnym (tylko teraz tak: czy sklejać AI z jednego i drugiego 
+		kwestionariusza czy jak - w jednym było jako pierwszym, w drugim drugie)
+	- to samo dla wariancji chyba się robi że są równe
+	- t-test można zrobić:
+		- w ramach formularza A co do istotności przejścia z nonAI do AI i B z AI->nonAI:
+			- mam takie p-values które istotność pokazują chyba
+		- pomiędzy grupami czyli czy wyniki AI pomiędzy A i B się istotnie różnią:
+			- to co mi wyszło jest średnio czytelne ale chyba wychodzi, że są?
+	- widziałem i zrobiłem jakieś ANOVA do chyba analizy pary AI/nonAI + A/B ale nwm czy to ma sens
+	
+- no i co mogę przyjąć p=0.05 do ttestów i pokazać co się zmieniło istotnie
+- nwm czy jakieś konkretne hipotezy badawcze robić i czy bawić się w lewo/prawo-stronne hipotezy bo niektóre pozycje się na plus a niektóre na minus zmieniały w kwestionariuszu
+
+- coś jeszcze?
