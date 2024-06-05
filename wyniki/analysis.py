@@ -24,7 +24,7 @@ read_merged = pd.read_excel('merged_in_order.xlsx')
 read_merged.iloc[:, 7:26].describe().to_excel('NONAI_statistics.xlsx')
 read_merged.iloc[:, 30:49].describe().to_excel('AI_statistics.xlsx')
 
-# Assuming questionnaire responses for AI and non-AI are in columns 8-27 and 31-50 respectively
+# Czyli porównanie czy przejście z AI->NONAI albo NONAI->AI jest statystyczne różne
 ttest_results_a = ttest_rel(version_a.iloc[:, 7:26], version_a.iloc[:, 30:49])
 ttest_results_b = ttest_rel(version_b.iloc[:, 7:26], version_b.iloc[:, 30:49])
 
@@ -42,12 +42,14 @@ ai_a = version_a.iloc[:, 30:49].values.flatten()
 non_ai_b = version_b.iloc[:, 7:26].values.flatten()
 ai_b = version_b.iloc[:, 30:49].values.flatten()
 
-# Compare AI responses between groups A and B
+# Czy średnia dla wersji AI w przypadku formularza A i B jest taka sama
 ind1_result = ttest_ind(ai_a, ai_b)
 
-# Compare non-AI responses between groups A and B
+# Czy średnia dla wersji NONAI w przypadku formularza A i B jest taka sama``
 ind2_result = ttest_ind(non_ai_a, non_ai_b)
 
+# Wychodzą suuuper małe czyyyli że kolejność chyba ma znaczenie (?)
+# W sensie średnia dla tej samej części ale z formularza A i B jest wyraźnie inna
 print(ind1_result)
 print(ind2_result)
 

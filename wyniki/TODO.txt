@@ -1,0 +1,16 @@
+Here are a few additional insights based on the code:
+
+1. The questionnaire responses are stored in columns 7 to 44 (7:45) in both datasets.
+2. The 'condition' variable represents the different questionnaire items or questions.
+3. The 'score' variable represents the responses or scores for each questionnaire item.
+4. The 'order' variable is a between-subjects factor with two levels: 'non-AI first' and 'AI first'. This suggests that there were two groups of participants, one group answered the non-AI questions first, and the other group answered the AI questions first.
+5. The 'Sygnatura czasowa' variable is likely a unique identifier for each participant, and it is modified to make the subject IDs unique across the two groups ('_A' and '_B' are appended).
+6. The mixed_anova function from the pygler library is used to perform the mixed-design ANOVA, with 'score' as the dependent variable, 'Sygnatura czasowa' as the subject identifier (for repeated measures), 'condition' as the within-subjects factor, and 'order' as the between-subjects factor.
+
+With this additional context, the interpretation of the results would be as follows:
+
+1. The significant effect of the 'condition' factor indicates that there are significant differences in the scores (responses) among the different questionnaire items or questions.
+2. The non-significant effect of the 'order' factor suggests that there is no significant difference in the overall scores between the two groups of participants (those who answered non-AI questions first and those who answered AI questions first).
+3. The non-significant interaction effect means that the differences in scores among the questionnaire items do not depend on the order in which the participants answered the questions (AI first or non-AI first).
+
+It's worth noting that the mixed-design ANOVA assumes sphericity (homogeneity of variances) for the within-subjects factor. If this assumption is violated, you may need to apply corrections (e.g., Greenhouse-Geisser or Huynh-Feldt) to the degrees of freedom and p-values for the within-subjects and interaction effects.
