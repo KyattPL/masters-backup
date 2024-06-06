@@ -6,8 +6,6 @@ from scipy.stats import ttest_rel, ttest_ind
 version_a = pd.read_csv('verA.csv')
 version_b = pd.read_csv('verB.csv')
 
-print(version_a)
-
 # Descriptive statistics for demographic data (columns 0-6)
 demographics_a = version_a.iloc[:, 0:7].describe()
 demographics_b = version_b.iloc[:, 0:7].describe()
@@ -62,7 +60,7 @@ result_df = pd.DataFrame(
 result_df.to_csv('ttest_ind_AI_NonAI.csv')
 
 only_quest_a = pd.read_excel('only_quest_a.xlsx')
-only_quest_b = pd.read_excel('only_quest_a.xlsx')
+only_quest_b = pd.read_excel('only_quest_b.xlsx')
 
 # Create a DataFrame suitable for ANOVA
 df_a = pd.melt(only_quest_a, id_vars=['Sygnatura czasowa'], value_vars=only_quest_a.columns[7:45],

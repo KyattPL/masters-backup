@@ -1,0 +1,24 @@
+1. Order (between-subjects factor):
+   - The p-value for the order effect is 0.14600993814027724, which is greater than the commonly used significance level of 0.05.
+   - This suggests that there is no significant difference in the overall scores or responses between the two groups defined by the "order" factor (e.g., those who answered non-AI questions first and those who answered AI questions first).
+   - However, the partial eta-squared (np2) value of 0.06487887887401887 indicates a small to medium effect size, meaning that the order factor explains about 6.5% of the variance in the scores.
+
+2. Condition (within-subjects factor):
+   - The p-value for the condition effect is 5.798222398813035e-20, which is highly significant (p < 0.001).
+   - This indicates that there are significant differences in the scores or responses among the different levels or conditions of the within-subjects factor, which in this case represents the different questionnaire items or questions.
+   - The partial eta-squared (np2) value of 0.1361489612004412 suggests a medium to large effect size, with the condition factor explaining about 13.6% of the variance in the scores.
+   - The epsilon value of 0.2976505112406966 is used to correct the degrees of freedom for potential violations of the sphericity assumption in repeated-measures designs.
+
+3. Interaction effect:
+   - The p-value for the interaction effect is 2.0294093060979387e-06, which is highly significant (p < 0.001).
+   - This means that the differences in scores or responses among the questionnaire items (condition factor) depend on the levels of the order factor (AI first or non-AI first).
+   - In other words, the effect of the condition factor on the scores is not the same for the two groups defined by the order factor.
+   - The partial eta-squared (np2) value of 0.0728030488105603 suggests a small to medium effect size for the interaction effect, explaining about 7.3% of the variance in the scores.
+
+In simpler terms, the last three takeaways from the mixed-design ANOVA results are:
+
+1. There was no significant difference in the overall scores/responses between the two groups (those who answered non-AI questions first and those who answered AI questions first).
+
+2. There were significant differences in the scores/responses across the different questionnaire items or questions. 
+
+3. The differences in scores/responses across the questionnaire items depended on the order in which the questions were answered (AI first or non-AI first). In other words, the way participants responded to the different questions was influenced by whether they answered the AI questions first or the non-AI questions first.
