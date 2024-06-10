@@ -1,0 +1,10 @@
+Example of Interpreting Results
+Wilcoxon Signed-Rank Test Results:
+
+If significant differences are found in responses within both Form A and Form B, it indicates that the AI significantly changes the player experience compared to non-AI narratives.
+Mann-Whitney U Test Results:
+
+If significant differences are found between Form A and Form B, it suggests that the order of playing AI or non-AI first affects the participants' responses. This could indicate a learning effect or a preference bias based on the first interaction.
+Kruskal-Wallis H Test Results:
+
+If significant differences are found across groups, it confirms that either the AI or the order of presentation (or both) have a significant impact on the user experience.

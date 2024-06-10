@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  29 MAY 2024 01:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  10 JUN 2024 13:43
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1873,23 +1873,23 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: C0ECC63437D9F6C030E2B79A0F88BCE1;9005.
+(rerunfilecheck)             Checksum: 4E8FD6024B7A4CDCC7C4D2F26634213F;9005.
 runsystem(del thesis.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 36418 strings out of 474221
- 678327 string characters out of 5750189
+ 36420 strings out of 474221
+ 678355 string characters out of 5750189
  1939978 words of memory out of 5000000
- 57463 multiletter control sequences out of 15000+600000
+ 57464 multiletter control sequences out of 15000+600000
  636318 words of font info for 218 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  123i,14n,121p,2372b,904s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmbi.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on thesis.pdf (78 pages, 30272246 bytes).
+Output written on thesis.pdf (78 pages, 30272817 bytes).
 PDF statistics:
- 1286 PDF objects out of 1440 (max. 8388607)
- 1101 compressed objects within 12 object streams
- 245 named destinations out of 1000 (max. 500000)
+ 1291 PDF objects out of 1440 (max. 8388607)
+ 1105 compressed objects within 12 object streams
+ 246 named destinations out of 1000 (max. 500000)
  45747 words of extra memory for PDF output out of 51595 (max. 10000000)
 

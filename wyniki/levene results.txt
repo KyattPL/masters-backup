@@ -1,0 +1,38 @@
+Question I lose track of time: Statistic=0.6128590971272225, p-value=0.4394687456236873
+Question I was interested in the game's story: Statistic=0.12088505126821393, p-value=0.7303532064720853
+Question I feel different : Statistic=1.2024923828607499, p-value=0.2810081326711892
+Question I feel scared: Statistic=3.1487226744483707, p-value=0.085501757050002
+Question The game feels real: Statistic=2.3288824732346933, p-value=0.13681724931772274
+Question I was fully occupied with the game: Statistic=0.07025889671576276, p-value=0.7926602374944628
+Question I get wound up: Statistic=0.38754325259515554, p-value=0.5380048421885307
+Question Time seems to kind of stand still or stop: Statistic=1.3401480655453335, p-value=0.25557581033596394
+Question I feel spaced out: Statistic=0.9800680602819642, p-value=0.3296090792538937
+Question I was deeply concentrated in the game: Statistic=0.00869949366228301, p-value=0.926269742879859
+Question I got tired: Statistic=0.003063226918106521, p-value=0.956206598947235
+Question Playing seems automatic: Statistic=0.40751970891449385, p-value=0.5277737063542101
+Question My thoughts go fast: Statistic=0.693498452012384, p-value=0.41114939484947055
+Question I enjoyed it: Statistic=0.1627280885432247, p-value=0.6893400418866322
+Question I play without thinking how to play: Statistic=1.7402885682574911, p-value=0.19646443397210683
+Question Playing makes me feel calm: Statistic=0.0, p-value=1.0
+Question I play longer than I meant to: Statistic=1.3547346686560862, p-value=0.2530571823463932
+Question I really get into the game: Statistic=0.2543295883824755, p-value=0.6174978400381952
+Question I feel like I just can't stop playing: Statistic=0.5075116934609549, p-value=0.48138044674685276
+Question I lose track of time.1: Statistic=0.3131817718421856, p-value=0.5796306993528972
+Question I was interested in the game's story.1: Statistic=1.3951896225565255, p-value=0.24623527447140425
+Question I feel different .1: Statistic=0.14094156797494387, p-value=0.7098238580241908
+Question I felt that I could explore things: Statistic=0.0040798763287488195, p-value=0.9494679701425208
+Question The game feels real.1: Statistic=0.05407117963882145, p-value=0.8176055997810249
+Question I was fully occupied with the game.1: Statistic=0.2810512858826846, p-value=0.5996726756652369
+Question I get wound up.1: Statistic=0.16790941728804243, p-value=0.6847067707546783
+Question Time seems to kind of stand still or stop.1: Statistic=0.12057776847393757, p-value=0.7306821800436882
+Question I feel spaced out.1: Statistic=0.0, p-value=1.0
+Question I was deeply concentrated in the game.1: Statistic=1.2517469589973005, p-value=0.2715475670936971
+Question I got tired.1: Statistic=0.05864027854132301, p-value=0.810203358701497
+Question Playing seems automatic.1: Statistic=2.818652849740932, p-value=0.10291511032701843
+Question My thoughts go fast.1: Statistic=0.6042947192216145, p-value=0.44265337660891146
+Question I enjoyed it.1: Statistic=2.8751627696314324, p-value=0.0996661159647303
+Question I play without thinking how to play.1: Statistic=0.22708876198924358, p-value=0.6369289203778714
+Question Playing makes me feel calm.1: Statistic=1.0260326696366342, p-value=0.31869040573692053
+Question I play longer than I meant to.1: Statistic=0.31964483906770247, p-value=0.5757641042941648
+Question I really get into the game.1: Statistic=0.3994242703098081, p-value=0.5318764349403566
+Question I feel like I just can't stop playing.1: Statistic=0.6396344945745289, p-value=0.42974044726806027
