@@ -46,11 +46,11 @@
 \contentsline {section}{\numberline {6.2\relax .\enspace }Opis generatywnych agentów}{51}{section.6.2}%
 \contentsline {section}{\numberline {6.3\relax .\enspace }Zaplanowany przebieg eksperymentu}{60}{section.6.3}%
 \contentsline {chapter}{\numberline {7\relax .\enspace }Wyniki}{63}{chapter.7}%
-\contentsline {chapter}{Podsumowanie}{67}{chapter*.77}%
-\contentsline {chapter}{Spis rysunk\'ow}{68}{chapter*.78}%
-\contentsline {chapter}{Spis listingów}{70}{chapter*.79}%
-\contentsline {chapter}{Spis tabel}{71}{chapter*.80}%
-\contentsline {chapter}{Słownik akronimów}{72}{chapter*.82}%
-\contentsline {chapter}{Dodatki}{73}{section*.83}%
-\contentsline {chapter}{\numberline {A\relax .\enspace }Instrukcje inworld.ai dla postaci}{74}{appendix.A}%
-\contentsline {chapter}{Bibliografia}{75}{chapter*.84}%
+\contentsline {chapter}{Podsumowanie}{72}{chapter*.80}%
+\contentsline {chapter}{Spis rysunk\'ow}{73}{chapter*.81}%
+\contentsline {chapter}{Spis listingów}{75}{chapter*.82}%
+\contentsline {chapter}{Spis tabel}{76}{chapter*.83}%
+\contentsline {chapter}{Słownik akronimów}{77}{chapter*.85}%
+\contentsline {chapter}{Dodatki}{78}{section*.86}%
+\contentsline {chapter}{\numberline {A\relax .\enspace }Instrukcje inworld.ai dla postaci}{79}{appendix.A}%
+\contentsline {chapter}{Bibliografia}{80}{chapter*.87}%
