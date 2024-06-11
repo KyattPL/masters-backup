@@ -47,13 +47,13 @@
 \contentsline {section}{\numberline {6.3\relax .\enspace }Zaplanowany przebieg eksperymentu}{60}{section.6.3}%
 \contentsline {chapter}{\numberline {7\relax .\enspace }Wyniki}{63}{chapter.7}%
 \contentsline {section}{\numberline {7.1\relax .\enspace }Demografia}{63}{section.7.1}%
-\contentsline {section}{\numberline {7.2\relax .\enspace }Analiza danych}{67}{section.7.2}%
-\contentsline {chapter}{Podsumowanie}{73}{chapter*.83}%
-\contentsline {chapter}{Spis rysunk\'ow}{74}{chapter*.84}%
-\contentsline {chapter}{Spis listingów}{76}{chapter*.85}%
-\contentsline {chapter}{Spis tabel}{77}{chapter*.86}%
-\contentsline {chapter}{Słownik akronimów}{78}{chapter*.88}%
-\contentsline {chapter}{Dodatki}{79}{section*.89}%
-\contentsline {chapter}{\numberline {A\relax .\enspace }Instrukcje inworld.ai dla postaci}{80}{appendix.A}%
-\contentsline {chapter}{\numberline {B\relax .\enspace }Statystyki opisowe pytań kwestionariuszy}{81}{appendix.B}%
-\contentsline {chapter}{Bibliografia}{89}{chapter*.98}%
+\contentsline {section}{\numberline {7.2\relax .\enspace }Analiza danych}{68}{section.7.2}%
+\contentsline {chapter}{Podsumowanie}{76}{chapter*.83}%
+\contentsline {chapter}{Spis rysunk\'ow}{77}{chapter*.84}%
+\contentsline {chapter}{Spis listingów}{79}{chapter*.85}%
+\contentsline {chapter}{Spis tabel}{80}{chapter*.86}%
+\contentsline {chapter}{Słownik akronimów}{81}{chapter*.88}%
+\contentsline {chapter}{Dodatki}{82}{section*.89}%
+\contentsline {chapter}{\numberline {A\relax .\enspace }Instrukcje inworld.ai dla postaci}{83}{appendix.A}%
+\contentsline {chapter}{\numberline {B\relax .\enspace }Statystyki opisowe pytań kwestionariuszy}{84}{appendix.B}%
+\contentsline {chapter}{Bibliografia}{92}{chapter*.98}%

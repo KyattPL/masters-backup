@@ -41,16 +41,16 @@ levene_results_ai = [levene(ai_a[cols[0]], ai_b[cols[1]])
                      for cols in zip(ai_a.columns, ai_b.columns)]
 
 # Wilcoxon signed-rank test
-wilcoxon_results_a = [wilcoxon(non_ai_a[cols[0]], ai_a[cols[1]])
+wilcoxon_results_a = [wilcoxon(non_ai_a[cols[0]], ai_a[cols[1]], correction=True)
                       for cols in zip(non_ai_a.columns, ai_a.columns)]
-wilcoxon_results_b = [wilcoxon(non_ai_b[cols[0]], ai_b[cols[1]])
+wilcoxon_results_b = [wilcoxon(non_ai_b[cols[0]], ai_b[cols[1]], correction=True)
                       for cols in zip(non_ai_b.columns, ai_b.columns)]
 
 # Mann-Whitney U test
 mannwhitneyu_results_non_ai = [mannwhitneyu(
-    non_ai_a[cols[0]], non_ai_b[cols[1]]) for cols in zip(non_ai_a.columns, non_ai_b.columns)]
+    non_ai_a[cols[0]], non_ai_b[cols[1]], use_continuity=True) for cols in zip(non_ai_a.columns, non_ai_b.columns)]
 mannwhitneyu_results_ai = [mannwhitneyu(
-    ai_a[cols[0]], ai_b[cols[1]]) for cols in zip(ai_a.columns, ai_b.columns)]
+    ai_a[cols[0]], ai_b[cols[1]], use_continuity=True) for cols in zip(ai_a.columns, ai_b.columns)]
 
 
 def create_test_results_df(test_results, test_name, columns):
