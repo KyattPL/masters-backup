@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  11 JUN 2024 01:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  11 JUN 2024 12:54
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2021,71 +2021,71 @@ Package pdftex.def Info: chapters/chapter7/imgs/demo5.png  used on input line 44
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<chapters/chapter7/imgs/formA1.png, id=1018, 1327.20844pt x 573.64313pt>
+<chapters/chapter7/imgs/formA1.png, id=1018, 486.31688pt x 917.67844pt>
 File: chapters/chapter7/imgs/formA1.png Graphic file (type png)
 <use chapters/chapter7/imgs/formA1.png>
 Package pdftex.def Info: chapters/chapter7/imgs/formA1.png  used on input line 451.
-(pdftex.def)             Requested size: 384.1096pt x 166.01962pt.
+(pdftex.def)             Requested size: 341.43437pt x 644.2889pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<chapters/chapter7/imgs/formA2.png, id=1019, 1321.93875pt x 560.0925pt>
+<chapters/chapter7/imgs/formA2.png, id=1019, 478.78876pt x 895.09406pt>
 File: chapters/chapter7/imgs/formA2.png Graphic file (type png)
 <use chapters/chapter7/imgs/formA2.png>
 Package pdftex.def Info: chapters/chapter7/imgs/formA2.png  used on input line 458.
-(pdftex.def)             Requested size: 384.1096pt x 162.73888pt.
+(pdftex.def)             Requested size: 341.43437pt x 638.30745pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<chapters/chapter7/imgs/formB1.png, id=1020, 1340.00626pt x 478.03593pt>
+<chapters/chapter7/imgs/formB1.png, id=1020, 446.41782pt x 917.67844pt>
 File: chapters/chapter7/imgs/formB1.png Graphic file (type png)
 <use chapters/chapter7/imgs/formB1.png>
 Package pdftex.def Info: chapters/chapter7/imgs/formB1.png  used on input line 465.
-(pdftex.def)             Requested size: 384.1096pt x 137.02213pt.
+(pdftex.def)             Requested size: 320.0935pt x 658.01146pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<chapters/chapter7/imgs/formB2.png, id=1021, 1348.28719pt x 493.0922pt>
+<chapters/chapter7/imgs/formB2.png, id=1021, 450.9347pt x 959.08313pt>
 File: chapters/chapter7/imgs/formB2.png Graphic file (type png)
 <use chapters/chapter7/imgs/formB2.png>
 Package pdftex.def Info: chapters/chapter7/imgs/formB2.png  used on input line 472.
-(pdftex.def)             Requested size: 384.1096pt x 140.47253pt.
+(pdftex.def)             Requested size: 315.82794pt x 671.76338pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) (./summary/summary.tex [63
 
-] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75 <./chapters/chapter7/imgs/demo1.png> <./chapters/chapter7/imgs/demo2.png>] [76 <./chapters/chapter7/imgs/demo3.png> <./chapters/chapter7/imgs/demo4.png>] [77 <./chapters/chapter7/imgs/demo5.png> <./chapters/chapter7/imgs/formA1.png> <./chapters/chapter7/imgs/formA2.png>] [78 <./chapters/chapter7/imgs/formB1.png> <./chapters/chapter7/imgs/formB2.png>]) [79
+] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75 <./chapters/chapter7/imgs/demo1.png> <./chapters/chapter7/imgs/demo2.png>] [76 <./chapters/chapter7/imgs/demo3.png> <./chapters/chapter7/imgs/demo4.png>] [77 <./chapters/chapter7/imgs/demo5.png>] [78 <./chapters/chapter7/imgs/formA1.png>] [79 <./chapters/chapter7/imgs/formA2.png>] [80 <./chapters/chapter7/imgs/formB1.png>] [81 <./chapters/chapter7/imgs/formB2.png>]) [82
 
-] (./thesis.lof [80
+] (./thesis.lof [83
 
 ])
 \tf@lof=\write8
 \openout8 = `thesis.lof'.
 
- [81] (./thesis.lop)
+ [84] (./thesis.lop)
 \tf@lop=\write9
 \openout9 = `thesis.lop'.
 
- [82
+ [85
 
 ] (./thesis.lot)
 \tf@lot=\write10
 \openout10 = `thesis.lot'.
 
- [83
+ [86
 
 ]
 Using TeX to sort glossary entries---this may take a while
-[84
+[87
 
 
 
-] [85
+] [88
 
 ] (./appendices/appendix1.tex
 Dodatek A.
-) (./thesis.bbl [86
+) (./thesis.bbl [89
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
@@ -2095,7 +2095,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [87
+ [90
 
 ]
 Underfull \hbox (badness 7944) in paragraph at lines 58--59
@@ -2110,7 +2110,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [88]) [89] (./thesis.aux)
+ [91]) [92] (./thesis.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -2121,18 +2121,18 @@ runsystem(del thesis.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 46530 strings out of 474221
- 1020130 string characters out of 5750189
+ 46533 strings out of 474221
+ 1020151 string characters out of 5750189
  2068978 words of memory out of 5000000
  67396 multiletter control sequences out of 15000+600000
  636524 words of font info for 220 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  123i,14n,121p,2372b,904s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmbi.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on thesis.pdf (93 pages, 30601417 bytes).
+Output written on thesis.pdf (96 pages, 30704345 bytes).
 PDF statistics:
- 1415 PDF objects out of 1440 (max. 8388607)
- 1205 compressed objects within 13 object streams
- 284 named destinations out of 1000 (max. 500000)
+ 1427 PDF objects out of 1440 (max. 8388607)
+ 1214 compressed objects within 13 object streams
+ 287 named destinations out of 1000 (max. 500000)
  45792 words of extra memory for PDF output out of 51595 (max. 10000000)
 
