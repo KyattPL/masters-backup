@@ -17,9 +17,9 @@
 \contentsline {table}{\numberline {7.5}{\ignorespaces Uczestnicy badania ze względu na średnią liczbę godzin tygodniowo przeznaczonych na gry wideo}}{67}{table.caption.76}%
 \contentsline {table}{\numberline {7.6}{\ignorespaces Wyniki testu Shapiro-Wilka dla formularza A i obu wersji gier}}{69}{table.caption.78}%
 \contentsline {table}{\numberline {7.7}{\ignorespaces Wyniki testu Shapiro-Wilka dla formularza B i obu wersji gier}}{70}{table.caption.79}%
-\contentsline {table}{\numberline {7.8}{\ignorespaces Wyniki testu Levene'a porównującego wariancję pomiędzy formularzem A i B odpowiednio dla wersji gier bez AI i z AI}}{71}{table.caption.80}%
+\contentsline {table}{\numberline {7.8}{\ignorespaces Wyniki testu Levene'a porównującego wariancję pomiędzy formularzem A i B odpowiednio dla wersji gier bez \gls {ai} i z \gls {ai}}}{71}{table.caption.80}%
 \contentsline {table}{\numberline {7.9}{\ignorespaces Wyniki testu Wilcoxona porównującego zmianę ocen pytań wewnątrz formularza A i B}}{73}{table.caption.81}%
-\contentsline {table}{\numberline {7.10}{\ignorespaces Wyniki testu Manna-Whitneya porównującego skalę ocen wersji gier bez AI i z AI pomiędzy formularzem A i B}}{74}{table.caption.82}%
+\contentsline {table}{\numberline {7.10}{\ignorespaces Wyniki testu Manna-Whitneya porównującego skalę ocen wersji gier bez \gls {ai} i z \gls {ai} pomiędzy formularzem A i B}}{74}{table.caption.82}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
@@ -32,4 +32,8 @@
 \contentsline {table}{\numberline {B.3}{\ignorespaces Statystyki opisowe pytań kwestionariusza dla wersji z AI formularza B}}{88}{table.caption.94}%
 \contentsline {table}{\numberline {B.4}{\ignorespaces Statystyki opisowe pytań kwestionariusza dla wersji bez AI formularza B}}{90}{table.caption.96}%
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {C.1}{Formularz A wersja bez \gls {ai}}}{92}{table.C.1}%
+\contentsline {table}{\numberline {C.2}{Formularz A wersja z \gls {ai}}}{95}{table.C.2}%
+\contentsline {table}{\numberline {C.3}{Formularz B wersja z \gls {ai}}}{98}{table.C.3}%
+\contentsline {table}{\numberline {C.4}{Formularz B wersja bez \gls {ai}}}{104}{table.C.4}%
 \addvspace {10\p@ }

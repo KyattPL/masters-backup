@@ -54,7 +54,7 @@
 \contentsline {chapter}{Spis tabel}{80}{chapter*.86}%
 \contentsline {chapter}{Słownik akronimów}{81}{chapter*.88}%
 \contentsline {chapter}{Dodatki}{82}{section*.89}%
-\contentsline {chapter}{\numberline {A\relax .\enspace }Instrukcje inworld.ai dla postaci}{83}{appendix.A}%
+\contentsline {chapter}{\numberline {A\relax .\enspace }Instrukcje Inworld AI dla postaci}{83}{appendix.A}%
 \contentsline {chapter}{\numberline {B\relax .\enspace }Statystyki opisowe pytań kwestionariuszy}{84}{appendix.B}%
 \contentsline {chapter}{\numberline {C\relax .\enspace }Udzielone odpowiedzi na pytania otwarte}{92}{appendix.C}%
-\contentsline {chapter}{Bibliografia}{97}{chapter*.102}%
+\contentsline {chapter}{Bibliografia}{111}{chapter*.98}%
