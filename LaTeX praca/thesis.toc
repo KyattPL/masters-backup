@@ -56,4 +56,5 @@
 \contentsline {chapter}{Dodatki}{82}{section*.89}%
 \contentsline {chapter}{\numberline {A\relax .\enspace }Instrukcje inworld.ai dla postaci}{83}{appendix.A}%
 \contentsline {chapter}{\numberline {B\relax .\enspace }Statystyki opisowe pytań kwestionariuszy}{84}{appendix.B}%
-\contentsline {chapter}{Bibliografia}{92}{chapter*.98}%
+\contentsline {chapter}{\numberline {C\relax .\enspace }Udzielone odpowiedzi na pytania otwarte}{92}{appendix.C}%
+\contentsline {chapter}{Bibliografia}{97}{chapter*.102}%
