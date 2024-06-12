@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  12 JUN 2024 18:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  12 JUN 2024 22:21
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2077,11 +2077,168 @@ Using TeX to sort glossary entries---this may take a while
 
 ] (./appendices/appendix1.tex
 Dodatek A.
+<appendices/imgs/florian1.png, id=1445, 432.86719pt x 481.04718pt>
+File: appendices/imgs/florian1.png Graphic file (type png)
+<use appendices/imgs/florian1.png>
+Package pdftex.def Info: appendices/imgs/florian1.png  used on input line 8.
+(pdftex.def)             Requested size: 384.1096pt x 426.88281pt.
+<appendices/imgs/florian2.png, id=1446, 592.46344pt x 593.21625pt>
+File: appendices/imgs/florian2.png Graphic file (type png)
+<use appendices/imgs/florian2.png>
+Package pdftex.def Info: appendices/imgs/florian2.png  used on input line 15.
+(pdftex.def)             Requested size: 384.1096pt x 384.6084pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<appendices/imgs/florian3.png, id=1447, 587.94656pt x 520.94624pt>
+File: appendices/imgs/florian3.png Graphic file (type png)
+<use appendices/imgs/florian3.png>
+Package pdftex.def Info: appendices/imgs/florian3.png  used on input line 22.
+(pdftex.def)             Requested size: 384.1096pt x 340.33598pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<appendices/imgs/florian4.png, id=1448, 590.205pt x 665.48625pt>
+File: appendices/imgs/florian4.png Graphic file (type png)
+<use appendices/imgs/florian4.png>
+Package pdftex.def Info: appendices/imgs/florian4.png  used on input line 29.
+(pdftex.def)             Requested size: 384.1096pt x 433.10927pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<appendices/imgs/florian5.png, id=1449, 478.78876pt x 753.5653pt>
+File: appendices/imgs/florian5.png Graphic file (type png)
+<use appendices/imgs/florian5.png>
+Package pdftex.def Info: appendices/imgs/florian5.png  used on input line 36.
+(pdftex.def)             Requested size: 384.1096pt x 604.55484pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<appendices/imgs/mary1.png, id=1450, 433.62pt x 465.99094pt>
+File: appendices/imgs/mary1.png Graphic file (type png)
+<use appendices/imgs/mary1.png>
+Package pdftex.def Info: appendices/imgs/mary1.png  used on input line 45.
+(pdftex.def)             Requested size: 384.1096pt x 412.8037pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<appendices/imgs/mary2.png, id=1451, 592.46344pt x 657.2053pt>
+File: appendices/imgs/mary2.png Graphic file (type png)
+<use appendices/imgs/mary2.png>
+Package pdftex.def Info: appendices/imgs/mary2.png  used on input line 52.
+(pdftex.def)             Requested size: 384.1096pt x 426.09534pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<appendices/imgs/mary3.png, id=1452, 574.39594pt x 473.51906pt>
+File: appendices/imgs/mary3.png Graphic file (type png)
+<use appendices/imgs/mary3.png>
+Package pdftex.def Info: appendices/imgs/mary3.png  used on input line 59.
+(pdftex.def)             Requested size: 384.1096pt x 316.6564pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<appendices/imgs/mary4.png, id=1453, 569.12625pt x 688.82344pt>
+File: appendices/imgs/mary4.png Graphic file (type png)
+<use appendices/imgs/mary4.png>
+Package pdftex.def Info: appendices/imgs/mary4.png  used on input line 66.
+(pdftex.def)             Requested size: 384.1096pt x 464.91475pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<appendices/imgs/mary5.png, id=1454, 473.51906pt x 751.30687pt>
+File: appendices/imgs/mary5.png Graphic file (type png)
+<use appendices/imgs/mary5.png>
+Package pdftex.def Info: appendices/imgs/mary5.png  used on input line 73.
+(pdftex.def)             Requested size: 384.1096pt x 609.46088pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<appendices/imgs/nathaniel1.png, id=1455, 435.12563pt x 461.47406pt>
+File: appendices/imgs/nathaniel1.png Graphic file (type png)
+<use appendices/imgs/nathaniel1.png>
+Package pdftex.def Info: appendices/imgs/nathaniel1.png  used on input line 82.
+(pdftex.def)             Requested size: 384.1096pt x 407.39406pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<appendices/imgs/nathaniel2.png, id=1456, 614.295pt x 635.37375pt>
+File: appendices/imgs/nathaniel2.png Graphic file (type png)
+<use appendices/imgs/nathaniel2.png>
+Package pdftex.def Info: appendices/imgs/nathaniel2.png  used on input line 89.
+(pdftex.def)             Requested size: 384.1096pt x 397.29182pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<appendices/imgs/nathaniel3.png, id=1457, 572.89032pt x 495.35063pt>
+File: appendices/imgs/nathaniel3.png Graphic file (type png)
+<use appendices/imgs/nathaniel3.png>
+Package pdftex.def Info: appendices/imgs/nathaniel3.png  used on input line 96.
+(pdftex.def)             Requested size: 384.1096pt x 332.12508pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<appendices/imgs/nathaniel4.png, id=1458, 561.59813pt x 649.67719pt>
+File: appendices/imgs/nathaniel4.png Graphic file (type png)
+<use appendices/imgs/nathaniel4.png>
+Package pdftex.def Info: appendices/imgs/nathaniel4.png  used on input line 103.
+(pdftex.def)             Requested size: 384.1096pt x 444.3521pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<appendices/imgs/nathaniel5.png, id=1459, 486.31688pt x 754.31813pt>
+File: appendices/imgs/nathaniel5.png Graphic file (type png)
+<use appendices/imgs/nathaniel5.png>
+Package pdftex.def Info: appendices/imgs/nathaniel5.png  used on input line 110.
+(pdftex.def)             Requested size: 384.1096pt x 595.7897pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<appendices/imgs/randy1.png, id=1460, 433.62pt x 468.24937pt>
+File: appendices/imgs/randy1.png Graphic file (type png)
+<use appendices/imgs/randy1.png>
+Package pdftex.def Info: appendices/imgs/randy1.png  used on input line 119.
+(pdftex.def)             Requested size: 384.1096pt x 414.80435pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<appendices/imgs/randy2.png, id=1461, 591.71063pt x 627.09282pt>
+File: appendices/imgs/randy2.png Graphic file (type png)
+<use appendices/imgs/randy2.png>
+Package pdftex.def Info: appendices/imgs/randy2.png  used on input line 126.
+(pdftex.def)             Requested size: 384.1096pt x 407.08879pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<appendices/imgs/randy3.png, id=1462, 569.12625pt x 474.27188pt>
+File: appendices/imgs/randy3.png Graphic file (type png)
+<use appendices/imgs/randy3.png>
+Package pdftex.def Info: appendices/imgs/randy3.png  used on input line 133.
+(pdftex.def)             Requested size: 384.1096pt x 320.10522pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<appendices/imgs/randy4.png, id=1463, 566.86781pt x 731.73375pt>
+File: appendices/imgs/randy4.png Graphic file (type png)
+<use appendices/imgs/randy4.png>
+Package pdftex.def Info: appendices/imgs/randy4.png  used on input line 140.
+(pdftex.def)             Requested size: 384.1096pt x 495.84174pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<appendices/imgs/randy5.png, id=1464, 477.28313pt x 752.8125pt>
+File: appendices/imgs/randy5.png Graphic file (type png)
+<use appendices/imgs/randy5.png>
+Package pdftex.def Info: appendices/imgs/randy5.png  used on input line 147.
+(pdftex.def)             Requested size: 384.1096pt x 605.84624pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 ) (./appendices/appendix2.tex [83
 
-]
+ <./appendices/imgs/florian1.png>] [84 <./appendices/imgs/florian2.png>] [85 <./appendices/imgs/florian3.png>] [86 <./appendices/imgs/florian4.png>] [87 <./appendices/imgs/florian5.png>] [88 <./appendices/imgs/mary1.png>] [89 <./appendices/imgs/mary2.png>] [90 <./appendices/imgs/mary3.png>] [91 <./appendices/imgs/mary4.png>] [92 <./appendices/imgs/mary5.png>] [93 <./appendices/imgs/nathaniel1.png>] [94 <./appendices/imgs/nathaniel2.png>] [95 <./appendices/imgs/nathaniel3.png>] [96 <./appendices/imgs/nathaniel4.png>] [97 <./appendices/imgs/nathaniel5.png>] [98 <./appendices/imgs/randy1.png>] [99 <./appendices/imgs/randy2.png>] [100 <./appendices/imgs/randy3.png>] [101 <./appendices/imgs/randy4.png>] [102 <./appendices/imgs/randy5.png>]
 Dodatek B.
-<appendices/imgs/formA1.png, id=1409, 486.31688pt x 917.67844pt>
+<appendices/imgs/formA1.png, id=1549, 486.31688pt x 917.67844pt>
 File: appendices/imgs/formA1.png Graphic file (type png)
 <use appendices/imgs/formA1.png>
 Package pdftex.def Info: appendices/imgs/formA1.png  used on input line 37.
@@ -2092,7 +2249,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<appendices/imgs/formA2.png, id=1410, 478.78876pt x 895.09406pt>
+<appendices/imgs/formA2.png, id=1550, 478.78876pt x 895.09406pt>
 File: appendices/imgs/formA2.png Graphic file (type png)
 <use appendices/imgs/formA2.png>
 Package pdftex.def Info: appendices/imgs/formA2.png  used on input line 75.
@@ -2103,7 +2260,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<appendices/imgs/formB1.png, id=1411, 446.41782pt x 917.67844pt>
+<appendices/imgs/formB1.png, id=1551, 446.41782pt x 917.67844pt>
 File: appendices/imgs/formB1.png Graphic file (type png)
 <use appendices/imgs/formB1.png>
 Package pdftex.def Info: appendices/imgs/formB1.png  used on input line 113.
@@ -2114,7 +2271,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<appendices/imgs/formB2.png, id=1412, 450.9347pt x 959.08313pt>
+<appendices/imgs/formB2.png, id=1552, 450.9347pt x 959.08313pt>
 File: appendices/imgs/formB2.png Graphic file (type png)
 <use appendices/imgs/formB2.png>
 Package pdftex.def Info: appendices/imgs/formB2.png  used on input line 151.
@@ -2122,13 +2279,13 @@ Package pdftex.def Info: appendices/imgs/formB2.png  used on input line 151.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./appendices/appendix3.tex [84
+) (./appendices/appendix3.tex [103
 
 ]
 
-LaTeX Warning: Text page 85 contains only floats.
+LaTeX Warning: Text page 104 contains only floats.
 
-[85 <./appendices/imgs/formA1.png>] [86] [87 <./appendices/imgs/formA2.png>] [88] [89 <./appendices/imgs/formB1.png>] [90] [91 <./appendices/imgs/formB2.png>]
+[104 <./appendices/imgs/formA1.png>] [105] [106 <./appendices/imgs/formA2.png>] [107] [108 <./appendices/imgs/formB1.png>] [109] [110 <./appendices/imgs/formB2.png>]
 Dodatek C.
 > Step: init table outer spec.
 > Step: parse table options.
@@ -2233,7 +2390,7 @@ Underfull \hbox (badness 1331) in paragraph at lines 31--31
 \T1/qtm/m/n/12 (+20) scre-en and sho-uld
  []
 
-[92
+[111
 
 ]
 Underfull \hbox (badness 2818) in paragraph at lines 31--31
@@ -2285,12 +2442,12 @@ Underfull \hbox (badness 2591) in paragraph at lines 31--31
 \T1/qtm/m/n/12 (+20) tion wo-uld be gi-
  []
 
-[93]
+[112]
 Underfull \hbox (badness 2368) in paragraph at lines 31--31
 \T1/qtm/m/n/12 (+20) depth to fe-el li-ke
  []
 
-[94]
+[113]
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -2544,7 +2701,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--58
 \T1/qtm/m/n/12 (+20) get di-strac-ted by
  []
 
-[95]
+[114]
 Underfull \hbox (badness 5847) in paragraph at lines 58--58
 []\T1/qtm/m/n/12 (+20) It was ve-ry in-te-
  []
@@ -2654,12 +2811,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--58
 \T1/qtm/m/n/12 (+20) the se-cond one
  []
 
-[96]
+[115]
 Underfull \hbox (badness 5862) in paragraph at lines 58--58
 []\T1/qtm/m/n/12 (+20) it was in-te-re-sting
  []
 
-[97]
+[116]
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -3198,7 +3355,7 @@ Underfull \hbox (badness 1087) in paragraph at lines 91--91
 []\T1/qtm/m/n/12 (+20) looks li-ke this ga-
  []
 
-[98]
+[117]
 Underfull \hbox (badness 1448) in paragraph at lines 91--91
 []\T1/qtm/m/n/12 (+20) At first, the ga-me
  []
@@ -3273,7 +3430,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--91
 \T1/qtm/m/n/12 (+20) en-joy-able for me
  []
 
-[99]
+[118]
 Underfull \hbox (badness 1400) in paragraph at lines 91--91
 []\T1/qtm/m/n/12 (+20) surprise that NPC
  []
@@ -3313,7 +3470,7 @@ Underfull \hbox (badness 3158) in paragraph at lines 91--91
 \T1/qtm/m/n/12 (+20) cial, ne-ither go-od
  []
 
-[100]
+[119]
 Underfull \hbox (badness 7595) in paragraph at lines 91--91
 \T1/qtm/m/n/12 (+20) tions, so I don't
  []
@@ -3453,7 +3610,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--91
 \T1/qtm/m/n/12 (+20) co-nver-sa-tion, fe-el
  []
 
-[101]
+[120]
 Underfull \hbox (badness 4205) in paragraph at lines 91--91
 \T1/qtm/m/n/12 (+20) talk to them and
  []
@@ -3523,7 +3680,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--91
 \T1/qtm/m/n/12 (+20) and Sy-lvia) and
  []
 
-[102]
+[121]
 Underfull \hbox (badness 1320) in paragraph at lines 91--91
 \T1/qtm/m/n/12 (+20) ti-ve, po-li-te, and a
  []
@@ -3658,7 +3815,7 @@ Underfull \hbox (badness 1946) in paragraph at lines 91--91
 \T1/qtm/m/n/12 (+20) estion, and a li-ne
  []
 
-[103]
+[122]
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -4537,7 +4694,7 @@ Underfull \hbox (badness 1168) in paragraph at lines 124--124
 []\T1/qtm/m/n/12 (+20) It was hard to re-
  []
 
-[104]
+[123]
 Underfull \hbox (badness 2050) in paragraph at lines 124--124
 []\T1/qtm/m/n/12 (+20) Similar to nor-mal
  []
@@ -4612,7 +4769,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--124
 \T1/qtm/m/n/12 (+20) de-fi-ni-ti-ve-ness ->
  []
 
-[105]
+[124]
 Underfull \hbox (badness 1448) in paragraph at lines 124--124
 []\T1/qtm/m/n/12 (+20) got mo-re in-for-ma-
  []
@@ -4632,7 +4789,7 @@ Underfull \hbox (badness 5741) in paragraph at lines 124--124
 []\T1/qtm/m/n/12 (+20) Neither go-od nor
  []
 
-[106]
+[125]
 Underfull \hbox (badness 10000) in paragraph at lines 124--124
 []\T1/qtm/m/n/12 (+20) Interacting with
  []
@@ -5012,7 +5169,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--124
 \T1/qtm/m/n/12 (+20) user's ove-rall
  []
 
-[107]
+[126]
 Underfull \hbox (badness 7704) in paragraph at lines 124--124
 []\T1/qtm/m/n/12 (+20) I en-joy-ed tal-king
  []
@@ -5022,7 +5179,7 @@ Underfull \hbox (badness 6542) in paragraph at lines 124--124
 \T1/qtm/m/n/12 (+20) with them and I
  []
 
-[108]
+[127]
 Underfull \hbox (badness 10000) in paragraph at lines 124--124
 []\T1/qtm/m/n/12 (+20) It was easier
  []
@@ -5172,7 +5329,7 @@ Underfull \hbox (badness 2735) in paragraph at lines 124--124
 \T1/qtm/m/n/12 (+20) the sto-ry and the
  []
 
-[109]
+[128]
 Underfull \hbox (badness 7486) in paragraph at lines 124--124
 []\T1/qtm/m/n/12 (+20) NPCs ha-ve mo-re
  []
@@ -5330,7 +5487,7 @@ Underfull \hbox (badness 1087) in paragraph at lines 124--124
 )
 Overfull \vbox (61.51775pt too high) has occurred while \output is active []
 
- [110] (./thesis.bbl
+ [129] (./thesis.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
 []\T1/qtm/m/it/10.95 (+20) Dialogue whe-el (in-qu-isi-tion)\T1/qtm/m/n/10.95 (+20) , []$\T1/cmtt/m/n/10.95 https : / / dragonage\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 fandom\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 com / wiki /
  []
@@ -5338,7 +5495,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [111
+ [130
 
 ]
 Underfull \hbox (badness 7944) in paragraph at lines 58--59
@@ -5353,29 +5510,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [112]) [113] (./thesis.aux)
+ [131]) [132] (./thesis.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: CDC08810CFFAECCFCCAAE1CEC3AEAE06;9750.
+(rerunfilecheck)             Checksum: 6237AD150DE4D7A8FB22E3018B779C1F;9751.
 runsystem(del thesis.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 39174 strings out of 474221
- 748847 string characters out of 5750189
+ 39413 strings out of 474221
+ 755209 string characters out of 5750189
  1985978 words of memory out of 5000000
- 60107 multiletter control sequences out of 15000+600000
+ 60307 multiletter control sequences out of 15000+600000
  645341 words of font info for 237 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  123i,14n,121p,2395b,1184s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmbi.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on thesis.pdf (117 pages, 30756015 bytes).
+Output written on thesis.pdf (136 pages, 31797888 bytes).
 PDF statistics:
- 1733 PDF objects out of 2073 (max. 8388607)
- 1463 compressed objects within 15 object streams
- 325 named destinations out of 1000 (max. 500000)
- 45824 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1880 PDF objects out of 2073 (max. 8388607)
+ 1570 compressed objects within 16 object streams
+ 364 named destinations out of 1000 (max. 500000)
+ 45924 words of extra memory for PDF output out of 51595 (max. 10000000)
 
