@@ -3,24 +3,49 @@
 
 \chapter*{Wstęp}\label{chapter:introduction}
 
-TODO
+Narracja od zawsze stanowiła istotny element gier komputerowych, pozwalając graczom zanurzyć się w świecie
+stworzonym przez projektantów. W miarę rozwoju technologii, możliwości opowiadania historii w grach stale
+ewoluowały, poczynając od prostych tekstów, aż po złożone sekwencje filmowe i systemy dialogowe. Jednak tradycyjne
+metody generowania narracji posiadają pewne ograniczenia, takie jak liniowość czy konieczność ręcznego tworzenia
+każdego wątku fabularnego.
+
+Z drugiej strony, postępy w dziedzinie sztucznej inteligencji, a w szczególności duże modele językowe (\gls{llm}),
+oferują nowe możliwości w zakresie generowania dynamicznej, interaktywnej narracji w czasie rzeczywistym. Dzięki
+zdolności do przetwarzania i generowania tekstu na poziomie ludzkim, \gls{llm} mogą tworzyć spójne i angażujące dialogi,
+reagując na działania gracza i dostosowując fabułę do jego preferencji.
 
 \section*{Zakres pracy}
 
-TODO
+W ramach niniejszej pracy zdecydowano się wykorzystać gotowe rozwiązanie z platformy Inworld \gls{ai} do generowania
+dialogów z wykorzystaniem dużych modeli językowych. Ograniczono się do autorskiego prototypu gry zrobionego w
+bibliotece \textit{Ren'Py}, w którym rozgrywka powinna zająć maksymalnie 30 minut. W celu przeprowadzenia eksperymentu
+i porównania zaangażowania graczy przygotowano dwa formularze: A i B. W formularzu A uczestnicy najpierw grają
+w wersję bez wspomagania \gls{ai}, a następnie w wersję z \gls{ai}, natomiast w formularzu B kolejność jest odwrotna.
+Takie podejście pozwala na dokonanie porównania na ograniczonej liczbie uczestników.
 
 \section*{Cel pracy}
 
-Celem tej pracy jest zbadanie, w jaki sposób włączenie dużych modeli językowych (LLM) do gry typu „visual novel"
+Celem tej pracy jest zbadanie, w jaki sposób włączenie dużych modeli językowych (\gls{llm}) do gry typu „visual novel"
 może zwiększyć imersję narracyjną i zaangażowanie gracza. Główną tezą jest to, że interaktywne dialogi generowane
-przez LLM zapewnią bardziej spójną i dostosowaną do gracza narrację w porównaniu z wcześniej zdefiniowanymi
+przez \gls{llm} zapewnią bardziej spójną i dostosowaną do gracza narrację w porównaniu z wcześniej zdefiniowanymi
 dialogami, co przełoży się na większe zaangażowanie i satysfakcję z gry.
 
 \section*{Struktura pracy}
 
-Praca podzielona jest na cztery rozdziały, podsumowanie oraz wnioski. Pierwszy rozdział przedstawia kontekst i
-znaczenie narracji w grach wideo oraz omawia potencjalne korzyści wynikające z wykorzystania LLM. Drugi rozdział
-przegląda istniejące prace związane z generowaniem narracji i dialogów w grach. Trzeci rozdział opisuje szczegóły
-implementacji zaproponowanego systemu. W czwartym rozdziale przedstawione są wyniki badań z udziałem graczy oraz
-analiza skuteczności rozwiązania. Praca kończy się podsumowaniem, wnioskami oraz wskazaniem możliwych kierunków
-dalszych badań.
+Praca podzielona została na 7 rozdziałów. W podsumowaniu znaleźć można końcowe wnioski z analizy danych oraz
+potencjalne kroki do podjęcia w przyszłości w ramach tego obszaru.
+
+W rozdziale \ref{chapter:ch1} przedstawiona jest historia narracji w grach komputerowych, obejmująca definicję narracji, jej
+przedstawienie na przestrzeni lat oraz prześledzenie rozwoju na przykładzie serii "Final Fantasy". Rozdział \ref{chapter:ch2}
+opisuje różne rodzaje narracji występujące w grach, z podziałem na struktury narracyjne (liniowa, łańcuch pereł,
+rozgałęziająca się, park rozrywki, cegiełki) oraz sposoby przedstawiania narracji (cut scenki, tekst, dialogi
+z \gls{npc}, poprzez świat gry).
+
+Rozdział \ref{chapter:ch3} koncentruje się na systemach dialogowych, omawiając popularne ich współcześnie rodzaje a także
+przedstawiając system poleceń w interaktywnej fikcji. W rozdziale \ref{chapter:ch4} opisane zostały dotychczasowe sposoby
+generowania narracji z wykorzystaniem algorytmów sztucznej inteligencji oraz dużych modeli językowych.
+
+Rozdział \ref{chapter:ch5} dotyczy zaangażowania gracza, definiując różne rodzaje zaangażowania oraz sposoby jego pomiaru. Kluczowy
+rozdział \ref{chapter:ch6} przedstawia planowany eksperyment, w tym projekt gry, opis generatywnych agentów oraz zaplanowany
+przebieg eksperymentu. Następnie w rozdziale \ref{chapter:ch7} zaprezentowane są wyniki eksperymentu, w tym demografia uczestników
+oraz analiza danych. Na końcu znajdują się podsumowanie pracy, spisy, dodatki oraz bibliografia.
