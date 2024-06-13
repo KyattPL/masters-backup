@@ -1,7 +1,7 @@
 
 \setcounter {tocdepth}{-1}
-\contentsline {chapter}{Streszczenie }{}{chapter*.1}%
-\contentsline {chapter}{Abstract }{}{chapter*.2}%
+\contentsline {chapter}{Streszczenie }{2}{chapter*.1}%
+\contentsline {chapter}{Abstract }{2}{chapter*.2}%
 \setcounter {tocdepth}{2}
 \save@tocdepth \setcounter {tocdepth}{0}
 \contentsline {chapter}{Wstęp}{3}{chapter*.4}%
