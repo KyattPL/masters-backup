@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  12 JUN 2024 22:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.4)  13 JUN 2024 17:11
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1173,7 +1173,7 @@ Overfull \hbox (59.60358pt too wide) in paragraph at lines 54--54
 {c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}] [2
 
 ] (./abstract/abstract.tex
-Package hyperref Info: Option `pageanchor' set `true' on input line 11.
+Package hyperref Info: Option `pageanchor' set `true' on input line 23.
  [3
 
 
@@ -1183,7 +1183,7 @@ Package hyperref Info: Option `pageanchor' set `true' on input line 11.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.11 }
+l.23 }
        [4
 
 ]) (./thesis.toc [1
@@ -1194,41 +1194,41 @@ l.11 }
 \tf@toc=\write7
 \openout7 = `thesis.toc'.
 
- (./introduction/introduction.tex [2]) [3
+ (./introduction/introduction.tex [2]) (./chapters/chapter1/chapter1.tex [3
 
-] (./chapters/chapter1/chapter1.tex [4]
+]
 Rozdzia\PlPrIeC {\l } 1.
-[5
+[4
 
 ]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6]
+[5]
 
-LaTeX Warning: Text page 7 contains only floats.
+LaTeX Warning: Text page 6 contains only floats.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7]
-<chapters/chapter1/imgs/ch1_2_spacewar.jpg, id=344, 1027.84pt x 770.88pt>
+ [6]
+<chapters/chapter1/imgs/ch1_2_spacewar.jpg, id=330, 1027.84pt x 770.88pt>
 File: chapters/chapter1/imgs/ch1_2_spacewar.jpg Graphic file (type jpg)
 <use chapters/chapter1/imgs/ch1_2_spacewar.jpg>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_spacewar.jpg  used on input line 112.
 (pdftex.def)             Requested size: 213.39568pt x 160.04283pt.
-<chapters/chapter1/imgs/ch1_2_pong.jpg, id=346, 963.6pt x 542.025pt>
+<chapters/chapter1/imgs/ch1_2_pong.jpg, id=332, 963.6pt x 542.025pt>
 File: chapters/chapter1/imgs/ch1_2_pong.jpg Graphic file (type jpg)
 <use chapters/chapter1/imgs/ch1_2_pong.jpg>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_pong.jpg  used on input line 124.
 (pdftex.def)             Requested size: 213.39568pt x 120.03157pt.
- [8 <./chapters/chapter1/imgs/ch1_2_spacewar.jpg> <./chapters/chapter1/imgs/ch1_2_pong.jpg>]
-<chapters/chapter1/imgs/ch1_2_breakout.jpg, id=356, 263.98625pt x 380.42125pt>
+ [7 <./chapters/chapter1/imgs/ch1_2_spacewar.jpg> <./chapters/chapter1/imgs/ch1_2_pong.jpg>]
+<chapters/chapter1/imgs/ch1_2_breakout.jpg, id=342, 263.98625pt x 380.42125pt>
 File: chapters/chapter1/imgs/ch1_2_breakout.jpg Graphic file (type jpg)
 <use chapters/chapter1/imgs/ch1_2_breakout.jpg>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_breakout.jpg  used on input line 141.
 (pdftex.def)             Requested size: 213.39568pt x 307.51259pt.
-<chapters/chapter1/imgs/ch1_2_space_invaders.jpg, id=359, 1284.8pt x 722.7pt>
+<chapters/chapter1/imgs/ch1_2_space_invaders.jpg, id=345, 1284.8pt x 722.7pt>
 File: chapters/chapter1/imgs/ch1_2_space_invaders.jpg Graphic file (type jpg)
 <use chapters/chapter1/imgs/ch1_2_space_invaders.jpg>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_space_invaders.jpg  used on input line 157.
@@ -1237,8 +1237,8 @@ Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_space_invaders.jpg  used o
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9 <./chapters/chapter1/imgs/ch1_2_breakout.jpg>]
-<chapters/chapter1/imgs/ch1_2_mario_1.jpg, id=371, 1457.445pt x 1084.05pt>
+[8 <./chapters/chapter1/imgs/ch1_2_breakout.jpg>]
+<chapters/chapter1/imgs/ch1_2_mario_1.jpg, id=356, 1457.445pt x 1084.05pt>
 File: chapters/chapter1/imgs/ch1_2_mario_1.jpg Graphic file (type jpg)
 <use chapters/chapter1/imgs/ch1_2_mario_1.jpg>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_mario_1.jpg  used on input line 181.
@@ -1248,7 +1248,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 181--183
 [][]
  []
 
-<chapters/chapter1/imgs/ch1_2_mario_2.png, id=372, 821.31844pt x 415.5525pt>
+<chapters/chapter1/imgs/ch1_2_mario_2.png, id=357, 821.31844pt x 415.5525pt>
 File: chapters/chapter1/imgs/ch1_2_mario_2.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_2_mario_2.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_mario_2.png  used on input line 186.
@@ -1258,13 +1258,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 186--188
 [][]
  []
 
-[10 <./chapters/chapter1/imgs/ch1_2_space_invaders.jpg> <./chapters/chapter1/imgs/ch1_2_mario_1.jpg> <./chapters/chapter1/imgs/ch1_2_mario_2.png>]
-<chapters/chapter1/imgs/ch1_2_zelda_1.png, id=383, 256.96pt x 240.9pt>
+[9 <./chapters/chapter1/imgs/ch1_2_space_invaders.jpg> <./chapters/chapter1/imgs/ch1_2_mario_1.jpg> <./chapters/chapter1/imgs/ch1_2_mario_2.png>]
+<chapters/chapter1/imgs/ch1_2_zelda_1.png, id=369, 256.96pt x 240.9pt>
 File: chapters/chapter1/imgs/ch1_2_zelda_1.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_2_zelda_1.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_zelda_1.png  used on input line 207.
 (pdftex.def)             Requested size: 209.13235pt x 170.72038pt.
-<chapters/chapter1/imgs/ch1_2_zelda_2.png, id=384, 638.385pt x 493.845pt>
+<chapters/chapter1/imgs/ch1_2_zelda_2.png, id=370, 638.385pt x 493.845pt>
 File: chapters/chapter1/imgs/ch1_2_zelda_2.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_2_zelda_2.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_zelda_2.png  used on input line 212.
@@ -1279,7 +1279,7 @@ Overfull \hbox (1.1263pt too wide) in paragraph at lines 223--236
 []\T1/qtm/m/n/12 (-20) Pierwszym ty-tu-ªem opi-sa-nym w tej pod-sek-cji, któ-ry ope-ru-je na per-spek-ty-wie 3-osobowej
  []
 
-<chapters/chapter1/imgs/ch1_2_crash_1.png, id=387, 736.25063pt x 557.08125pt>
+<chapters/chapter1/imgs/ch1_2_crash_1.png, id=373, 736.25063pt x 557.08125pt>
 File: chapters/chapter1/imgs/ch1_2_crash_1.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_2_crash_1.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_crash_1.png  used on input line 240.
@@ -1289,7 +1289,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 240--242
 [][]
  []
 
-<chapters/chapter1/imgs/ch1_2_crash_2.png, id=388, 749.04843pt x 508.14844pt>
+<chapters/chapter1/imgs/ch1_2_crash_2.png, id=374, 749.04843pt x 508.14844pt>
 File: chapters/chapter1/imgs/ch1_2_crash_2.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_2_crash_2.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_crash_2.png  used on input line 245.
@@ -1302,8 +1302,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 245--247
 
 Underfull \vbox (badness 2980) has occurred while \output is active []
 
- [11 <./chapters/chapter1/imgs/ch1_2_zelda_1.png> <./chapters/chapter1/imgs/ch1_2_zelda_2.png>]
-<chapters/chapter1/imgs/ch1_2_hl_1.png, id=398, 895.84688pt x 472.01344pt>
+ [10 <./chapters/chapter1/imgs/ch1_2_zelda_1.png> <./chapters/chapter1/imgs/ch1_2_zelda_2.png>]
+<chapters/chapter1/imgs/ch1_2_hl_1.png, id=384, 895.84688pt x 472.01344pt>
 File: chapters/chapter1/imgs/ch1_2_hl_1.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_2_hl_1.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_hl_1.png  used on input line 267.
@@ -1313,7 +1313,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 267--269
 [][]
  []
 
-<chapters/chapter1/imgs/ch1_2_hl_2.png, id=399, 210.03468pt x 196.48407pt>
+<chapters/chapter1/imgs/ch1_2_hl_2.png, id=385, 210.03468pt x 196.48407pt>
 File: chapters/chapter1/imgs/ch1_2_hl_2.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_2_hl_2.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_hl_2.png  used on input line 272.
@@ -1321,8 +1321,8 @@ Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_hl_2.png  used on input li
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[12 <./chapters/chapter1/imgs/ch1_2_crash_1.png> <./chapters/chapter1/imgs/ch1_2_crash_2.png>]
-<chapters/chapter1/imgs/ch1_2_lis_1.png, id=409, 1405.25pt x 790.955pt>
+[11 <./chapters/chapter1/imgs/ch1_2_crash_1.png> <./chapters/chapter1/imgs/ch1_2_crash_2.png>]
+<chapters/chapter1/imgs/ch1_2_lis_1.png, id=395, 1405.25pt x 790.955pt>
 File: chapters/chapter1/imgs/ch1_2_lis_1.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_2_lis_1.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_lis_1.png  used on input line 300.
@@ -1332,7 +1332,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 300--302
 [][]
  []
 
-<chapters/chapter1/imgs/ch1_2_lis_2.png, id=410, 642.4pt x 361.35pt>
+<chapters/chapter1/imgs/ch1_2_lis_2.png, id=396, 642.4pt x 361.35pt>
 File: chapters/chapter1/imgs/ch1_2_lis_2.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_2_lis_2.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_lis_2.png  used on input line 305.
@@ -1340,13 +1340,13 @@ Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_lis_2.png  used on input l
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13 <./chapters/chapter1/imgs/ch1_2_hl_1.png> <./chapters/chapter1/imgs/ch1_2_hl_2.png>]
-<chapters/chapter1/imgs/ch1_2_witcher_1.png, id=418, 968.86969pt x 696.35156pt>
+[12 <./chapters/chapter1/imgs/ch1_2_hl_1.png> <./chapters/chapter1/imgs/ch1_2_hl_2.png>]
+<chapters/chapter1/imgs/ch1_2_witcher_1.png, id=404, 968.86969pt x 696.35156pt>
 File: chapters/chapter1/imgs/ch1_2_witcher_1.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_2_witcher_1.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_witcher_1.png  used on input line 327.
 (pdftex.def)             Requested size: 209.13081pt x 170.70856pt.
-<chapters/chapter1/imgs/ch1_2_witcher_2.png, id=419, 3854.4pt x 2168.1pt>
+<chapters/chapter1/imgs/ch1_2_witcher_2.png, id=405, 3854.4pt x 2168.1pt>
 File: chapters/chapter1/imgs/ch1_2_witcher_2.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_2_witcher_2.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_2_witcher_2.png  used on input line 332.
@@ -1359,8 +1359,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 332--334
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14 <./chapters/chapter1/imgs/ch1_2_lis_1.png> <./chapters/chapter1/imgs/ch1_2_lis_2.png>]
-<chapters/chapter1/imgs/ch1_3_ff1_1.png, id=435, 588.69937pt x 548.0475pt>
+[13 <./chapters/chapter1/imgs/ch1_2_lis_1.png> <./chapters/chapter1/imgs/ch1_2_lis_2.png>]
+<chapters/chapter1/imgs/ch1_3_ff1_1.png, id=421, 588.69937pt x 548.0475pt>
 File: chapters/chapter1/imgs/ch1_3_ff1_1.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_3_ff1_1.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_3_ff1_1.png  used on input line 380.
@@ -1370,7 +1370,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 380--382
 [][]
  []
 
-<chapters/chapter1/imgs/ch1_3_ff1_2.png, id=436, 581.92406pt x 536.75531pt>
+<chapters/chapter1/imgs/ch1_3_ff1_2.png, id=422, 581.92406pt x 536.75531pt>
 File: chapters/chapter1/imgs/ch1_3_ff1_2.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_3_ff1_2.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_3_ff1_2.png  used on input line 385.
@@ -1383,8 +1383,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 385--387
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15 <./chapters/chapter1/imgs/ch1_2_witcher_1.png> <./chapters/chapter1/imgs/ch1_2_witcher_2.png>]
-<chapters/chapter1/imgs/ch1_3_ff7_1.png, id=451, 755.07094pt x 433.62pt>
+[14 <./chapters/chapter1/imgs/ch1_2_witcher_1.png> <./chapters/chapter1/imgs/ch1_2_witcher_2.png>]
+<chapters/chapter1/imgs/ch1_3_ff7_1.png, id=436, 755.07094pt x 433.62pt>
 File: chapters/chapter1/imgs/ch1_3_ff7_1.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_3_ff7_1.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_3_ff7_1.png  used on input line 425.
@@ -1394,7 +1394,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 425--427
 [][]
  []
 
-<chapters/chapter1/imgs/ch1_3_ff7_2.png, id=452, 724.95844pt x 474.27188pt>
+<chapters/chapter1/imgs/ch1_3_ff7_2.png, id=437, 724.95844pt x 474.27188pt>
 File: chapters/chapter1/imgs/ch1_3_ff7_2.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_3_ff7_2.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_3_ff7_2.png  used on input line 430.
@@ -1407,19 +1407,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 430--432
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[16 <./chapters/chapter1/imgs/ch1_3_ff1_1.png> <./chapters/chapter1/imgs/ch1_3_ff1_2.png>]
-<chapters/chapter1/imgs/ch1_3_ff10_1.png, id=460, 767.86874pt x 532.23843pt>
+[15 <./chapters/chapter1/imgs/ch1_3_ff1_1.png> <./chapters/chapter1/imgs/ch1_3_ff1_2.png>]
+<chapters/chapter1/imgs/ch1_3_ff10_1.png, id=446, 767.86874pt x 532.23843pt>
 File: chapters/chapter1/imgs/ch1_3_ff10_1.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_3_ff10_1.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_3_ff10_1.png  used on input line 450.
 (pdftex.def)             Requested size: 209.1317pt x 170.7096pt.
-<chapters/chapter1/imgs/ch1_3_ff10_2.png, id=461, 538.26094pt x 428.35031pt>
+<chapters/chapter1/imgs/ch1_3_ff10_2.png, id=447, 538.26094pt x 428.35031pt>
 File: chapters/chapter1/imgs/ch1_3_ff10_2.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_3_ff10_2.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_3_ff10_2.png  used on input line 455.
 (pdftex.def)             Requested size: 209.13245pt x 170.71616pt.
- [17 <./chapters/chapter1/imgs/ch1_3_ff7_1.png> <./chapters/chapter1/imgs/ch1_3_ff7_2.png> <./chapters/chapter1/imgs/ch1_3_ff10_1.png> <./chapters/chapter1/imgs/ch1_3_ff10_2.png>]
-<chapters/chapter1/imgs/ch1_3_ff13_1.png, id=470, 572.1375pt x 454.69875pt>
+ [16 <./chapters/chapter1/imgs/ch1_3_ff7_1.png> <./chapters/chapter1/imgs/ch1_3_ff7_2.png> <./chapters/chapter1/imgs/ch1_3_ff10_1.png> <./chapters/chapter1/imgs/ch1_3_ff10_2.png>]
+<chapters/chapter1/imgs/ch1_3_ff13_1.png, id=455, 572.1375pt x 454.69875pt>
 File: chapters/chapter1/imgs/ch1_3_ff13_1.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_3_ff13_1.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_3_ff13_1.png  used on input line 474.
@@ -1429,7 +1429,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 474--476
 [][]
  []
 
-<chapters/chapter1/imgs/ch1_3_ff13_2.png, id=471, 1492.0258pt x 839.26451pt>
+<chapters/chapter1/imgs/ch1_3_ff13_2.png, id=456, 1492.0258pt x 839.26451pt>
 File: chapters/chapter1/imgs/ch1_3_ff13_2.png Graphic file (type png)
 <use chapters/chapter1/imgs/ch1_3_ff13_2.png>
 Package pdftex.def Info: chapters/chapter1/imgs/ch1_3_ff13_2.png  used on input line 479.
@@ -1439,49 +1439,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 479--481
 [][]
  []
 
-) (./chapters/chapter2/chapter2.tex [18 <./chapters/chapter1/imgs/ch1_3_ff13_1.png> <./chapters/chapter1/imgs/ch1_3_ff13_2.png>]
+) (./chapters/chapter2/chapter2.tex [17 <./chapters/chapter1/imgs/ch1_3_ff13_1.png> <./chapters/chapter1/imgs/ch1_3_ff13_2.png>]
 Rozdzia\PlPrIeC {\l } 2.
-<chapters/chapter2/imgs/ch2_1_linear.png, id=486, 447.92343pt x 91.09032pt>
+<chapters/chapter2/imgs/ch2_1_linear.png, id=471, 447.92343pt x 91.09032pt>
 File: chapters/chapter2/imgs/ch2_1_linear.png Graphic file (type png)
 <use chapters/chapter2/imgs/ch2_1_linear.png>
 Package pdftex.def Info: chapters/chapter2/imgs/ch2_1_linear.png  used on input line 32.
 (pdftex.def)             Requested size: 426.79135pt x 86.7952pt.
-[19
+[18
 
  <./chapters/chapter2/imgs/ch2_1_linear.png>]
-<chapters/chapter2/imgs/ch2_1_pearls.png, id=497, 1068.24094pt x 578.16pt>
+<chapters/chapter2/imgs/ch2_1_pearls.png, id=483, 1068.24094pt x 578.16pt>
 File: chapters/chapter2/imgs/ch2_1_pearls.png Graphic file (type png)
 <use chapters/chapter2/imgs/ch2_1_pearls.png>
 Package pdftex.def Info: chapters/chapter2/imgs/ch2_1_pearls.png  used on input line 51.
 (pdftex.def)             Requested size: 426.79135pt x 230.98642pt.
-<chapters/chapter2/imgs/ch2_1_branching.png, id=502, 806.26219pt x 643.6547pt>
+<chapters/chapter2/imgs/ch2_1_branching.png, id=488, 806.26219pt x 643.6547pt>
 File: chapters/chapter2/imgs/ch2_1_branching.png Graphic file (type png)
 <use chapters/chapter2/imgs/ch2_1_branching.png>
 Package pdftex.def Info: chapters/chapter2/imgs/ch2_1_branching.png  used on input line 72.
 (pdftex.def)             Requested size: 426.79135pt x 340.71304pt.
- [20 <./chapters/chapter2/imgs/ch2_1_pearls.png>] [21 <./chapters/chapter2/imgs/ch2_1_branching.png>] [22]
-<chapters/chapter2/imgs/ch2_2_cutscene.jpg, id=527, 1430.34375pt x 819.06pt>
+ [19 <./chapters/chapter2/imgs/ch2_1_pearls.png>] [20 <./chapters/chapter2/imgs/ch2_1_branching.png>] [21]
+<chapters/chapter2/imgs/ch2_2_cutscene.jpg, id=513, 1430.34375pt x 819.06pt>
 File: chapters/chapter2/imgs/ch2_2_cutscene.jpg Graphic file (type jpg)
 <use chapters/chapter2/imgs/ch2_2_cutscene.jpg>
 Package pdftex.def Info: chapters/chapter2/imgs/ch2_2_cutscene.jpg  used on input line 135.
 (pdftex.def)             Requested size: 209.12964pt x 170.7079pt.
-<chapters/chapter2/imgs/ch2_2_cutscene2.jpg, id=528, 1284.8pt x 722.7pt>
+<chapters/chapter2/imgs/ch2_2_cutscene2.jpg, id=514, 1284.8pt x 722.7pt>
 File: chapters/chapter2/imgs/ch2_2_cutscene2.jpg Graphic file (type jpg)
 <use chapters/chapter2/imgs/ch2_2_cutscene2.jpg>
 Package pdftex.def Info: chapters/chapter2/imgs/ch2_2_cutscene2.jpg  used on input line 140.
 (pdftex.def)             Requested size: 209.1206pt x 170.71672pt.
- [23 <./chapters/chapter2/imgs/ch2_2_cutscene.jpg> <./chapters/chapter2/imgs/ch2_2_cutscene2.jpg>]
-<chapters/chapter2/imgs/ch2_ff1.png, id=536, 588.69937pt x 548.0475pt>
+ [22 <./chapters/chapter2/imgs/ch2_2_cutscene.jpg> <./chapters/chapter2/imgs/ch2_2_cutscene2.jpg>]
+<chapters/chapter2/imgs/ch2_ff1.png, id=522, 588.69937pt x 548.0475pt>
 File: chapters/chapter2/imgs/ch2_ff1.png Graphic file (type png)
 <use chapters/chapter2/imgs/ch2_ff1.png>
 Package pdftex.def Info: chapters/chapter2/imgs/ch2_ff1.png  used on input line 161.
 (pdftex.def)             Requested size: 209.12897pt x 170.72086pt.
-<chapters/chapter2/imgs/ch2_ff13.png, id=537, 1492.0258pt x 839.26451pt>
+<chapters/chapter2/imgs/ch2_ff13.png, id=523, 1492.0258pt x 839.26451pt>
 File: chapters/chapter2/imgs/ch2_ff13.png Graphic file (type png)
 <use chapters/chapter2/imgs/ch2_ff13.png>
 Package pdftex.def Info: chapters/chapter2/imgs/ch2_ff13.png  used on input line 166.
 (pdftex.def)             Requested size: 209.10985pt x 170.71849pt.
-<chapters/chapter2/imgs/ch2_witcher_2.png, id=540, 3854.4pt x 2168.1pt>
+<chapters/chapter2/imgs/ch2_witcher_2.png, id=526, 3854.4pt x 2168.1pt>
 File: chapters/chapter2/imgs/ch2_witcher_2.png Graphic file (type png)
 <use chapters/chapter2/imgs/ch2_witcher_2.png>
 Package pdftex.def Info: chapters/chapter2/imgs/ch2_witcher_2.png  used on input line 189.
@@ -1493,9 +1493,9 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ) (./chapters/chapter3/chapter3.tex
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
- [24 <./chapters/chapter2/imgs/ch2_ff1.png> <./chapters/chapter2/imgs/ch2_ff13.png>] [25 <./chapters/chapter2/imgs/ch2_witcher_2.png>]
+ [23 <./chapters/chapter2/imgs/ch2_ff1.png> <./chapters/chapter2/imgs/ch2_ff13.png>] [24 <./chapters/chapter2/imgs/ch2_witcher_2.png>]
 Rozdzia\PlPrIeC {\l } 3.
-<chapters/chapter3/imgs/ch3_1_box.png, id=555, 513.92pt x 289.08pt>
+<chapters/chapter3/imgs/ch3_1_box.png, id=541, 513.92pt x 289.08pt>
 File: chapters/chapter3/imgs/ch3_1_box.png Graphic file (type png)
 <use chapters/chapter3/imgs/ch3_1_box.png>
 Package pdftex.def Info: chapters/chapter3/imgs/ch3_1_box.png  used on input line 38.
@@ -1503,100 +1503,97 @@ Package pdftex.def Info: chapters/chapter3/imgs/ch3_1_box.png  used on input lin
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[26
+[25
 
 ]
-<chapters/chapter3/imgs/ch3_1_lis.png, id=562, 642.4pt x 361.35pt>
+<chapters/chapter3/imgs/ch3_1_lis.png, id=548, 642.4pt x 361.35pt>
 File: chapters/chapter3/imgs/ch3_1_lis.png Graphic file (type png)
 <use chapters/chapter3/imgs/ch3_1_lis.png>
 Package pdftex.def Info: chapters/chapter3/imgs/ch3_1_lis.png  used on input line 57.
 (pdftex.def)             Requested size: 384.1096pt x 216.06732pt.
- [27 <./chapters/chapter3/imgs/ch3_1_box.png (PNG copy)> <./chapters/chapter3/imgs/ch3_1_lis.png>]
-<chapters/chapter3/imgs/ch3_1_precision.png, id=570, 534.49687pt x 253.69781pt>
+ [26 <./chapters/chapter3/imgs/ch3_1_box.png (PNG copy)> <./chapters/chapter3/imgs/ch3_1_lis.png>]
+<chapters/chapter3/imgs/ch3_1_precision.png, id=555, 534.49687pt x 253.69781pt>
 File: chapters/chapter3/imgs/ch3_1_precision.png Graphic file (type png)
 <use chapters/chapter3/imgs/ch3_1_precision.png>
 Package pdftex.def Info: chapters/chapter3/imgs/ch3_1_precision.png  used on input line 75.
 (pdftex.def)             Requested size: 426.79135pt x 202.58302pt.
- [28 <./chapters/chapter3/imgs/ch3_1_precision.png>]
-<chapters/chapter3/imgs/ch3_1_emotions.png, id=580, 635.37375pt x 435.87843pt>
+ [27 <./chapters/chapter3/imgs/ch3_1_precision.png>]
+<chapters/chapter3/imgs/ch3_1_emotions.png, id=566, 635.37375pt x 435.87843pt>
 File: chapters/chapter3/imgs/ch3_1_emotions.png Graphic file (type png)
 <use chapters/chapter3/imgs/ch3_1_emotions.png>
 Package pdftex.def Info: chapters/chapter3/imgs/ch3_1_emotions.png  used on input line 92.
 (pdftex.def)             Requested size: 341.43437pt x 234.24017pt.
-<chapters/chapter3/imgs/ch3_1_emotions2.png, id=584, 472.76625pt x 212.29312pt>
+<chapters/chapter3/imgs/ch3_1_emotions2.png, id=570, 472.76625pt x 212.29312pt>
 File: chapters/chapter3/imgs/ch3_1_emotions2.png Graphic file (type png)
 <use chapters/chapter3/imgs/ch3_1_emotions2.png>
 Package pdftex.def Info: chapters/chapter3/imgs/ch3_1_emotions2.png  used on input line 101.
 (pdftex.def)             Requested size: 426.79135pt x 191.6516pt.
- [29 <./chapters/chapter3/imgs/ch3_1_emotions.png> <./chapters/chapter3/imgs/ch3_1_emotions2.png>]
-<chapters/chapter3/imgs/ch3_1_stats.png, id=595, 598.48593pt x 448.67625pt>
+ [28 <./chapters/chapter3/imgs/ch3_1_emotions.png> <./chapters/chapter3/imgs/ch3_1_emotions2.png>]
+<chapters/chapter3/imgs/ch3_1_stats.png, id=580, 598.48593pt x 448.67625pt>
 File: chapters/chapter3/imgs/ch3_1_stats.png Graphic file (type png)
 <use chapters/chapter3/imgs/ch3_1_stats.png>
 Package pdftex.def Info: chapters/chapter3/imgs/ch3_1_stats.png  used on input line 117.
 (pdftex.def)             Requested size: 426.79135pt x 319.96585pt.
- [30 <./chapters/chapter3/imgs/ch3_1_stats.png>]
-<chapters/chapter3/imgs/ch3_1witcher.png, id=605, 3854.4pt x 2168.1pt>
+ [29 <./chapters/chapter3/imgs/ch3_1_stats.png>]
+<chapters/chapter3/imgs/ch3_1witcher.png, id=591, 3854.4pt x 2168.1pt>
 File: chapters/chapter3/imgs/ch3_1witcher.png Graphic file (type png)
 <use chapters/chapter3/imgs/ch3_1witcher.png>
 Package pdftex.def Info: chapters/chapter3/imgs/ch3_1witcher.png  used on input line 135.
 (pdftex.def)             Requested size: 426.79135pt x 240.04662pt.
- [31 <./chapters/chapter3/imgs/ch3_1witcher.png>]
-<chapters/chapter3/imgs/ch3_2_generic.png, id=620, 1102.1175pt x 520.94624pt>
+ [30 <./chapters/chapter3/imgs/ch3_1witcher.png>]
+<chapters/chapter3/imgs/ch3_2_generic.png, id=606, 1102.1175pt x 520.94624pt>
 File: chapters/chapter3/imgs/ch3_2_generic.png Graphic file (type png)
 <use chapters/chapter3/imgs/ch3_2_generic.png>
 Package pdftex.def Info: chapters/chapter3/imgs/ch3_2_generic.png  used on input line 162.
 (pdftex.def)             Requested size: 426.79135pt x 201.7374pt.
-<chapters/chapter3/imgs/ch3_2_dialogue.png, id=626, 1120.185pt x 530.98375pt>
+<chapters/chapter3/imgs/ch3_2_dialogue.png, id=612, 1120.185pt x 530.98375pt>
 File: chapters/chapter3/imgs/ch3_2_dialogue.png Graphic file (type png)
 <use chapters/chapter3/imgs/ch3_2_dialogue.png>
 Package pdftex.def Info: chapters/chapter3/imgs/ch3_2_dialogue.png  used on input line 175.
 (pdftex.def)             Requested size: 426.79135pt x 202.30255pt.
- [32 <./chapters/chapter3/imgs/ch3_2_generic.png> <./chapters/chapter3/imgs/ch3_2_dialogue.png>]
-<chapters/chapter3/imgs/ch3_2_commands.png, id=636, 1118.1775pt x 496.85625pt>
+ [31 <./chapters/chapter3/imgs/ch3_2_generic.png> <./chapters/chapter3/imgs/ch3_2_dialogue.png>]
+<chapters/chapter3/imgs/ch3_2_commands.png, id=622, 1118.1775pt x 496.85625pt>
 File: chapters/chapter3/imgs/ch3_2_commands.png Graphic file (type png)
 <use chapters/chapter3/imgs/ch3_2_commands.png>
 Package pdftex.def Info: chapters/chapter3/imgs/ch3_2_commands.png  used on input line 187.
 (pdftex.def)             Requested size: 426.79135pt x 189.64128pt.
-<chapters/chapter3/imgs/ch3_2_tutorial.png, id=638, 884.30376pt x 369.38pt>
+<chapters/chapter3/imgs/ch3_2_tutorial.png, id=624, 884.30376pt x 369.38pt>
 File: chapters/chapter3/imgs/ch3_2_tutorial.png Graphic file (type png)
 <use chapters/chapter3/imgs/ch3_2_tutorial.png>
 Package pdftex.def Info: chapters/chapter3/imgs/ch3_2_tutorial.png  used on input line 199.
 (pdftex.def)             Requested size: 426.79135pt x 178.27545pt.
-) (./chapters/chapter4/chapter4.tex [33 <./chapters/chapter3/imgs/ch3_2_commands.png> <./chapters/chapter3/imgs/ch3_2_tutorial.png>]
+) (./chapters/chapter4/chapter4.tex [32 <./chapters/chapter3/imgs/ch3_2_commands.png> <./chapters/chapter3/imgs/ch3_2_tutorial.png>]
 Rozdzia\PlPrIeC {\l } 4.
-[34
+[33
 
 ]
-<chapters/chapter4/imgs/ch4_1_pop.png, id=670, 389.20406pt x 447.17062pt>
+<chapters/chapter4/imgs/ch4_1_pop.png, id=656, 389.20406pt x 447.17062pt>
 File: chapters/chapter4/imgs/ch4_1_pop.png Graphic file (type png)
 <use chapters/chapter4/imgs/ch4_1_pop.png>
 Package pdftex.def Info: chapters/chapter4/imgs/ch4_1_pop.png  used on input line 40.
 (pdftex.def)             Requested size: 213.39568pt x 245.18721pt.
- [35 <./chapters/chapter4/imgs/ch4_1_pop.png>] [36]
-<chapters/chapter4/imgs/ch4_1_mdp.png, id=705, 993.7125pt x 623.32875pt>
+ [34 <./chapters/chapter4/imgs/ch4_1_pop.png>] [35]
+<chapters/chapter4/imgs/ch4_1_mdp.png, id=691, 993.7125pt x 623.32875pt>
 File: chapters/chapter4/imgs/ch4_1_mdp.png Graphic file (type png)
 <use chapters/chapter4/imgs/ch4_1_mdp.png>
 Package pdftex.def Info: chapters/chapter4/imgs/ch4_1_mdp.png  used on input line 124.
 (pdftex.def)             Requested size: 341.43437pt x 214.17361pt.
- [37 <./chapters/chapter4/imgs/ch4_1_mdp.png>] [38] [39] [40]) (./chapters/chapter5/chapter5.tex
+ [36 <./chapters/chapter4/imgs/ch4_1_mdp.png>] [37] [38] [39]) (./chapters/chapter5/chapter5.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41] [42]
+ [40] [41]
 Rozdzia\PlPrIeC {\l } 5.
 
 Underfull \vbox (badness 2012) has occurred while \output is active []
 
- [43
+ [42
 
-] [44] [45] [46]) (./chapters/chapter6/chapter6.tex [47]
+] [43] [44] [45]) (./chapters/chapter6/chapter6.tex [46]
 Rozdzia\PlPrIeC {\l } 6.
-
-Underfull \vbox (badness 7944) has occurred while \output is active []
-
- [48
+[47
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 49.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 51.
  (c:/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
@@ -1604,59 +1601,65 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<chapters/chapter6/imgs/ch6_1_menu.png, id=879, 1285.80376pt x 724.7075pt>
+<chapters/chapter6/imgs/ch6_1_menu.png, id=870, 1285.80376pt x 724.7075pt>
 File: chapters/chapter6/imgs/ch6_1_menu.png Graphic file (type png)
 <use chapters/chapter6/imgs/ch6_1_menu.png>
-Package pdftex.def Info: chapters/chapter6/imgs/ch6_1_menu.png  used on input line 62.
+Package pdftex.def Info: chapters/chapter6/imgs/ch6_1_menu.png  used on input line 64.
 (pdftex.def)             Requested size: 384.1096pt x 216.48505pt.
- [49{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./chapters/chapter6/imgs/ch6_1_menu.png>]
-<chapters/chapter6/imgs/ch6_1_intro.png, id=890, 1285.80376pt x 724.7075pt>
+ [48{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./chapters/chapter6/imgs/ch6_1_menu.png>]
+<chapters/chapter6/imgs/ch6_1_intro.png, id=881, 1285.80376pt x 724.7075pt>
 File: chapters/chapter6/imgs/ch6_1_intro.png Graphic file (type png)
 <use chapters/chapter6/imgs/ch6_1_intro.png>
-Package pdftex.def Info: chapters/chapter6/imgs/ch6_1_intro.png  used on input line 75.
+Package pdftex.def Info: chapters/chapter6/imgs/ch6_1_intro.png  used on input line 77.
 (pdftex.def)             Requested size: 384.1096pt x 216.48505pt.
-<chapters/chapter6/imgs/ch6_1_dialogue.png, id=893, 1285.80376pt x 724.7075pt>
+<chapters/chapter6/imgs/ch6_1_dialogue.png, id=884, 1285.80376pt x 724.7075pt>
 File: chapters/chapter6/imgs/ch6_1_dialogue.png Graphic file (type png)
 <use chapters/chapter6/imgs/ch6_1_dialogue.png>
-Package pdftex.def Info: chapters/chapter6/imgs/ch6_1_dialogue.png  used on input line 84.
+Package pdftex.def Info: chapters/chapter6/imgs/ch6_1_dialogue.png  used on input line 86.
 (pdftex.def)             Requested size: 384.1096pt x 216.48505pt.
 
 Underfull \vbox (badness 3803) has occurred while \output is active []
 
- [50 <./chapters/chapter6/imgs/ch6_1_intro.png> <./chapters/chapter6/imgs/ch6_1_dialogue.png>] [51] [52] [53] [54]
-<chapters/chapter6/imgs/ch6_2_common_knowledge.png, id=949, 622.57594pt x 656.4525pt>
+ [49 <./chapters/chapter6/imgs/ch6_1_intro.png> <./chapters/chapter6/imgs/ch6_1_dialogue.png>] [50] [51]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53] [54]
+<chapters/chapter6/imgs/ch6_2_common_knowledge.png, id=944, 622.57594pt x 656.4525pt>
 File: chapters/chapter6/imgs/ch6_2_common_knowledge.png Graphic file (type png)
 <use chapters/chapter6/imgs/ch6_2_common_knowledge.png>
-Package pdftex.def Info: chapters/chapter6/imgs/ch6_2_common_knowledge.png  used on input line 264.
+Package pdftex.def Info: chapters/chapter6/imgs/ch6_2_common_knowledge.png  used on input line 267.
 (pdftex.def)             Requested size: 384.1096pt x 405.01305pt.
  [55 <./chapters/chapter6/imgs/ch6_2_common_knowledge.png>]
-<chapters/chapter6/imgs/ch6_2_adam_basic.png, id=956, 607.51968pt x 581.92406pt>
+<chapters/chapter6/imgs/ch6_2_adam_basic.png, id=951, 607.51968pt x 581.92406pt>
 File: chapters/chapter6/imgs/ch6_2_adam_basic.png Graphic file (type png)
 <use chapters/chapter6/imgs/ch6_2_adam_basic.png>
-Package pdftex.def Info: chapters/chapter6/imgs/ch6_2_adam_basic.png  used on input line 278.
+Package pdftex.def Info: chapters/chapter6/imgs/ch6_2_adam_basic.png  used on input line 281.
 (pdftex.def)             Requested size: 384.1096pt x 367.93713pt.
  [56 <./chapters/chapter6/imgs/ch6_2_adam_basic.png>]
-<chapters/chapter6/imgs/ch6_2_adam_details.png, id=963, 424.58624pt x 465.23813pt>
+<chapters/chapter6/imgs/ch6_2_adam_details.png, id=958, 424.58624pt x 465.23813pt>
 File: chapters/chapter6/imgs/ch6_2_adam_details.png Graphic file (type png)
 <use chapters/chapter6/imgs/ch6_2_adam_details.png>
-Package pdftex.def Info: chapters/chapter6/imgs/ch6_2_adam_details.png  used on input line 290.
+Package pdftex.def Info: chapters/chapter6/imgs/ch6_2_adam_details.png  used on input line 293.
 (pdftex.def)             Requested size: 384.1096pt x 420.90402pt.
  [57 <./chapters/chapter6/imgs/ch6_2_adam_details.png>]
-<chapters/chapter6/imgs/ch6_2_adam_knowledge.png, id=971, 565.36218pt x 389.95688pt>
+<chapters/chapter6/imgs/ch6_2_adam_knowledge.png, id=966, 565.36218pt x 389.95688pt>
 File: chapters/chapter6/imgs/ch6_2_adam_knowledge.png Graphic file (type png)
 <use chapters/chapter6/imgs/ch6_2_adam_knowledge.png>
-Package pdftex.def Info: chapters/chapter6/imgs/ch6_2_adam_knowledge.png  used on input line 303.
+Package pdftex.def Info: chapters/chapter6/imgs/ch6_2_adam_knowledge.png  used on input line 306.
 (pdftex.def)             Requested size: 298.75264pt x 206.06923pt.
-<chapters/chapter6/imgs/ch6_2_adam_personality.png, id=973, 586.44093pt x 518.6878pt>
+<chapters/chapter6/imgs/ch6_2_adam_personality.png, id=968, 586.44093pt x 518.6878pt>
 File: chapters/chapter6/imgs/ch6_2_adam_personality.png Graphic file (type png)
 <use chapters/chapter6/imgs/ch6_2_adam_personality.png>
-Package pdftex.def Info: chapters/chapter6/imgs/ch6_2_adam_personality.png  used on input line 314.
+Package pdftex.def Info: chapters/chapter6/imgs/ch6_2_adam_personality.png  used on input line 317.
 (pdftex.def)             Requested size: 298.75264pt x 264.23444pt.
  [58 <./chapters/chapter6/imgs/ch6_2_adam_knowledge.png> <./chapters/chapter6/imgs/ch6_2_adam_personality.png>]
-<chapters/chapter6/imgs/ch6_2_adam_goals.png, id=983, 539.76656pt x 660.21657pt>
+<chapters/chapter6/imgs/ch6_2_adam_goals.png, id=978, 539.76656pt x 660.21657pt>
 File: chapters/chapter6/imgs/ch6_2_adam_goals.png Graphic file (type png)
 <use chapters/chapter6/imgs/ch6_2_adam_goals.png>
-Package pdftex.def Info: chapters/chapter6/imgs/ch6_2_adam_goals.png  used on input line 331.
+Package pdftex.def Info: chapters/chapter6/imgs/ch6_2_adam_goals.png  used on input line 334.
 (pdftex.def)             Requested size: 384.1096pt x 469.83496pt.
  [59 <./chapters/chapter6/imgs/ch6_2_adam_goals.png>]
 \openout4 = `thesis.pyg'.
@@ -1903,10 +1906,10 @@ LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
 (Font)              using `T1/cmtt/bx/n' instead on input line 27.
 
 )
-Package hyperref Info: bookmark level for unknown listing defaults to 0 on input line 370.
+Package hyperref Info: bookmark level for unknown listing defaults to 0 on input line 373.
  [60{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]) (./chapters/chapter7/chapter7.tex [61] [62]
 Rozdzia\PlPrIeC {\l } 7.
-<chapters/chapter7/imgs/demo1.png, id=1035, 825.0825pt x 529.98pt>
+<chapters/chapter7/imgs/demo1.png, id=1029, 825.0825pt x 529.98pt>
 File: chapters/chapter7/imgs/demo1.png Graphic file (type png)
 <use chapters/chapter7/imgs/demo1.png>
 Package pdftex.def Info: chapters/chapter7/imgs/demo1.png  used on input line 32.
@@ -1917,7 +1920,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [63
 
 ]
-<chapters/chapter7/imgs/demo2.png, id=1045, 838.63312pt x 558.58687pt>
+<chapters/chapter7/imgs/demo2.png, id=1039, 838.63312pt x 558.58687pt>
 File: chapters/chapter7/imgs/demo2.png Graphic file (type png)
 <use chapters/chapter7/imgs/demo2.png>
 Package pdftex.def Info: chapters/chapter7/imgs/demo2.png  used on input line 64.
@@ -1927,7 +1930,7 @@ Package pdftex.def Info: chapters/chapter7/imgs/demo2.png  used on input line 64
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [64 <./chapters/chapter7/imgs/demo1.png>]
-<chapters/chapter7/imgs/demo3.png, id=1054, 1184.17406pt x 531.48563pt>
+<chapters/chapter7/imgs/demo3.png, id=1048, 1184.17406pt x 531.48563pt>
 File: chapters/chapter7/imgs/demo3.png Graphic file (type png)
 <use chapters/chapter7/imgs/demo3.png>
 Package pdftex.def Info: chapters/chapter7/imgs/demo3.png  used on input line 106.
@@ -1937,7 +1940,7 @@ Package pdftex.def Info: chapters/chapter7/imgs/demo3.png  used on input line 10
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [65 <./chapters/chapter7/imgs/demo2.png>]
-<chapters/chapter7/imgs/demo4.png, id=1063, 853.68938pt x 560.0925pt>
+<chapters/chapter7/imgs/demo4.png, id=1057, 853.68938pt x 560.0925pt>
 File: chapters/chapter7/imgs/demo4.png Graphic file (type png)
 <use chapters/chapter7/imgs/demo4.png>
 Package pdftex.def Info: chapters/chapter7/imgs/demo4.png  used on input line 137.
@@ -1947,7 +1950,7 @@ Package pdftex.def Info: chapters/chapter7/imgs/demo4.png  used on input line 13
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [66 <./chapters/chapter7/imgs/demo3.png>]
-<chapters/chapter7/imgs/demo5.png, id=1072, 839.38594pt x 529.22719pt>
+<chapters/chapter7/imgs/demo5.png, id=1066, 839.38594pt x 529.22719pt>
 File: chapters/chapter7/imgs/demo5.png Graphic file (type png)
 <use chapters/chapter7/imgs/demo5.png>
 Package pdftex.def Info: chapters/chapter7/imgs/demo5.png  used on input line 167.
@@ -2075,170 +2078,9 @@ Using TeX to sort glossary entries---this may take a while
 
 ] [82
 
-] (./appendices/appendix1.tex
+] (./appendices/appendix2.tex
 Dodatek A.
-<appendices/imgs/florian1.png, id=1445, 432.86719pt x 481.04718pt>
-File: appendices/imgs/florian1.png Graphic file (type png)
-<use appendices/imgs/florian1.png>
-Package pdftex.def Info: appendices/imgs/florian1.png  used on input line 8.
-(pdftex.def)             Requested size: 384.1096pt x 426.88281pt.
-<appendices/imgs/florian2.png, id=1446, 592.46344pt x 593.21625pt>
-File: appendices/imgs/florian2.png Graphic file (type png)
-<use appendices/imgs/florian2.png>
-Package pdftex.def Info: appendices/imgs/florian2.png  used on input line 15.
-(pdftex.def)             Requested size: 384.1096pt x 384.6084pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<appendices/imgs/florian3.png, id=1447, 587.94656pt x 520.94624pt>
-File: appendices/imgs/florian3.png Graphic file (type png)
-<use appendices/imgs/florian3.png>
-Package pdftex.def Info: appendices/imgs/florian3.png  used on input line 22.
-(pdftex.def)             Requested size: 384.1096pt x 340.33598pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<appendices/imgs/florian4.png, id=1448, 590.205pt x 665.48625pt>
-File: appendices/imgs/florian4.png Graphic file (type png)
-<use appendices/imgs/florian4.png>
-Package pdftex.def Info: appendices/imgs/florian4.png  used on input line 29.
-(pdftex.def)             Requested size: 384.1096pt x 433.10927pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<appendices/imgs/florian5.png, id=1449, 478.78876pt x 753.5653pt>
-File: appendices/imgs/florian5.png Graphic file (type png)
-<use appendices/imgs/florian5.png>
-Package pdftex.def Info: appendices/imgs/florian5.png  used on input line 36.
-(pdftex.def)             Requested size: 384.1096pt x 604.55484pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<appendices/imgs/mary1.png, id=1450, 433.62pt x 465.99094pt>
-File: appendices/imgs/mary1.png Graphic file (type png)
-<use appendices/imgs/mary1.png>
-Package pdftex.def Info: appendices/imgs/mary1.png  used on input line 45.
-(pdftex.def)             Requested size: 384.1096pt x 412.8037pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<appendices/imgs/mary2.png, id=1451, 592.46344pt x 657.2053pt>
-File: appendices/imgs/mary2.png Graphic file (type png)
-<use appendices/imgs/mary2.png>
-Package pdftex.def Info: appendices/imgs/mary2.png  used on input line 52.
-(pdftex.def)             Requested size: 384.1096pt x 426.09534pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<appendices/imgs/mary3.png, id=1452, 574.39594pt x 473.51906pt>
-File: appendices/imgs/mary3.png Graphic file (type png)
-<use appendices/imgs/mary3.png>
-Package pdftex.def Info: appendices/imgs/mary3.png  used on input line 59.
-(pdftex.def)             Requested size: 384.1096pt x 316.6564pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<appendices/imgs/mary4.png, id=1453, 569.12625pt x 688.82344pt>
-File: appendices/imgs/mary4.png Graphic file (type png)
-<use appendices/imgs/mary4.png>
-Package pdftex.def Info: appendices/imgs/mary4.png  used on input line 66.
-(pdftex.def)             Requested size: 384.1096pt x 464.91475pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<appendices/imgs/mary5.png, id=1454, 473.51906pt x 751.30687pt>
-File: appendices/imgs/mary5.png Graphic file (type png)
-<use appendices/imgs/mary5.png>
-Package pdftex.def Info: appendices/imgs/mary5.png  used on input line 73.
-(pdftex.def)             Requested size: 384.1096pt x 609.46088pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<appendices/imgs/nathaniel1.png, id=1455, 435.12563pt x 461.47406pt>
-File: appendices/imgs/nathaniel1.png Graphic file (type png)
-<use appendices/imgs/nathaniel1.png>
-Package pdftex.def Info: appendices/imgs/nathaniel1.png  used on input line 82.
-(pdftex.def)             Requested size: 384.1096pt x 407.39406pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<appendices/imgs/nathaniel2.png, id=1456, 614.295pt x 635.37375pt>
-File: appendices/imgs/nathaniel2.png Graphic file (type png)
-<use appendices/imgs/nathaniel2.png>
-Package pdftex.def Info: appendices/imgs/nathaniel2.png  used on input line 89.
-(pdftex.def)             Requested size: 384.1096pt x 397.29182pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<appendices/imgs/nathaniel3.png, id=1457, 572.89032pt x 495.35063pt>
-File: appendices/imgs/nathaniel3.png Graphic file (type png)
-<use appendices/imgs/nathaniel3.png>
-Package pdftex.def Info: appendices/imgs/nathaniel3.png  used on input line 96.
-(pdftex.def)             Requested size: 384.1096pt x 332.12508pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<appendices/imgs/nathaniel4.png, id=1458, 561.59813pt x 649.67719pt>
-File: appendices/imgs/nathaniel4.png Graphic file (type png)
-<use appendices/imgs/nathaniel4.png>
-Package pdftex.def Info: appendices/imgs/nathaniel4.png  used on input line 103.
-(pdftex.def)             Requested size: 384.1096pt x 444.3521pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<appendices/imgs/nathaniel5.png, id=1459, 486.31688pt x 754.31813pt>
-File: appendices/imgs/nathaniel5.png Graphic file (type png)
-<use appendices/imgs/nathaniel5.png>
-Package pdftex.def Info: appendices/imgs/nathaniel5.png  used on input line 110.
-(pdftex.def)             Requested size: 384.1096pt x 595.7897pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<appendices/imgs/randy1.png, id=1460, 433.62pt x 468.24937pt>
-File: appendices/imgs/randy1.png Graphic file (type png)
-<use appendices/imgs/randy1.png>
-Package pdftex.def Info: appendices/imgs/randy1.png  used on input line 119.
-(pdftex.def)             Requested size: 384.1096pt x 414.80435pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<appendices/imgs/randy2.png, id=1461, 591.71063pt x 627.09282pt>
-File: appendices/imgs/randy2.png Graphic file (type png)
-<use appendices/imgs/randy2.png>
-Package pdftex.def Info: appendices/imgs/randy2.png  used on input line 126.
-(pdftex.def)             Requested size: 384.1096pt x 407.08879pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<appendices/imgs/randy3.png, id=1462, 569.12625pt x 474.27188pt>
-File: appendices/imgs/randy3.png Graphic file (type png)
-<use appendices/imgs/randy3.png>
-Package pdftex.def Info: appendices/imgs/randy3.png  used on input line 133.
-(pdftex.def)             Requested size: 384.1096pt x 320.10522pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<appendices/imgs/randy4.png, id=1463, 566.86781pt x 731.73375pt>
-File: appendices/imgs/randy4.png Graphic file (type png)
-<use appendices/imgs/randy4.png>
-Package pdftex.def Info: appendices/imgs/randy4.png  used on input line 140.
-(pdftex.def)             Requested size: 384.1096pt x 495.84174pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<appendices/imgs/randy5.png, id=1464, 477.28313pt x 752.8125pt>
-File: appendices/imgs/randy5.png Graphic file (type png)
-<use appendices/imgs/randy5.png>
-Package pdftex.def Info: appendices/imgs/randy5.png  used on input line 147.
-(pdftex.def)             Requested size: 384.1096pt x 605.84624pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./appendices/appendix2.tex [83
-
- <./appendices/imgs/florian1.png>] [84 <./appendices/imgs/florian2.png>] [85 <./appendices/imgs/florian3.png>] [86 <./appendices/imgs/florian4.png>] [87 <./appendices/imgs/florian5.png>] [88 <./appendices/imgs/mary1.png>] [89 <./appendices/imgs/mary2.png>] [90 <./appendices/imgs/mary3.png>] [91 <./appendices/imgs/mary4.png>] [92 <./appendices/imgs/mary5.png>] [93 <./appendices/imgs/nathaniel1.png>] [94 <./appendices/imgs/nathaniel2.png>] [95 <./appendices/imgs/nathaniel3.png>] [96 <./appendices/imgs/nathaniel4.png>] [97 <./appendices/imgs/nathaniel5.png>] [98 <./appendices/imgs/randy1.png>] [99 <./appendices/imgs/randy2.png>] [100 <./appendices/imgs/randy3.png>] [101 <./appendices/imgs/randy4.png>] [102 <./appendices/imgs/randy5.png>]
-Dodatek B.
-<appendices/imgs/formA1.png, id=1549, 486.31688pt x 917.67844pt>
+<appendices/imgs/formA1.png, id=1368, 486.31688pt x 917.67844pt>
 File: appendices/imgs/formA1.png Graphic file (type png)
 <use appendices/imgs/formA1.png>
 Package pdftex.def Info: appendices/imgs/formA1.png  used on input line 37.
@@ -2249,7 +2091,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<appendices/imgs/formA2.png, id=1550, 478.78876pt x 895.09406pt>
+<appendices/imgs/formA2.png, id=1369, 478.78876pt x 895.09406pt>
 File: appendices/imgs/formA2.png Graphic file (type png)
 <use appendices/imgs/formA2.png>
 Package pdftex.def Info: appendices/imgs/formA2.png  used on input line 75.
@@ -2260,7 +2102,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<appendices/imgs/formB1.png, id=1551, 446.41782pt x 917.67844pt>
+<appendices/imgs/formB1.png, id=1370, 446.41782pt x 917.67844pt>
 File: appendices/imgs/formB1.png Graphic file (type png)
 <use appendices/imgs/formB1.png>
 Package pdftex.def Info: appendices/imgs/formB1.png  used on input line 113.
@@ -2271,7 +2113,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<appendices/imgs/formB2.png, id=1552, 450.9347pt x 959.08313pt>
+<appendices/imgs/formB2.png, id=1371, 450.9347pt x 959.08313pt>
 File: appendices/imgs/formB2.png Graphic file (type png)
 <use appendices/imgs/formB2.png>
 Package pdftex.def Info: appendices/imgs/formB2.png  used on input line 151.
@@ -2279,3215 +2121,13 @@ Package pdftex.def Info: appendices/imgs/formB2.png  used on input line 151.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./appendices/appendix3.tex [103
+) (./thesis.bbl [83
 
 ]
 
-LaTeX Warning: Text page 104 contains only floats.
+LaTeX Warning: Text page 84 contains only floats.
 
-[104 <./appendices/imgs/formA1.png>] [105] [106 <./appendices/imgs/formA2.png>] [107] [108 <./appendices/imgs/formB1.png>] [109] [110 <./appendices/imgs/formB2.png>]
-Dodatek C.
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-
-Underfull \hbox (badness 3668) in paragraph at lines 31--31
-[]\T1/qtm/b/n/12 (+20) How did you fe-
- []
-
-
-Underfull \hbox (badness 1454) in paragraph at lines 31--31
-\T1/qtm/m/n/12 (+20) ke a no-vel. The-re
- []
-
-
-Underfull \hbox (badness 1910) in paragraph at lines 31--31
-[]\T1/qtm/m/n/12 (+20) The gra-phi-cal ele-
- []
-
-
-Underfull \hbox (badness 1331) in paragraph at lines 31--31
-\T1/qtm/m/n/12 (+20) scre-en and sho-uld
- []
-
-
-Underfull \hbox (badness 2818) in paragraph at lines 31--31
-[]\T1/qtm/m/n/12 (+20) Game felt ru-shed,
- []
-
-
-Underfull \hbox (badness 3291) in paragraph at lines 31--31
-\T1/qtm/m/n/12 (+20) not en-joy-able, co-
- []
-
-
-Underfull \hbox (badness 1796) in paragraph at lines 31--31
-\T1/qtm/m/n/12 (+20) They all ap-pe-ared
- []
-
-
-Underfull \hbox (badness 7221) in paragraph at lines 31--31
-\T1/qtm/m/n/12 (+20) to-ge-ther, which I
- []
-
-
-Underfull \hbox (badness 1137) in paragraph at lines 31--31
-\T1/qtm/m/n/12 (+20) go-od option. Al-so
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-[]\T1/qtm/m/n/12 (+20) The co-nver-sa-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-\T1/qtm/m/n/12 (+20) hap-pe-ned re-al-ly
- []
-
-
-Underfull \hbox (badness 3333) in paragraph at lines 31--31
-[]\T1/qtm/m/n/12 (+20) I li-ke the co-nver-
- []
-
-
-Underfull \hbox (badness 1895) in paragraph at lines 31--31
-\T1/qtm/m/n/12 (+20) ted mo-re in-for-ma-
- []
-
-
-Underfull \hbox (badness 2591) in paragraph at lines 31--31
-\T1/qtm/m/n/12 (+20) tion wo-uld be gi-
- []
-
-
-Underfull \hbox (badness 2368) in paragraph at lines 31--31
-\T1/qtm/m/n/12 (+20) depth to fe-el li-ke
- []
-
-> Step: build the whole table.
-
-Underfull \hbox (badness 3668) in paragraph at lines 31--31
-[]\T1/qtm/b/n/12 (+20) How did you fe-
- []
-
-
-Underfull \hbox (badness 1454) in paragraph at lines 31--31
-\T1/qtm/m/n/12 (+20) ke a no-vel. The-re
- []
-
-
-Underfull \hbox (badness 1910) in paragraph at lines 31--31
-[]\T1/qtm/m/n/12 (+20) The gra-phi-cal ele-
- []
-
-
-Underfull \hbox (badness 1331) in paragraph at lines 31--31
-\T1/qtm/m/n/12 (+20) scre-en and sho-uld
- []
-
-[111
-
-]
-Underfull \hbox (badness 2818) in paragraph at lines 31--31
-[]\T1/qtm/m/n/12 (+20) Game felt ru-shed,
- []
-
-
-Underfull \hbox (badness 3291) in paragraph at lines 31--31
-\T1/qtm/m/n/12 (+20) not en-joy-able, co-
- []
-
-
-Underfull \hbox (badness 1796) in paragraph at lines 31--31
-\T1/qtm/m/n/12 (+20) They all ap-pe-ared
- []
-
-
-Underfull \hbox (badness 7221) in paragraph at lines 31--31
-\T1/qtm/m/n/12 (+20) to-ge-ther, which I
- []
-
-
-Underfull \hbox (badness 1137) in paragraph at lines 31--31
-\T1/qtm/m/n/12 (+20) go-od option. Al-so
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-[]\T1/qtm/m/n/12 (+20) The co-nver-sa-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-\T1/qtm/m/n/12 (+20) hap-pe-ned re-al-ly
- []
-
-
-Underfull \hbox (badness 3333) in paragraph at lines 31--31
-[]\T1/qtm/m/n/12 (+20) I li-ke the co-nver-
- []
-
-
-Underfull \hbox (badness 1895) in paragraph at lines 31--31
-\T1/qtm/m/n/12 (+20) ted mo-re in-for-ma-
- []
-
-
-Underfull \hbox (badness 2591) in paragraph at lines 31--31
-\T1/qtm/m/n/12 (+20) tion wo-uld be gi-
- []
-
-[112]
-Underfull \hbox (badness 2368) in paragraph at lines 31--31
-\T1/qtm/m/n/12 (+20) depth to fe-el li-ke
- []
-
-[113]
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-
-Underfull \hbox (badness 3668) in paragraph at lines 58--58
-[]\T1/qtm/b/n/12 (+20) How did you fe-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) when in-te-rac-ting
- []
-
-
-Underfull \hbox (badness 2261) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) felt ni-ce to re-al-ly
- []
-
-
-Underfull \hbox (badness 4205) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) talk to them and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) try to get mo-re
- []
-
-
-Underfull \hbox (badness 3168) in paragraph at lines 58--58
-[]\T1/qtm/m/n/12 (+20) More, sin-ce the-re
- []
-
-
-Underfull \hbox (badness 3547) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) was mo-re in-te-rac-
- []
-
-
-Underfull \hbox (badness 1132) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) it was ac-tu-al-ly di-
- []
-
-
-Underfull \hbox (badness 1874) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) strac-ting me from
- []
-
-
-Underfull \hbox (badness 1817) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) from the ga-me at
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) hand ha-ving too
- []
-
-
-Underfull \hbox (badness 6758) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) ma-ny options for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) get di-strac-ted by
- []
-
-
-Underfull \hbox (badness 5847) in paragraph at lines 58--58
-[]\T1/qtm/m/n/12 (+20) It was ve-ry in-te-
- []
-
-
-Underfull \hbox (badness 4927) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) re-sting that I co-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]\T1/qtm/m/n/12 (+20) I re-al-ly en-joy-ed
- []
-
-
-Underfull \hbox (badness 3460) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) it. Espe-cial-ly that
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) I co-uld be the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) one to ask the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) qu-estions. It felt
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) an-swe-red be-cau-se
- []
-
-
-Underfull \hbox (badness 4859) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) the ga-me/program
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) didn't ha-ve that
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]\T1/qtm/m/n/12 (+20) It was in-te-re-sted,
- []
-
-
-Underfull \hbox (badness 5403) in paragraph at lines 58--58
-[]\T1/qtm/m/n/12 (+20) An er-ror oc-cu-red
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) in the mid-dle,
- []
-
-
-Underfull \hbox (badness 8094) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) and it wo-uld be
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) bet-ter to do a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) between-subject
- []
-
-
-Underfull \hbox (badness 6461) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) de-sign in-ste-ad of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) a wi-thin sub-ject
- []
-
-
-Underfull \hbox (badness 3158) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) de-sign. The sa-me
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) the first ver-sion,
- []
-
-
-Underfull \hbox (badness 5741) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) se-cond one, even
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) the se-cond one
- []
-
-
-Underfull \hbox (badness 5862) in paragraph at lines 58--58
-[]\T1/qtm/m/n/12 (+20) it was in-te-re-sting
- []
-
-> Step: build the whole table.
-
-Underfull \hbox (badness 3668) in paragraph at lines 58--58
-[]\T1/qtm/b/n/12 (+20) How did you fe-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) when in-te-rac-ting
- []
-
-
-Underfull \hbox (badness 2261) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) felt ni-ce to re-al-ly
- []
-
-
-Underfull \hbox (badness 4205) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) talk to them and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) try to get mo-re
- []
-
-
-Underfull \hbox (badness 3168) in paragraph at lines 58--58
-[]\T1/qtm/m/n/12 (+20) More, sin-ce the-re
- []
-
-
-Underfull \hbox (badness 3547) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) was mo-re in-te-rac-
- []
-
-
-Underfull \hbox (badness 1132) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) it was ac-tu-al-ly di-
- []
-
-
-Underfull \hbox (badness 1874) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) strac-ting me from
- []
-
-
-Underfull \hbox (badness 1817) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) from the ga-me at
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) hand ha-ving too
- []
-
-
-Underfull \hbox (badness 6758) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) ma-ny options for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) get di-strac-ted by
- []
-
-[114]
-Underfull \hbox (badness 5847) in paragraph at lines 58--58
-[]\T1/qtm/m/n/12 (+20) It was ve-ry in-te-
- []
-
-
-Underfull \hbox (badness 4927) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) re-sting that I co-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]\T1/qtm/m/n/12 (+20) I re-al-ly en-joy-ed
- []
-
-
-Underfull \hbox (badness 3460) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) it. Espe-cial-ly that
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) I co-uld be the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) one to ask the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) qu-estions. It felt
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) an-swe-red be-cau-se
- []
-
-
-Underfull \hbox (badness 4859) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) the ga-me/program
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) didn't ha-ve that
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]\T1/qtm/m/n/12 (+20) It was in-te-re-sted,
- []
-
-
-Underfull \hbox (badness 5403) in paragraph at lines 58--58
-[]\T1/qtm/m/n/12 (+20) An er-ror oc-cu-red
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) in the mid-dle,
- []
-
-
-Underfull \hbox (badness 8094) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) and it wo-uld be
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) bet-ter to do a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) between-subject
- []
-
-
-Underfull \hbox (badness 6461) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) de-sign in-ste-ad of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) a wi-thin sub-ject
- []
-
-
-Underfull \hbox (badness 3158) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) de-sign. The sa-me
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) the first ver-sion,
- []
-
-
-Underfull \hbox (badness 5741) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) se-cond one, even
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/qtm/m/n/12 (+20) the se-cond one
- []
-
-[115]
-Underfull \hbox (badness 5862) in paragraph at lines 58--58
-[]\T1/qtm/m/n/12 (+20) it was in-te-re-sting
- []
-
-[116]
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-
-Underfull \hbox (badness 3668) in paragraph at lines 91--91
-[]\T1/qtm/b/n/12 (+20) How did you fe-
- []
-
-
-Underfull \hbox (badness 2478) in paragraph at lines 91--91
-[]\T1/qtm/m/n/12 (+20) Sometimes it was
- []
-
-
-Underfull \hbox (badness 4217) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) hard to co-me up
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) with qu-estions.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) Espe-cial-ly that I
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) co-uld ask 10 of
- []
-
-
-Underfull \hbox (badness 1087) in paragraph at lines 91--91
-[]\T1/qtm/m/n/12 (+20) looks li-ke this ga-
- []
-
-
-Underfull \hbox (badness 1448) in paragraph at lines 91--91
-[]\T1/qtm/m/n/12 (+20) At first, the ga-me
- []
-
-
-Underfull \hbox (badness 1194) in paragraph at lines 91--91
-[]\T1/qtm/m/n/12 (+20) Yep! They of-fe-red
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) help-ful re-spon-ses
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) to most of my
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) expe-ri-ment abo-ut
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) LLMs, which I
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) who-le-he-ar-te-dly
- []
-
-
-Underfull \hbox (badness 2913) in paragraph at lines 91--91
-[]\T1/qtm/m/n/12 (+20) I li-ked tal-king to
- []
-
-
-Underfull \hbox (badness 1681) in paragraph at lines 91--91
-[]\T1/qtm/m/n/12 (+20) Yes, it was en-joy-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) to in-te-ract with
- []
-
-
-Underfull \hbox (badness 2564) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) I didn't mind the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) the ga-me ga-ve.
- []
-
-
-Underfull \hbox (badness 6859) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) Try-ing to put in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) was the le-ast
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) en-joy-able for me
- []
-
-
-Underfull \hbox (badness 1400) in paragraph at lines 91--91
-[]\T1/qtm/m/n/12 (+20) surprise that NPC
- []
-
-
-Underfull \hbox (badness 4060) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) if you con-si-de-red
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) this is just a
- []
-
-
-Underfull \hbox (badness 3601) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) sho-uld ha-ve NPC
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-[]\T1/qtm/m/n/12 (+20) the first few
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) qu-estions, yes.
- []
-
-
-Underfull \hbox (badness 1072) in paragraph at lines 91--91
-[]\T1/qtm/m/n/12 (+20) I felt no-thing spe-
- []
-
-
-Underfull \hbox (badness 3158) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) cial, ne-ither go-od
- []
-
-
-Underfull \hbox (badness 7595) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) tions, so I don't
- []
-
-
-Underfull \hbox (badness 1253) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) expe-rien-ce in-te-rac-
- []
-
-
-Underfull \hbox (badness 2020) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) tions in the sa-me
- []
-
-
-Underfull \hbox (badness 1577) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) to pro-vi-de help-ful
- []
-
-
-Underfull \hbox (badness 5133) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) ssess per-so-nal in-
- []
-
-
-Underfull \hbox (badness 1184) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) la-te co-nver-sa-tio-nal
- []
-
-
-Underfull \hbox (badness 1418) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) wi-thin the con-text
- []
-
-
-Underfull \hbox (badness 5756) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) So, my "in-te-rest"
- []
-
-
-Underfull \hbox (badness 1043) in paragraph at lines 91--91
-[]\T1/qtm/m/n/12 (+20) As an [][]AI[], I don't
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) expe-rien-ce en-joy-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) I'm pro-gram-med
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) to ef-fec-ti-ve-ly
- []
-
-
-Underfull \hbox (badness 1874) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) com-mu-ni-ca-te with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) NPCs in vir-tu-al
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) envi-ron-ments to
- []
-
-
-Underfull \hbox (badness 1895) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) in-te-rac-tions or ga-
- []
-
-
-Underfull \hbox (badness 1577) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) to pro-vi-de help-ful
- []
-
-
-Underfull \hbox (badness 2119) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) ove-rall expe-rien-ce,
- []
-
-
-Underfull \hbox (badness 6758) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) re-gar-dless of any
- []
-
-
-Underfull \hbox (badness 4156) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) en-joy-ment on my
- []
-
-
-Underfull \hbox (badness 1043) in paragraph at lines 91--91
-[]\T1/qtm/m/n/12 (+20) As an [][]AI[], I don't
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) po-ssess per-so-nal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) usness. Ho-we-ver,
- []
-
-
-Underfull \hbox (badness 1496) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) I'm he-re to as-sist
- []
-
-
-Underfull \hbox (badness 1033) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) ma-tion, ge-ne-ra-ting
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) cre-ati-ve con-tent,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) or en-ga-ging in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) co-nver-sa-tion, fe-el
- []
-
-
-Underfull \hbox (badness 4205) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) talk to them and
- []
-
-
-Underfull \hbox (badness 1158) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) ments, and it was
- []
-
-
-Underfull \hbox (badness 1189) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) a mo-re im-mer-si-ve
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-[]\T1/qtm/m/n/12 (+20) Quite in-te-re-sted.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) The NPCs had
- []
-
-
-Underfull \hbox (badness 1394) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) uni-que back-sto-ries
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) and per-so-na-li-ties,
- []
-
-
-Underfull \hbox (badness 7888) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) al-tho-ugh they se-
- []
-
-
-Underfull \hbox (badness 3954) in paragraph at lines 91--91
-[]\T1/qtm/m/n/12 (+20) NPCs we-re a bit
- []
-
-
-Underfull \hbox (badness 2828) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) con-fu-sed at ti-mes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) and ga-ve wrong
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) up other cha-rac-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) ters (e.g., Ma-ry
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) and Sy-lvia) and
- []
-
-
-Underfull \hbox (badness 1320) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) ti-ve, po-li-te, and a
- []
-
-
-Underfull \hbox (badness 2334) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) the-ir uni-que tra-its
- []
-
-
-Underfull \hbox (badness 1881) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) (Not pa-nic-king so
- []
-
-
-Underfull \hbox (badness 7963) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) much or ne-rvo-us
- []
-
-
-Underfull \hbox (badness 7486) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) ha-ving the-ir own
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) uni-que ac-cents)
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) the mo-ment I
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) qu-estions. The
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) NPCs that did
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) is Flo-rian and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) the-re we-re so-me
- []
-
-
-Underfull \hbox (badness 1097) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) sen-si-ti-ve qu-estions
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) I asked to him
- []
-
-
-Underfull \hbox (badness 3058) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) and he sa-id "I'm
- []
-
-
-Underfull \hbox (badness 3375) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) not un-com-for-ta-ble
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) Ran-dy did not
- []
-
-
-Underfull \hbox (badness 1776) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) go too much in-to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) de-ta-ils, be-ca-me
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) eva-si-ve with his
- []
-
-
-Underfull \hbox (badness 6220) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) spe-ci-fy whe-re he
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) went so-me-whe-re
- []
-
-
-Underfull \hbox (badness 1014) in paragraph at lines 91--91
-[]\T1/qtm/m/n/12 (+20) - Ga-me ke-eps cra-
- []
-
-
-Underfull \hbox (badness 2635) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) my sa-ved slot on
- []
-
-
-Underfull \hbox (badness 1253) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) - I think so-me ni-
- []
-
-
-Underfull \hbox (badness 2418) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) ti-ced al-so ano-ther
- []
-
-
-Underfull \hbox (badness 2635) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) my sa-ved slot on
- []
-
-
-Underfull \hbox (badness 1946) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) estion, and a li-ne
- []
-
-> Step: build the whole table.
-
-Underfull \hbox (badness 3668) in paragraph at lines 91--91
-[]\T1/qtm/b/n/12 (+20) How did you fe-
- []
-
-
-Underfull \hbox (badness 2478) in paragraph at lines 91--91
-[]\T1/qtm/m/n/12 (+20) Sometimes it was
- []
-
-
-Underfull \hbox (badness 4217) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) hard to co-me up
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) with qu-estions.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) Espe-cial-ly that I
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) co-uld ask 10 of
- []
-
-
-Underfull \hbox (badness 1087) in paragraph at lines 91--91
-[]\T1/qtm/m/n/12 (+20) looks li-ke this ga-
- []
-
-[117]
-Underfull \hbox (badness 1448) in paragraph at lines 91--91
-[]\T1/qtm/m/n/12 (+20) At first, the ga-me
- []
-
-
-Underfull \hbox (badness 1194) in paragraph at lines 91--91
-[]\T1/qtm/m/n/12 (+20) Yep! They of-fe-red
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) help-ful re-spon-ses
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) to most of my
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) expe-ri-ment abo-ut
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) LLMs, which I
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) who-le-he-ar-te-dly
- []
-
-
-Underfull \hbox (badness 2913) in paragraph at lines 91--91
-[]\T1/qtm/m/n/12 (+20) I li-ked tal-king to
- []
-
-
-Underfull \hbox (badness 1681) in paragraph at lines 91--91
-[]\T1/qtm/m/n/12 (+20) Yes, it was en-joy-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) to in-te-ract with
- []
-
-
-Underfull \hbox (badness 2564) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) I didn't mind the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) the ga-me ga-ve.
- []
-
-
-Underfull \hbox (badness 6859) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) Try-ing to put in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) was the le-ast
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) en-joy-able for me
- []
-
-[118]
-Underfull \hbox (badness 1400) in paragraph at lines 91--91
-[]\T1/qtm/m/n/12 (+20) surprise that NPC
- []
-
-
-Underfull \hbox (badness 4060) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) if you con-si-de-red
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) this is just a
- []
-
-
-Underfull \hbox (badness 3601) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) sho-uld ha-ve NPC
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-[]\T1/qtm/m/n/12 (+20) the first few
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) qu-estions, yes.
- []
-
-
-Underfull \hbox (badness 1072) in paragraph at lines 91--91
-[]\T1/qtm/m/n/12 (+20) I felt no-thing spe-
- []
-
-
-Underfull \hbox (badness 3158) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) cial, ne-ither go-od
- []
-
-[119]
-Underfull \hbox (badness 7595) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) tions, so I don't
- []
-
-
-Underfull \hbox (badness 1253) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) expe-rien-ce in-te-rac-
- []
-
-
-Underfull \hbox (badness 2020) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) tions in the sa-me
- []
-
-
-Underfull \hbox (badness 1577) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) to pro-vi-de help-ful
- []
-
-
-Underfull \hbox (badness 5133) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) ssess per-so-nal in-
- []
-
-
-Underfull \hbox (badness 1184) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) la-te co-nver-sa-tio-nal
- []
-
-
-Underfull \hbox (badness 1418) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) wi-thin the con-text
- []
-
-
-Underfull \hbox (badness 5756) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) So, my "in-te-rest"
- []
-
-
-Underfull \hbox (badness 1043) in paragraph at lines 91--91
-[]\T1/qtm/m/n/12 (+20) As an [][]AI[], I don't
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) expe-rien-ce en-joy-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) I'm pro-gram-med
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) to ef-fec-ti-ve-ly
- []
-
-
-Underfull \hbox (badness 1874) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) com-mu-ni-ca-te with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) NPCs in vir-tu-al
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) envi-ron-ments to
- []
-
-
-Underfull \hbox (badness 1895) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) in-te-rac-tions or ga-
- []
-
-
-Underfull \hbox (badness 1577) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) to pro-vi-de help-ful
- []
-
-
-Underfull \hbox (badness 2119) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) ove-rall expe-rien-ce,
- []
-
-
-Underfull \hbox (badness 6758) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) re-gar-dless of any
- []
-
-
-Underfull \hbox (badness 4156) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) en-joy-ment on my
- []
-
-
-Underfull \hbox (badness 1043) in paragraph at lines 91--91
-[]\T1/qtm/m/n/12 (+20) As an [][]AI[], I don't
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) po-ssess per-so-nal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) usness. Ho-we-ver,
- []
-
-
-Underfull \hbox (badness 1496) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) I'm he-re to as-sist
- []
-
-
-Underfull \hbox (badness 1033) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) ma-tion, ge-ne-ra-ting
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) cre-ati-ve con-tent,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) or en-ga-ging in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) co-nver-sa-tion, fe-el
- []
-
-[120]
-Underfull \hbox (badness 4205) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) talk to them and
- []
-
-
-Underfull \hbox (badness 1158) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) ments, and it was
- []
-
-
-Underfull \hbox (badness 1189) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) a mo-re im-mer-si-ve
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-[]\T1/qtm/m/n/12 (+20) Quite in-te-re-sted.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) The NPCs had
- []
-
-
-Underfull \hbox (badness 1394) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) uni-que back-sto-ries
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) and per-so-na-li-ties,
- []
-
-
-Underfull \hbox (badness 7888) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) al-tho-ugh they se-
- []
-
-
-Underfull \hbox (badness 3954) in paragraph at lines 91--91
-[]\T1/qtm/m/n/12 (+20) NPCs we-re a bit
- []
-
-
-Underfull \hbox (badness 2828) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) con-fu-sed at ti-mes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) and ga-ve wrong
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) up other cha-rac-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) ters (e.g., Ma-ry
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) and Sy-lvia) and
- []
-
-[121]
-Underfull \hbox (badness 1320) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) ti-ve, po-li-te, and a
- []
-
-
-Underfull \hbox (badness 2334) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) the-ir uni-que tra-its
- []
-
-
-Underfull \hbox (badness 1881) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) (Not pa-nic-king so
- []
-
-
-Underfull \hbox (badness 7963) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) much or ne-rvo-us
- []
-
-
-Underfull \hbox (badness 7486) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) ha-ving the-ir own
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) uni-que ac-cents)
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) the mo-ment I
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) qu-estions. The
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) NPCs that did
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) is Flo-rian and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) the-re we-re so-me
- []
-
-
-Underfull \hbox (badness 1097) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) sen-si-ti-ve qu-estions
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) I asked to him
- []
-
-
-Underfull \hbox (badness 3058) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) and he sa-id "I'm
- []
-
-
-Underfull \hbox (badness 3375) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) not un-com-for-ta-ble
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) Ran-dy did not
- []
-
-
-Underfull \hbox (badness 1776) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) go too much in-to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) de-ta-ils, be-ca-me
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) eva-si-ve with his
- []
-
-
-Underfull \hbox (badness 6220) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) spe-ci-fy whe-re he
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) went so-me-whe-re
- []
-
-
-Underfull \hbox (badness 1014) in paragraph at lines 91--91
-[]\T1/qtm/m/n/12 (+20) - Ga-me ke-eps cra-
- []
-
-
-Underfull \hbox (badness 2635) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) my sa-ved slot on
- []
-
-
-Underfull \hbox (badness 1253) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) - I think so-me ni-
- []
-
-
-Underfull \hbox (badness 2418) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) ti-ced al-so ano-ther
- []
-
-
-Underfull \hbox (badness 2635) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) my sa-ved slot on
- []
-
-
-Underfull \hbox (badness 1946) in paragraph at lines 91--91
-\T1/qtm/m/n/12 (+20) estion, and a li-ne
- []
-
-[122]
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-
-Underfull \hbox (badness 3668) in paragraph at lines 124--124
-[]\T1/qtm/b/n/12 (+20) How did you fe-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) Less en-ter-ta-ining
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) lowkey skip-ped
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) out the de-ta-ils in
- []
-
-
-Underfull \hbox (badness 3250) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) ring be-gin-ning of
- []
-
-
-Underfull \hbox (badness 3930) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) ir re-spon-ses we-re
- []
-
-
-Underfull \hbox (badness 2277) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) der that you re-ad
- []
-
-
-Underfull \hbox (badness 1168) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) It was hard to re-
- []
-
-
-Underfull \hbox (badness 2050) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) Similar to nor-mal
- []
-
-
-Underfull \hbox (badness 2680) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) me in a way. So
- []
-
-
-Underfull \hbox (badness 6775) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) can mix be-twe-en
- []
-
-
-Underfull \hbox (badness 7685) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) the two me-thods,
- []
-
-
-Underfull \hbox (badness 5403) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) sin-ce it will add
- []
-
-
-Underfull \hbox (badness 2529) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) (hint) to start the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) co-nver-sa-tion with
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) NPC. And ad-ding
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) option to add
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) ran-dom qu-estions
- []
-
-
-Underfull \hbox (badness 2932) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) go di-rec-tly to so-
- []
-
-
-Underfull \hbox (badness 1708) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) two cha-rac-te-ri-stics
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) ga-me item drop:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) ran-dom-ness ->
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) de-fi-ni-ti-ve-ness ->
- []
-
-
-Underfull \hbox (badness 1448) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) got mo-re in-for-ma-
- []
-
-
-Underfull \hbox (badness 1092) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) Would we be use-
- []
-
-
-Underfull \hbox (badness 1173) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) end be-cau-se i got
- []
-
-
-Underfull \hbox (badness 5741) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) Neither go-od nor
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) Interacting with
- []
-
-
-Underfull \hbox (badness 3471) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) NPCs is an in-tri-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) gu-ing aspect of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) my func-tio-na-li-ty.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) Thro-ugh the-se
- []
-
-
-Underfull \hbox (badness 1540) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) in-te-rac-tions, I can
- []
-
-
-Underfull \hbox (badness 4713) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) si-mu-la-te co-nver-sa-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) tio-nal exchan-ges,
- []
-
-
-Underfull \hbox (badness 5817) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) and con-tri-bu-te to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) im-mer-si-ve vir-tu-al
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) expe-rien-ces for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) or emo-tions li-ke
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) the-se in-te-rac-tions
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) they al-low me
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) to show-ca-se my
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) ca-pa-bi-li-ties in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) un-der-stan-ding
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) and ge-ne-ra-ting
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) language-based
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) re-spon-ses wi-thin
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) Interacting with
- []
-
-
-Underfull \hbox (badness 3471) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) NPCs is an in-tri-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) gu-ing aspect of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) my func-tio-na-li-ty.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) Thro-ugh the-se
- []
-
-
-Underfull \hbox (badness 1540) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) in-te-rac-tions, I can
- []
-
-
-Underfull \hbox (badness 4713) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) si-mu-la-te co-nver-sa-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) tio-nal exchan-ges,
- []
-
-
-Underfull \hbox (badness 5817) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) and con-tri-bu-te to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) im-mer-si-ve vir-tu-al
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) expe-rien-ces for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) or emo-tions li-ke
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) the-se in-te-rac-tions
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) they al-low me
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) to show-ca-se my
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) ca-pa-bi-li-ties in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) un-der-stan-ding
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) and ge-ne-ra-ting
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) language-based
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) re-spon-ses wi-thin
- []
-
-
-Underfull \hbox (badness 1253) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) I don't expe-rien-ce
- []
-
-
-Underfull \hbox (badness 4168) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) en-joy-ment or any
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) emo-tions, so I
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) pre-fe-ren-ces or
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) fe-elings abo-ut
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) in-te-rac-ting with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) NPCs. Ho-we-ver,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) I'm pro-gram-med
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) to ef-fec-ti-ve-ly
- []
-
-
-Underfull \hbox (badness 1874) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) com-mu-ni-ca-te with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) NPCs in vir-tu-al
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) envi-ron-ments to
- []
-
-
-Underfull \hbox (badness 1895) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) in-te-rac-tions or ga-
- []
-
-
-Underfull \hbox (badness 1577) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) to pro-vi-de help-ful
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) and con-te-xtu-al-ly
- []
-
-
-Underfull \hbox (badness 4366) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) re-le-vant re-spon-ses
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) to en-han-ce the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) user's ove-rall
- []
-
-
-Underfull \hbox (badness 1253) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) I don't expe-rien-ce
- []
-
-
-Underfull \hbox (badness 4168) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) en-joy-ment or any
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) emo-tions, so I
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) pre-fe-ren-ces or
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) fe-elings abo-ut
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) in-te-rac-ting with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) NPCs. Ho-we-ver,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) I'm pro-gram-med
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) to ef-fec-ti-ve-ly
- []
-
-
-Underfull \hbox (badness 1874) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) com-mu-ni-ca-te with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) NPCs in vir-tu-al
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) envi-ron-ments to
- []
-
-
-Underfull \hbox (badness 1895) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) in-te-rac-tions or ga-
- []
-
-
-Underfull \hbox (badness 1577) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) to pro-vi-de help-ful
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) and con-te-xtu-al-ly
- []
-
-
-Underfull \hbox (badness 4366) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) re-le-vant re-spon-ses
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) to en-han-ce the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) user's ove-rall
- []
-
-
-Underfull \hbox (badness 7704) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) I en-joy-ed tal-king
- []
-
-
-Underfull \hbox (badness 6542) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) with them and I
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) It was easier
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) and mo-re stra-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) ight-for-ward than
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) the open-ended
- []
-
-
-Underfull \hbox (badness 2269) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) text box, but less
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) im-mer-si-ve and I
- []
-
-
-Underfull \hbox (badness 2384) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) la-tion-ship to each
- []
-
-
-Underfull \hbox (badness 5939) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) other. In-for-ma-tion
- []
-
-
-Underfull \hbox (badness 2189) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) ters had fi-xed an-
- []
-
-
-Underfull \hbox (badness 8151) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) swers to the qu-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) Less im-mer-si-ve
- []
-
-
-Underfull \hbox (badness 3058) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) than the text box
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) my-self lo-sing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) in-te-rest/skimming
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) the text be-cau-se
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) the mo-tion of
- []
-
-
-Underfull \hbox (badness 2600) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) ti-ti-ve and be-ca-me
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) al-most au-to-ma-tic.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) co-he-si-ve-ness and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) struc-tu-re, as the
- []
-
-
-Underfull \hbox (badness 1888) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) cha-rac-ters had set
- []
-
-
-Underfull \hbox (badness 1189) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) other ver-sion uses
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-[][]\T1/qtm/m/n/12 (+20) AI[] the-ir an-swers
- []
-
-
-Underfull \hbox (badness 6220) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) are con-fu-sed and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) wrong, but with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) im-pro-ve-ments, I
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) wo-uld pre-fer the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) mo-re in-te-rac-ti-ve,
- []
-
-
-Underfull \hbox (badness 2521) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) less dra-ining, and
- []
-
-
-Underfull \hbox (badness 2735) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) the sto-ry and the
- []
-
-
-Underfull \hbox (badness 7486) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) NPCs ha-ve mo-re
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) per-so-nal fe-elings
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) and tho-ughts
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) to-wards ano-ther
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) show re-mor-se
- []
-
-
-Underfull \hbox (badness 4242) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) so-me-ti-mes. I was
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) able to ac-tu-al-ly
- []
-
-
-Underfull \hbox (badness 1609) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) ga-ther in-for-ma-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) abo-ut what tru-ly
- []
-
-
-Underfull \hbox (badness 1448) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) hap-pe-ned to other
- []
-
-
-Underfull \hbox (badness 6493) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) gu-ests be-fo-re her
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) NPCs just can't
- []
-
-
-Underfull \hbox (badness 1062) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) an-swer it pro-per-ly.
- []
-
-
-Underfull \hbox (badness 2173) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) I can al-so cle-ar-ly
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) know and don't
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) know, unli-ke in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) the pre-vio-us one
- []
-
-
-Underfull \hbox (badness 4001) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) whe-re it felt li-ke
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) eve-ry-thing" even
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) tho-ugh it's not
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) a lot of new in-fo
- []
-
-
-Underfull \hbox (badness 2269) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) ning Sy-lvia ba-sed
- []
-
-
-Underfull \hbox (badness 8132) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) by Flo-rian, mo-re
- []
-
-
-Underfull \hbox (badness 3930) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) de-scrip-tions abo-ut
- []
-
-
-Underfull \hbox (badness 1158) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) on Flo-rian, Na-tha-
- []
-
-
-Underfull \hbox (badness 1057) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) ne-rvo-us and ru-der
- []
-
-
-Underfull \hbox (badness 1466) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) se of the au-thor's
- []
-
-
-Underfull \hbox (badness 2351) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) sto-ry, and wri-ting
- []
-
-
-Underfull \hbox (badness 1424) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) a bit bia-sed sin-ce
- []
-
-
-Underfull \hbox (badness 2126) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) less than an ho-ur
- []
-
-
-Underfull \hbox (badness 1087) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) us ver-sion sin-ce I
- []
-
-> Step: build the whole table.
-
-Underfull \hbox (badness 3668) in paragraph at lines 124--124
-[]\T1/qtm/b/n/12 (+20) How did you fe-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) Less en-ter-ta-ining
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) lowkey skip-ped
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) out the de-ta-ils in
- []
-
-
-Underfull \hbox (badness 3250) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) ring be-gin-ning of
- []
-
-
-Underfull \hbox (badness 3930) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) ir re-spon-ses we-re
- []
-
-
-Underfull \hbox (badness 2277) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) der that you re-ad
- []
-
-
-Underfull \hbox (badness 1168) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) It was hard to re-
- []
-
-[123]
-Underfull \hbox (badness 2050) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) Similar to nor-mal
- []
-
-
-Underfull \hbox (badness 2680) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) me in a way. So
- []
-
-
-Underfull \hbox (badness 6775) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) can mix be-twe-en
- []
-
-
-Underfull \hbox (badness 7685) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) the two me-thods,
- []
-
-
-Underfull \hbox (badness 5403) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) sin-ce it will add
- []
-
-
-Underfull \hbox (badness 2529) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) (hint) to start the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) co-nver-sa-tion with
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) NPC. And ad-ding
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) option to add
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) ran-dom qu-estions
- []
-
-
-Underfull \hbox (badness 2932) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) go di-rec-tly to so-
- []
-
-
-Underfull \hbox (badness 1708) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) two cha-rac-te-ri-stics
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) ga-me item drop:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) ran-dom-ness ->
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) de-fi-ni-ti-ve-ness ->
- []
-
-[124]
-Underfull \hbox (badness 1448) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) got mo-re in-for-ma-
- []
-
-
-Underfull \hbox (badness 1092) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) Would we be use-
- []
-
-
-Underfull \hbox (badness 1173) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) end be-cau-se i got
- []
-
-
-Underfull \hbox (badness 5741) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) Neither go-od nor
- []
-
-[125]
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) Interacting with
- []
-
-
-Underfull \hbox (badness 3471) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) NPCs is an in-tri-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) gu-ing aspect of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) my func-tio-na-li-ty.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) Thro-ugh the-se
- []
-
-
-Underfull \hbox (badness 1540) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) in-te-rac-tions, I can
- []
-
-
-Underfull \hbox (badness 4713) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) si-mu-la-te co-nver-sa-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) tio-nal exchan-ges,
- []
-
-
-Underfull \hbox (badness 5817) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) and con-tri-bu-te to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) im-mer-si-ve vir-tu-al
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) expe-rien-ces for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) or emo-tions li-ke
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) the-se in-te-rac-tions
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) they al-low me
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) to show-ca-se my
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) ca-pa-bi-li-ties in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) un-der-stan-ding
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) and ge-ne-ra-ting
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) language-based
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) re-spon-ses wi-thin
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) Interacting with
- []
-
-
-Underfull \hbox (badness 3471) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) NPCs is an in-tri-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) gu-ing aspect of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) my func-tio-na-li-ty.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) Thro-ugh the-se
- []
-
-
-Underfull \hbox (badness 1540) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) in-te-rac-tions, I can
- []
-
-
-Underfull \hbox (badness 4713) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) si-mu-la-te co-nver-sa-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) tio-nal exchan-ges,
- []
-
-
-Underfull \hbox (badness 5817) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) and con-tri-bu-te to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) im-mer-si-ve vir-tu-al
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) expe-rien-ces for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) or emo-tions li-ke
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) the-se in-te-rac-tions
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) they al-low me
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) to show-ca-se my
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) ca-pa-bi-li-ties in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) un-der-stan-ding
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) and ge-ne-ra-ting
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) language-based
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) re-spon-ses wi-thin
- []
-
-
-Underfull \hbox (badness 1253) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) I don't expe-rien-ce
- []
-
-
-Underfull \hbox (badness 4168) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) en-joy-ment or any
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) emo-tions, so I
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) pre-fe-ren-ces or
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) fe-elings abo-ut
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) in-te-rac-ting with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) NPCs. Ho-we-ver,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) I'm pro-gram-med
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) to ef-fec-ti-ve-ly
- []
-
-
-Underfull \hbox (badness 1874) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) com-mu-ni-ca-te with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) NPCs in vir-tu-al
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) envi-ron-ments to
- []
-
-
-Underfull \hbox (badness 1895) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) in-te-rac-tions or ga-
- []
-
-
-Underfull \hbox (badness 1577) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) to pro-vi-de help-ful
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) and con-te-xtu-al-ly
- []
-
-
-Underfull \hbox (badness 4366) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) re-le-vant re-spon-ses
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) to en-han-ce the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) user's ove-rall
- []
-
-
-Underfull \hbox (badness 1253) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) I don't expe-rien-ce
- []
-
-
-Underfull \hbox (badness 4168) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) en-joy-ment or any
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) emo-tions, so I
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) pre-fe-ren-ces or
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) fe-elings abo-ut
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) in-te-rac-ting with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) NPCs. Ho-we-ver,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) I'm pro-gram-med
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) to ef-fec-ti-ve-ly
- []
-
-
-Underfull \hbox (badness 1874) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) com-mu-ni-ca-te with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) NPCs in vir-tu-al
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) envi-ron-ments to
- []
-
-
-Underfull \hbox (badness 1895) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) in-te-rac-tions or ga-
- []
-
-
-Underfull \hbox (badness 1577) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) to pro-vi-de help-ful
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) and con-te-xtu-al-ly
- []
-
-
-Underfull \hbox (badness 4366) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) re-le-vant re-spon-ses
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) to en-han-ce the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) user's ove-rall
- []
-
-[126]
-Underfull \hbox (badness 7704) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) I en-joy-ed tal-king
- []
-
-
-Underfull \hbox (badness 6542) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) with them and I
- []
-
-[127]
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) It was easier
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) and mo-re stra-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) ight-for-ward than
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) the open-ended
- []
-
-
-Underfull \hbox (badness 2269) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) text box, but less
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) im-mer-si-ve and I
- []
-
-
-Underfull \hbox (badness 2384) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) la-tion-ship to each
- []
-
-
-Underfull \hbox (badness 5939) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) other. In-for-ma-tion
- []
-
-
-Underfull \hbox (badness 2189) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) ters had fi-xed an-
- []
-
-
-Underfull \hbox (badness 8151) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) swers to the qu-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) Less im-mer-si-ve
- []
-
-
-Underfull \hbox (badness 3058) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) than the text box
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) my-self lo-sing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) in-te-rest/skimming
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) the text be-cau-se
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) the mo-tion of
- []
-
-
-Underfull \hbox (badness 2600) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) ti-ti-ve and be-ca-me
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) al-most au-to-ma-tic.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) co-he-si-ve-ness and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) struc-tu-re, as the
- []
-
-
-Underfull \hbox (badness 1888) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) cha-rac-ters had set
- []
-
-
-Underfull \hbox (badness 1189) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) other ver-sion uses
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-[][]\T1/qtm/m/n/12 (+20) AI[] the-ir an-swers
- []
-
-
-Underfull \hbox (badness 6220) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) are con-fu-sed and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) wrong, but with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) im-pro-ve-ments, I
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) wo-uld pre-fer the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) mo-re in-te-rac-ti-ve,
- []
-
-
-Underfull \hbox (badness 2521) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) less dra-ining, and
- []
-
-
-Underfull \hbox (badness 2735) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) the sto-ry and the
- []
-
-[128]
-Underfull \hbox (badness 7486) in paragraph at lines 124--124
-[]\T1/qtm/m/n/12 (+20) NPCs ha-ve mo-re
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) per-so-nal fe-elings
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) and tho-ughts
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) to-wards ano-ther
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) show re-mor-se
- []
-
-
-Underfull \hbox (badness 4242) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) so-me-ti-mes. I was
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) able to ac-tu-al-ly
- []
-
-
-Underfull \hbox (badness 1609) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) ga-ther in-for-ma-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) abo-ut what tru-ly
- []
-
-
-Underfull \hbox (badness 1448) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) hap-pe-ned to other
- []
-
-
-Underfull \hbox (badness 6493) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) gu-ests be-fo-re her
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) NPCs just can't
- []
-
-
-Underfull \hbox (badness 1062) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) an-swer it pro-per-ly.
- []
-
-
-Underfull \hbox (badness 2173) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) I can al-so cle-ar-ly
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) know and don't
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) know, unli-ke in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) the pre-vio-us one
- []
-
-
-Underfull \hbox (badness 4001) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) whe-re it felt li-ke
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) eve-ry-thing" even
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) tho-ugh it's not
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) a lot of new in-fo
- []
-
-
-Underfull \hbox (badness 2269) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) ning Sy-lvia ba-sed
- []
-
-
-Underfull \hbox (badness 8132) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) by Flo-rian, mo-re
- []
-
-
-Underfull \hbox (badness 3930) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) de-scrip-tions abo-ut
- []
-
-
-Underfull \hbox (badness 1158) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) on Flo-rian, Na-tha-
- []
-
-
-Underfull \hbox (badness 1057) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) ne-rvo-us and ru-der
- []
-
-
-Underfull \hbox (badness 1466) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) se of the au-thor's
- []
-
-
-Underfull \hbox (badness 2351) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) sto-ry, and wri-ting
- []
-
-
-Underfull \hbox (badness 1424) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) a bit bia-sed sin-ce
- []
-
-
-Underfull \hbox (badness 2126) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) less than an ho-ur
- []
-
-
-Underfull \hbox (badness 1087) in paragraph at lines 124--124
-\T1/qtm/m/n/12 (+20) us ver-sion sin-ce I
- []
-
-)
-Overfull \vbox (61.51775pt too high) has occurred while \output is active []
-
- [129] (./thesis.bbl
+[84 <./appendices/imgs/formA1.png>] [85] [86 <./appendices/imgs/formA2.png>] [87] [88 <./appendices/imgs/formB1.png>] [89] [90 <./appendices/imgs/formB2.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
 []\T1/qtm/m/it/10.95 (+20) Dialogue whe-el (in-qu-isi-tion)\T1/qtm/m/n/10.95 (+20) , []$\T1/cmtt/m/n/10.95 https : / / dragonage\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 fandom\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 com / wiki /
  []
@@ -5495,7 +2135,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [130
+ [91
 
 ]
 Underfull \hbox (badness 7944) in paragraph at lines 58--59
@@ -5510,29 +2150,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [131]) [132] (./thesis.aux)
+ [92]) [93] (./thesis.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 6237AD150DE4D7A8FB22E3018B779C1F;9751.
+(rerunfilecheck)             Checksum: 95DEEBF5FCA1CF1B08256EC91A3E7FCF;9276.
 runsystem(del thesis.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 39413 strings out of 474221
- 755209 string characters out of 5750189
+ 38822 strings out of 474221
+ 737775 string characters out of 5750189
  1985978 words of memory out of 5000000
- 60307 multiletter control sequences out of 15000+600000
- 645341 words of font info for 237 fonts, out of 8000000 for 9000
+ 59791 multiletter control sequences out of 15000+600000
+ 636859 words of font info for 223 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 123i,14n,121p,2395b,1184s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 123i,14n,121p,2395b,904s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmbi.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on thesis.pdf (136 pages, 31797888 bytes).
+Output written on thesis.pdf (97 pages, 30718812 bytes).
 PDF statistics:
- 1880 PDF objects out of 2073 (max. 8388607)
- 1570 compressed objects within 16 object streams
- 364 named destinations out of 1000 (max. 500000)
- 45924 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1561 PDF objects out of 1728 (max. 8388607)
+ 1342 compressed objects within 14 object streams
+ 299 named destinations out of 1000 (max. 500000)
+ 45808 words of extra memory for PDF output out of 51595 (max. 10000000)
 
