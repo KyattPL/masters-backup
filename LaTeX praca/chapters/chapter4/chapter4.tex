@@ -2,9 +2,9 @@
 
 \chapter{Sposoby generowania narracji}\label{chapter:ch4}
 
-W poprzednich sekcjach omówiona została historia oraz wykorzystywane w grach komputerowych rodzaje
-narracji. W każdym z tych elementów istnieje jeden element wspólny: to ludzie odpowiadają za tworzenie
-narracji, odpowiednie jej planowanie i prezentowanie odbiorcy. Związane z tym są oczywiście olbrzymie
+W poprzednich sekcjach omówiona została historia gier oraz wykorzystywane w grach komputerowych rodzaje
+narracji. W każdym z tych elementów istnieje jedna część wspólna: to ludzie odpowiadają za tworzenie
+historii, odpowiednie jej planowanie i prezentowanie odbiorcy. Związane z tym są oczywiście olbrzymie
 koszty oraz duży nakład czasu poświęcony przez pracowników. Biorąc pod uwagę terminy stale goniące
 producentów gier, nic dziwnego, że pewne zaplanowane fragmenty fabularne nie znajdują miejsca w~końcowym
 produkcie. Z tego względu, patrząc na postępujący rozwój technologiczny, nasuwa się pytanie ---
@@ -151,7 +151,7 @@ manipulowanie przedmiotami i, co najważniejsze, poprzez dialogi w języku natur
 
 Twórcy na potrzebę "Façade" stworzyli własny język ABL (\textit{"A Behavior Language"} - z~ang. język
 zachowań). Stanowi on pewnego rodzaju połączenie drzew decyzjnych i~procesów decyzjnych Markowa
-wspomnianych wcześniej. Programy ABL są zorganizowane jako zbiór zachowań, które mogą być procesowane
+wspomnianych wcześniej. Programy ABL są zorganizowane jako zbiór zachowań, które mogą być przetwarzane
 sekwencyjnie lub równolegle. Dodatkowo, zachowania mogą mieć narzucone określone wymagania by
 mogły one się odbyć, a w~zależności od powodzenia lub porażki w realizacji zachowania świat gry
 może zostać odpowiednio zmieniony.
@@ -186,7 +186,7 @@ jego semantyczne właściwości. Następnie sekwencja wektorów przechodzi przez
 kontekstu, czyli od słów występujących dookoła niego). Ten proces pozwala na lepsze zrozumienie
 zależności pomiędzy elementami wejściowymi. Po bloku uwagi, wektory są przetwarzane przez
 perceptron wielowarstwowy (ang. \textit{MLP - multi-layer perceptron}). Cykl bloków uwagi i~MLP jest
-wielokrotnie powtarzany. Na końcu procesu otrzymujemy pojedynczą macierz, na podstawie której, poprzez
+wielokrotnie powtarzany. Na końcu procesu otrzymywana jest pojedyncza macierz, na podstawie której, poprzez
 operację softmax, generowany jest rozkład prawdopodobieństwa dla możliwych żetonów następujących po
 danym fragmencie wejściowym. Autorzy raportu technicznego dotyczącego \gls{gpt}-4 zauważają, że:
 
@@ -214,8 +214,8 @@ masową adopcję w wielu przestrzeniach:
 \end{quote}
 
 Pod pojęciem "halucynacji" rozumiane jest wymyślanie faktów, ponieważ modele te same w sobie nie posiadają
-żadnej podpiętej bazy wiedzy a generowany przez nie tekst wynika z modelu probabilistycznego (co nie
-znaczy, że w ogólnie nie dysponują wiedzą). Wielkość okna kontekstowego oznacza na jakim rozmiarze
+żadnej podpiętej bazy wiedzy a generowany przez nie tekst wynika z modelu probabilistycznego.
+Wielkość okna kontekstowego oznacza na jakim rozmiarze
 danych / żetonów model jest w~stanie jednocześnie pracować (tzn. w przypadku bardzo długich konwersacji
 czy plików model może nie brać pod uwagę wczesnych informacji przy udzielaniu odpowiedzi).
 
@@ -288,12 +288,12 @@ wersje systemu z ograniczonym dostępem do pamięci, refleksji i planowania, obs
 komponentów jest kluczowy dla wiarygodności zachowań agenta\cite{ai_town_ref}.
 
 Jak widać obecnie trwają intensywne prace badawcze nad wykorzystaniem dużych modeli językowych,
-w dziedzinie tworzenia treści literackich oraz elementów gier. Jednym z~obiecujących
-zastosowań jest stworzenie w pełni autonomicznych, generatywnych agentów literackich,
+w dziedzinie tworzenia treści fabularnych oraz samych elementów gier. Jednym z~obiecujących
+zastosowań jest stworzenie w pełni autonomicznych, generatywnych agentów \gls{npc},
 zdolnych do samodzielnego tworzenia spójnych i angażujących narracji. Rozwiązania te stopniowo
 znajdują swoje odzwierciedlenie również na rynku komercyjnym, czego przykładem są platformy takie
 jak Inworld AI czy Nvidia Avatar Cloud Engine. Umożliwiają one twórcom gier, a nawet indywidualnym
 użytkownikom, korzystanie z zaawansowanych modeli językowych w celu generowania dialogów postaci,
 opisów środowisk czy całych wątków fabularnych. Chociaż wciąż istnieją liczne wyzwania natury
 technicznej i etycznej, rozwój tej technologii może znacząco zmienić oblicze branży rozrywkowej
-oraz procesów twórczych w dziedzinie literatury.
+oraz procesów twórczych w dziedzinie gier komputerowych.
