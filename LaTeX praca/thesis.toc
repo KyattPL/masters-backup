@@ -44,15 +44,15 @@
 \contentsline {chapter}{\numberline {6\relax .\enspace }Planowany eksperyment}{48}{chapter.6}%
 \contentsline {section}{\numberline {6.1\relax .\enspace }Projekt gry wykorzystanej w eksperymencie}{48}{section.6.1}%
 \contentsline {section}{\numberline {6.2\relax .\enspace }Opis generatywnych agentów}{51}{section.6.2}%
-\contentsline {section}{\numberline {6.3\relax .\enspace }Zaplanowany przebieg eksperymentu}{61}{section.6.3}%
-\contentsline {chapter}{\numberline {7\relax .\enspace }Wyniki}{64}{chapter.7}%
-\contentsline {section}{\numberline {7.1\relax .\enspace }Demografia}{64}{section.7.1}%
-\contentsline {section}{\numberline {7.2\relax .\enspace }Analiza danych}{69}{section.7.2}%
-\contentsline {chapter}{Podsumowanie}{77}{chapter*.83}%
-\contentsline {chapter}{Spis rysunk\'ow}{78}{chapter*.84}%
-\contentsline {chapter}{Spis listingów}{80}{chapter*.85}%
-\contentsline {chapter}{Spis tabel}{81}{chapter*.86}%
-\contentsline {chapter}{Słownik akronimów}{82}{chapter*.88}%
-\contentsline {chapter}{Dodatki}{83}{section*.89}%
-\contentsline {chapter}{\numberline {A\relax .\enspace }Statystyki opisowe pytań kwestionariuszy}{84}{appendix.A}%
-\contentsline {chapter}{Bibliografia}{92}{chapter*.98}%
+\contentsline {section}{\numberline {6.3\relax .\enspace }Zaplanowany przebieg eksperymentu}{60}{section.6.3}%
+\contentsline {chapter}{\numberline {7\relax .\enspace }Wyniki}{63}{chapter.7}%
+\contentsline {section}{\numberline {7.1\relax .\enspace }Demografia}{63}{section.7.1}%
+\contentsline {section}{\numberline {7.2\relax .\enspace }Analiza danych}{68}{section.7.2}%
+\contentsline {chapter}{Podsumowanie}{76}{chapter*.83}%
+\contentsline {chapter}{Spis rysunk\'ow}{77}{chapter*.84}%
+\contentsline {chapter}{Spis listingów}{79}{chapter*.85}%
+\contentsline {chapter}{Spis tabel}{80}{chapter*.86}%
+\contentsline {chapter}{Słownik akronimów}{81}{chapter*.88}%
+\contentsline {chapter}{Dodatki}{82}{section*.89}%
+\contentsline {chapter}{\numberline {A\relax .\enspace }Statystyki opisowe pytań kwestionariuszy}{83}{appendix.A}%
+\contentsline {chapter}{Bibliografia}{91}{chapter*.98}%

@@ -6,7 +6,7 @@ W poprzednich sekcjach omówiona została historia oraz wykorzystywane w grach k
 narracji. W każdym z tych elementów istnieje jeden element wspólny: to ludzie odpowiadają za tworzenie
 narracji, odpowiednie jej planowanie i prezentowanie odbiorcy. Związane z tym są oczywiście olbrzymie
 koszty oraz duży nakład czasu poświęcony przez pracowników. Biorąc pod uwagę terminy stale goniące
-producentów gier, nic dziwnego, że pewne zaplanowane fragmenty fabularne nie znajdują miejsca w końcowym
+producentów gier, nic dziwnego, że pewne zaplanowane fragmenty fabularne nie znajdują miejsca w~końcowym
 produkcie. Z tego względu, patrząc na postępujący rozwój technologiczny, nasuwa się pytanie ---
 czy da się zarządzać narracją w grze komputerowej w sposób automatyczny? W ramach tej sekcji
 przedstawione zostaną znane rozwiązania z dziedziny sztucznej inteligencji pomagające w kreowaniu fabuły
@@ -43,7 +43,7 @@ częściowo-uporządkowanego została przedstawiona na rysunku \ref{fig:ch4_1_po
 \end{figure}
 
 Za pomocą tej techniki kreować można rozbudowane plany fabularne, które mogą ulegać zmianie na
-podstawie akcji podejmowanych przez gracza czy zmian zachodzących w świecie gry. Odpowiednie algorytmy
+podstawie akcji podejmowanych przez gracza czy zmian zachodzących w~świecie gry. Odpowiednie algorytmy
 przeszukiwania nazywane \textit{"plannerami"} rozwiązują problem planowania, tzn. mając dany stan
 świata, pewne atomowe akcje możliwe do wykonania przez grającego oraz założony cel, znajdują
 odpowiednią sekwencję operacji, które doprowadzą do osięgnięcia tegoż celu\cite{game_ai_storytelling}.
@@ -63,7 +63,7 @@ wykorzystanie dodatkowego sprzętu a zarazem inwazyjność przeszkadzającą w s
 \cite{reusable_game_ai}.
 
 W ramach tego obszaru sztuczna inteligencja objawia się zazwyczaj pod postacią sieci neuronowych czy
-też drzew decyzyjnych, które pozwalają dokonywać klasyfikacji w zakresie\cite{reusable_game_ai}:
+też drzew decyzyjnych, które pozwalają dokonywać klasyfikacji w~zakresie\cite{reusable_game_ai}:
 
 \begin{itemize}
     \item rozpoznawania emocji grającego - w ramach anagażujących systemów dialogowych
@@ -76,7 +76,7 @@ też drzew decyzyjnych, które pozwalają dokonywać klasyfikacji w zakresie\cit
 
 Przetwarzanie języka naturalnego jest dziedziną w obrębie sztucznej inteligencji, która zajmuje się
 zrozumieniem, interpretacją i manipulacją ludzkiego języka\cite{reusable_game_ai}. W ramach gier
-komputerowych pozwala to graczowi poruszać się po świecie czy też komunikować z innymi postaciami \gls{npc}
+komputerowych pozwala to graczowi poruszać się po świecie czy też komunikować z~innymi postaciami \gls{npc}
 w sposób zarówno naturalny (zamiast wchodzenia w interakcję z odpowiednimi interfejsami) jak i dość
 otwarty (na tyle na ile dany system jest w stanie przetwarzać odpowiednie frazy).
 
@@ -92,13 +92,13 @@ Ich bardziej szczegółowy opis będzie przedstawiony w sekcji \ref{section:ch4_
 Postacie niegrywalne to wszelkie jednostki czy postacie, z którymi gracz może wchodzić w
 interakcję lub dostrzegać ich autonomiczne poruszanie w świecie. Mogą to być statyczne byty,
 które usytuowane są w jednym określonym miejscu i mają na celu dawać grającemu zadania czy też
-informacje o świecie gry. Z drugiej strony wszelkie jednostki, z którymi gracz walczy również
+informacje o świecie gry. Z drugiej strony wszelkie jednostki, z~którymi gracz walczy również
 podlegają pod tę definicję. Forma postaci niegrywalnych, tak jak i w literaturze, nie jest
-istotna, gdyż bohaterem może być zarówno człowiek jak i zantropomorfizowane zwierzę czy rzecz.
+istotna, gdyż bohaterem może być zarówno człowiek jak i~zantropomorfizowane zwierzę czy rzecz.
 
 \gls{npc} pojawiły się w grach z początkiem lat 90-tych. Oparte były przede wszystkim na zpredefiniowanych
 skryptach i drzewach decyzyjnych\cite{storytelling_through} (współcześnie nadal wiele postaci jest
-opartych o te rozwiązania) \cite{from_pong_to_narrative}.
+opartych o te rozwiązania)\cite{from_pong_to_narrative}.
 
 Wraz z rozwojem technologicznym twórcy gry mają możliwość przeznaczenia więcej mocy obliczeniowej
 na wiarygodne dla gracza postacie \gls{npc}. Związane jest to z dokładniejszymi modelami i animacjami
@@ -126,7 +126,7 @@ wszystkie nagrody są jednakowe, to proces decyzyjny Markowa upraszcza się do �
     \label{fig:ch4_1_mdp}
 \end{figure}
 
-Na powyższym rysunku przedstawiony został przykładowy proces decyzjny Markowa z trzema stanami (zielone
+Na powyższym rysunku przedstawiony został przykładowy proces decyzjny Markowa z~trzema stanami (zielone
 kółka), dwiema akcjami (czerwone kółka) oraz dwiema nagrodami (pomarańczowe strzałki). Model \gls{mdp} może
 być wykorzystany w ramach generowania treści gier komputerowych do budowania zadań dla gracza,
 przykładowo dla gry kucharskiej baza składników może być ułożona w odpowiednie łańcuchy Markowa, tak
@@ -149,11 +149,11 @@ jaw. To, w jaki sposób ich związek się rozpadnie, a także ostateczny związe
 zależy od interakcji gracza ze światem. Gracz angażuje się poprzez poruszanie się po środowisku,
 manipulowanie przedmiotami i, co najważniejsze, poprzez dialogi w języku naturalnym\cite{1024751}.
 
-Twórcy na potrzebę "Façade" stworzyli własny język ABL (\textit{"A Behavior Language"} - z ang. język
-zachowań). Stanowi on pewnego rodzaju połączenie drzew decyzjnych i procesów decyzjnych Markowa
+Twórcy na potrzebę "Façade" stworzyli własny język ABL (\textit{"A Behavior Language"} - z~ang. język
+zachowań). Stanowi on pewnego rodzaju połączenie drzew decyzjnych i~procesów decyzjnych Markowa
 wspomnianych wcześniej. Programy ABL są zorganizowane jako zbiór zachowań, które mogą być procesowane
 sekwencyjnie lub równolegle. Dodatkowo, zachowania mogą mieć narzucone określone wymagania by
-mogły one się odbyć, a w zależności od powodzenia lub porażki w realizacji zachowania świat gry
+mogły one się odbyć, a w~zależności od powodzenia lub porażki w realizacji zachowania świat gry
 może zostać odpowiednio zmieniony.
 
 \section{Wykorzystanie dużych modeli językowych (LLM) do kreowania narracji}\label{section:ch4_2}
@@ -185,7 +185,7 @@ jego semantyczne właściwości. Następnie sekwencja wektorów przechodzi przez
 \textit{attention}), gdzie wektory wzajemnie się aktualizują (ponieważ np. znaczenie słowa zależy od
 kontekstu, czyli od słów występujących dookoła niego). Ten proces pozwala na lepsze zrozumienie
 zależności pomiędzy elementami wejściowymi. Po bloku uwagi, wektory są przetwarzane przez
-perceptron wielowarstwowy (ang. \textit{MLP - multi-layer perceptron}). Cykl bloków uwagi i MLP jest
+perceptron wielowarstwowy (ang. \textit{MLP - multi-layer perceptron}). Cykl bloków uwagi i~MLP jest
 wielokrotnie powtarzany. Na końcu procesu otrzymujemy pojedynczą macierz, na podstawie której, poprzez
 operację softmax, generowany jest rozkład prawdopodobieństwa dla możliwych żetonów następujących po
 danym fragmencie wejściowym. Autorzy raportu technicznego dotyczącego \gls{gpt}-4 zauważają, że:
@@ -216,7 +216,7 @@ masową adopcję w wielu przestrzeniach:
 Pod pojęciem "halucynacji" rozumiane jest wymyślanie faktów, ponieważ modele te same w sobie nie posiadają
 żadnej podpiętej bazy wiedzy a generowany przez nie tekst wynika z modelu probabilistycznego (co nie
 znaczy, że w ogólnie nie dysponują wiedzą). Wielkość okna kontekstowego oznacza na jakim rozmiarze
-danych / żetonów model jest w stanie jednocześnie pracować (tzn. w przypadku bardzo długich konwersacji
+danych / żetonów model jest w~stanie jednocześnie pracować (tzn. w przypadku bardzo długich konwersacji
 czy plików model może nie brać pod uwagę wczesnych informacji przy udzielaniu odpowiedzi).
 
 \subsubsection*{Przykłady zastosowania dużych modeli językowych}
@@ -227,12 +227,12 @@ to polegało na połączeniu dwóch modeli językowych: BERT i \gls{gpt}-2 w sek
 zdania będące podstawowymi zadaniami, z jednym słowem zamaskowanym. Zdania te przesyłano do modelu
 BERT, który przewidywał najbardziej prawdopodobne słowa pasujące do kontekstu. Następnie losowo wybierano
 jedno ze zwróconych słów i umieszczano je w zdaniu, tworząc wejście dla modelu \gls{gpt}-2. Model ten generował
-dodatkowy tekst narracyjny uzupełniający podstawowe zadanie o motywacje, opis sytuacji i wprowadzał
+dodatkowy tekst narracyjny uzupełniający podstawowe zadanie o motywacje, opis sytuacji i~wprowadzał
 elementy fabularne. Wyniki sugerują, że takie połączenie modeli ma potencjał do generowania angażujących
 zadań z narracją, bardziej wciągających niż podstawowe polecenia. Poprzedzanie wejść relacjami
 między postaciami niegrywalnymi w grze kierowało generowaną treść w odpowiedni kontekst. Jednak
 generowane zdania nie zawsze były w pełni spójne i odpowiednie. Autorzy uznali, że dalsze postępy w
-dziedzinie \gls{nlp}, w tym pojawienie się nowszych, lepszych modeli, mogą doprowadzić do jeszcze lepszych
+dziedzinie \gls{nlp}, w~tym pojawienie się nowszych, lepszych modeli, mogą doprowadzić do jeszcze lepszych
 rezultatów w przyszłości.\cite{questville}
 
 Jak wskazują w swojej pracy Umbraško i Drury (2023)\cite{chatgpt_narrative},
@@ -240,8 +240,8 @@ duże modele językowe mogą odgrywać kluczową rolę w
 dynamicznym tworzeniu treści gry na podstawie wejściowych danych tekstowych i kontekstu rozgrywki.
 Opisany prototyp gry wykorzystuje interfejs \gls{api} ChatGPT do generowania początkowej sceny narracyjnej oraz
 opisu przeciwników (orków) na podstawie wysłanego do modelu żądania w formacie \gls{json}. Kluczowym
-elementem jest też dynamiczne tworzenie dalszych fragmentów narracji na podstawie działań gracza i
-stanu gry, w tym cech przypisanych wrogom (np. "płonący", "pijany"). Wprowadzanie tych cech jako danych
+elementem jest też dynamiczne tworzenie dalszych fragmentów narracji na podstawie działań gracza i~stanu
+gry, w tym cech przypisanych wrogom (np. "płonący", "pijany"). Wprowadzanie tych cech jako danych
 wejściowych pozwala modelowi językowemu na bardziej kontekstowe dopasowanie narracji.
 Autorzy prototypu zdecydowali się na ograniczenie zakresu możliwych wyjść modelu (np. rodzaje broni
 wrogów) dla zachowania spójności z mechanicznymi elementami gry. Wskazuje to na konieczność znalezienia
@@ -281,15 +281,15 @@ w języku naturalnym. Refleksja pozwala agentowi na wyciąganie wniosków na wy�
 co przekłada się na lepsze kierowanie jego zachowaniem. Planowanie to proces przekształcania tych
 wniosków i aktualnego środowiska w wysokopoziomowe plany działań, które są następnie realizowane przez
 agenta. Autorzy przeprowadzają dwie ewaluacje agentów generatywnych: kontrolowaną ewaluację indywidualnych
-zachowań oraz kompleksową ewaluację interakcji między agentami w otwartym środowisku przez dwa dni czasu gry.
+zachowań oraz kompleksową ewaluację interakcji między agentami w~otwartym środowisku przez dwa dni czasu gry.
 W ewaluacji technicznej wykorzystują metodę "wywiadu" z agentem w języku naturalnym, aby zbadać jego zdolność
 do pozostania w charakterze, pamiętania, planowania, reagowania i dokładnego refleksji. Porównują różne
 wersje systemu z ograniczonym dostępem do pamięci, refleksji i planowania, obserwując, że każdy z tych
 komponentów jest kluczowy dla wiarygodności zachowań agenta\cite{ai_town_ref}.
 
 Jak widać obecnie trwają intensywne prace badawcze nad wykorzystaniem dużych modeli językowych,
-w dziedzinie tworzenia treści literackich oraz elementów gier. Jednym z
-obiecujących zastosowań jest stworzenie w pełni autonomicznych, generatywnych agentów literackich,
+w dziedzinie tworzenia treści literackich oraz elementów gier. Jednym z~obiecujących
+zastosowań jest stworzenie w pełni autonomicznych, generatywnych agentów literackich,
 zdolnych do samodzielnego tworzenia spójnych i angażujących narracji. Rozwiązania te stopniowo
 znajdują swoje odzwierciedlenie również na rynku komercyjnym, czego przykładem są platformy takie
 jak Inworld AI czy Nvidia Avatar Cloud Engine. Umożliwiają one twórcom gier, a nawet indywidualnym
